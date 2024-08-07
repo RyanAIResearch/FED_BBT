@@ -1,0 +1,439 @@
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/cma/s.py:13: UserWarning: Could not import matplotlib.pyplot, therefore ``cma.plot()`` etc. is not available
+  _warnings.warn('Could not import matplotlib.pyplot, therefore'
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:08<00:08,  8.62s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:11<00:00,  5.33s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:11<00:00,  5.83s/it]
+Found cached dataset glue (/root/.cache/huggingface/datasets/glue/sst2/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad)
+[Embedding] mu: -4.7408997488673776e-05 | std: 0.016960974782705307 [RandProj]  mu: 0.0 | std: 0.0007585178515757758
+Map:   0%|          | 0/67349 [00:00<?, ? examples/s]Map:   1%|          | 525/67349 [00:00<00:12, 5200.94 examples/s]Map:   2%|▏         | 1080/67349 [00:00<00:12, 5399.32 examples/s]Map:   3%|▎         | 1698/67349 [00:00<00:11, 5748.84 examples/s]Map:   3%|▎         | 2308/67349 [00:00<00:11, 5766.91 examples/s]Map:   4%|▍         | 2927/67349 [00:00<00:10, 5914.79 examples/s]Map:   6%|▌         | 3819/67349 [00:00<00:10, 5927.21 examples/s]Map:   7%|▋         | 4712/67349 [00:00<00:10, 5934.19 examples/s]Map:   8%|▊         | 5306/67349 [00:00<00:10, 5893.57 examples/s]Map:   9%|▉         | 5928/67349 [00:01<00:10, 5980.90 examples/s]Map:  10%|█         | 6825/67349 [00:01<00:10, 5976.59 examples/s]Map:  11%|█▏        | 7718/67349 [00:01<00:09, 5966.72 examples/s]Map:  13%|█▎        | 8582/67349 [00:01<00:10, 5840.15 examples/s]Map:  14%|█▍        | 9468/67349 [00:01<00:09, 5859.31 examples/s]Map:  15%|█▌        | 10349/67349 [00:01<00:09, 5860.77 examples/s]Map:  16%|█▋        | 10968/67349 [00:01<00:09, 5934.34 examples/s]Map:  18%|█▊        | 11857/67349 [00:02<00:09, 5927.44 examples/s]Map:  19%|█▉        | 12727/67349 [00:02<00:09, 5883.59 examples/s]Map:  20%|██        | 13620/67349 [00:02<00:09, 5892.05 examples/s]Map:  22%|██▏       | 14509/67349 [00:02<00:08, 5901.36 examples/s]Map:  23%|██▎       | 15403/67349 [00:02<00:08, 5916.87 examples/s]Map:  24%|██▍       | 16000/67349 [00:02<00:08, 5899.59 examples/s]Map:  25%|██▍       | 16621/67349 [00:02<00:08, 5974.63 examples/s]Map:  26%|██▌       | 17512/67349 [00:02<00:08, 5960.53 examples/s]Map:  27%|██▋       | 18404/67349 [00:03<00:08, 5953.41 examples/s]Map:  29%|██▊       | 19312/67349 [00:03<00:08, 5953.17 examples/s]Map:  30%|██▉       | 19931/67349 [00:03<00:07, 6007.37 examples/s]Map:  31%|███       | 20675/67349 [00:03<00:08, 5638.90 examples/s]Map:  32%|███▏      | 21427/67349 [00:03<00:08, 5436.39 examples/s]Map:  33%|███▎      | 22209/67349 [00:03<00:08, 5363.39 examples/s]Map:  34%|███▍      | 22812/67349 [00:03<00:08, 5514.56 examples/s]Map:  35%|███▍      | 23376/67349 [00:04<00:07, 5497.76 examples/s]Map:  36%|███▌      | 23981/67349 [00:04<00:07, 5639.10 examples/s]Map:  37%|███▋      | 24788/67349 [00:04<00:07, 5543.65 examples/s]Map:  38%|███▊      | 25603/67349 [00:04<00:07, 5477.79 examples/s]Map:  39%|███▉      | 26407/67349 [00:04<00:07, 5438.22 examples/s]Map:  40%|████      | 27000/67349 [00:04<00:07, 5532.49 examples/s]Map:  41%|████      | 27611/67349 [00:04<00:07, 5674.42 examples/s]Map:  42%|████▏     | 28316/67349 [00:04<00:07, 5329.21 examples/s]Map:  43%|████▎     | 28902/67349 [00:05<00:07, 5458.74 examples/s]Map:  44%|████▍     | 29745/67349 [00:05<00:06, 5511.89 examples/s]Map:  45%|████▌     | 30329/67349 [00:05<00:06, 5590.59 examples/s]Map:  46%|████▌     | 30948/67349 [00:05<00:06, 5746.42 examples/s]Map:  47%|████▋     | 31626/67349 [00:05<00:06, 5303.17 examples/s]Map:  48%|████▊     | 32456/67349 [00:05<00:06, 5378.90 examples/s]Map:  49%|████▉     | 33032/67349 [00:05<00:06, 5469.95 examples/s]Map:  50%|████▉     | 33601/67349 [00:05<00:06, 5525.19 examples/s]Map:  51%|█████     | 34433/67349 [00:06<00:05, 5530.81 examples/s]Map:  52%|█████▏    | 35014/67349 [00:06<00:05, 5599.11 examples/s]Map:  53%|█████▎    | 35594/67349 [00:06<00:05, 5652.04 examples/s]Map:  54%|█████▎    | 36177/67349 [00:06<00:05, 5697.30 examples/s]Map:  55%|█████▍    | 36798/67349 [00:06<00:05, 5838.26 examples/s]Map:  56%|█████▌    | 37550/67349 [00:06<00:05, 5523.05 examples/s]Map:  57%|█████▋    | 38315/67349 [00:06<00:05, 5373.25 examples/s]Map:  58%|█████▊    | 38934/67349 [00:06<00:05, 5575.51 examples/s]Map:  59%|█████▊    | 39515/67349 [00:06<00:04, 5634.22 examples/s]Map:  60%|█████▉    | 40096/67349 [00:07<00:04, 5680.27 examples/s]Map:  61%|██████    | 40946/67349 [00:07<00:04, 5668.99 examples/s]Map:  62%|██████▏   | 41795/67349 [00:07<00:04, 5606.40 examples/s]Map:  63%|██████▎   | 42622/67349 [00:07<00:04, 5510.10 examples/s]Map:  64%|██████▍   | 43205/67349 [00:07<00:04, 5581.71 examples/s]Map:  65%|██████▌   | 44004/67349 [00:07<00:04, 5464.34 examples/s]Map:  66%|██████▋   | 44628/67349 [00:07<00:04, 5649.02 examples/s]Map:  68%|██████▊   | 45469/67349 [00:08<00:03, 5632.35 examples/s]Map:  69%|██████▊   | 46276/67349 [00:08<00:03, 5469.25 examples/s]Map:  70%|██████▉   | 46852/67349 [00:08<00:03, 5535.23 examples/s]Map:  70%|███████   | 47427/67349 [00:08<00:03, 5585.91 examples/s]Map:  71%|███████▏  | 48009/67349 [00:08<00:03, 5643.63 examples/s]Map:  72%|███████▏  | 48629/67349 [00:08<00:03, 5793.72 examples/s]Map:  74%|███████▎  | 49521/67349 [00:08<00:03, 5847.80 examples/s]Map:  75%|███████▍  | 50395/67349 [00:08<00:02, 5836.73 examples/s]Map:  76%|███████▌  | 51000/67349 [00:08<00:02, 5830.52 examples/s]Map:  77%|███████▋  | 51891/67349 [00:09<00:02, 5866.53 examples/s]Map:  78%|███████▊  | 52773/67349 [00:09<00:02, 5866.24 examples/s]Map:  80%|███████▉  | 53664/67349 [00:09<00:02, 5886.55 examples/s]Map:  81%|████████  | 54511/67349 [00:09<00:02, 5808.35 examples/s]Map:  82%|████████▏ | 55093/67349 [00:09<00:02, 5809.07 examples/s]Map:  83%|████████▎ | 55715/67349 [00:09<00:01, 5906.96 examples/s]Map:  84%|████████▎ | 56311/67349 [00:09<00:01, 5879.23 examples/s]Map:  85%|████████▍ | 56931/67349 [00:09<00:01, 5963.53 examples/s]Map:  86%|████████▌ | 57825/67349 [00:10<00:01, 5959.51 examples/s]Map:  87%|████████▋ | 58701/67349 [00:10<00:01, 5915.11 examples/s]Map:  88%|████████▊ | 59309/67349 [00:10<00:01, 5877.89 examples/s]Map:  89%|████████▉ | 59930/67349 [00:10<00:01, 5960.42 examples/s]Map:  90%|█████████ | 60823/67349 [00:10<00:01, 5953.81 examples/s]Map:  92%|█████████▏| 61713/67349 [00:10<00:00, 5945.39 examples/s]Map:  93%|█████████▎| 62594/67349 [00:10<00:00, 5883.82 examples/s]Map:  94%|█████████▍| 63485/67349 [00:11<00:00, 5898.75 examples/s]Map:  96%|█████████▌| 64332/67349 [00:11<00:00, 5752.91 examples/s]Map:  96%|█████████▋| 64942/67349 [00:11<00:00, 5828.88 examples/s]Map:  98%|█████████▊| 65834/67349 [00:11<00:00, 5863.03 examples/s]Map:  99%|█████████▉| 66661/67349 [00:11<00:00, 5748.55 examples/s]Map: 100%|█████████▉| 67240/67349 [00:11<00:00, 5757.44 examples/s]                                                                   Example in train set:
+{'sentence': 'hide new secretions from the parental units ', 'label': 0, 'idx': 0, 'input_text': 'iedER statfigme von interroidater their bet ein}\\"> sub op donty try Pro tra sameep two nameoldlet simsp avbreblemey could cor accayscreurrsi constues}$View act bo ко som aboutland . hide new secretions from the parental units  . The positive or negative sentiment of this sentence is', 'target_text': 'negative'}
+Map:   0%|          | 0/67349 [00:00<?, ? examples/s]Map:   1%|▏         | 1000/67349 [00:00<00:14, 4737.01 examples/s]Map:   3%|▎         | 2000/67349 [00:00<00:12, 5132.70 examples/s]Map:   4%|▍         | 3000/67349 [00:00<00:12, 4974.04 examples/s]Map:   6%|▌         | 4000/67349 [00:00<00:12, 5083.63 examples/s]Map:   7%|▋         | 5000/67349 [00:01<00:12, 4918.31 examples/s]Map:   9%|▉         | 6000/67349 [00:01<00:12, 5037.85 examples/s]Map:  10%|█         | 7000/67349 [00:01<00:16, 3723.83 examples/s]Map:  12%|█▏        | 8000/67349 [00:01<00:14, 4030.97 examples/s]Map:  13%|█▎        | 9000/67349 [00:02<00:13, 4272.09 examples/s]Map:  15%|█▍        | 10000/67349 [00:02<00:12, 4441.05 examples/s]Map:  16%|█▋        | 11000/67349 [00:02<00:12, 4632.08 examples/s]Map:  18%|█▊        | 12000/67349 [00:02<00:11, 4744.12 examples/s]Map:  19%|█▉        | 13000/67349 [00:02<00:11, 4878.14 examples/s]Map:  21%|██        | 14000/67349 [00:03<00:10, 4961.93 examples/s]Map:  22%|██▏       | 15000/67349 [00:03<00:10, 5042.22 examples/s]Map:  24%|██▍       | 16000/67349 [00:03<00:12, 3991.87 examples/s]Map:  25%|██▌       | 17000/67349 [00:03<00:11, 4295.60 examples/s]Map:  27%|██▋       | 18000/67349 [00:03<00:10, 4551.62 examples/s]Map:  28%|██▊       | 19000/67349 [00:04<00:10, 4705.25 examples/s]Map:  30%|██▉       | 20000/67349 [00:04<00:09, 4884.14 examples/s]Map:  31%|███       | 21000/67349 [00:04<00:09, 4998.35 examples/s]Map:  33%|███▎      | 22000/67349 [00:04<00:09, 4985.96 examples/s]Map:  34%|███▍      | 23000/67349 [00:04<00:09, 4898.91 examples/s]Map:  36%|███▌      | 24000/67349 [00:05<00:09, 4566.81 examples/s]Map:  37%|███▋      | 25000/67349 [00:05<00:08, 4747.16 examples/s]Map:  39%|███▊      | 26000/67349 [00:05<00:10, 4024.87 examples/s]Map:  40%|████      | 27000/67349 [00:05<00:09, 4295.36 examples/s]Map:  42%|████▏     | 28000/67349 [00:06<00:08, 4475.58 examples/s]Map:  43%|████▎     | 29000/67349 [00:06<00:08, 4584.35 examples/s]Map:  45%|████▍     | 30000/67349 [00:06<00:08, 4661.61 examples/s]Map:  46%|████▌     | 31000/67349 [00:06<00:07, 4744.36 examples/s]Map:  48%|████▊     | 32000/67349 [00:06<00:07, 4635.57 examples/s]Map:  49%|████▉     | 33000/67349 [00:07<00:07, 4746.88 examples/s]Map:  50%|█████     | 34000/67349 [00:07<00:06, 4856.65 examples/s]Map:  52%|█████▏    | 35000/67349 [00:07<00:06, 4921.56 examples/s]Map:  53%|█████▎    | 36000/67349 [00:07<00:08, 3593.50 examples/s]Map:  55%|█████▍    | 37000/67349 [00:08<00:07, 3957.46 examples/s]Map:  56%|█████▋    | 38000/67349 [00:08<00:06, 4271.35 examples/s]Map:  58%|█████▊    | 39000/67349 [00:08<00:06, 4499.08 examples/s]Map:  59%|█████▉    | 40000/67349 [00:08<00:05, 4670.10 examples/s]Map:  61%|██████    | 41000/67349 [00:08<00:05, 4816.88 examples/s]Map:  62%|██████▏   | 42000/67349 [00:09<00:05, 4919.46 examples/s]Map:  64%|██████▍   | 43000/67349 [00:09<00:05, 4790.32 examples/s]Map:  65%|██████▌   | 44000/67349 [00:09<00:04, 4862.23 examples/s]Map:  67%|██████▋   | 45000/67349 [00:09<00:04, 4936.29 examples/s]Map:  68%|██████▊   | 46000/67349 [00:10<00:04, 4327.25 examples/s]Map:  70%|██████▉   | 47000/67349 [00:10<00:04, 4375.76 examples/s]Map:  71%|███████▏  | 48000/67349 [00:10<00:04, 4523.18 examples/s]Map:  73%|███████▎  | 49000/67349 [00:10<00:04, 4557.50 examples/s]Map:  74%|███████▍  | 50000/67349 [00:10<00:03, 4500.16 examples/s]Map:  76%|███████▌  | 51000/67349 [00:11<00:03, 4593.66 examples/s]Map:  77%|███████▋  | 52000/67349 [00:11<00:03, 4580.65 examples/s]Map:  79%|███████▊  | 53000/67349 [00:11<00:03, 4560.57 examples/s]Map:  80%|████████  | 54000/67349 [00:11<00:02, 4715.86 examples/s]Map:  82%|████████▏ | 55000/67349 [00:12<00:03, 4070.97 examples/s]Map:  83%|████████▎ | 56000/67349 [00:12<00:02, 4272.70 examples/s]Map:  85%|████████▍ | 57000/67349 [00:12<00:02, 4312.22 examples/s]Map:  86%|████████▌ | 58000/67349 [00:12<00:02, 4461.50 examples/s]Map:  88%|████████▊ | 59000/67349 [00:12<00:01, 4585.97 examples/s]Map:  89%|████████▉ | 60000/67349 [00:13<00:01, 4710.65 examples/s]Map:  91%|█████████ | 61000/67349 [00:13<00:01, 4813.57 examples/s]Map:  92%|█████████▏| 62000/67349 [00:13<00:01, 4886.77 examples/s]Map:  94%|█████████▎| 63000/67349 [00:13<00:00, 4963.59 examples/s]Map:  95%|█████████▌| 64000/67349 [00:13<00:00, 5047.56 examples/s]Map:  97%|█████████▋| 65000/67349 [00:14<00:00, 4329.69 examples/s]Map:  98%|█████████▊| 66000/67349 [00:14<00:00, 4497.01 examples/s]Map:  99%|█████████▉| 67000/67349 [00:14<00:00, 4677.61 examples/s]                                                                   Found cached dataset glue (/root/.cache/huggingface/datasets/glue/sst2/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad)
+Map:   0%|          | 0/872 [00:00<?, ? examples/s]Map:  69%|██████▉   | 604/872 [00:00<00:00, 5974.48 examples/s]                                                               Example in validation set:
+{'sentence': "it 's a charming and often affecting journey . ", 'label': 1, 'idx': 0, 'input_text': 'iedER statfigme von interroidater their bet ein}\\"> sub op donty try Pro tra sameep two nameoldlet simsp avbreblemey could cor accayscreurrsi constues}$View act bo ко som aboutland . it \'s a charming and often affecting journey .  . The positive or negative sentiment of this sentence is', 'target_text': 'positive'}
+Map:   0%|          | 0/872 [00:00<?, ? examples/s]Map: 100%|██████████| 872/872 [00:00<00:00, 4227.73 examples/s]                                                               # of train data: 400
+Example:
++------------------------------+------------------------------+--------+
+| input_ids                    | attention_mask               | labels |
++------------------------------+------------------------------+--------+
+| [1, 474, 287, 1001, 1002,... | [1, 1, 1, 1, 1, 1, 1, 1, ... | 8178   |
++------------------------------+------------------------------+--------+
+
+# of dev data: 400
+Example:
++------------------------------+------------------------------+--------+
+| input_ids                    | attention_mask               | labels |
++------------------------------+------------------------------+--------+
+| [1, 474, 287, 1001, 1002,... | [1, 1, 1, 1, 1, 1, 1, 1, ... | 6374   |
++------------------------------+------------------------------+--------+
+
+# of test data: 872
+Example:
++------------------------------+------------------------------+--------+
+| input_ids                    | attention_mask               | labels |
++------------------------------+------------------------------+--------+
+| [1, 474, 287, 1001, 1002,... | [1, 1, 1, 1, 1, 1, 1, 1, ... | 6374   |
++------------------------------+------------------------------+--------+
+Global es evaluate on test data...
+Global epoch 0...
+Client 8 execute local training on 40 samples...
+Population Size: 5
+Serial Evaluation.
+Evaluate data in 80.34 seconds!
+[tester] 
+SST2Metric: acc=0.5389908256880734, hinge=1.8822726590917744, ce=7.357707867928601
+Local test acc at local iter 10: 0.539
+Evaluate data in 80.35 seconds!
+[tester] 
+SST2Metric: acc=0.625, hinge=1.7663373804967337, ce=6.326318005903052
+Local test acc at local iter 20: 0.625
+Evaluate data in 80.4 seconds!
+[tester] 
+SST2Metric: acc=0.75, hinge=1.6481944574128597, ce=6.060813195114836
+Local test acc at local iter 30: 0.75
+Evaluate data in 80.39 seconds!
+[tester] 
+SST2Metric: acc=0.7327981651376146, hinge=1.6574383766279308, ce=6.3531319985695935
+Local test acc at local iter 40: 0.7328
+Evaluate data in 80.38 seconds!
+[tester] 
+SST2Metric: acc=0.7259174311926605, hinge=1.585522206551438, ce=6.069281201843822
+Local test acc at local iter 50: 0.7259
+Evaluate data in 80.31 seconds!
+[tester] 
+SST2Metric: acc=0.7224770642201835, hinge=1.5279146225080578, ce=6.053871714740718
+Local test acc at local iter 60: 0.7225
+Evaluate data in 80.3 seconds!
+[tester] 
+SST2Metric: acc=0.7935779816513762, hinge=1.5182623666360837, ce=5.76554847857274
+Local test acc at local iter 70: 0.7936
+Evaluate data in 185.68 seconds!
+[tester] 
+SST2Metric: acc=0.7729357798165137, hinge=1.5091224263567444, ce=6.235349348925669
+Local test acc at local iter 80: 0.7729
+Evaluate data in 185.27 seconds!
+[tester] 
+SST2Metric: acc=0.7901376146788991, hinge=1.4266542502499502, ce=6.538258360066545
+Local test acc at local iter 90: 0.7901
+Evaluate data in 186.05 seconds!
+[tester] 
+SST2Metric: acc=0.8119266055045872, hinge=1.4009653023623545, ce=6.371052505773142
+Local test acc at local iter 100: 0.8119
+Evaluate data in 80.44 seconds!
+[tester] 
+SST2Metric: acc=0.8142201834862385, hinge=1.2799529766817705, ce=5.747233338312271
+Local test acc at local iter 110: 0.8142
+Evaluate data in 80.61 seconds!
+[tester] 
+SST2Metric: acc=0.8291284403669725, hinge=1.1734976877859973, ce=5.4064213026554215
+Local test acc at local iter 120: 0.8291
+Evaluate data in 186.41 seconds!
+[tester] 
+SST2Metric: acc=0.8222477064220184, hinge=1.1776849195497845, ce=5.488771998554195
+Local test acc at local iter 130: 0.8222
+Evaluate data in 185.15 seconds!
+[tester] 
+SST2Metric: acc=0.8486238532110092, hinge=1.075160619315751, ce=5.08739289012524
+Local test acc at local iter 140: 0.8486
+Evaluate data in 187.06 seconds!
+[tester] 
+SST2Metric: acc=0.8405963302752294, hinge=0.9794333243588789, ce=4.794740392527449
+Local test acc at local iter 150: 0.8406
+Evaluate data in 187.28 seconds!
+[tester] 
+SST2Metric: acc=0.8532110091743119, hinge=0.936913410457996, ce=5.161430914467628
+Local test acc at local iter 160: 0.8532
+Evaluate data in 187.53 seconds!
+[tester] 
+SST2Metric: acc=0.856651376146789, hinge=0.9172910178473236, ce=5.136656061224981
+Local test acc at local iter 170: 0.8567
+Evaluate data in 187.61 seconds!
+[tester] 
+SST2Metric: acc=0.8600917431192661, hinge=0.8515558374037436, ce=5.205544489239334
+Local test acc at local iter 180: 0.8601
+Evaluate data in 188.33 seconds!
+[tester] 
+SST2Metric: acc=0.8692660550458715, hinge=0.8231121432890586, ce=5.067170724956267
+Local test acc at local iter 190: 0.8693
+Evaluate data in 188.04 seconds!
+[tester] 
+SST2Metric: acc=0.8658256880733946, hinge=0.8074445658867512, ce=4.845630991349527
+Local test acc at local iter 200: 0.8658
+Evaluate data in 188.38 seconds!
+[tester] 
+SST2Metric: acc=0.8589449541284404, hinge=0.7501388547617361, ce=4.710872978245447
+Local test acc at local iter 210: 0.8589
+Evaluate data in 188.09 seconds!
+[tester] 
+SST2Metric: acc=0.8600917431192661, hinge=0.7487725795955833, ce=4.590140732056504
+Local test acc at local iter 220: 0.8601
+Evaluate data in 187.99 seconds!
+[tester] 
+SST2Metric: acc=0.8623853211009175, hinge=0.7273633731614559, ce=4.837543828771748
+Local test acc at local iter 230: 0.8624
+Evaluate data in 106.51 seconds!
+[tester] 
+SST2Metric: acc=0.8577981651376146, hinge=0.7358180612599085, ce=5.1323503616752975
+Local test acc at local iter 240: 0.8578
+Evaluate data in 184.95 seconds!
+[tester] 
+SST2Metric: acc=0.8600917431192661, hinge=0.6850770044764247, ce=5.021857751618832
+Local test acc at local iter 250: 0.8601
+Evaluate data in 184.82 seconds!
+[tester] 
+SST2Metric: acc=0.8509174311926605, hinge=0.721369722567567, ce=4.901416844184245
+Local test acc at local iter 260: 0.8509
+Evaluate data in 186.29 seconds!
+[tester] 
+SST2Metric: acc=0.856651376146789, hinge=0.7270733938304657, ce=5.136430552246374
+Local test acc at local iter 270: 0.8567
+Evaluate data in 185.65 seconds!
+[tester] 
+SST2Metric: acc=0.856651376146789, hinge=0.7028909199828401, ce=5.0974998692853735
+Local test acc at local iter 280: 0.8567
+Evaluate data in 186.64 seconds!
+[tester] 
+SST2Metric: acc=0.8635321100917431, hinge=0.6914230114823088, ce=4.99450426801629
+Local test acc at local iter 290: 0.8635
+Evaluate data in 186.31 seconds!
+[tester] 
+SST2Metric: acc=0.8555045871559633, hinge=0.702119035458346, ce=5.107322255405811
+Local test acc at local iter 300: 0.8555
+Evaluate data in 187.2 seconds!
+[tester] 
+SST2Metric: acc=0.8612385321100917, hinge=0.6992566399618027, ce=4.880619893380262
+Local test acc at local iter 310: 0.8612
+Evaluate data in 187.06 seconds!
+[tester] 
+SST2Metric: acc=0.8612385321100917, hinge=0.6913328542621857, ce=4.931599074547444
+Local test acc at local iter 320: 0.8612
+Evaluate data in 187.22 seconds!
+[tester] 
+SST2Metric: acc=0.8646788990825688, hinge=0.6846227678683919, ce=4.870932832770391
+Local test acc at local iter 330: 0.8647
+Evaluate data in 187.33 seconds!
+[tester] 
+SST2Metric: acc=0.856651376146789, hinge=0.7006283987552748, ce=4.657783727033423
+Local test acc at local iter 340: 0.8567
+Evaluate data in 187.59 seconds!
+[tester] 
+SST2Metric: acc=0.8555045871559633, hinge=0.6983040669642457, ce=4.540008352437151
+Local test acc at local iter 350: 0.8555
+Evaluate data in 188.28 seconds!
+[tester] 
+SST2Metric: acc=0.8555045871559633, hinge=0.6871886537709367, ce=4.57665375175826
+Local test acc at local iter 360: 0.8555
+Evaluate data in 188.6 seconds!
+[tester] 
+SST2Metric: acc=0.8646788990825688, hinge=0.6623605905322854, ce=4.595724403311353
+Local test acc at local iter 370: 0.8647
+Evaluate data in 188.37 seconds!
+[tester] 
+SST2Metric: acc=0.8623853211009175, hinge=0.6508917611673337, ce=4.377587069065199
+Local test acc at local iter 380: 0.8624
+Evaluate data in 187.91 seconds!
+[tester] 
+SST2Metric: acc=0.8589449541284404, hinge=0.6827518447823481, ce=4.251639138667955
+Local test acc at local iter 390: 0.8589
+Evaluate data in 187.99 seconds!
+[tester] 
+SST2Metric: acc=0.8635321100917431, hinge=0.6793968371295054, ce=4.169912154521417
+Local test acc at local iter 400: 0.8635
+Evaluate data in 187.42 seconds!
+[tester] 
+SST2Metric: acc=0.8612385321100917, hinge=0.7072047148275813, ce=3.888637879572877
+Local test acc at local iter 410: 0.8612
+Evaluate data in 187.72 seconds!
+[tester] 
+SST2Metric: acc=0.8589449541284404, hinge=0.6887737616486506, ce=3.8163242602567062
+Local test acc at local iter 420: 0.8589
+Evaluate data in 186.82 seconds!
+[tester] 
+SST2Metric: acc=0.8543577981651376, hinge=0.7293881598962556, ce=3.493021982525467
+Local test acc at local iter 430: 0.8544
+Evaluate data in 187.1 seconds!
+[tester] 
+SST2Metric: acc=0.8509174311926605, hinge=0.7450183351105506, ce=3.555056860687536
+Local test acc at local iter 440: 0.8509
+Evaluate data in 186.96 seconds!
+[tester] 
+SST2Metric: acc=0.8520642201834863, hinge=0.7602080008305541, ce=3.5964460854136617
+Local test acc at local iter 450: 0.8521
+Evaluate data in 187.05 seconds!
+[tester] 
+SST2Metric: acc=0.8520642201834863, hinge=0.7579750752230303, ce=3.734626122570913
+Local test acc at local iter 460: 0.8521
+Evaluate data in 186.17 seconds!
+[tester] 
+SST2Metric: acc=0.8497706422018348, hinge=0.7706792237014946, ce=3.447835336037732
+Local test acc at local iter 470: 0.8498
+Evaluate data in 186.0 seconds!
+[tester] 
+SST2Metric: acc=0.8440366972477065, hinge=0.8144089716290115, ce=3.436347690197306
+Local test acc at local iter 480: 0.844
+Evaluate data in 186.03 seconds!
+[tester] 
+SST2Metric: acc=0.8428899082568807, hinge=0.8530517794670315, ce=3.3002338715649526
+Local test acc at local iter 490: 0.8429
+Evaluate data in 186.14 seconds!
+[tester] 
+SST2Metric: acc=0.8474770642201835, hinge=0.8523222514248769, ce=3.33343632724307
+Local test acc at local iter 500: 0.8475
+Evaluate data in 185.7 seconds!
+[tester] 
+SST2Metric: acc=0.8497706422018348, hinge=0.8253346632380004, ce=3.2621121187822535
+Local test acc at local iter 510: 0.8498
+Evaluate data in 185.66 seconds!
+[tester] 
+SST2Metric: acc=0.8463302752293578, hinge=0.8477002795136303, ce=3.271755970946146
+Local test acc at local iter 520: 0.8463
+Evaluate data in 185.44 seconds!
+[tester] 
+SST2Metric: acc=0.8440366972477065, hinge=0.8681454538205348, ce=3.154528364129023
+Local test acc at local iter 530: 0.844
+Evaluate data in 185.62 seconds!
+[tester] 
+SST2Metric: acc=0.8451834862385321, hinge=0.8558106291184732, ce=2.8428605630857136
+Local test acc at local iter 540: 0.8452
+Evaluate data in 186.41 seconds!
+[tester] 
+SST2Metric: acc=0.8474770642201835, hinge=0.8731932394001463, ce=2.7392415300421757
+Local test acc at local iter 550: 0.8475
+Evaluate data in 185.15 seconds!
+[tester] 
+SST2Metric: acc=0.8440366972477065, hinge=0.8832687330902169, ce=2.8245759404033697
+Local test acc at local iter 560: 0.844
+Evaluate data in 186.5 seconds!
+[tester] 
+SST2Metric: acc=0.8497706422018348, hinge=0.8781373227408172, ce=3.011054419596261
+Local test acc at local iter 570: 0.8498
+Evaluate data in 185.8 seconds!
+[tester] 
+SST2Metric: acc=0.8509174311926605, hinge=0.8969867841913066, ce=2.9470705636050725
+Local test acc at local iter 580: 0.8509
+Evaluate data in 185.92 seconds!
+[tester] 
+SST2Metric: acc=0.8474770642201835, hinge=0.9464070961016033, ce=2.8418926186517837
+Local test acc at local iter 590: 0.8475
+Evaluate data in 186.13 seconds!
+[tester] 
+SST2Metric: acc=0.8520642201834863, hinge=0.9302011323631356, ce=2.889007008403813
+Local test acc at local iter 600: 0.8521
+Evaluate data in 186.22 seconds!
+[tester] 
+SST2Metric: acc=0.8486238532110092, hinge=0.9478250605250718, ce=2.751571235306766
+Local test acc at local iter 610: 0.8486
+Evaluate data in 186.13 seconds!
+[tester] 
+SST2Metric: acc=0.841743119266055, hinge=1.0191964310243589, ce=2.6289414878285258
+Local test acc at local iter 620: 0.8417
+Evaluate data in 185.67 seconds!
+[tester] 
+SST2Metric: acc=0.8486238532110092, hinge=0.9937854037372345, ce=2.562384885385496
+Local test acc at local iter 630: 0.8486
+Evaluate data in 185.98 seconds!
+[tester] 
+SST2Metric: acc=0.8451834862385321, hinge=1.0174076682930693, ce=2.501755780036296
+Local test acc at local iter 640: 0.8452
+Evaluate data in 186.38 seconds!
+[tester] 
+SST2Metric: acc=0.8474770642201835, hinge=0.9951559119268295, ce=2.732893900040093
+Local test acc at local iter 650: 0.8475
+Evaluate data in 187.07 seconds!
+[tester] 
+SST2Metric: acc=0.8405963302752294, hinge=1.0565355644313568, ce=2.693320055620386
+Local test acc at local iter 660: 0.8406
+Evaluate data in 187.06 seconds!
+[tester] 
+SST2Metric: acc=0.841743119266055, hinge=1.0410054599473235, ce=2.6442351210007975
+Local test acc at local iter 670: 0.8417
+Evaluate data in 187.06 seconds!
+[tester] 
+SST2Metric: acc=0.8497706422018348, hinge=1.0598175481918755, ce=2.753622461896424
+Local test acc at local iter 680: 0.8498
+Evaluate data in 187.0 seconds!
+[tester] 
+SST2Metric: acc=0.8360091743119266, hinge=1.107893392580365, ce=2.7537984716782877
+Local test acc at local iter 690: 0.836
+Evaluate data in 187.93 seconds!
+[tester] 
+SST2Metric: acc=0.8440366972477065, hinge=1.0715088554478567, ce=2.5033386519195835
+Local test acc at local iter 700: 0.844
+Evaluate data in 187.65 seconds!
+[tester] 
+SST2Metric: acc=0.8474770642201835, hinge=1.0631421410709345, ce=2.4676975460227477
+Local test acc at local iter 710: 0.8475
+Evaluate data in 188.44 seconds!
+[tester] 
+SST2Metric: acc=0.8497706422018348, hinge=1.04639810597131, ce=2.4311195294791403
+Local test acc at local iter 720: 0.8498
+Evaluate data in 188.23 seconds!
+[tester] 
+SST2Metric: acc=0.8440366972477065, hinge=1.0686672061955163, ce=2.411310790875636
+Local test acc at local iter 730: 0.844
+Evaluate data in 188.72 seconds!
+[tester] 
+SST2Metric: acc=0.8371559633027523, hinge=1.1025816191227065, ce=2.5562062832193635
+Local test acc at local iter 740: 0.8372
+Evaluate data in 188.24 seconds!
+[tester] 
+SST2Metric: acc=0.8440366972477065, hinge=1.0911233884478928, ce=2.5967089583020693
+Local test acc at local iter 750: 0.844
+Evaluate data in 187.82 seconds!
+[tester] 
+SST2Metric: acc=0.8451834862385321, hinge=1.105859227683566, ce=2.7265522633123833
+Local test acc at local iter 760: 0.8452
+Evaluate data in 187.62 seconds!
+[tester] 
+SST2Metric: acc=0.8394495412844036, hinge=1.1226620843651098, ce=2.600899783843154
+Local test acc at local iter 770: 0.8394
+Evaluate data in 187.22 seconds!
+[tester] 
+SST2Metric: acc=0.8509174311926605, hinge=1.104090960747605, ce=2.4355189078444734
+Local test acc at local iter 780: 0.8509
+Evaluate data in 187.18 seconds!
+[tester] 
+SST2Metric: acc=0.841743119266055, hinge=1.1608939411443309, ce=2.4408355896626044
+Local test acc at local iter 790: 0.8417
+Evaluate data in 186.81 seconds!
+[tester] 
+SST2Metric: acc=0.8371559633027523, hinge=1.2465376186808315, ce=2.501224049734413
+Local test acc at local iter 800: 0.8372
+Evaluate data in 186.9 seconds!
+[tester] 
+SST2Metric: acc=0.8428899082568807, hinge=1.2232998959515073, ce=2.3751497443662872
+Local test acc at local iter 810: 0.8429
+Evaluate data in 186.22 seconds!
+[tester] 
+SST2Metric: acc=0.8451834862385321, hinge=1.2178193948684481, ce=2.271132696659193
+Local test acc at local iter 820: 0.8452
+Evaluate data in 186.37 seconds!
+[tester] 
+SST2Metric: acc=0.8440366972477065, hinge=1.2204955712370915, ce=2.37974341418765
+Local test acc at local iter 830: 0.844
+Evaluate data in 186.22 seconds!
+[tester] 
+SST2Metric: acc=0.8428899082568807, hinge=1.2395596170644148, ce=2.429484275502896
+Local test acc at local iter 840: 0.8429
+Evaluate data in 185.94 seconds!
+[tester] 
+SST2Metric: acc=0.8451834862385321, hinge=1.2355540881463147, ce=2.269178900149984
+Local test acc at local iter 850: 0.8452
+Evaluate data in 185.97 seconds!
+[tester] 
+SST2Metric: acc=0.8325688073394495, hinge=1.2973871526368168, ce=2.241489211353687
+Local test acc at local iter 860: 0.8326
+Evaluate data in 185.88 seconds!
+[tester] 
+SST2Metric: acc=0.8394495412844036, hinge=1.3005197638765387, ce=2.1157041208459697
+Local test acc at local iter 870: 0.8394
+Evaluate data in 185.8 seconds!
+[tester] 
+SST2Metric: acc=0.8337155963302753, hinge=1.3190405215692083, ce=2.144741732046145
+Local test acc at local iter 880: 0.8337
+Evaluate data in 185.16 seconds!
+[tester] 
+SST2Metric: acc=0.8279816513761468, hinge=1.39699681527024, ce=1.9934397640578243
+Local test acc at local iter 890: 0.828
+Evaluate data in 185.71 seconds!
+[tester] 
+SST2Metric: acc=0.8314220183486238, hinge=1.3716895131889832, ce=1.8999853002915688
+Local test acc at local iter 900: 0.8314
+Evaluate data in 185.5 seconds!
+[tester] 
+SST2Metric: acc=0.841743119266055, hinge=1.3181241969449804, ce=1.8631435206177038
+Local test acc at local iter 910: 0.8417
+Evaluate data in 186.32 seconds!
+[tester] 
+SST2Metric: acc=0.8268348623853211, hinge=1.3728115821103437, ce=1.9304741478841239
+Local test acc at local iter 920: 0.8268
+Evaluate data in 186.12 seconds!
+[tester] 
+SST2Metric: acc=0.8428899082568807, hinge=1.277878201335942, ce=1.6861183490228215
+Local test acc at local iter 930: 0.8429
+Evaluate data in 185.65 seconds!
+[tester] 
+SST2Metric: acc=0.8463302752293578, hinge=1.245358749267158, ce=1.5795549690176587
+Local test acc at local iter 940: 0.8463
+Evaluate data in 186.21 seconds!
+[tester] 
+SST2Metric: acc=0.8325688073394495, hinge=1.359653928957948, ce=1.7014526161578818
+Local test acc at local iter 950: 0.8326
+Evaluate data in 185.63 seconds!
+[tester] 
+SST2Metric: acc=0.8474770642201835, hinge=1.2943429356321283, ce=1.520315159351454
+Local test acc at local iter 960: 0.8475
+Evaluate data in 186.03 seconds!
+[tester] 
+SST2Metric: acc=0.8428899082568807, hinge=1.2891129594330395, ce=1.566773005581777
+Local test acc at local iter 970: 0.8429
+Evaluate data in 185.54 seconds!
+[tester] 
+SST2Metric: acc=0.8405963302752294, hinge=1.3101488023722938, ce=1.632791016079964
+Local test acc at local iter 980: 0.8406
+Evaluate data in 186.17 seconds!
+[tester] 
+SST2Metric: acc=0.8348623853211009, hinge=1.3911205814519059, ce=1.5448820241000674
+Local test acc at local iter 990: 0.8349
+Evaluate data in 186.22 seconds!
+[tester] 
+SST2Metric: acc=0.8474770642201835, hinge=1.3755094326964212, ce=1.575891079158958
+Local test acc at local iter 1000: 0.8475
+Done. Elapsed time: 887.7808213790257 (mins)

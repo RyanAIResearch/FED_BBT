@@ -1,0 +1,225 @@
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/cma/s.py:13: UserWarning: Could not import matplotlib.pyplot, therefore ``cma.plot()`` etc. is not available
+  _warnings.warn('Could not import matplotlib.pyplot, therefore'
+Some weights of RobertaForMaskedLM were not initialized from the model checkpoint at roberta-large and are newly initialized: ['lm_head.decoder.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Found cached dataset glue (/root/.cache/huggingface/datasets/glue/sst2/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad)
+[Embedding] mu: -0.018104109913110733 | std: 0.13582643866539001 [RandProj]  mu: 0.0 | std: 0.006074342999950358
+Map:   0%|          | 0/67349 [00:00<?, ? examples/s]Map:   0%|          | 283/67349 [00:00<00:31, 2112.34 examples/s]Map:   1%|          | 535/67349 [00:00<00:38, 1755.62 examples/s]Map:   1%|          | 726/67349 [00:00<00:39, 1674.09 examples/s]Map:   1%|▏         | 1000/67349 [00:00<00:49, 1334.87 examples/s]Map:   2%|▏         | 1241/67349 [00:00<00:42, 1565.55 examples/s]Map:   2%|▏         | 1515/67349 [00:00<00:45, 1444.64 examples/s]Map:   3%|▎         | 1724/67349 [00:01<00:47, 1388.00 examples/s]Map:   3%|▎         | 1948/67349 [00:01<00:43, 1511.84 examples/s]Map:   3%|▎         | 2160/67349 [00:01<00:39, 1634.09 examples/s]Map:   4%|▎         | 2493/67349 [00:01<00:35, 1816.76 examples/s]Map:   4%|▍         | 2908/67349 [00:01<00:27, 2365.43 examples/s]Map:   5%|▍         | 3230/67349 [00:01<00:25, 2488.02 examples/s]Map:   5%|▌         | 3572/67349 [00:01<00:23, 2727.03 examples/s]Map:   6%|▌         | 3978/67349 [00:02<00:27, 2295.70 examples/s]Map:   6%|▋         | 4328/67349 [00:02<00:24, 2558.05 examples/s]Map:   7%|▋         | 4833/67349 [00:02<00:19, 3156.68 examples/s]Map:   8%|▊         | 5252/67349 [00:02<00:18, 3386.00 examples/s]Map:   9%|▊         | 5850/67349 [00:02<00:15, 4074.32 examples/s]Map:   9%|▉         | 6368/67349 [00:02<00:13, 4376.61 examples/s]Map:  10%|█         | 6925/67349 [00:02<00:12, 4710.73 examples/s]Map:  11%|█         | 7446/67349 [00:02<00:12, 4853.19 examples/s]Map:  12%|█▏        | 8012/67349 [00:02<00:11, 5086.03 examples/s]Map:  13%|█▎        | 8610/67349 [00:02<00:10, 5344.75 examples/s]Map:  14%|█▎        | 9163/67349 [00:03<00:10, 5397.47 examples/s]Map:  14%|█▍        | 9721/67349 [00:03<00:10, 5448.74 examples/s]Map:  15%|█▌        | 10305/67349 [00:03<00:10, 5537.03 examples/s]Map:  16%|█▌        | 10918/67349 [00:03<00:09, 5711.31 examples/s]Map:  17%|█▋        | 11492/67349 [00:03<00:09, 5717.93 examples/s]Map:  18%|█▊        | 12067/67349 [00:03<00:09, 5726.40 examples/s]Map:  19%|█▉        | 12667/67349 [00:03<00:09, 5802.70 examples/s]Map:  20%|██        | 13526/67349 [00:03<00:09, 5769.26 examples/s]Map:  21%|██▏       | 14402/67349 [00:03<00:09, 5791.86 examples/s]Map:  22%|██▏       | 15000/67349 [00:04<00:09, 5783.77 examples/s]Map:  23%|██▎       | 15607/67349 [00:04<00:08, 5857.78 examples/s]Map:  24%|██▍       | 16484/67349 [00:04<00:08, 5848.22 examples/s]Map:  26%|██▌       | 17363/67349 [00:04<00:08, 5848.28 examples/s]Map:  27%|██▋       | 17975/67349 [00:04<00:08, 5911.41 examples/s]Map:  28%|██▊       | 18851/67349 [00:04<00:08, 5886.06 examples/s]Map:  29%|██▉       | 19726/67349 [00:04<00:08, 5865.93 examples/s]Map:  30%|███       | 20519/67349 [00:05<00:08, 5662.57 examples/s]Map:  32%|███▏      | 21319/67349 [00:05<00:08, 5555.67 examples/s]Map:  33%|███▎      | 21930/67349 [00:05<00:07, 5681.12 examples/s]Map:  34%|███▎      | 22717/67349 [00:05<00:08, 5499.97 examples/s]Map:  35%|███▍      | 23548/67349 [00:05<00:07, 5509.68 examples/s]Map:  36%|███▌      | 24336/67349 [00:05<00:07, 5381.51 examples/s]Map:  37%|███▋      | 24949/67349 [00:05<00:07, 5550.02 examples/s]Map:  38%|███▊      | 25797/67349 [00:06<00:07, 5581.92 examples/s]Map:  40%|███▉      | 26641/67349 [00:06<00:07, 5592.86 examples/s]Map:  40%|████      | 27205/67349 [00:06<00:07, 5602.24 examples/s]Map:  41%|████▏     | 27816/67349 [00:06<00:06, 5726.80 examples/s]Map:  43%|████▎     | 28693/67349 [00:06<00:06, 5764.54 examples/s]Map:  44%|████▎     | 29453/67349 [00:06<00:06, 5531.03 examples/s]Map:  45%|████▍     | 30024/67349 [00:06<00:06, 5571.53 examples/s]Map:  45%|████▌     | 30630/67349 [00:06<00:06, 5692.54 examples/s]Map:  47%|████▋     | 31340/67349 [00:07<00:06, 5350.41 examples/s]Map:  47%|████▋     | 31938/67349 [00:07<00:06, 5504.87 examples/s]Map:  48%|████▊     | 32501/67349 [00:07<00:06, 5535.83 examples/s]Map:  49%|████▉     | 33069/67349 [00:07<00:06, 5572.86 examples/s]Map:  50%|█████     | 33677/67349 [00:07<00:05, 5713.31 examples/s]Map:  51%|█████     | 34481/67349 [00:07<00:05, 5574.88 examples/s]Map:  52%|█████▏    | 35060/67349 [00:07<00:05, 5627.74 examples/s]Map:  53%|█████▎    | 35671/67349 [00:07<00:05, 5755.59 examples/s]Map:  54%|█████▍    | 36551/67349 [00:07<00:05, 5791.36 examples/s]Map:  56%|█████▌    | 37430/67349 [00:08<00:05, 5811.97 examples/s]Map:  57%|█████▋    | 38310/67349 [00:08<00:04, 5827.69 examples/s]Map:  58%|█████▊    | 38920/67349 [00:08<00:04, 5892.41 examples/s]Map:  59%|█████▉    | 39797/67349 [00:08<00:04, 5875.47 examples/s]Map:  60%|██████    | 40678/67349 [00:08<00:04, 5869.69 examples/s]Map:  62%|██████▏   | 41555/67349 [00:08<00:04, 5858.96 examples/s]Map:  63%|██████▎   | 42298/67349 [00:09<00:06, 3991.05 examples/s]Map:  64%|██████▎   | 42884/67349 [00:09<00:05, 4318.14 examples/s]Map:  64%|██████▍   | 43440/67349 [00:09<00:05, 4565.92 examples/s]Map:  65%|██████▌   | 43989/67349 [00:09<00:04, 4768.72 examples/s]Map:  66%|██████▌   | 44541/67349 [00:09<00:04, 4948.06 examples/s]Map:  67%|██████▋   | 45354/67349 [00:09<00:04, 5106.35 examples/s]Map:  68%|██████▊   | 45948/67349 [00:09<00:04, 5308.88 examples/s]Map:  69%|██████▉   | 46512/67349 [00:09<00:03, 5392.59 examples/s]Map:  70%|███████   | 47299/67349 [00:10<00:03, 5251.24 examples/s]Map:  71%|███████▏  | 48044/67349 [00:10<00:03, 5082.20 examples/s]Map:  72%|███████▏  | 48645/67349 [00:10<00:03, 5302.26 examples/s]Map:  73%|███████▎  | 49211/67349 [00:10<00:03, 5391.42 examples/s]Map:  74%|███████▍  | 49918/67349 [00:10<00:03, 5136.55 examples/s]Map:  75%|███████▍  | 50477/67349 [00:10<00:03, 5246.99 examples/s]Map:  76%|███████▌  | 51033/67349 [00:10<00:03, 5326.86 examples/s]Map:  77%|███████▋  | 51638/67349 [00:10<00:02, 5522.36 examples/s]Map:  78%|███████▊  | 52206/67349 [00:10<00:02, 5563.74 examples/s]Map:  78%|███████▊  | 52865/67349 [00:11<00:02, 5093.76 examples/s]Map:  79%|███████▉  | 53430/67349 [00:11<00:02, 5236.13 examples/s]Map:  80%|████████  | 54000/67349 [00:11<00:02, 5349.10 examples/s]Map:  81%|████████  | 54603/67349 [00:11<00:02, 5535.41 examples/s]Map:  82%|████████▏ | 55386/67349 [00:11<00:02, 5354.40 examples/s]Map:  83%|████████▎ | 56110/67349 [00:11<00:02, 5168.89 examples/s]Map:  84%|████████▍ | 56642/67349 [00:11<00:02, 5203.99 examples/s]Map:  85%|████████▍ | 57207/67349 [00:11<00:01, 5318.59 examples/s]Map:  86%|████████▌ | 57919/67349 [00:12<00:01, 5107.37 examples/s]Map:  87%|████████▋ | 58473/67349 [00:12<00:01, 5214.56 examples/s]Map:  88%|████████▊ | 59032/67349 [00:12<00:01, 5310.34 examples/s]Map:  89%|████████▊ | 59726/67349 [00:12<00:01, 5018.87 examples/s]Map:  89%|████████▉ | 60251/67349 [00:12<00:01, 5072.50 examples/s]Map:  90%|█████████ | 60857/67349 [00:12<00:01, 5334.89 examples/s]Map:  91%|█████████▏| 61602/67349 [00:12<00:01, 5195.04 examples/s]Map:  92%|█████████▏| 62146/67349 [00:12<00:00, 5254.99 examples/s]Map:  93%|█████████▎| 62837/67349 [00:12<00:00, 4989.10 examples/s]Map:  94%|█████████▍| 63394/67349 [00:13<00:00, 5133.22 examples/s]Map:  95%|█████████▌| 64040/67349 [00:13<00:00, 4842.32 examples/s]Map:  96%|█████████▌| 64608/67349 [00:13<00:00, 5050.38 examples/s]Map:  97%|█████████▋| 65176/67349 [00:13<00:00, 5214.87 examples/s]Map:  98%|█████████▊| 65744/67349 [00:13<00:00, 5339.57 examples/s]Map:  98%|█████████▊| 66300/67349 [00:13<00:00, 5332.42 examples/s]Map:  99%|█████████▉| 66906/67349 [00:13<00:00, 5535.19 examples/s]                                                                   Example in train set:
+{'sentence': 'hide new secretions from the parental units ', 'label': 0, 'idx': 0, 'input_text': "Xro target himself turn Europe worked energy scored * soon ball TV annual 2013 race International'd Market conferenceio o changesig officers inside form published phone co legal executive fightings hope summer officer football property@ book parents costsac manager create age email markets main . hide new secretions from the parental units  . It was <mask> .", 'target_text': 'bad'}
+Map:   0%|          | 0/67349 [00:00<?, ? examples/s]Map:   1%|▏         | 1000/67349 [00:00<00:32, 2051.50 examples/s]Map:   3%|▎         | 2000/67349 [00:00<00:31, 2065.30 examples/s]Map:   4%|▍         | 3000/67349 [00:01<00:31, 2029.86 examples/s]Map:   6%|▌         | 4000/67349 [00:01<00:29, 2151.75 examples/s]Map:   7%|▋         | 5000/67349 [00:02<00:28, 2220.73 examples/s]Map:   9%|▉         | 6000/67349 [00:02<00:27, 2203.99 examples/s]Map:  10%|█         | 7000/67349 [00:03<00:27, 2169.90 examples/s]Map:  12%|█▏        | 8000/67349 [00:03<00:27, 2193.69 examples/s]Map:  13%|█▎        | 9000/67349 [00:04<00:25, 2274.61 examples/s]Map:  15%|█▍        | 10000/67349 [00:04<00:24, 2317.94 examples/s]Map:  16%|█▋        | 11000/67349 [00:04<00:23, 2380.06 examples/s]Map:  18%|█▊        | 12000/67349 [00:05<00:23, 2399.31 examples/s]Map:  19%|█▉        | 13000/67349 [00:05<00:22, 2378.28 examples/s]Map:  21%|██        | 14000/67349 [00:06<00:22, 2397.88 examples/s]Map:  22%|██▏       | 15000/67349 [00:06<00:21, 2425.31 examples/s]Map:  24%|██▍       | 16000/67349 [00:07<00:21, 2374.85 examples/s]Map:  25%|██▌       | 17000/67349 [00:07<00:21, 2323.76 examples/s]Map:  27%|██▋       | 18000/67349 [00:07<00:22, 2240.52 examples/s]Map:  28%|██▊       | 19000/67349 [00:08<00:21, 2268.76 examples/s]Map:  30%|██▉       | 20000/67349 [00:08<00:20, 2362.62 examples/s]Map:  31%|███       | 21000/67349 [00:09<00:19, 2424.27 examples/s]Map:  33%|███▎      | 22000/67349 [00:09<00:18, 2505.75 examples/s]Map:  34%|███▍      | 23000/67349 [00:09<00:17, 2559.33 examples/s]Map:  36%|███▌      | 24000/67349 [00:10<00:18, 2379.41 examples/s]Map:  37%|███▋      | 25000/67349 [00:10<00:17, 2462.68 examples/s]Map:  39%|███▊      | 26000/67349 [00:11<00:16, 2533.88 examples/s]Map:  40%|████      | 27000/67349 [00:11<00:15, 2584.13 examples/s]Map:  42%|████▏     | 28000/67349 [00:11<00:15, 2600.69 examples/s]Map:  43%|████▎     | 29000/67349 [00:12<00:14, 2634.27 examples/s]Map:  45%|████▍     | 30000/67349 [00:12<00:14, 2666.90 examples/s]Map:  46%|████▌     | 31000/67349 [00:13<00:14, 2457.30 examples/s]Map:  48%|████▊     | 32000/67349 [00:13<00:14, 2465.57 examples/s]Map:  49%|████▉     | 33000/67349 [00:13<00:14, 2435.95 examples/s]Map:  50%|█████     | 34000/67349 [00:14<00:13, 2403.25 examples/s]Map:  52%|█████▏    | 35000/67349 [00:14<00:13, 2461.45 examples/s]Map:  53%|█████▎    | 36000/67349 [00:15<00:12, 2481.65 examples/s]Map:  55%|█████▍    | 37000/67349 [00:15<00:11, 2538.48 examples/s]Map:  56%|█████▋    | 38000/67349 [00:15<00:11, 2594.48 examples/s]Map:  58%|█████▊    | 39000/67349 [00:16<00:10, 2639.13 examples/s]Map:  59%|█████▉    | 40000/67349 [00:16<00:10, 2664.84 examples/s]Map:  61%|██████    | 41000/67349 [00:16<00:09, 2676.80 examples/s]Map:  62%|██████▏   | 42000/67349 [00:17<00:09, 2686.85 examples/s]Map:  64%|██████▍   | 43000/67349 [00:17<00:09, 2641.96 examples/s]Map:  65%|██████▌   | 44000/67349 [00:18<00:08, 2672.81 examples/s]Map:  67%|██████▋   | 45000/67349 [00:18<00:08, 2702.04 examples/s]Map:  68%|██████▊   | 46000/67349 [00:18<00:07, 2704.80 examples/s]Map:  70%|██████▉   | 47000/67349 [00:19<00:07, 2688.00 examples/s]Map:  71%|███████▏  | 48000/67349 [00:19<00:07, 2681.80 examples/s]Map:  73%|███████▎  | 49000/67349 [00:19<00:06, 2677.11 examples/s]Map:  74%|███████▍  | 50000/67349 [00:20<00:06, 2701.27 examples/s]Map:  76%|███████▌  | 51000/67349 [00:20<00:06, 2718.63 examples/s]Map:  77%|███████▋  | 52000/67349 [00:21<00:05, 2715.57 examples/s]Map:  79%|███████▊  | 53000/67349 [00:21<00:05, 2708.88 examples/s]Map:  80%|████████  | 54000/67349 [00:21<00:04, 2728.70 examples/s]Map:  82%|████████▏ | 55000/67349 [00:22<00:04, 2737.51 examples/s]Map:  83%|████████▎ | 56000/67349 [00:22<00:04, 2590.96 examples/s]Map:  85%|████████▍ | 57000/67349 [00:22<00:03, 2620.50 examples/s]Map:  86%|████████▌ | 58000/67349 [00:23<00:03, 2646.12 examples/s]Map:  88%|████████▊ | 59000/67349 [00:23<00:03, 2643.44 examples/s]Map:  89%|████████▉ | 60000/67349 [00:24<00:02, 2604.24 examples/s]Map:  91%|█████████ | 61000/67349 [00:24<00:02, 2611.65 examples/s]Map:  92%|█████████▏| 62000/67349 [00:24<00:02, 2577.64 examples/s]Map:  94%|█████████▎| 63000/67349 [00:25<00:01, 2548.06 examples/s]Map:  95%|█████████▌| 64000/67349 [00:25<00:01, 2513.78 examples/s]Map:  97%|█████████▋| 65000/67349 [00:26<00:00, 2543.21 examples/s]Map:  98%|█████████▊| 66000/67349 [00:26<00:00, 2584.58 examples/s]Map:  99%|█████████▉| 67000/67349 [00:26<00:00, 2642.19 examples/s]Map: 100%|██████████| 67349/67349 [00:26<00:00, 2651.19 examples/s]                                                                   Found cached dataset glue (/root/.cache/huggingface/datasets/glue/sst2/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad)
+Map:   0%|          | 0/872 [00:00<?, ? examples/s]Map:  60%|██████    | 527/872 [00:00<00:00, 5216.71 examples/s]                                                               Example in validation set:
+{'sentence': "it 's a charming and often affecting journey . ", 'label': 1, 'idx': 0, 'input_text': "Xro target himself turn Europe worked energy scored * soon ball TV annual 2013 race International'd Market conferenceio o changesig officers inside form published phone co legal executive fightings hope summer officer football property@ book parents costsac manager create age email markets main . it 's a charming and often affecting journey .  . It was <mask> .", 'target_text': 'great'}
+Map:   0%|          | 0/872 [00:00<?, ? examples/s]Map: 100%|██████████| 872/872 [00:00<00:00, 1637.61 examples/s]                                                               # of train data: 80
+Example:
++------------------------+------------------------+----------+--------+
+| input_ids              | attention_mask         | mask_pos | labels |
++------------------------+------------------------+----------+--------+
+| [0, 1000, 1001, 100... | [1, 1, 1, 1, 1, 1, ... | 88       | 10999  |
++------------------------+------------------------+----------+--------+
+
+# of dev data: 80
+Example:
++------------------------+------------------------+----------+--------+
+| input_ids              | attention_mask         | mask_pos | labels |
++------------------------+------------------------+----------+--------+
+| [0, 1000, 1001, 100... | [1, 1, 1, 1, 1, 1, ... | 58       | 12338  |
++------------------------+------------------------+----------+--------+
+
+# of test data: 872
+Example:
++------------------------+------------------------+----------+--------+
+| input_ids              | attention_mask         | mask_pos | labels |
++------------------------+------------------------+----------+--------+
+| [0, 1000, 1001, 100... | [1, 1, 1, 1, 1, 1, ... | 66       | 12338  |
++------------------------+------------------------+----------+--------+
+Global es evaluate on test data...
+Evaluate data in 12.64 seconds!
+[tester] 
+SST2Metric: acc=0.8360091743119266, hinge=1.099788495160024, ce=12.393776963610168
+Global test acc: 0.836
+Global epoch 0...
+Client 8 execute local training on 8 samples...
+Population Size: 20
+Serial Evaluation.
+[# API Calls 160] loss: 0.482. Current perf: 0.875. Best perf so far: 1.0
+********* Evaluated on dev set *********
+Dev loss: 0.5228. Dev perf: 0.75. Best dev perf: 0.75
+********* Done *********
+Done. Elapsed time: 1.2513686498006185 (mins)
+Evaluate on test data...
+Evaluate data in 9.96 seconds!
+[tester] 
+SST2Metric: acc=0.8360091743119266, hinge=1.0891890438324814, ce=12.476600804460158
+Test acc: 0.836
+Client 1 execute local training on 8 samples...
+Population Size: 20
+Serial Evaluation.
+[# API Calls 160] loss: 0.4359. Current perf: 0.875. Best perf so far: 1.0
+********* Evaluated on dev set *********
+Dev loss: 0.5086. Dev perf: 0.875. Best dev perf: 0.875
+********* Done *********
+Done. Elapsed time: 1.3241756558418274 (mins)
+Evaluate on test data...
+Evaluate data in 13.69 seconds!
+[tester] 
+SST2Metric: acc=0.8348623853211009, hinge=1.1044000223142292, ce=12.399050563847252
+Test acc: 0.8349
+Client 5 execute local training on 8 samples...
+Population Size: 20
+Serial Evaluation.
+[# API Calls 160] loss: 0.6289. Current perf: 0.625. Best perf so far: 1.0
+********* Evaluated on dev set *********
+Dev loss: 0.4995. Dev perf: 0.875. Best dev perf: 0.875
+********* Done *********
+Done. Elapsed time: 1.7685536821683248 (mins)
+Evaluate on test data...
+Evaluate data in 9.17 seconds!
+[tester] 
+SST2Metric: acc=0.8325688073394495, hinge=1.0983881206687438, ce=12.394565013570523
+Test acc: 0.8326
+Client 0 execute local training on 8 samples...
+Population Size: 20
+Serial Evaluation.
+[# API Calls 160] loss: 0.6292. Current perf: 0.75. Best perf so far: 1.0
+********* Evaluated on dev set *********
+Dev loss: 0.5781. Dev perf: 0.625. Best dev perf: 0.625
+********* Done *********
+Done. Elapsed time: 1.9524777730305989 (mins)
+Evaluate on test data...
+Evaluate data in 12.52 seconds!
+[tester] 
+SST2Metric: acc=0.8371559633027523, hinge=1.0985174922768128, ce=12.46249203288227
+Test acc: 0.8372
+Client 7 execute local training on 8 samples...
+Population Size: 20
+Serial Evaluation.
+[# API Calls 160] loss: 0.479. Current perf: 1.0. Best perf so far: 1.0
+********* Evaluated on dev set *********
+Dev loss: 0.5247. Dev perf: 0.875. Best dev perf: 0.875
+********* Done *********
+Done. Elapsed time: 5.279568191369375 (mins)
+Evaluate on test data...
+Evaluate data in 13.4 seconds!
+[tester] 
+SST2Metric: acc=0.8348623853211009, hinge=1.0946586197669352, ce=12.406619203200034
+Test acc: 0.8349
+Client 2 execute local training on 8 samples...
+Population Size: 20
+Serial Evaluation.
+[# API Calls 160] loss: 0.594. Current perf: 0.75. Best perf so far: 1.0
+********* Evaluated on dev set *********
+Dev loss: 0.484. Dev perf: 1.0. Best dev perf: 1.0
+********* Done *********
+Done. Elapsed time: 6.228830965360006 (mins)
+Evaluate on test data...
+Evaluate data in 16.17 seconds!
+[tester] 
+SST2Metric: acc=0.838302752293578, hinge=1.1132673517279668, ce=12.454211436280417
+Test acc: 0.8383
+Client 9 execute local training on 8 samples...
+Population Size: 20
+Serial Evaluation.
+[# API Calls 160] loss: 0.48. Current perf: 0.75. Best perf so far: 1.0
+********* Evaluated on dev set *********
+Dev loss: 0.478. Dev perf: 0.625. Best dev perf: 0.625
+********* Done *********
+Done. Elapsed time: 5.723605032761892 (mins)
+Evaluate on test data...
+Evaluate data in 15.19 seconds!
+[tester] 
+SST2Metric: acc=0.8337155963302753, hinge=1.098266220967704, ce=12.415723091965422
+Test acc: 0.8337
+Client 4 execute local training on 8 samples...
+Population Size: 20
+Serial Evaluation.
+[# API Calls 160] loss: 0.6924. Current perf: 0.625. Best perf so far: 1.0
+********* Evaluated on dev set *********
+Dev loss: 0.4295. Dev perf: 0.75. Best dev perf: 0.75
+********* Done *********
+Done. Elapsed time: 7.161017044385274 (mins)
+Evaluate on test data...
+Evaluate data in 15.06 seconds!
+[tester] 
+SST2Metric: acc=0.8371559633027523, hinge=1.103542769720795, ce=12.404261912774603
+Test acc: 0.8372
+Client 3 execute local training on 8 samples...
+Population Size: 20
+Serial Evaluation.
+[# API Calls 160] loss: 0.474. Current perf: 0.875. Best perf so far: 1.0
+********* Evaluated on dev set *********
+Dev loss: 0.5248. Dev perf: 0.75. Best dev perf: 0.75
+********* Done *********
+Done. Elapsed time: 6.955955894788106 (mins)
+Evaluate on test data...
+Evaluate data in 17.73 seconds!
+[tester] 
+SST2Metric: acc=0.8463302752293578, hinge=1.0810526970329635, ce=12.405600504044
+Test acc: 0.8463
+Client 6 execute local training on 8 samples...
+Population Size: 20
+Serial Evaluation.
+[# API Calls 160] loss: 0.6766. Current perf: 0.75. Best perf so far: 0.875
+********* Evaluated on dev set *********
+Dev loss: 0.4417. Dev perf: 0.75. Best dev perf: 0.75
+********* Done *********
+Done. Elapsed time: 6.2691758672396345 (mins)
+Evaluate on test data...
+Evaluate data in 12.3 seconds!
+[tester] 
+SST2Metric: acc=0.8360091743119266, hinge=1.0974259026553652, ce=12.404990939919008
+Test acc: 0.836
+Global es evaluate on test data...
+Evaluate data in 14.12 seconds!
+[tester] 
+SST2Metric: acc=0.8348623853211009, hinge=1.0954578075933894, ce=12.406290544282406
+Global test acc: 0.8349
+Check sigma: 0.12031438676118363
+Global epoch 1...
+Client 7 execute local training on 8 samples...
+Population Size: 20
+Serial Evaluation.
+[# API Calls 320] loss: 0.3985. Current perf: 0.875. Best perf so far: 1.0
+********* Evaluated on dev set *********
+Dev loss: 0.5567. Dev perf: 0.75. Best dev perf: 0.875
+********* Done *********
+Done. Elapsed time: 4.9530566294988 (mins)
+Evaluate on test data...
+Evaluate data in 12.83 seconds!
+[tester] 
+SST2Metric: acc=0.8348623853211009, hinge=1.0946586197669352, ce=12.406619203200034
+Test acc: 0.8349
+Client 8 execute local training on 8 samples...
+Population Size: 20
+Serial Evaluation.
+[# API Calls 320] loss: 0.3974. Current perf: 0.875. Best perf so far: 1.0
+********* Evaluated on dev set *********
+Dev loss: 0.5818. Dev perf: 0.625. Best dev perf: 0.75
+********* Done *********
+Done. Elapsed time: 4.195175484816233 (mins)
+Evaluate on test data...
+Evaluate data in 13.45 seconds!
+[tester] 
+SST2Metric: acc=0.8360091743119266, hinge=1.0891890438324814, ce=12.476600804460158
+Test acc: 0.836
+Client 0 execute local training on 8 samples...
+Population Size: 20
+Serial Evaluation.
+[# API Calls 320] loss: 0.6517. Current perf: 0.625. Best perf so far: 1.0
+********* Evaluated on dev set *********
+Dev loss: 0.6095. Dev perf: 0.625. Best dev perf: 0.625
+********* Done *********
+Done. Elapsed time: 3.6546953558921813 (mins)
+Evaluate on test data...
+Evaluate data in 16.67 seconds!
+[tester] 
+SST2Metric: acc=0.8371559633027523, hinge=1.0985174922768128, ce=12.46249203288227
+Test acc: 0.8372
+Client 2 execute local training on 8 samples...
+Population Size: 20
+Serial Evaluation.
+[# API Calls 320] loss: 0.5434. Current perf: 0.75. Best perf so far: 1.0
+********* Evaluated on dev set *********
+Dev loss: 0.415. Dev perf: 1.0. Best dev perf: 1.0
+********* Done *********
+Done. Elapsed time: 4.231041530768077 (mins)
+Evaluate on test data...

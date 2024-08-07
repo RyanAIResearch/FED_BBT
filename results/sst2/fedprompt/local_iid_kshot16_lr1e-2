@@ -1,0 +1,410 @@
+Some weights of RobertaForMaskedLM were not initialized from the model checkpoint at roberta-large and are newly initialized: ['lm_head.decoder.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Found cached dataset glue (/root/.cache/huggingface/datasets/glue/sst2/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad)
+Map:   0%|          | 0/67349 [00:00<?, ? examples/s]Map:   1%|          | 585/67349 [00:00<00:11, 5745.69 examples/s]Map:   2%|▏         | 1444/67349 [00:00<00:11, 5721.97 examples/s]Map:   3%|▎         | 2025/67349 [00:00<00:11, 5754.30 examples/s]Map:   4%|▍         | 2646/67349 [00:00<00:10, 5913.99 examples/s]Map:   5%|▌         | 3535/67349 [00:00<00:10, 5915.71 examples/s]Map:   7%|▋         | 4425/67349 [00:00<00:10, 5918.73 examples/s]Map:   8%|▊         | 5311/67349 [00:00<00:10, 5908.89 examples/s]Map:   9%|▉         | 5933/67349 [00:01<00:10, 5984.14 examples/s]Map:  10%|█         | 6829/67349 [00:01<00:10, 5977.48 examples/s]Map:  11%|█▏        | 7728/67349 [00:01<00:09, 5979.13 examples/s]Map:  13%|█▎        | 8601/67349 [00:01<00:09, 5925.28 examples/s]Map:  14%|█▍        | 9374/67349 [00:01<00:10, 5631.29 examples/s]Map:  15%|█▍        | 9989/67349 [00:01<00:09, 5747.94 examples/s]Map:  16%|█▌        | 10873/67349 [00:01<00:09, 5791.57 examples/s]Map:  17%|█▋        | 11655/67349 [00:02<00:09, 5571.09 examples/s]Map:  18%|█▊        | 12394/67349 [00:02<00:10, 5324.77 examples/s]Map:  19%|█▉        | 13000/67349 [00:02<00:09, 5452.22 examples/s]Map:  20%|██        | 13607/67349 [00:02<00:09, 5600.08 examples/s]Map:  21%|██▏       | 14384/67349 [00:02<00:09, 5452.40 examples/s]Map:  22%|██▏       | 14955/67349 [00:02<00:09, 5514.27 examples/s]Map:  23%|██▎       | 15753/67349 [00:02<00:10, 4793.48 examples/s]Map:  24%|██▍       | 16325/67349 [00:02<00:10, 5000.73 examples/s]Map:  25%|██▌       | 16942/67349 [00:03<00:09, 5281.71 examples/s]Map:  26%|██▌       | 17507/67349 [00:03<00:09, 5373.76 examples/s]Map:  27%|██▋       | 18086/67349 [00:03<00:08, 5483.67 examples/s]Map:  28%|██▊       | 18701/67349 [00:03<00:08, 5664.96 examples/s]Map:  29%|██▉       | 19482/67349 [00:03<00:08, 5369.76 examples/s]Map:  30%|██▉       | 20058/67349 [00:03<00:08, 5469.65 examples/s]Map:  31%|███       | 20857/67349 [00:03<00:08, 5415.14 examples/s]Map:  32%|███▏      | 21437/67349 [00:03<00:08, 5508.29 examples/s]Map:  33%|███▎      | 22196/67349 [00:03<00:08, 5348.01 examples/s]Map:  34%|███▍      | 22819/67349 [00:04<00:07, 5568.00 examples/s]Map:  35%|███▌      | 23618/67349 [00:04<00:11, 3673.49 examples/s]Map:  36%|███▌      | 24198/67349 [00:04<00:10, 4060.10 examples/s]Map:  37%|███▋      | 24818/67349 [00:04<00:09, 4500.95 examples/s]Map:  38%|███▊      | 25397/67349 [00:04<00:08, 4792.61 examples/s]Map:  39%|███▊      | 26000/67349 [00:04<00:08, 5058.60 examples/s]Map:  40%|███▉      | 26616/67349 [00:04<00:07, 5339.77 examples/s]Map:  40%|████      | 27197/67349 [00:05<00:07, 5463.44 examples/s]Map:  41%|████▏     | 27816/67349 [00:05<00:06, 5662.92 examples/s]Map:  42%|████▏     | 28532/67349 [00:05<00:07, 5202.85 examples/s]Map:  44%|████▎     | 29364/67349 [00:05<00:07, 5318.99 examples/s]Map:  44%|████▍     | 29967/67349 [00:05<00:06, 5492.50 examples/s]Map:  45%|████▌     | 30546/67349 [00:05<00:06, 5567.64 examples/s]Map:  47%|████▋     | 31399/67349 [00:05<00:06, 5605.09 examples/s]Map:  48%|████▊     | 32000/67349 [00:05<00:06, 5634.20 examples/s]Map:  49%|████▊     | 32752/67349 [00:06<00:06, 5410.89 examples/s]Map:  49%|████▉     | 33321/67349 [00:06<00:06, 5477.56 examples/s]Map:  51%|█████     | 34108/67349 [00:06<00:06, 5391.91 examples/s]Map:  52%|█████▏    | 34722/67349 [00:06<00:05, 5575.67 examples/s]Map:  53%|█████▎    | 35514/67349 [00:06<00:05, 5470.79 examples/s]Map:  54%|█████▎    | 36081/67349 [00:06<00:05, 5517.21 examples/s]Map:  54%|█████▍    | 36672/67349 [00:06<00:05, 5618.08 examples/s]Map:  55%|█████▌    | 37245/67349 [00:06<00:05, 5644.77 examples/s]Map:  56%|█████▌    | 37865/67349 [00:06<00:05, 5796.97 examples/s]Map:  58%|█████▊    | 38754/67349 [00:07<00:04, 5842.10 examples/s]Map:  59%|█████▉    | 39646/67349 [00:07<00:04, 5875.70 examples/s]Map:  60%|██████    | 40537/67349 [00:07<00:04, 5894.70 examples/s]Map:  62%|██████▏   | 41426/67349 [00:07<00:04, 5903.24 examples/s]Map:  63%|██████▎   | 42310/67349 [00:07<00:04, 5897.46 examples/s]Map:  64%|██████▎   | 42927/67349 [00:07<00:04, 5960.23 examples/s]Map:  65%|██████▌   | 43810/67349 [00:07<00:03, 5931.60 examples/s]Map:  66%|██████▋   | 44691/67349 [00:08<00:03, 5911.61 examples/s]Map:  68%|██████▊   | 45551/67349 [00:08<00:03, 5851.60 examples/s]Map:  69%|██████▉   | 46390/67349 [00:08<00:03, 5767.09 examples/s]Map:  70%|██████▉   | 47000/67349 [00:08<00:03, 5782.37 examples/s]Map:  71%|███████   | 47850/67349 [00:08<00:03, 5684.10 examples/s]Map:  72%|███████▏  | 48422/67349 [00:08<00:03, 5689.21 examples/s]Map:  73%|███████▎  | 49158/67349 [00:08<00:03, 5424.11 examples/s]Map:  74%|███████▍  | 49773/67349 [00:09<00:03, 5596.71 examples/s]Map:  75%|███████▍  | 50352/67349 [00:09<00:03, 5642.94 examples/s]Map:  76%|███████▌  | 50975/67349 [00:09<00:02, 5797.23 examples/s]Map:  77%|███████▋  | 51862/67349 [00:09<00:02, 5836.91 examples/s]Map:  78%|███████▊  | 52714/67349 [00:09<00:02, 5781.05 examples/s]Map:  79%|███████▉  | 53304/67349 [00:09<00:02, 5723.65 examples/s]Map:  80%|████████  | 53896/67349 [00:09<00:02, 5769.47 examples/s]Map:  81%|████████▏ | 54766/67349 [00:09<00:02, 5777.45 examples/s]Map:  83%|████████▎ | 55629/67349 [00:10<00:02, 5766.60 examples/s]Map:  83%|████████▎ | 56207/67349 [00:10<00:01, 5768.33 examples/s]Map:  84%|████████▍ | 56817/67349 [00:10<00:01, 5851.20 examples/s]Map:  86%|████████▌ | 57695/67349 [00:10<00:01, 5850.37 examples/s]Map:  87%|████████▋ | 58308/67349 [00:10<00:01, 5836.85 examples/s]Map:  87%|████████▋ | 58927/67349 [00:10<00:01, 5927.05 examples/s]Map:  89%|████████▊ | 59729/67349 [00:10<00:01, 5713.33 examples/s]Map:  90%|████████▉ | 60310/67349 [00:10<00:01, 5735.19 examples/s]Map:  90%|█████████ | 60930/67349 [00:10<00:01, 5857.36 examples/s]Map:  92%|█████████▏| 61784/67349 [00:11<00:00, 5704.35 examples/s]Map:  93%|█████████▎| 62364/67349 [00:11<00:00, 5726.10 examples/s]Map:  94%|█████████▎| 62975/67349 [00:11<00:00, 5826.70 examples/s]Map:  95%|█████████▍| 63860/67349 [00:11<00:00, 5850.04 examples/s]Map:  96%|█████████▌| 64737/67349 [00:11<00:00, 5844.89 examples/s]Map:  97%|█████████▋| 65586/67349 [00:11<00:00, 5779.20 examples/s]Map:  98%|█████████▊| 66271/67349 [00:11<00:00, 5390.81 examples/s]Map:  99%|█████████▉| 66825/67349 [00:12<00:00, 5423.02 examples/s]                                                                   Example in train set:
+{'sentence': 'hide new secretions from the parental units ', 'label': 0, 'idx': 0, 'input_text': "Xro target himself turn Europe worked energy scored * soon ball TV annual 2013 race International'd Market conferenceio o changesig officers inside form published phone co legal executive fightings hope summer officer football property@ book parents costsac manager create age email markets main . hide new secretions from the parental units  . It was <mask> .", 'target_text': 'bad'}
+Map:   0%|          | 0/67349 [00:00<?, ? examples/s]Map:   1%|▏         | 1000/67349 [00:00<00:35, 1856.79 examples/s]Map:   3%|▎         | 2000/67349 [00:00<00:31, 2052.62 examples/s]Map:   4%|▍         | 3000/67349 [00:01<00:29, 2197.46 examples/s]Map:   6%|▌         | 4000/67349 [00:01<00:27, 2296.01 examples/s]Map:   7%|▋         | 5000/67349 [00:02<00:26, 2365.15 examples/s]Map:   9%|▉         | 6000/67349 [00:02<00:26, 2344.07 examples/s]Map:  10%|█         | 7000/67349 [00:03<00:26, 2305.43 examples/s]Map:  12%|█▏        | 8000/67349 [00:03<00:25, 2363.06 examples/s]Map:  13%|█▎        | 9000/67349 [00:03<00:24, 2421.35 examples/s]Map:  15%|█▍        | 10000/67349 [00:04<00:23, 2457.48 examples/s]Map:  16%|█▋        | 11000/67349 [00:04<00:23, 2418.58 examples/s]Map:  18%|█▊        | 12000/67349 [00:05<00:23, 2378.15 examples/s]Map:  19%|█▉        | 13000/67349 [00:05<00:22, 2454.14 examples/s]Map:  21%|██        | 14000/67349 [00:05<00:21, 2455.03 examples/s]Map:  22%|██▏       | 15000/67349 [00:06<00:21, 2466.31 examples/s]Map:  24%|██▍       | 16000/67349 [00:06<00:20, 2495.03 examples/s]Map:  25%|██▌       | 17000/67349 [00:07<00:21, 2324.98 examples/s]Map:  27%|██▋       | 18000/67349 [00:07<00:20, 2400.87 examples/s]Map:  28%|██▊       | 19000/67349 [00:07<00:19, 2468.98 examples/s]Map:  30%|██▉       | 20000/67349 [00:08<00:18, 2527.02 examples/s]Map:  31%|███       | 21000/67349 [00:08<00:18, 2540.10 examples/s]Map:  33%|███▎      | 22000/67349 [00:09<00:17, 2565.69 examples/s]Map:  34%|███▍      | 23000/67349 [00:09<00:17, 2589.58 examples/s]Map:  36%|███▌      | 24000/67349 [00:09<00:16, 2622.48 examples/s]Map:  37%|███▋      | 25000/67349 [00:10<00:16, 2589.63 examples/s]Map:  39%|███▊      | 26000/67349 [00:10<00:16, 2572.31 examples/s]Map:  40%|████      | 27000/67349 [00:11<00:15, 2604.02 examples/s]Map:  42%|████▏     | 28000/67349 [00:11<00:14, 2626.81 examples/s]Map:  43%|████▎     | 29000/67349 [00:11<00:14, 2588.33 examples/s]Map:  45%|████▍     | 30000/67349 [00:12<00:14, 2606.04 examples/s]Map:  46%|████▌     | 31000/67349 [00:12<00:13, 2626.36 examples/s]Map:  48%|████▊     | 32000/67349 [00:12<00:13, 2654.97 examples/s]Map:  49%|████▉     | 33000/67349 [00:13<00:13, 2614.42 examples/s]Map:  50%|█████     | 34000/67349 [00:13<00:12, 2606.88 examples/s]Map:  52%|█████▏    | 35000/67349 [00:14<00:12, 2620.23 examples/s]Map:  53%|█████▎    | 36000/67349 [00:14<00:11, 2623.43 examples/s]Map:  55%|█████▍    | 37000/67349 [00:14<00:11, 2568.51 examples/s]Map:  56%|█████▋    | 38000/67349 [00:15<00:11, 2588.85 examples/s]Map:  58%|█████▊    | 39000/67349 [00:15<00:10, 2594.49 examples/s]Map:  59%|█████▉    | 40000/67349 [00:16<00:10, 2574.36 examples/s]Map:  61%|██████    | 41000/67349 [00:16<00:10, 2601.30 examples/s]Map:  62%|██████▏   | 42000/67349 [00:16<00:09, 2564.46 examples/s]Map:  64%|██████▍   | 43000/67349 [00:17<00:09, 2601.92 examples/s]Map:  65%|██████▌   | 44000/67349 [00:17<00:08, 2620.98 examples/s]Map:  67%|██████▋   | 45000/67349 [00:17<00:08, 2646.79 examples/s]Map:  68%|██████▊   | 46000/67349 [00:18<00:08, 2665.93 examples/s]Map:  70%|██████▉   | 47000/67349 [00:18<00:07, 2685.69 examples/s]Map:  71%|███████▏  | 48000/67349 [00:19<00:07, 2655.91 examples/s]Map:  73%|███████▎  | 49000/67349 [00:19<00:07, 2613.36 examples/s]Map:  74%|███████▍  | 50000/67349 [00:19<00:06, 2618.99 examples/s]Map:  76%|███████▌  | 51000/67349 [00:20<00:06, 2637.76 examples/s]Map:  77%|███████▋  | 52000/67349 [00:20<00:05, 2653.32 examples/s]Map:  79%|███████▊  | 53000/67349 [00:20<00:05, 2630.84 examples/s]Map:  80%|████████  | 54000/67349 [00:21<00:05, 2550.10 examples/s]Map:  82%|████████▏ | 55000/67349 [00:21<00:05, 2302.22 examples/s]Map:  83%|████████▎ | 56000/67349 [00:22<00:04, 2402.72 examples/s]Map:  85%|████████▍ | 57000/67349 [00:22<00:04, 2490.43 examples/s]Map:  86%|████████▌ | 58000/67349 [00:23<00:03, 2551.04 examples/s]Map:  88%|████████▊ | 59000/67349 [00:23<00:03, 2501.20 examples/s]Map:  89%|████████▉ | 60000/67349 [00:23<00:02, 2523.87 examples/s]Map:  91%|█████████ | 61000/67349 [00:24<00:02, 2573.90 examples/s]Map:  92%|█████████▏| 62000/67349 [00:24<00:02, 2600.46 examples/s]Map:  94%|█████████▎| 63000/67349 [00:24<00:01, 2598.91 examples/s]Map:  95%|█████████▌| 64000/67349 [00:25<00:01, 2633.98 examples/s]Map:  97%|█████████▋| 65000/67349 [00:25<00:00, 2643.97 examples/s]Map:  98%|█████████▊| 66000/67349 [00:26<00:00, 2639.76 examples/s]Map:  99%|█████████▉| 67000/67349 [00:26<00:00, 2587.53 examples/s]Map: 100%|██████████| 67349/67349 [00:26<00:00, 2562.32 examples/s]                                                                   Found cached dataset glue (/root/.cache/huggingface/datasets/glue/sst2/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad)
+Map:   0%|          | 0/872 [00:00<?, ? examples/s]Map:  65%|██████▌   | 569/872 [00:00<00:00, 5442.82 examples/s]                                                               Example in validation set:
+{'sentence': "it 's a charming and often affecting journey . ", 'label': 1, 'idx': 0, 'input_text': "Xro target himself turn Europe worked energy scored * soon ball TV annual 2013 race International'd Market conferenceio o changesig officers inside form published phone co legal executive fightings hope summer officer football property@ book parents costsac manager create age email markets main . it 's a charming and often affecting journey .  . It was <mask> .", 'target_text': 'great'}
+Map:   0%|          | 0/872 [00:00<?, ? examples/s]Map: 100%|██████████| 872/872 [00:00<00:00, 2149.35 examples/s]                                                               # of train data: 32
+Example:
++------------------------+------------------------+----------+--------+
+| input_ids              | attention_mask         | mask_pos | labels |
++------------------------+------------------------+----------+--------+
+| [0, 1000, 1001, 100... | [1, 1, 1, 1, 1, 1, ... | 88       | 10999  |
++------------------------+------------------------+----------+--------+
+
+# of dev data: 32
+Example:
++------------------------+------------------------+----------+--------+
+| input_ids              | attention_mask         | mask_pos | labels |
++------------------------+------------------------+----------+--------+
+| [0, 1000, 1001, 100... | [1, 1, 1, 1, 1, 1, ... | 76       | 12338  |
++------------------------+------------------------+----------+--------+
+
+# of test data: 872
+Example:
++------------------------+------------------------+----------+--------+
+| input_ids              | attention_mask         | mask_pos | labels |
++------------------------+------------------------+----------+--------+
+| [0, 1000, 1001, 100... | [1, 1, 1, 1, 1, 1, ... | 66       | 12338  |
++------------------------+------------------------+----------+--------+
+Global epoch 0...
+Client 0 execute local training on 3 samples...
+Local loss @ local epoch 0: 0.40752658247947693
+Local evaluate on test data...
+Evaluate data in 20.6 seconds!
+[tester] 
+SST2Metric: acc=0.8360091743119266, hinge=1.082133428766093, ce=12.340251432646305
+Local test acc @ epoch 0: 0.836
+Local loss @ local epoch 1: 0.2636697590351105
+Local loss @ local epoch 2: 0.4555788040161133
+Local loss @ local epoch 3: 0.304362028837204
+Local loss @ local epoch 4: 0.42723774909973145
+Local loss @ local epoch 5: 0.4058098793029785
+Local loss @ local epoch 6: 0.3198161721229553
+Local loss @ local epoch 7: 0.2762499749660492
+Local loss @ local epoch 8: 0.2368311882019043
+Local loss @ local epoch 9: 0.20166318118572235
+Local loss @ local epoch 10: 0.24701069295406342
+Local evaluate on test data...
+Evaluate data in 20.76 seconds!
+[tester] 
+SST2Metric: acc=0.8348623853211009, hinge=0.9874793061422645, ce=12.31955438141429
+Local test acc @ epoch 10: 0.8349
+Local loss @ local epoch 11: 0.31760677695274353
+Local loss @ local epoch 12: 0.17842115461826324
+Local loss @ local epoch 13: 0.1377137154340744
+Local loss @ local epoch 14: 0.23081795871257782
+Local loss @ local epoch 15: 0.23531456291675568
+Local loss @ local epoch 16: 0.19057880342006683
+Local loss @ local epoch 17: 0.08269990980625153
+Local loss @ local epoch 18: 0.3024449050426483
+Local loss @ local epoch 19: 0.2948414981365204
+Local loss @ local epoch 20: 0.2812771201133728
+Local evaluate on test data...
+Evaluate data in 20.8 seconds!
+[tester] 
+SST2Metric: acc=0.8325688073394495, hinge=0.9474172023458218, ce=12.362656829554007
+Local test acc @ epoch 20: 0.8326
+Local loss @ local epoch 21: 0.10889532417058945
+Local loss @ local epoch 22: 0.16967688500881195
+Local loss @ local epoch 23: 0.17535169422626495
+Local loss @ local epoch 24: 0.23324625194072723
+Local loss @ local epoch 25: 0.10694575309753418
+Local loss @ local epoch 26: 0.19367164373397827
+Local loss @ local epoch 27: 0.21110188961029053
+Local loss @ local epoch 28: 0.10150802135467529
+Local loss @ local epoch 29: 0.16646574437618256
+Local loss @ local epoch 30: 0.2484813928604126
+Local evaluate on test data...
+Evaluate data in 20.61 seconds!
+[tester] 
+SST2Metric: acc=0.838302752293578, hinge=0.9215514244289573, ce=12.362432619847288
+Local test acc @ epoch 30: 0.8383
+Local loss @ local epoch 31: 0.1174938902258873
+Local loss @ local epoch 32: 0.10488465428352356
+Local loss @ local epoch 33: 0.2549733817577362
+Local loss @ local epoch 34: 0.15841864049434662
+Local loss @ local epoch 35: 0.3230343163013458
+Local loss @ local epoch 36: 0.1396557241678238
+Local loss @ local epoch 37: 0.06391403824090958
+Local loss @ local epoch 38: 0.15851782262325287
+Local loss @ local epoch 39: 0.16744071245193481
+Local loss @ local epoch 40: 0.1286344677209854
+Local evaluate on test data...
+Evaluate data in 20.86 seconds!
+[tester] 
+SST2Metric: acc=0.8440366972477065, hinge=0.8950565276889626, ce=12.342393437656787
+Local test acc @ epoch 40: 0.844
+Local loss @ local epoch 41: 0.11582273244857788
+Local loss @ local epoch 42: 0.1437605768442154
+Local loss @ local epoch 43: 0.10447320342063904
+Local loss @ local epoch 44: 0.07814023643732071
+Local loss @ local epoch 45: 0.13621191680431366
+Local loss @ local epoch 46: 0.09997846931219101
+Local loss @ local epoch 47: 0.08323196321725845
+Local loss @ local epoch 48: 0.11772441118955612
+Local loss @ local epoch 49: 0.128394216299057
+Local loss @ local epoch 50: 0.052917707711458206
+Local evaluate on test data...
+Evaluate data in 20.71 seconds!
+[tester] 
+SST2Metric: acc=0.8394495412844036, hinge=0.8850282354092379, ce=12.335360658278159
+Local test acc @ epoch 50: 0.8394
+Local loss @ local epoch 51: 0.09790460020303726
+Local loss @ local epoch 52: 0.07513615489006042
+Local loss @ local epoch 53: 0.14672373235225677
+Local loss @ local epoch 54: 0.1158602312207222
+Local loss @ local epoch 55: 0.10528499633073807
+Local loss @ local epoch 56: 0.12345877289772034
+Local loss @ local epoch 57: 0.14127935469150543
+Local loss @ local epoch 58: 0.07782891392707825
+Local loss @ local epoch 59: 0.11643335968255997
+Local loss @ local epoch 60: 0.09976627677679062
+Local evaluate on test data...
+Evaluate data in 20.56 seconds!
+[tester] 
+SST2Metric: acc=0.8394495412844036, hinge=0.8874421600901753, ce=12.394853854398114
+Local test acc @ epoch 60: 0.8394
+Local loss @ local epoch 61: 0.1316545307636261
+Local loss @ local epoch 62: 0.16745227575302124
+Local loss @ local epoch 63: 0.13032962381839752
+Local loss @ local epoch 64: 0.07644704729318619
+Local loss @ local epoch 65: 0.07789451628923416
+Local loss @ local epoch 66: 0.09371424466371536
+Local loss @ local epoch 67: 0.1156407818198204
+Local loss @ local epoch 68: 0.06948625296354294
+Local loss @ local epoch 69: 0.06196388602256775
+Local loss @ local epoch 70: 0.12806205451488495
+Local evaluate on test data...
+Evaluate data in 20.69 seconds!
+[tester] 
+SST2Metric: acc=0.8394495412844036, hinge=0.8933388246308773, ce=12.496771383722988
+Local test acc @ epoch 70: 0.8394
+Local loss @ local epoch 71: 0.053343791514635086
+Local loss @ local epoch 72: 0.04881168529391289
+Local loss @ local epoch 73: 0.06753932684659958
+Local loss @ local epoch 74: 0.07309946417808533
+Local loss @ local epoch 75: 0.09760209918022156
+Local loss @ local epoch 76: 0.1043173298239708
+Local loss @ local epoch 77: 0.05434064939618111
+Local loss @ local epoch 78: 0.0873243436217308
+Local loss @ local epoch 79: 0.041694968938827515
+Local loss @ local epoch 80: 0.10955920815467834
+Local evaluate on test data...
+Evaluate data in 20.65 seconds!
+[tester] 
+SST2Metric: acc=0.8360091743119266, hinge=0.8915818459397062, ce=12.512858697033803
+Local test acc @ epoch 80: 0.836
+Local loss @ local epoch 81: 0.05584936961531639
+Local loss @ local epoch 82: 0.09582477062940598
+Local loss @ local epoch 83: 0.08764156699180603
+Local loss @ local epoch 84: 0.08322537690401077
+Local loss @ local epoch 85: 0.058685705065727234
+Local loss @ local epoch 86: 0.05157042667269707
+Local loss @ local epoch 87: 0.07628754526376724
+Local loss @ local epoch 88: 0.08069071918725967
+Local loss @ local epoch 89: 0.0945323184132576
+Local loss @ local epoch 90: 0.08461912721395493
+Local evaluate on test data...
+Evaluate data in 20.76 seconds!
+[tester] 
+SST2Metric: acc=0.8451834862385321, hinge=0.8817919066192907, ce=12.499262993488836
+Local test acc @ epoch 90: 0.8452
+Local loss @ local epoch 91: 0.10594290494918823
+Local loss @ local epoch 92: 0.036671433597803116
+Local loss @ local epoch 93: 0.08514248579740524
+Local loss @ local epoch 94: 0.06030764803290367
+Local loss @ local epoch 95: 0.08751749247312546
+Local loss @ local epoch 96: 0.045793693512678146
+Local loss @ local epoch 97: 0.05443943664431572
+Local loss @ local epoch 98: 0.05783012509346008
+Local loss @ local epoch 99: 0.0725649744272232
+Local loss @ local epoch 100: 0.06594987213611603
+Local evaluate on test data...
+Evaluate data in 20.59 seconds!
+[tester] 
+SST2Metric: acc=0.8394495412844036, hinge=0.8711351123424845, ce=12.456536258032562
+Local test acc @ epoch 100: 0.8394
+Local loss @ local epoch 101: 0.04475647583603859
+Local loss @ local epoch 102: 0.17838658392429352
+Local loss @ local epoch 103: 0.04269777610898018
+Local loss @ local epoch 104: 0.11741691827774048
+Local loss @ local epoch 105: 0.11284554749727249
+Local loss @ local epoch 106: 0.05259690061211586
+Local loss @ local epoch 107: 0.07275030016899109
+Local loss @ local epoch 108: 0.08797932416200638
+Local loss @ local epoch 109: 0.07070096582174301
+Local loss @ local epoch 110: 0.07105941325426102
+Local evaluate on test data...
+Evaluate data in 20.65 seconds!
+[tester] 
+SST2Metric: acc=0.8451834862385321, hinge=0.87404814553917, ce=12.462153802224256
+Local test acc @ epoch 110: 0.8452
+Local loss @ local epoch 111: 0.07041139155626297
+Local loss @ local epoch 112: 0.08403030782938004
+Local loss @ local epoch 113: 0.026268094778060913
+Local loss @ local epoch 114: 0.03203670307993889
+Local loss @ local epoch 115: 0.04295829311013222
+Local loss @ local epoch 116: 0.06550613790750504
+Local loss @ local epoch 117: 0.01519342977553606
+Local loss @ local epoch 118: 0.03056717850267887
+Local loss @ local epoch 119: 0.08144213259220123
+Local loss @ local epoch 120: 0.05890684947371483
+Local evaluate on test data...
+Evaluate data in 20.63 seconds!
+[tester] 
+SST2Metric: acc=0.838302752293578, hinge=0.8839574560112909, ce=12.43343215032455
+Local test acc @ epoch 120: 0.8383
+Local loss @ local epoch 121: 0.06819086521863937
+Local loss @ local epoch 122: 0.04609877988696098
+Local loss @ local epoch 123: 0.04826807603240013
+Local loss @ local epoch 124: 0.054950471967458725
+Local loss @ local epoch 125: 0.034053776413202286
+Local loss @ local epoch 126: 0.036466244608163834
+Local loss @ local epoch 127: 0.019777821376919746
+Local loss @ local epoch 128: 0.04755218327045441
+Local loss @ local epoch 129: 0.04785686731338501
+Local loss @ local epoch 130: 0.029182814061641693
+Local evaluate on test data...
+Evaluate data in 20.66 seconds!
+[tester] 
+SST2Metric: acc=0.841743119266055, hinge=0.879929870640466, ce=12.47581004221505
+Local test acc @ epoch 130: 0.8417
+Local loss @ local epoch 131: 0.03692309558391571
+Local loss @ local epoch 132: 0.03594113886356354
+Local loss @ local epoch 133: 0.08508652448654175
+Local loss @ local epoch 134: 0.04754197597503662
+Local loss @ local epoch 135: 0.02512599527835846
+Local loss @ local epoch 136: 0.04071490094065666
+Local loss @ local epoch 137: 0.03135760501027107
+Local loss @ local epoch 138: 0.015990013256669044
+Local loss @ local epoch 139: 0.02392279915511608
+Local loss @ local epoch 140: 0.02188890241086483
+Local evaluate on test data...
+Evaluate data in 21.24 seconds!
+[tester] 
+SST2Metric: acc=0.8405963302752294, hinge=0.8795516775288713, ce=12.495260544873158
+Local test acc @ epoch 140: 0.8406
+Local loss @ local epoch 141: 0.02466973476111889
+Local loss @ local epoch 142: 0.018481561914086342
+Local loss @ local epoch 143: 0.013927794992923737
+Local loss @ local epoch 144: 0.02319948375225067
+Local loss @ local epoch 145: 0.02377456985414028
+Local loss @ local epoch 146: 0.016429759562015533
+Local loss @ local epoch 147: 0.010356687009334564
+Local loss @ local epoch 148: 0.02277301251888275
+Local loss @ local epoch 149: 0.03302515670657158
+Local loss @ local epoch 150: 0.02766270376741886
+Local evaluate on test data...
+Evaluate data in 20.62 seconds!
+[tester] 
+SST2Metric: acc=0.8428899082568807, hinge=0.8845426970665607, ce=12.5079087336129
+Local test acc @ epoch 150: 0.8429
+Local loss @ local epoch 151: 0.043716639280319214
+Local loss @ local epoch 152: 0.06520063430070877
+Local loss @ local epoch 153: 0.017167111858725548
+Local loss @ local epoch 154: 0.011792474426329136
+Local loss @ local epoch 155: 0.027424631640315056
+Local loss @ local epoch 156: 0.04192761704325676
+Local loss @ local epoch 157: 0.017062461003661156
+Local loss @ local epoch 158: 0.044735100120306015
+Local loss @ local epoch 159: 0.014639054425060749
+Local loss @ local epoch 160: 0.03516523912549019
+Local evaluate on test data...
+Evaluate data in 20.64 seconds!
+[tester] 
+SST2Metric: acc=0.8440366972477065, hinge=0.8804989167309683, ce=12.47899401953461
+Local test acc @ epoch 160: 0.844
+Local loss @ local epoch 161: 0.015181994996964931
+Local loss @ local epoch 162: 0.018984148278832436
+Local loss @ local epoch 163: 0.028795406222343445
+Local loss @ local epoch 164: 0.013350039720535278
+Local loss @ local epoch 165: 0.03827246278524399
+Local loss @ local epoch 166: 0.01371928583830595
+Local loss @ local epoch 167: 0.013477024622261524
+Local loss @ local epoch 168: 0.020337631925940514
+Local loss @ local epoch 169: 0.018761010840535164
+Local loss @ local epoch 170: 0.034857068210840225
+Local evaluate on test data...
+Evaluate data in 20.64 seconds!
+[tester] 
+SST2Metric: acc=0.8360091743119266, hinge=0.8816499097631612, ce=12.463273310880048
+Local test acc @ epoch 170: 0.836
+Local loss @ local epoch 171: 0.012440788559615612
+Local loss @ local epoch 172: 0.027242518961429596
+Local loss @ local epoch 173: 0.02816390059888363
+Local loss @ local epoch 174: 0.01902964897453785
+Local loss @ local epoch 175: 0.009558497928082943
+Local loss @ local epoch 176: 0.025216886773705482
+Local loss @ local epoch 177: 0.011824376881122589
+Local loss @ local epoch 178: 0.014030621387064457
+Local loss @ local epoch 179: 0.015279573388397694
+Local loss @ local epoch 180: 0.013404779136180878
+Local evaluate on test data...
+Evaluate data in 20.69 seconds!
+[tester] 
+SST2Metric: acc=0.838302752293578, hinge=0.8848336683500797, ce=12.486076766197835
+Local test acc @ epoch 180: 0.8383
+Local loss @ local epoch 181: 0.012318632565438747
+Local loss @ local epoch 182: 0.02006133459508419
+Local loss @ local epoch 183: 0.013083589263260365
+Local loss @ local epoch 184: 0.008342228829860687
+Local loss @ local epoch 185: 0.025708837434649467
+Local loss @ local epoch 186: 0.018299205228686333
+Local loss @ local epoch 187: 0.012104284949600697
+Local loss @ local epoch 188: 0.02860116958618164
+Local loss @ local epoch 189: 0.017856979742646217
+Local loss @ local epoch 190: 0.010365552268922329
+Local evaluate on test data...
+Evaluate data in 20.69 seconds!
+[tester] 
+SST2Metric: acc=0.8394495412844036, hinge=0.8840448309522156, ce=12.518626370561233
+Local test acc @ epoch 190: 0.8394
+Local loss @ local epoch 191: 0.01909560151398182
+Local loss @ local epoch 192: 0.023192264139652252
+Local loss @ local epoch 193: 0.02068069577217102
+Local loss @ local epoch 194: 0.010564498603343964
+Local loss @ local epoch 195: 0.025913001969456673
+Local loss @ local epoch 196: 0.024666449055075645
+Local loss @ local epoch 197: 0.02946411818265915
+Local loss @ local epoch 198: 0.02827771194279194
+Local loss @ local epoch 199: 0.017597300931811333
+Local loss @ local epoch 200: 0.013296160846948624
+Local evaluate on test data...
+Evaluate data in 20.76 seconds!
+[tester] 
+SST2Metric: acc=0.8360091743119266, hinge=0.8855707404810355, ce=12.521320946719669
+Local test acc @ epoch 200: 0.836
+Local loss @ local epoch 201: 0.006221946328878403
+Local loss @ local epoch 202: 0.00873956922441721
+Local loss @ local epoch 203: 0.01828525960445404
+Local loss @ local epoch 204: 0.01709330454468727
+Local loss @ local epoch 205: 0.008563359268009663
+Local loss @ local epoch 206: 0.021794693544507027
+Local loss @ local epoch 207: 0.0329018197953701
+Local loss @ local epoch 208: 0.03346783295273781
+Local loss @ local epoch 209: 0.019483765587210655
+Local loss @ local epoch 210: 0.006387481465935707
+Local evaluate on test data...
+Evaluate data in 20.6 seconds!
+[tester] 
+SST2Metric: acc=0.8360091743119266, hinge=0.8922262104279405, ce=12.522548728032943
+Local test acc @ epoch 210: 0.836
+Local loss @ local epoch 211: 0.023011410608887672
+Local loss @ local epoch 212: 0.015184986405074596
+Local loss @ local epoch 213: 0.010005024261772633
+Local loss @ local epoch 214: 0.012414342723786831
+Local loss @ local epoch 215: 0.014675009995698929
+Local loss @ local epoch 216: 0.013048041611909866
+Local loss @ local epoch 217: 0.013276297599077225
+Local loss @ local epoch 218: 0.023692747578024864
+Local loss @ local epoch 219: 0.008635269477963448
+Local loss @ local epoch 220: 0.007446538656949997
+Local evaluate on test data...
+Evaluate data in 20.68 seconds!
+[tester] 
+SST2Metric: acc=0.8360091743119266, hinge=0.9036578432135626, ce=12.555549280359111
+Local test acc @ epoch 220: 0.836
+Local loss @ local epoch 221: 0.009092087857425213
+Local loss @ local epoch 222: 0.012487874366343021
+Local loss @ local epoch 223: 0.022357508540153503
+Local loss @ local epoch 224: 0.016037771478295326
+Local loss @ local epoch 225: 0.00519561255350709
+Local loss @ local epoch 226: 0.010671637952327728
+Local loss @ local epoch 227: 0.013047992251813412
+Local loss @ local epoch 228: 0.008100898005068302
+Local loss @ local epoch 229: 0.016463594511151314
+Local loss @ local epoch 230: 0.010557430796325207
+Local evaluate on test data...
+Evaluate data in 20.61 seconds!
+[tester] 
+SST2Metric: acc=0.8348623853211009, hinge=0.9148288079358022, ce=12.585165443770382
+Local test acc @ epoch 230: 0.8349
+Local loss @ local epoch 231: 0.006896525155752897
+Local loss @ local epoch 232: 0.01293594017624855
+Local loss @ local epoch 233: 0.019565358757972717
+Local loss @ local epoch 234: 0.018818611279129982
+Local loss @ local epoch 235: 0.00974293239414692
+Local loss @ local epoch 236: 0.02373807691037655
+Local loss @ local epoch 237: 0.010014858096837997
+Local loss @ local epoch 238: 0.012875132262706757
+Local loss @ local epoch 239: 0.00782180204987526
+Local loss @ local epoch 240: 0.016815148293972015
+Local evaluate on test data...
+Evaluate data in 20.63 seconds!
+[tester] 
+SST2Metric: acc=0.8325688073394495, hinge=0.9206226681350568, ce=12.598792574821262
+Local test acc @ epoch 240: 0.8326
+Local loss @ local epoch 241: 0.009189160540699959
+Local loss @ local epoch 242: 0.016420401632785797
+Local loss @ local epoch 243: 0.016193559393286705
+Local loss @ local epoch 244: 0.02621898241341114
+Local loss @ local epoch 245: 0.01642621122300625
+Local loss @ local epoch 246: 0.016791416332125664
+Local loss @ local epoch 247: 0.01038402784615755
+Local loss @ local epoch 248: 0.008314455859363079
+Local loss @ local epoch 249: 0.036553505808115005
+Local loss @ local epoch 250: 0.0092087397351861
+Local evaluate on test data...

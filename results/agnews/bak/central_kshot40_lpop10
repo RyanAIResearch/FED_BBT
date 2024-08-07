@@ -1,0 +1,483 @@
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/cma/s.py:13: UserWarning: Could not import matplotlib.pyplot, therefore ``cma.plot()`` etc. is not available
+  _warnings.warn('Could not import matplotlib.pyplot, therefore'
+agnews
+Downloading builder script: 0.00B [00:00, ?B/s]Downloading builder script: 4.06kB [00:00, 636kB/s]
+Found cached dataset ag_news (/root/.cache/huggingface/datasets/ag_news/default/0.0.0/bc2bcb40336ace1a0374767fc29bb0296cdaf8a6da7298436239c54d79180548)
+Map:   0%|          | 0/120000 [00:00<?, ? examples/s]Map:   0%|          | 251/120000 [00:00<01:07, 1771.08 examples/s]Map:   0%|          | 514/120000 [00:00<00:58, 2038.21 examples/s]Map:   1%|          | 752/120000 [00:00<00:56, 2124.34 examples/s]Map:   1%|          | 1067/120000 [00:00<00:52, 2279.50 examples/s]Map:   1%|          | 1382/120000 [00:00<00:47, 2509.50 examples/s]Map:   1%|▏         | 1741/120000 [00:00<00:59, 1992.75 examples/s]Map:   2%|▏         | 2072/120000 [00:01<01:01, 1929.86 examples/s]Map:   2%|▏         | 2457/120000 [00:01<00:49, 2352.50 examples/s]Map:   2%|▏         | 2755/120000 [00:01<00:54, 2150.23 examples/s]Map:   3%|▎         | 3058/120000 [00:01<00:56, 2073.87 examples/s]Map:   3%|▎         | 3351/120000 [00:01<01:05, 1788.96 examples/s]Map:   3%|▎         | 3584/120000 [00:01<01:05, 1771.49 examples/s]Map:   3%|▎         | 3833/120000 [00:02<01:16, 1522.12 examples/s]Map:   3%|▎         | 4000/120000 [00:02<01:31, 1263.72 examples/s]Map:   3%|▎         | 4185/120000 [00:02<01:26, 1338.12 examples/s]Map:   4%|▎         | 4384/120000 [00:02<01:24, 1360.87 examples/s]Map:   4%|▍         | 4610/120000 [00:02<01:16, 1505.74 examples/s]Map:   4%|▍         | 4922/120000 [00:02<01:02, 1847.98 examples/s]Map:   4%|▍         | 5158/120000 [00:02<01:16, 1497.99 examples/s]Map:   5%|▍         | 5404/120000 [00:03<01:28, 1291.65 examples/s]Map:   5%|▍         | 5599/120000 [00:03<01:22, 1387.73 examples/s]Map:   5%|▍         | 5789/120000 [00:03<01:16, 1489.85 examples/s]Map:   5%|▌         | 6001/120000 [00:03<01:14, 1536.67 examples/s]Map:   5%|▌         | 6181/120000 [00:03<01:45, 1082.36 examples/s]Map:   5%|▌         | 6364/120000 [00:03<01:33, 1219.77 examples/s]Map:   5%|▌         | 6532/120000 [00:04<01:40, 1132.74 examples/s]Map:   6%|▌         | 6683/120000 [00:04<02:05, 902.69 examples/s] Map:   6%|▌         | 6828/120000 [00:04<02:09, 875.97 examples/s]Map:   6%|▌         | 7017/120000 [00:04<01:57, 965.36 examples/s]Map:   6%|▌         | 7164/120000 [00:04<02:08, 880.37 examples/s]Map:   6%|▌         | 7340/120000 [00:05<01:58, 948.91 examples/s]Map:   6%|▋         | 7592/120000 [00:05<01:30, 1246.29 examples/s]Map:   6%|▋         | 7768/120000 [00:05<01:29, 1250.06 examples/s]Map:   7%|▋         | 7941/120000 [00:05<01:30, 1233.32 examples/s]Map:   7%|▋         | 8110/120000 [00:05<01:25, 1303.32 examples/s]Map:   7%|▋         | 8299/120000 [00:05<01:17, 1442.52 examples/s]Map:   7%|▋         | 8461/120000 [00:05<01:23, 1332.32 examples/s]Map:   7%|▋         | 8616/120000 [00:05<01:24, 1317.98 examples/s]Map:   7%|▋         | 8824/120000 [00:06<01:30, 1225.46 examples/s]Map:   7%|▋         | 8990/120000 [00:06<01:29, 1235.69 examples/s]Map:   8%|▊         | 9131/120000 [00:06<01:28, 1259.46 examples/s]Map:   8%|▊         | 9311/120000 [00:06<01:23, 1329.85 examples/s]Map:   8%|▊         | 9565/120000 [00:06<01:17, 1419.25 examples/s]Map:   8%|▊         | 9708/120000 [00:06<01:32, 1191.53 examples/s]Map:   8%|▊         | 10137/120000 [00:06<00:58, 1865.84 examples/s]Map:   9%|▊         | 10399/120000 [00:07<01:00, 1810.40 examples/s]Map:   9%|▉         | 10654/120000 [00:07<00:59, 1847.42 examples/s]Map:   9%|▉         | 10962/120000 [00:07<01:16, 1420.87 examples/s]Map:   9%|▉         | 11139/120000 [00:07<01:26, 1255.57 examples/s]Map:   9%|▉         | 11311/120000 [00:07<01:36, 1125.06 examples/s]Map:  10%|▉         | 11532/120000 [00:08<01:32, 1167.51 examples/s]Map:  10%|▉         | 11706/120000 [00:08<01:52, 962.00 examples/s] Map:  10%|█         | 12000/120000 [00:08<01:27, 1237.72 examples/s]Map:  10%|█         | 12159/120000 [00:08<01:29, 1199.37 examples/s]Map:  10%|█         | 12440/120000 [00:08<01:19, 1360.68 examples/s]Map:  11%|█         | 12706/120000 [00:09<01:24, 1264.21 examples/s]Map:  11%|█         | 12943/120000 [00:09<01:19, 1342.34 examples/s]Map:  11%|█         | 13165/120000 [00:09<01:20, 1328.71 examples/s]Map:  11%|█         | 13440/120000 [00:09<01:12, 1462.47 examples/s]Map:  11%|█▏        | 13613/120000 [00:09<01:28, 1201.06 examples/s]Map:  11%|█▏        | 13761/120000 [00:09<01:35, 1107.96 examples/s]Map:  12%|█▏        | 13896/120000 [00:10<01:39, 1067.44 examples/s]Map:  12%|█▏        | 14103/120000 [00:10<01:29, 1177.06 examples/s]Map:  12%|█▏        | 14261/120000 [00:10<01:39, 1061.58 examples/s]Map:  12%|█▏        | 14432/120000 [00:10<01:56, 905.60 examples/s] Map:  12%|█▏        | 14705/120000 [00:10<01:29, 1171.25 examples/s]Map:  12%|█▏        | 14896/120000 [00:10<01:31, 1152.79 examples/s]Map:  13%|█▎        | 15156/120000 [00:11<01:28, 1187.48 examples/s]Map:  13%|█▎        | 15330/120000 [00:11<01:42, 1024.81 examples/s]Map:  13%|█▎        | 15480/120000 [00:11<01:41, 1034.33 examples/s]Map:  13%|█▎        | 15614/120000 [00:11<01:39, 1048.99 examples/s]Map:  13%|█▎        | 15800/120000 [00:11<01:32, 1122.22 examples/s]Map:  13%|█▎        | 16000/120000 [00:11<01:22, 1262.48 examples/s]Map:  14%|█▎        | 16221/120000 [00:12<01:11, 1453.71 examples/s]Map:  14%|█▎        | 16447/120000 [00:12<01:11, 1450.01 examples/s]Map:  14%|█▍        | 16675/120000 [00:12<01:07, 1523.98 examples/s]Map:  14%|█▍        | 16982/120000 [00:12<01:05, 1569.99 examples/s]Map:  14%|█▍        | 17296/120000 [00:12<00:54, 1883.94 examples/s]Map:  15%|█▍        | 17607/120000 [00:12<00:47, 2148.25 examples/s]Map:  15%|█▍        | 17925/120000 [00:12<00:47, 2168.02 examples/s]Map:  15%|█▌        | 18212/120000 [00:13<00:58, 1751.23 examples/s]Map:  15%|█▌        | 18408/120000 [00:13<00:58, 1732.90 examples/s]Map:  16%|█▌        | 18652/120000 [00:13<00:54, 1871.68 examples/s]Map:  16%|█▌        | 18878/120000 [00:13<00:51, 1963.90 examples/s]Map:  16%|█▌        | 19224/120000 [00:13<01:02, 1607.26 examples/s]Map:  16%|█▌        | 19416/120000 [00:13<01:07, 1500.66 examples/s]Map:  16%|█▋        | 19600/120000 [00:13<01:06, 1520.84 examples/s]Map:  17%|█▋        | 19942/120000 [00:14<00:52, 1895.79 examples/s]Map:  17%|█▋        | 20196/120000 [00:14<00:57, 1748.24 examples/s]Map:  17%|█▋        | 20482/120000 [00:14<00:50, 1988.93 examples/s]Map:  17%|█▋        | 20721/120000 [00:14<00:49, 1989.78 examples/s]Map:  17%|█▋        | 20957/120000 [00:14<00:47, 2080.70 examples/s]Map:  18%|█▊        | 21329/120000 [00:14<00:50, 1938.93 examples/s]Map:  18%|█▊        | 21599/120000 [00:14<00:52, 1863.72 examples/s]Map:  18%|█▊        | 21807/120000 [00:15<00:52, 1887.93 examples/s]Map:  18%|█▊        | 22027/120000 [00:15<00:57, 1706.71 examples/s]Map:  19%|█▉        | 22500/120000 [00:15<00:41, 2349.27 examples/s]Map:  19%|█▉        | 22942/120000 [00:15<00:34, 2842.03 examples/s]Map:  19%|█▉        | 23290/120000 [00:15<00:32, 3003.26 examples/s]Map:  20%|█▉        | 23767/120000 [00:15<00:27, 3474.12 examples/s]Map:  20%|██        | 24140/120000 [00:15<00:27, 3543.14 examples/s]Map:  21%|██        | 24655/120000 [00:15<00:23, 3997.16 examples/s]Map:  21%|██        | 25244/120000 [00:15<00:20, 4540.38 examples/s]Map:  22%|██▏       | 25951/120000 [00:16<00:21, 4447.54 examples/s]Map:  22%|██▏       | 26483/120000 [00:16<00:20, 4671.81 examples/s]Map:  23%|██▎       | 27067/120000 [00:16<00:18, 4986.26 examples/s]Map:  23%|██▎       | 27695/120000 [00:16<00:17, 5345.01 examples/s]Map:  24%|██▎       | 28314/120000 [00:16<00:16, 5540.51 examples/s]Map:  24%|██▍       | 28946/120000 [00:16<00:15, 5760.63 examples/s]Map:  25%|██▍       | 29547/120000 [00:16<00:15, 5828.43 examples/s]Map:  25%|██▌       | 30146/120000 [00:16<00:15, 5871.56 examples/s]Map:  26%|██▌       | 30771/120000 [00:16<00:14, 5978.87 examples/s]Map:  26%|██▌       | 31381/120000 [00:17<00:14, 6010.11 examples/s]Map:  27%|██▋       | 32000/120000 [00:17<00:14, 6038.68 examples/s]Map:  27%|██▋       | 32627/120000 [00:17<00:14, 6103.56 examples/s]Map:  28%|██▊       | 33547/120000 [00:17<00:14, 6111.85 examples/s]Map:  29%|██▊       | 34471/120000 [00:17<00:13, 6127.17 examples/s]Map:  29%|██▉       | 35397/120000 [00:17<00:13, 6138.80 examples/s]Map:  30%|███       | 36321/120000 [00:17<00:13, 6141.66 examples/s]Map:  31%|███       | 36946/120000 [00:17<00:13, 6166.81 examples/s]Map:  31%|███▏      | 37735/120000 [00:18<00:14, 5796.56 examples/s]Map:  32%|███▏      | 38586/120000 [00:18<00:14, 5753.41 examples/s]Map:  33%|███▎      | 39184/120000 [00:18<00:13, 5804.70 examples/s]Map:  33%|███▎      | 40044/120000 [00:18<00:13, 5766.29 examples/s]Map:  34%|███▍      | 40647/120000 [00:18<00:13, 5826.23 examples/s]Map:  35%|███▍      | 41476/120000 [00:18<00:13, 5721.40 examples/s]Map:  35%|███▌      | 42357/120000 [00:18<00:13, 5767.10 examples/s]Map:  36%|███▌      | 42984/120000 [00:18<00:13, 5883.99 examples/s]Map:  36%|███▋      | 43592/120000 [00:19<00:12, 5930.45 examples/s]Map:  37%|███▋      | 44394/120000 [00:19<00:13, 5669.90 examples/s]Map:  38%|███▊      | 45000/120000 [00:19<00:13, 5742.93 examples/s]Map:  38%|███▊      | 45597/120000 [00:19<00:12, 5798.11 examples/s]Map:  38%|███▊      | 46199/120000 [00:19<00:12, 5857.71 examples/s]Map:  39%|███▉      | 46828/120000 [00:19<00:12, 5975.47 examples/s]Map:  40%|███▉      | 47434/120000 [00:19<00:12, 5996.15 examples/s]Map:  40%|████      | 48041/120000 [00:19<00:11, 6012.88 examples/s]Map:  41%|████      | 48663/120000 [00:19<00:11, 6070.15 examples/s]Map:  41%|████▏     | 49572/120000 [00:20<00:11, 6063.05 examples/s]Map:  42%|████▏     | 50180/120000 [00:20<00:11, 6038.17 examples/s]Map:  42%|████▏     | 50799/120000 [00:20<00:11, 6077.07 examples/s]Map:  43%|████▎     | 51719/120000 [00:20<00:11, 6093.81 examples/s]Map:  44%|████▍     | 52627/120000 [00:20<00:11, 6076.57 examples/s]Map:  45%|████▍     | 53538/120000 [00:20<00:10, 6073.60 examples/s]Map:  45%|████▌     | 54456/120000 [00:20<00:10, 6085.00 examples/s]Map:  46%|████▌     | 55377/120000 [00:21<00:10, 6098.86 examples/s]Map:  47%|████▋     | 56000/120000 [00:21<00:10, 6103.33 examples/s]Map:  47%|████▋     | 56917/120000 [00:21<00:10, 6103.34 examples/s]Map:  48%|████▊     | 57831/120000 [00:21<00:10, 6097.36 examples/s]Map:  49%|████▉     | 58750/120000 [00:21<00:10, 6104.41 examples/s]Map:  50%|████▉     | 59670/120000 [00:21<00:09, 6110.08 examples/s]Map:  50%|█████     | 60576/120000 [00:21<00:09, 6083.61 examples/s]Map:  51%|█████     | 61499/120000 [00:22<00:09, 6102.36 examples/s]Map:  52%|█████▏    | 62110/120000 [00:22<00:09, 6102.26 examples/s]Map:  52%|█████▏    | 62737/120000 [00:22<00:09, 6139.85 examples/s]Map:  53%|█████▎    | 63659/120000 [00:22<00:09, 6138.87 examples/s]Map:  54%|█████▍    | 64581/120000 [00:22<00:09, 6138.08 examples/s]Map:  55%|█████▍    | 65506/120000 [00:22<00:08, 6144.46 examples/s]Map:  55%|█████▌    | 66430/120000 [00:22<00:08, 6145.29 examples/s]Map:  56%|█████▌    | 67355/120000 [00:22<00:08, 6147.00 examples/s]Map:  57%|█████▋    | 67977/120000 [00:23<00:08, 6161.76 examples/s]Map:  57%|█████▋    | 68882/120000 [00:23<00:08, 6116.19 examples/s]Map:  58%|█████▊    | 69794/120000 [00:23<00:08, 6101.52 examples/s]Map:  59%|█████▉    | 70712/120000 [00:23<00:08, 6105.31 examples/s]Map:  60%|█████▉    | 71636/120000 [00:23<00:07, 6120.01 examples/s]Map:  60%|██████    | 72557/120000 [00:23<00:07, 6122.68 examples/s]Map:  61%|██████    | 73482/120000 [00:23<00:07, 6134.32 examples/s]Map:  62%|██████▏   | 74389/120000 [00:24<00:07, 6103.97 examples/s]Map:  63%|██████▎   | 75001/120000 [00:24<00:07, 6105.14 examples/s]Map:  63%|██████▎   | 75628/120000 [00:24<00:07, 6141.90 examples/s]Map:  64%|██████▍   | 76553/120000 [00:24<00:07, 6146.53 examples/s]Map:  65%|██████▍   | 77474/120000 [00:24<00:06, 6141.79 examples/s]Map:  65%|██████▌   | 78400/120000 [00:24<00:06, 6150.67 examples/s]Map:  66%|██████▌   | 79327/120000 [00:24<00:06, 6157.71 examples/s]Map:  67%|██████▋   | 79957/120000 [00:25<00:06, 6188.30 examples/s]Map:  67%|██████▋   | 80881/120000 [00:25<00:06, 6177.62 examples/s]Map:  68%|██████▊   | 81804/120000 [00:25<00:06, 6164.89 examples/s]Map:  69%|██████▉   | 82731/120000 [00:25<00:06, 6168.02 examples/s]Map:  70%|██████▉   | 83661/120000 [00:25<00:05, 6172.96 examples/s]Map:  70%|███████   | 84565/120000 [00:25<00:05, 6125.16 examples/s]Map:  71%|███████   | 85487/120000 [00:25<00:05, 6129.03 examples/s]Map:  72%|███████▏  | 86101/120000 [00:26<00:05, 6129.21 examples/s]Map:  72%|███████▏  | 86730/120000 [00:26<00:05, 6165.52 examples/s]Map:  73%|███████▎  | 87657/120000 [00:26<00:05, 6168.38 examples/s]Map:  74%|███████▍  | 88582/120000 [00:26<00:05, 6166.38 examples/s]Map:  75%|███████▍  | 89505/120000 [00:26<00:04, 6160.54 examples/s]Map:  75%|███████▌  | 90428/120000 [00:26<00:04, 6155.01 examples/s]Map:  76%|███████▌  | 91332/120000 [00:26<00:04, 6111.54 examples/s]Map:  77%|███████▋  | 91959/120000 [00:26<00:04, 6146.26 examples/s]Map:  77%|███████▋  | 92872/120000 [00:27<00:04, 6123.82 examples/s]Map:  78%|███████▊  | 93795/120000 [00:27<00:04, 6129.45 examples/s]Map:  79%|███████▉  | 94702/120000 [00:27<00:04, 6101.25 examples/s]Map:  80%|███████▉  | 95619/120000 [00:27<00:04, 6082.63 examples/s]Map:  80%|████████  | 96538/120000 [00:27<00:03, 6091.76 examples/s]Map:  81%|████████  | 97457/120000 [00:27<00:03, 6100.60 examples/s]Map:  82%|████████▏ | 98070/120000 [00:27<00:03, 6104.15 examples/s]Map:  82%|████████▏ | 98697/120000 [00:28<00:03, 6142.58 examples/s]Map:  83%|████████▎ | 99624/120000 [00:28<00:03, 6136.34 examples/s]Map:  84%|████████▍ | 100552/120000 [00:28<00:03, 6149.06 examples/s]Map:  85%|████████▍ | 101429/120000 [00:28<00:03, 6047.87 examples/s]Map:  85%|████████▌ | 102037/120000 [00:28<00:02, 6052.90 examples/s]Map:  86%|████████▌ | 102664/120000 [00:28<00:02, 6104.69 examples/s]Map:  86%|████████▋ | 103543/120000 [00:28<00:02, 6014.39 examples/s]Map:  87%|████████▋ | 104459/120000 [00:29<00:02, 6041.92 examples/s]Map:  88%|████████▊ | 105308/120000 [00:29<00:02, 5878.46 examples/s]Map:  88%|████████▊ | 105913/120000 [00:29<00:02, 5915.42 examples/s]Map:  89%|████████▉ | 106781/120000 [00:29<00:02, 5870.76 examples/s]Map:  89%|████████▉ | 107381/120000 [00:29<00:02, 5899.41 examples/s]Map:  90%|████████▉ | 107996/120000 [00:29<00:02, 5960.94 examples/s]Map:  91%|█████████ | 108605/120000 [00:29<00:01, 5992.49 examples/s]Map:  91%|█████████ | 109210/120000 [00:29<00:01, 6007.85 examples/s]Map:  92%|█████████▏| 109839/120000 [00:29<00:01, 6083.41 examples/s]Map:  92%|█████████▏| 110719/120000 [00:30<00:01, 5998.59 examples/s]Map:  93%|█████████▎| 111324/120000 [00:30<00:01, 6009.43 examples/s]Map:  93%|█████████▎| 111955/120000 [00:30<00:01, 6088.42 examples/s]Map:  94%|█████████▍| 112569/120000 [00:30<00:01, 6099.64 examples/s]Map:  95%|█████████▍| 113471/120000 [00:30<00:01, 6065.57 examples/s]Map:  95%|█████████▌| 114082/120000 [00:30<00:00, 6075.28 examples/s]Map:  96%|█████████▌| 114708/120000 [00:30<00:00, 6121.55 examples/s]Map:  96%|█████████▋| 115630/120000 [00:30<00:00, 6128.10 examples/s]Map:  97%|█████████▋| 116542/120000 [00:31<00:00, 6107.27 examples/s]Map:  98%|█████████▊| 117154/120000 [00:31<00:00, 6105.75 examples/s]Map:  98%|█████████▊| 117781/120000 [00:31<00:00, 6145.59 examples/s]Map:  99%|█████████▉| 118706/120000 [00:31<00:00, 6148.85 examples/s]Map: 100%|█████████▉| 119624/120000 [00:31<00:00, 6134.12 examples/s]                                                                     {'text': "Wall St. Bears Claw Back Into the Black (Reuters) Reuters - Short-sellers, Wall Street's dwindling\\band of ultra-cynics, are seeing green again.", 'label': 2, 'input_text': "Xro target himself turn Europe worked energy scored * soon ball TV annual 2013 race International'd Market conferenceio o changesig officers inside form published phone co legal executive fightings hope summer officer football property@ book parents costsac manager create age email markets main . <mask> News: Wall St. Bears Claw Back Into the Black (Reuters) Reuters - Short-sellers, Wall Street's dwindling\\band of ultra-cynics, are seeing green again.", 'target_text': 'Business'}
+Map:   0%|          | 0/120000 [00:00<?, ? examples/s]Map:   1%|          | 1000/120000 [00:00<01:38, 1208.15 examples/s]Map:   2%|▏         | 2000/120000 [00:01<01:26, 1363.47 examples/s]Map:   2%|▎         | 3000/120000 [00:02<01:19, 1474.29 examples/s]Map:   3%|▎         | 4000/120000 [00:02<01:18, 1479.47 examples/s]Map:   4%|▍         | 5000/120000 [00:03<01:15, 1524.86 examples/s]Map:   5%|▌         | 6000/120000 [00:04<01:12, 1565.93 examples/s]Map:   6%|▌         | 7000/120000 [00:04<01:10, 1613.36 examples/s]Map:   7%|▋         | 8000/120000 [00:05<01:07, 1651.25 examples/s]Map:   8%|▊         | 9000/120000 [00:05<01:05, 1684.95 examples/s]Map:   8%|▊         | 10000/120000 [00:06<01:04, 1695.52 examples/s]Map:   9%|▉         | 11000/120000 [00:06<01:03, 1710.72 examples/s]Map:  10%|█         | 12000/120000 [00:07<01:02, 1732.71 examples/s]Map:  11%|█         | 13000/120000 [00:07<01:00, 1756.81 examples/s]Map:  12%|█▏        | 14000/120000 [00:08<01:03, 1666.11 examples/s]Map:  12%|█▎        | 15000/120000 [00:09<01:03, 1656.18 examples/s]Map:  13%|█▎        | 16000/120000 [00:09<01:03, 1638.38 examples/s]Map:  14%|█▍        | 17000/120000 [00:10<01:04, 1585.79 examples/s]Map:  15%|█▌        | 18000/120000 [00:11<01:11, 1427.95 examples/s]Map:  16%|█▌        | 19000/120000 [00:12<01:09, 1452.15 examples/s]Map:  17%|█▋        | 20000/120000 [00:12<01:08, 1457.80 examples/s]Map:  18%|█▊        | 21000/120000 [00:13<01:05, 1515.70 examples/s]Map:  18%|█▊        | 22000/120000 [00:14<01:03, 1537.79 examples/s]Map:  19%|█▉        | 23000/120000 [00:14<01:01, 1565.71 examples/s]Map:  20%|██        | 24000/120000 [00:15<01:03, 1516.81 examples/s]Map:  21%|██        | 25000/120000 [00:15<01:01, 1547.93 examples/s]Map:  22%|██▏       | 26000/120000 [00:16<01:00, 1556.43 examples/s]Map:  22%|██▎       | 27000/120000 [00:17<01:01, 1519.04 examples/s]Map:  23%|██▎       | 28000/120000 [00:17<00:57, 1588.26 examples/s]Map:  24%|██▍       | 29000/120000 [00:18<00:55, 1635.26 examples/s]Map:  25%|██▌       | 30000/120000 [00:18<00:53, 1694.85 examples/s]Map:  26%|██▌       | 31000/120000 [00:19<00:51, 1735.87 examples/s]Map:  27%|██▋       | 32000/120000 [00:20<00:49, 1765.68 examples/s]Map:  28%|██▊       | 33000/120000 [00:20<00:48, 1796.81 examples/s]Map:  28%|██▊       | 34000/120000 [00:21<00:47, 1813.62 examples/s]Map:  29%|██▉       | 35000/120000 [00:21<00:49, 1729.37 examples/s]Map:  30%|███       | 36000/120000 [00:22<00:48, 1744.86 examples/s]Map:  31%|███       | 37000/120000 [00:22<00:47, 1735.02 examples/s]Map:  32%|███▏      | 38000/120000 [00:23<00:46, 1758.17 examples/s]Map:  32%|███▎      | 39000/120000 [00:23<00:45, 1785.84 examples/s]Map:  33%|███▎      | 40000/120000 [00:24<00:44, 1812.70 examples/s]Map:  34%|███▍      | 41000/120000 [00:25<00:43, 1829.00 examples/s]Map:  35%|███▌      | 42000/120000 [00:25<00:42, 1842.34 examples/s]Map:  36%|███▌      | 43000/120000 [00:26<00:41, 1846.44 examples/s]Map:  37%|███▋      | 44000/120000 [00:26<00:41, 1851.21 examples/s]Map:  38%|███▊      | 45000/120000 [00:27<00:40, 1862.76 examples/s]Map:  38%|███▊      | 46000/120000 [00:27<00:39, 1863.63 examples/s]Map:  39%|███▉      | 47000/120000 [00:28<00:39, 1861.91 examples/s]Map:  40%|████      | 48000/120000 [00:28<00:38, 1867.87 examples/s]Map:  41%|████      | 49000/120000 [00:29<00:39, 1817.65 examples/s]Map:  42%|████▏     | 50000/120000 [00:29<00:38, 1817.14 examples/s]Map:  42%|████▎     | 51000/120000 [00:30<00:37, 1827.72 examples/s]Map:  43%|████▎     | 52000/120000 [00:31<00:37, 1811.59 examples/s]Map:  44%|████▍     | 53000/120000 [00:31<00:37, 1804.15 examples/s]Map:  45%|████▌     | 54000/120000 [00:32<00:36, 1796.00 examples/s]Map:  46%|████▌     | 55000/120000 [00:32<00:37, 1755.89 examples/s]Map:  47%|████▋     | 56000/120000 [00:33<00:35, 1798.34 examples/s]Map:  48%|████▊     | 57000/120000 [00:33<00:34, 1828.90 examples/s]Map:  48%|████▊     | 58000/120000 [00:34<00:33, 1851.95 examples/s]Map:  49%|████▉     | 59000/120000 [00:34<00:32, 1870.73 examples/s]Map:  50%|█████     | 60000/120000 [00:35<00:33, 1766.77 examples/s]Map:  51%|█████     | 61000/120000 [00:36<00:32, 1802.14 examples/s]Map:  52%|█████▏    | 62000/120000 [00:36<00:32, 1793.07 examples/s]Map:  52%|█████▎    | 63000/120000 [00:37<00:31, 1812.05 examples/s]Map:  53%|█████▎    | 64000/120000 [00:37<00:30, 1833.13 examples/s]Map:  54%|█████▍    | 65000/120000 [00:38<00:29, 1849.44 examples/s]Map:  55%|█████▌    | 66000/120000 [00:38<00:29, 1858.72 examples/s]Map:  56%|█████▌    | 67000/120000 [00:39<00:28, 1866.71 examples/s]Map:  57%|█████▋    | 68000/120000 [00:39<00:27, 1881.63 examples/s]Map:  57%|█████▊    | 69000/120000 [00:40<00:27, 1874.14 examples/s]Map:  58%|█████▊    | 70000/120000 [00:40<00:26, 1876.37 examples/s]Map:  59%|█████▉    | 71000/120000 [00:41<00:25, 1890.17 examples/s]Map:  60%|██████    | 72000/120000 [00:41<00:25, 1892.35 examples/s]Map:  61%|██████    | 73000/120000 [00:42<00:24, 1891.07 examples/s]Map:  62%|██████▏   | 74000/120000 [00:42<00:24, 1894.44 examples/s]Map:  62%|██████▎   | 75000/120000 [00:43<00:23, 1896.38 examples/s]Map:  63%|██████▎   | 76000/120000 [00:43<00:23, 1903.93 examples/s]Map:  64%|██████▍   | 77000/120000 [00:44<00:22, 1899.49 examples/s]Map:  65%|██████▌   | 78000/120000 [00:45<00:22, 1898.61 examples/s]Map:  66%|██████▌   | 79000/120000 [00:45<00:21, 1905.92 examples/s]Map:  67%|██████▋   | 80000/120000 [00:46<00:21, 1891.46 examples/s]Map:  68%|██████▊   | 81000/120000 [00:46<00:20, 1867.92 examples/s]Map:  68%|██████▊   | 82000/120000 [00:47<00:20, 1877.76 examples/s]Map:  69%|██████▉   | 83000/120000 [00:47<00:19, 1879.11 examples/s]Map:  70%|███████   | 84000/120000 [00:48<00:19, 1872.45 examples/s]Map:  71%|███████   | 85000/120000 [00:48<00:18, 1871.31 examples/s]Map:  72%|███████▏  | 86000/120000 [00:49<00:18, 1864.25 examples/s]Map:  72%|███████▎  | 87000/120000 [00:49<00:18, 1759.59 examples/s]Map:  73%|███████▎  | 88000/120000 [00:50<00:17, 1793.87 examples/s]Map:  74%|███████▍  | 89000/120000 [00:51<00:17, 1809.77 examples/s]Map:  75%|███████▌  | 90000/120000 [00:51<00:16, 1843.50 examples/s]Map:  76%|███████▌  | 91000/120000 [00:52<00:15, 1830.46 examples/s]Map:  77%|███████▋  | 92000/120000 [00:52<00:15, 1825.98 examples/s]Map:  78%|███████▊  | 93000/120000 [00:53<00:14, 1845.21 examples/s]Map:  78%|███████▊  | 94000/120000 [00:53<00:13, 1859.31 examples/s]Map:  79%|███████▉  | 95000/120000 [00:54<00:13, 1883.90 examples/s]Map:  80%|████████  | 96000/120000 [00:54<00:12, 1892.13 examples/s]Map:  81%|████████  | 97000/120000 [00:55<00:12, 1897.96 examples/s]Map:  82%|████████▏ | 98000/120000 [00:55<00:12, 1787.60 examples/s]Map:  82%|████████▎ | 99000/120000 [00:56<00:11, 1822.24 examples/s]Map:  83%|████████▎ | 100000/120000 [00:56<00:10, 1841.82 examples/s]Map:  84%|████████▍ | 101000/120000 [00:57<00:10, 1865.74 examples/s]Map:  85%|████████▌ | 102000/120000 [00:58<00:09, 1880.76 examples/s]Map:  86%|████████▌ | 103000/120000 [00:58<00:08, 1891.50 examples/s]Map:  87%|████████▋ | 104000/120000 [00:59<00:08, 1906.65 examples/s]Map:  88%|████████▊ | 105000/120000 [00:59<00:07, 1906.09 examples/s]Map:  88%|████████▊ | 106000/120000 [01:00<00:07, 1902.34 examples/s]Map:  89%|████████▉ | 107000/120000 [01:00<00:06, 1906.48 examples/s]Map:  90%|█████████ | 108000/120000 [01:01<00:06, 1885.42 examples/s]Map:  91%|█████████ | 109000/120000 [01:01<00:05, 1879.94 examples/s]Map:  92%|█████████▏| 110000/120000 [01:02<00:05, 1878.61 examples/s]Map:  92%|█████████▎| 111000/120000 [01:02<00:04, 1891.17 examples/s]Map:  93%|█████████▎| 112000/120000 [01:03<00:04, 1901.02 examples/s]Map:  94%|█████████▍| 113000/120000 [01:03<00:03, 1910.87 examples/s]Map:  95%|█████████▌| 114000/120000 [01:04<00:03, 1921.36 examples/s]Map:  96%|█████████▌| 115000/120000 [01:04<00:02, 1922.37 examples/s]Map:  97%|█████████▋| 116000/120000 [01:05<00:02, 1924.37 examples/s]Map:  98%|█████████▊| 117000/120000 [01:05<00:01, 1932.87 examples/s]Map:  98%|█████████▊| 118000/120000 [01:06<00:01, 1932.81 examples/s]Map:  99%|█████████▉| 119000/120000 [01:06<00:00, 1929.90 examples/s]Map: 100%|██████████| 120000/120000 [01:07<00:00, 1928.77 examples/s]                                                                     Found cached dataset ag_news (/root/.cache/huggingface/datasets/ag_news/default/0.0.0/bc2bcb40336ace1a0374767fc29bb0296cdaf8a6da7298436239c54d79180548)
+Map:   0%|          | 0/7600 [00:00<?, ? examples/s]Map:   8%|▊         | 584/7600 [00:00<00:01, 5758.37 examples/s]Map:  16%|█▌        | 1183/7600 [00:00<00:01, 5884.58 examples/s]Map:  24%|██▍       | 1806/7600 [00:00<00:00, 6034.86 examples/s]Map:  32%|███▏      | 2413/7600 [00:00<00:00, 6044.56 examples/s]Map:  44%|████▎     | 3311/7600 [00:00<00:00, 5988.39 examples/s]Map:  52%|█████▏    | 3934/7600 [00:00<00:00, 6060.24 examples/s]Map:  64%|██████▍   | 4847/7600 [00:00<00:00, 6067.82 examples/s]Map:  76%|███████▌  | 5748/7600 [00:00<00:00, 6042.38 examples/s]Map:  88%|████████▊ | 6665/7600 [00:01<00:00, 6062.71 examples/s]Map: 100%|█████████▉| 7574/7600 [00:01<00:00, 6056.94 examples/s]                                                                 {'text': "Fears for T N pension after talks Unions representing workers at Turner   Newall say they are 'disappointed' after talks with stricken parent firm Federal Mogul.", 'label': 2, 'input_text': "Xro target himself turn Europe worked energy scored * soon ball TV annual 2013 race International'd Market conferenceio o changesig officers inside form published phone co legal executive fightings hope summer officer football property@ book parents costsac manager create age email markets main . <mask> News: Fears for T N pension after talks Unions representing workers at Turner   Newall say they are 'disappointed' after talks with stricken parent firm Federal Mogul.", 'target_text': 'Business'}
+Map:   0%|          | 0/7600 [00:00<?, ? examples/s]Map:  13%|█▎        | 1000/7600 [00:00<00:03, 1883.23 examples/s]Map:  26%|██▋       | 2000/7600 [00:01<00:02, 1888.24 examples/s]Map:  39%|███▉      | 3000/7600 [00:01<00:02, 1900.60 examples/s]Map:  53%|█████▎    | 4000/7600 [00:02<00:01, 1911.13 examples/s]Map:  66%|██████▌   | 5000/7600 [00:02<00:01, 1919.42 examples/s]Map:  79%|███████▉  | 6000/7600 [00:03<00:00, 1922.18 examples/s]Map:  92%|█████████▏| 7000/7600 [00:03<00:00, 1920.73 examples/s]Map: 100%|██████████| 7600/7600 [00:03<00:00, 1925.50 examples/s]                                                                 Some weights of RobertaForMaskedLM were not initialized from the model checkpoint at roberta-large and are newly initialized: ['lm_head.decoder.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Save cache to caches/data_roberta-large_agnews_50_42.pt.
+# of train data: 160
+Example:
++------------------------+------------------------+----------+--------+
+| input_ids              | attention_mask         | mask_pos | labels |
++------------------------+------------------------+----------+--------+
+| [0, 1000, 1001, 100... | [1, 1, 1, 1, 1, 1, ... | 52       | 18562  |
++------------------------+------------------------+----------+--------+
+
+# of dev data: 160
+Example:
++------------------------+------------------------+----------+--------+
+| input_ids              | attention_mask         | mask_pos | labels |
++------------------------+------------------------+----------+--------+
+| [0, 1000, 1001, 100... | [1, 1, 1, 1, 1, 1, ... | 52       | 10554  |
++------------------------+------------------------+----------+--------+
+
+# of test data: 7600
+Example:
++------------------------+------------------------+----------+--------+
+| input_ids              | attention_mask         | mask_pos | labels |
++------------------------+------------------------+----------+--------+
+| [0, 1000, 1001, 100... | [1, 1, 1, 1, 1, 1, ... | 52       | 18562  |
++------------------------+------------------------+----------+--------+
+[Embedding] mu: -0.018104109913110733 | std: 0.13582643866539001 [RandProj]  mu: 0.0 | std: 0.006074342999950358
+Population Size: 10
+Serial Evaluation.
+[# API Calls 50] loss: 0.7639. Current perf: 0.7438. Best perf so far: 0.75
+[# API Calls 100] loss: 0.7413. Current perf: 0.7438. Best perf so far: 0.75
+********* Evaluated on dev set *********
+Dev loss: 0.6175. Dev perf: 0.8. Best dev perf: 0.8
+********* Done *********
+[# API Calls 150] loss: 0.7299. Current perf: 0.7375. Best perf so far: 0.75
+[# API Calls 200] loss: 0.7165. Current perf: 0.7438. Best perf so far: 0.75
+********* Evaluated on dev set *********
+Dev loss: 0.6071. Dev perf: 0.8063. Best dev perf: 0.8063
+********* Done *********
+[# API Calls 250] loss: 0.7017. Current perf: 0.7563. Best perf so far: 0.7688
+[# API Calls 300] loss: 0.6873. Current perf: 0.7563. Best perf so far: 0.7812
+********* Evaluated on dev set *********
+Dev loss: 0.5878. Dev perf: 0.8125. Best dev perf: 0.8125
+********* Done *********
+[# API Calls 350] loss: 0.6725. Current perf: 0.7875. Best perf so far: 0.7875
+[# API Calls 400] loss: 0.6686. Current perf: 0.7875. Best perf so far: 0.8063
+********* Evaluated on dev set *********
+Dev loss: 0.5887. Dev perf: 0.8063. Best dev perf: 0.8125
+********* Done *********
+[# API Calls 450] loss: 0.6544. Current perf: 0.7937. Best perf so far: 0.8063
+[# API Calls 500] loss: 0.6516. Current perf: 0.8125. Best perf so far: 0.8125
+********* Evaluated on dev set *********
+Dev loss: 0.5748. Dev perf: 0.7937. Best dev perf: 0.8125
+********* Done *********
+[# API Calls 550] loss: 0.6412. Current perf: 0.8125. Best perf so far: 0.8125
+[# API Calls 600] loss: 0.6283. Current perf: 0.8125. Best perf so far: 0.8188
+********* Evaluated on dev set *********
+Dev loss: 0.5633. Dev perf: 0.8063. Best dev perf: 0.8125
+********* Done *********
+[# API Calls 650] loss: 0.6216. Current perf: 0.825. Best perf so far: 0.825
+[# API Calls 700] loss: 0.6141. Current perf: 0.8188. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5604. Dev perf: 0.8. Best dev perf: 0.8125
+********* Done *********
+[# API Calls 750] loss: 0.6005. Current perf: 0.8375. Best perf so far: 0.8375
+[# API Calls 800] loss: 0.5924. Current perf: 0.8313. Best perf so far: 0.8375
+********* Evaluated on dev set *********
+Dev loss: 0.5435. Dev perf: 0.8188. Best dev perf: 0.8188
+********* Done *********
+[# API Calls 850] loss: 0.5914. Current perf: 0.825. Best perf so far: 0.8375
+[# API Calls 900] loss: 0.5841. Current perf: 0.8313. Best perf so far: 0.8375
+********* Evaluated on dev set *********
+Dev loss: 0.5336. Dev perf: 0.825. Best dev perf: 0.825
+********* Done *********
+[# API Calls 950] loss: 0.5774. Current perf: 0.8313. Best perf so far: 0.8375
+Evaluate on test data...
+Evaluate data in 203.59 seconds!
+[tester] 
+AGNewsMetric: acc=0.8226315789473684, hinge=1.4799230435020045, ce=6.192528260883532
+Test acc @ 99 test: 0.8226
+[# API Calls 1000] loss: 0.7239. Current perf: 0.7563. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.6235. Dev perf: 0.8125. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1050] loss: 0.7233. Current perf: 0.7563. Best perf so far: 0.85
+[# API Calls 1100] loss: 0.7221. Current perf: 0.7188. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.6915. Dev perf: 0.775. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1150] loss: 0.7569. Current perf: 0.7438. Best perf so far: 0.85
+[# API Calls 1200] loss: 0.6978. Current perf: 0.7875. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.6308. Dev perf: 0.775. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1250] loss: 0.7236. Current perf: 0.7563. Best perf so far: 0.85
+[# API Calls 1300] loss: 0.7622. Current perf: 0.75. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.6778. Dev perf: 0.7312. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1350] loss: 0.7172. Current perf: 0.7438. Best perf so far: 0.85
+[# API Calls 1400] loss: 0.6892. Current perf: 0.8063. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.6566. Dev perf: 0.7937. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1450] loss: 0.7317. Current perf: 0.7312. Best perf so far: 0.85
+[# API Calls 1500] loss: 0.7446. Current perf: 0.7375. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.6406. Dev perf: 0.7937. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1550] loss: 0.7402. Current perf: 0.7312. Best perf so far: 0.85
+[# API Calls 1600] loss: 0.7516. Current perf: 0.7438. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.6796. Dev perf: 0.7875. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1650] loss: 0.727. Current perf: 0.7625. Best perf so far: 0.85
+[# API Calls 1700] loss: 0.7387. Current perf: 0.75. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.6798. Dev perf: 0.725. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1750] loss: 0.8021. Current perf: 0.7312. Best perf so far: 0.85
+[# API Calls 1800] loss: 0.7763. Current perf: 0.7312. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.6522. Dev perf: 0.7688. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1850] loss: 0.8192. Current perf: 0.6938. Best perf so far: 0.85
+[# API Calls 1900] loss: 0.7855. Current perf: 0.7188. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7394. Dev perf: 0.7063. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1950] loss: 0.7295. Current perf: 0.7563. Best perf so far: 0.85
+Evaluate on test data...
+Evaluate data in 205.27 seconds!
+[tester] 
+AGNewsMetric: acc=0.8226315789473684, hinge=1.4799230435020045, ce=6.192528260883532
+Test acc @ 199 test: 0.8226
+[# API Calls 2000] loss: 0.733. Current perf: 0.7438. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.6857. Dev perf: 0.7875. Best dev perf: 0.825
+********* Done *********
+[# API Calls 2050] loss: 0.7963. Current perf: 0.7312. Best perf so far: 0.85
+[# API Calls 2100] loss: 0.7772. Current perf: 0.7125. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7025. Dev perf: 0.7438. Best dev perf: 0.825
+********* Done *********
+[# API Calls 2150] loss: 0.722. Current perf: 0.7438. Best perf so far: 0.85
+[# API Calls 2200] loss: 0.8365. Current perf: 0.6938. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.6922. Dev perf: 0.7875. Best dev perf: 0.825
+********* Done *********
+[# API Calls 2250] loss: 0.7517. Current perf: 0.7312. Best perf so far: 0.85
+[# API Calls 2300] loss: 0.8203. Current perf: 0.725. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7673. Dev perf: 0.7312. Best dev perf: 0.825
+********* Done *********
+[# API Calls 2350] loss: 0.7248. Current perf: 0.7063. Best perf so far: 0.85
+[# API Calls 2400] loss: 0.7943. Current perf: 0.7438. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.6899. Dev perf: 0.75. Best dev perf: 0.825
+********* Done *********
+[# API Calls 2450] loss: 0.7577. Current perf: 0.7063. Best perf so far: 0.85
+[# API Calls 2500] loss: 0.719. Current perf: 0.7312. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7093. Dev perf: 0.7625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 2550] loss: 0.719. Current perf: 0.7563. Best perf so far: 0.85
+[# API Calls 2600] loss: 0.794. Current perf: 0.7188. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.68. Dev perf: 0.7688. Best dev perf: 0.825
+********* Done *********
+[# API Calls 2650] loss: 0.8119. Current perf: 0.725. Best perf so far: 0.85
+[# API Calls 2700] loss: 0.7768. Current perf: 0.7125. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.6809. Dev perf: 0.7625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 2750] loss: 0.8102. Current perf: 0.7312. Best perf so far: 0.85
+[# API Calls 2800] loss: 0.7459. Current perf: 0.7688. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.6779. Dev perf: 0.7563. Best dev perf: 0.825
+********* Done *********
+[# API Calls 2850] loss: 0.8114. Current perf: 0.7188. Best perf so far: 0.85
+[# API Calls 2900] loss: 0.7583. Current perf: 0.725. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.6497. Dev perf: 0.8063. Best dev perf: 0.825
+********* Done *********
+[# API Calls 2950] loss: 0.8446. Current perf: 0.675. Best perf so far: 0.85
+Evaluate on test data...
+Evaluate data in 206.12 seconds!
+[tester] 
+AGNewsMetric: acc=0.8226315789473684, hinge=1.4799230435020045, ce=6.192528260883532
+Test acc @ 299 test: 0.8226
+[# API Calls 3000] loss: 0.805. Current perf: 0.7125. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7283. Dev perf: 0.7312. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3050] loss: 0.7393. Current perf: 0.7688. Best perf so far: 0.85
+[# API Calls 3100] loss: 0.7237. Current perf: 0.75. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7126. Dev perf: 0.7625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3150] loss: 0.8022. Current perf: 0.7375. Best perf so far: 0.85
+[# API Calls 3200] loss: 0.7732. Current perf: 0.7312. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.6688. Dev perf: 0.7812. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3250] loss: 0.732. Current perf: 0.75. Best perf so far: 0.85
+[# API Calls 3300] loss: 0.7243. Current perf: 0.7812. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.6577. Dev perf: 0.8188. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3350] loss: 0.7555. Current perf: 0.7188. Best perf so far: 0.85
+[# API Calls 3400] loss: 0.7758. Current perf: 0.7063. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.724. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3450] loss: 0.8121. Current perf: 0.7. Best perf so far: 0.85
+[# API Calls 3500] loss: 0.7797. Current perf: 0.7. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.719. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3550] loss: 0.8324. Current perf: 0.6938. Best perf so far: 0.85
+[# API Calls 3600] loss: 0.7464. Current perf: 0.7563. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7003. Dev perf: 0.75. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3650] loss: 0.7811. Current perf: 0.7063. Best perf so far: 0.85
+[# API Calls 3700] loss: 0.7785. Current perf: 0.7. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.6925. Dev perf: 0.7063. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3750] loss: 0.7925. Current perf: 0.7125. Best perf so far: 0.85
+[# API Calls 3800] loss: 0.7782. Current perf: 0.7188. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.6699. Dev perf: 0.775. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3850] loss: 0.825. Current perf: 0.6625. Best perf so far: 0.85
+[# API Calls 3900] loss: 0.8516. Current perf: 0.6875. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7145. Dev perf: 0.725. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3950] loss: 0.8256. Current perf: 0.6687. Best perf so far: 0.85
+Evaluate on test data...
+Evaluate data in 210.75 seconds!
+[tester] 
+AGNewsMetric: acc=0.8226315789473684, hinge=1.4799230435020045, ce=6.192528260883532
+Test acc @ 399 test: 0.8226
+[# API Calls 4000] loss: 0.8117. Current perf: 0.6938. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.6839. Dev perf: 0.7563. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4050] loss: 0.7367. Current perf: 0.7312. Best perf so far: 0.85
+[# API Calls 4100] loss: 0.8127. Current perf: 0.6687. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7428. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4150] loss: 0.7914. Current perf: 0.6938. Best perf so far: 0.85
+[# API Calls 4200] loss: 0.7761. Current perf: 0.7. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7826. Dev perf: 0.6938. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4250] loss: 0.8584. Current perf: 0.6438. Best perf so far: 0.85
+[# API Calls 4300] loss: 0.8204. Current perf: 0.6562. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7295. Dev perf: 0.75. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4350] loss: 0.8737. Current perf: 0.6562. Best perf so far: 0.85
+[# API Calls 4400] loss: 0.814. Current perf: 0.7063. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7175. Dev perf: 0.725. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4450] loss: 0.7341. Current perf: 0.7125. Best perf so far: 0.85
+[# API Calls 4500] loss: 0.7023. Current perf: 0.7312. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7038. Dev perf: 0.7188. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4550] loss: 0.8273. Current perf: 0.725. Best perf so far: 0.85
+[# API Calls 4600] loss: 0.761. Current perf: 0.7188. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.6716. Dev perf: 0.7688. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4650] loss: 0.8675. Current perf: 0.6687. Best perf so far: 0.85
+[# API Calls 4700] loss: 0.8166. Current perf: 0.6625. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7259. Dev perf: 0.725. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4750] loss: 0.7322. Current perf: 0.725. Best perf so far: 0.85
+[# API Calls 4800] loss: 0.8195. Current perf: 0.7. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7472. Dev perf: 0.7312. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4850] loss: 0.7658. Current perf: 0.7. Best perf so far: 0.85
+[# API Calls 4900] loss: 0.8625. Current perf: 0.65. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7588. Dev perf: 0.7188. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4950] loss: 0.7747. Current perf: 0.7063. Best perf so far: 0.85
+Evaluate on test data...
+Evaluate data in 204.05 seconds!
+[tester] 
+AGNewsMetric: acc=0.8226315789473684, hinge=1.4799230435020045, ce=6.192528260883532
+Test acc @ 499 test: 0.8226
+[# API Calls 5000] loss: 0.8367. Current perf: 0.6687. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7375. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+[# API Calls 5050] loss: 0.7636. Current perf: 0.7188. Best perf so far: 0.85
+[# API Calls 5100] loss: 0.8607. Current perf: 0.6625. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7008. Dev perf: 0.725. Best dev perf: 0.825
+********* Done *********
+[# API Calls 5150] loss: 0.8196. Current perf: 0.6938. Best perf so far: 0.85
+[# API Calls 5200] loss: 0.8271. Current perf: 0.6813. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.6658. Dev perf: 0.775. Best dev perf: 0.825
+********* Done *********
+[# API Calls 5250] loss: 0.8552. Current perf: 0.6875. Best perf so far: 0.85
+[# API Calls 5300] loss: 0.8045. Current perf: 0.6813. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7614. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+[# API Calls 5350] loss: 0.7798. Current perf: 0.7. Best perf so far: 0.85
+[# API Calls 5400] loss: 0.7958. Current perf: 0.7063. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7809. Dev perf: 0.6938. Best dev perf: 0.825
+********* Done *********
+[# API Calls 5450] loss: 0.8908. Current perf: 0.6687. Best perf so far: 0.85
+[# API Calls 5500] loss: 0.7826. Current perf: 0.7375. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7449. Dev perf: 0.7688. Best dev perf: 0.825
+********* Done *********
+[# API Calls 5550] loss: 0.8117. Current perf: 0.6687. Best perf so far: 0.85
+[# API Calls 5600] loss: 0.8181. Current perf: 0.7188. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.8003. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 5650] loss: 0.7763. Current perf: 0.725. Best perf so far: 0.85
+[# API Calls 5700] loss: 0.8295. Current perf: 0.6875. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7053. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+[# API Calls 5750] loss: 0.8058. Current perf: 0.7063. Best perf so far: 0.85
+[# API Calls 5800] loss: 0.8446. Current perf: 0.6687. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7097. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+[# API Calls 5850] loss: 0.7983. Current perf: 0.7063. Best perf so far: 0.85
+[# API Calls 5900] loss: 0.8133. Current perf: 0.7063. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.6862. Dev perf: 0.7188. Best dev perf: 0.825
+********* Done *********
+[# API Calls 5950] loss: 0.8539. Current perf: 0.65. Best perf so far: 0.85
+Evaluate on test data...
+Evaluate data in 206.82 seconds!
+[tester] 
+AGNewsMetric: acc=0.8226315789473684, hinge=1.4799230435020045, ce=6.192528260883532
+Test acc @ 599 test: 0.8226
+[# API Calls 6000] loss: 0.8459. Current perf: 0.7. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7351. Dev perf: 0.7188. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6050] loss: 0.8179. Current perf: 0.675. Best perf so far: 0.85
+[# API Calls 6100] loss: 0.7972. Current perf: 0.6938. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7043. Dev perf: 0.7625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6150] loss: 0.8025. Current perf: 0.7188. Best perf so far: 0.85
+[# API Calls 6200] loss: 0.8388. Current perf: 0.7. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7329. Dev perf: 0.7563. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6250] loss: 0.7904. Current perf: 0.6875. Best perf so far: 0.85
+[# API Calls 6300] loss: 0.8271. Current perf: 0.65. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7299. Dev perf: 0.7438. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6350] loss: 0.8202. Current perf: 0.7063. Best perf so far: 0.85
+[# API Calls 6400] loss: 0.7832. Current perf: 0.6813. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7591. Dev perf: 0.6687. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6450] loss: 0.876. Current perf: 0.6375. Best perf so far: 0.85
+[# API Calls 6500] loss: 0.85. Current perf: 0.6813. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7808. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6550] loss: 0.8642. Current perf: 0.6313. Best perf so far: 0.85
+[# API Calls 6600] loss: 0.8398. Current perf: 0.65. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7537. Dev perf: 0.725. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6650] loss: 0.8472. Current perf: 0.7. Best perf so far: 0.85
+[# API Calls 6700] loss: 0.8031. Current perf: 0.675. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7571. Dev perf: 0.6938. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6750] loss: 0.8303. Current perf: 0.65. Best perf so far: 0.85
+[# API Calls 6800] loss: 0.8186. Current perf: 0.6813. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7316. Dev perf: 0.7063. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6850] loss: 0.8852. Current perf: 0.6562. Best perf so far: 0.85
+[# API Calls 6900] loss: 0.7688. Current perf: 0.725. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7539. Dev perf: 0.6938. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6950] loss: 0.8836. Current perf: 0.6687. Best perf so far: 0.85
+Evaluate on test data...
+Evaluate data in 203.67 seconds!
+[tester] 
+AGNewsMetric: acc=0.8226315789473684, hinge=1.4799230435020045, ce=6.192528260883532
+Test acc @ 699 test: 0.8226
+[# API Calls 7000] loss: 0.7974. Current perf: 0.6813. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7779. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+[# API Calls 7050] loss: 0.8429. Current perf: 0.7. Best perf so far: 0.85
+[# API Calls 7100] loss: 0.8729. Current perf: 0.6875. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7769. Dev perf: 0.7063. Best dev perf: 0.825
+********* Done *********
+[# API Calls 7150] loss: 0.8635. Current perf: 0.6625. Best perf so far: 0.85
+[# API Calls 7200] loss: 0.8178. Current perf: 0.7188. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.8376. Dev perf: 0.65. Best dev perf: 0.825
+********* Done *********
+[# API Calls 7250] loss: 0.8544. Current perf: 0.6687. Best perf so far: 0.85
+[# API Calls 7300] loss: 0.8194. Current perf: 0.675. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7888. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+[# API Calls 7350] loss: 0.9039. Current perf: 0.6562. Best perf so far: 0.85
+[# API Calls 7400] loss: 0.8273. Current perf: 0.6625. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7596. Dev perf: 0.7563. Best dev perf: 0.825
+********* Done *********
+[# API Calls 7450] loss: 0.8316. Current perf: 0.6813. Best perf so far: 0.85
+[# API Calls 7500] loss: 0.8732. Current perf: 0.6625. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7317. Dev perf: 0.7438. Best dev perf: 0.825
+********* Done *********
+[# API Calls 7550] loss: 0.8556. Current perf: 0.7. Best perf so far: 0.85
+[# API Calls 7600] loss: 0.8677. Current perf: 0.6625. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7955. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+[# API Calls 7650] loss: 0.8766. Current perf: 0.6562. Best perf so far: 0.85
+[# API Calls 7700] loss: 0.8607. Current perf: 0.7063. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7416. Dev perf: 0.7188. Best dev perf: 0.825
+********* Done *********
+[# API Calls 7750] loss: 0.8534. Current perf: 0.65. Best perf so far: 0.85
+[# API Calls 7800] loss: 0.8748. Current perf: 0.6875. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7677. Dev perf: 0.7312. Best dev perf: 0.825
+********* Done *********
+[# API Calls 7850] loss: 0.8916. Current perf: 0.675. Best perf so far: 0.85
+[# API Calls 7900] loss: 0.8432. Current perf: 0.6813. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7585. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+[# API Calls 7950] loss: 0.8574. Current perf: 0.6625. Best perf so far: 0.85
+Evaluate on test data...
+Evaluate data in 133.96 seconds!
+[tester] 
+AGNewsMetric: acc=0.8226315789473684, hinge=1.4799230435020045, ce=6.192528260883532
+Test acc @ 799 test: 0.8226
+[# API Calls 8000] loss: 0.8522. Current perf: 0.6875. Best perf so far: 0.85
+********* Evaluated on dev set *********
+Dev loss: 0.7845. Dev perf: 0.7063. Best dev perf: 0.825
+********* Done *********
+Done. Elapsed time: 643.8702287952106 (mins)
+Evaluate on test data...
+Evaluate data in 130.97 seconds!
+[tester] 
+AGNewsMetric: acc=0.8226315789473684, hinge=1.4799230435020045, ce=6.192528260883532
+Test acc: 0.8226

@@ -1,0 +1,6 @@
+.fitlog
+.fitconfig
+logs
+__pycache__
+caches
+nohup.out

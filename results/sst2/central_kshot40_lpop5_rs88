@@ -1,0 +1,3563 @@
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/cma/s.py:13: UserWarning: Could not import matplotlib.pyplot, therefore ``cma.plot()`` etc. is not available
+  _warnings.warn('Could not import matplotlib.pyplot, therefore'
+Found cached dataset glue (/root/.cache/huggingface/datasets/glue/sst2/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad)
+sst2
+Map:   0%|          | 0/67349 [00:00<?, ? examples/s]Map:   1%|          | 604/67349 [00:00<00:11, 5964.21 examples/s]Map:   2%|▏         | 1462/67349 [00:00<00:11, 5790.90 examples/s]Map:   3%|▎         | 2293/67349 [00:00<00:11, 5662.45 examples/s]Map:   4%|▍         | 2907/67349 [00:00<00:11, 5812.27 examples/s]Map:   6%|▌         | 3782/67349 [00:00<00:10, 5819.72 examples/s]Map:   7%|▋         | 4666/67349 [00:00<00:10, 5840.99 examples/s]Map:   8%|▊         | 5548/67349 [00:00<00:10, 5849.79 examples/s]Map:  10%|▉         | 6420/67349 [00:01<00:10, 5833.20 examples/s]Map:  11%|█         | 7240/67349 [00:01<00:10, 5656.67 examples/s]Map:  12%|█▏        | 7844/67349 [00:01<00:10, 5743.24 examples/s]Map:  13%|█▎        | 8612/67349 [00:01<00:10, 5535.45 examples/s]Map:  14%|█▎        | 9183/67349 [00:01<00:10, 5575.40 examples/s]Map:  14%|█▍        | 9757/67349 [00:01<00:10, 5614.56 examples/s]Map:  16%|█▌        | 10518/67349 [00:01<00:10, 5417.23 examples/s]Map:  17%|█▋        | 11262/67349 [00:02<00:10, 5206.48 examples/s]Map:  18%|█▊        | 11864/67349 [00:02<00:10, 5401.04 examples/s]Map:  19%|█▉        | 12629/67349 [00:02<00:10, 5295.79 examples/s]Map:  20%|█▉        | 13354/67349 [00:02<00:10, 5118.26 examples/s]Map:  21%|██        | 13959/67349 [00:02<00:10, 5337.53 examples/s]Map:  22%|██▏       | 14745/67349 [00:02<00:09, 5301.59 examples/s]Map:  23%|██▎       | 15556/67349 [00:02<00:09, 5324.79 examples/s]Map:  24%|██▍       | 16376/67349 [00:02<00:09, 5366.67 examples/s]Map:  25%|██▌       | 16988/67349 [00:03<00:09, 5538.47 examples/s]Map:  26%|██▌       | 17556/67349 [00:03<00:08, 5571.02 examples/s]Map:  27%|██▋       | 18131/67349 [00:03<00:08, 5614.56 examples/s]Map:  28%|██▊       | 18949/67349 [00:03<00:08, 5552.49 examples/s]Map:  29%|██▉       | 19722/67349 [00:03<00:08, 5369.97 examples/s]Map:  30%|███       | 20457/67349 [00:03<00:09, 5164.33 examples/s]Map:  31%|███       | 21000/67349 [00:03<00:08, 5211.77 examples/s]Map:  32%|███▏      | 21686/67349 [00:04<00:11, 4023.81 examples/s]Map:  33%|███▎      | 22248/67349 [00:04<00:10, 4346.62 examples/s]Map:  34%|███▍      | 22840/67349 [00:04<00:09, 4699.00 examples/s]Map:  35%|███▍      | 23474/67349 [00:04<00:09, 4505.85 examples/s]Map:  36%|███▌      | 23993/67349 [00:04<00:09, 4663.56 examples/s]Map:  37%|███▋      | 24782/67349 [00:04<00:08, 4860.29 examples/s]Map:  38%|███▊      | 25509/67349 [00:04<00:08, 4854.17 examples/s]Map:  39%|███▊      | 26038/67349 [00:04<00:08, 4955.43 examples/s]Map:  40%|███▉      | 26643/67349 [00:05<00:07, 5229.34 examples/s]Map:  40%|████      | 27210/67349 [00:05<00:07, 5344.25 examples/s]Map:  41%|████▏     | 27816/67349 [00:05<00:07, 5539.63 examples/s]Map:  42%|████▏     | 28383/67349 [00:05<00:06, 5574.19 examples/s]Map:  43%|████▎     | 28990/67349 [00:05<00:06, 5714.11 examples/s]Map:  44%|████▍     | 29660/67349 [00:05<00:07, 5234.99 examples/s]Map:  45%|████▌     | 30488/67349 [00:05<00:06, 5330.96 examples/s]Map:  46%|████▌     | 31059/67349 [00:05<00:06, 5424.14 examples/s]Map:  47%|████▋     | 31773/67349 [00:05<00:06, 5188.66 examples/s]Map:  48%|████▊     | 32328/67349 [00:06<00:06, 5276.67 examples/s]Map:  49%|████▉     | 32901/67349 [00:06<00:06, 5395.52 examples/s]Map:  50%|████▉     | 33468/67349 [00:06<00:06, 5467.84 examples/s]Map:  51%|█████     | 34038/67349 [00:06<00:06, 5532.45 examples/s]Map:  51%|█████▏    | 34639/67349 [00:06<00:05, 5665.69 examples/s]Map:  53%|█████▎    | 35513/67349 [00:06<00:05, 5721.91 examples/s]Map:  54%|█████▍    | 36343/67349 [00:06<00:05, 5652.67 examples/s]Map:  55%|█████▍    | 36945/67349 [00:06<00:05, 5102.08 examples/s]Map:  56%|█████▌    | 37746/67349 [00:07<00:05, 5176.47 examples/s]Map:  57%|█████▋    | 38456/67349 [00:07<00:05, 5026.55 examples/s]Map:  58%|█████▊    | 38972/67349 [00:07<00:05, 5057.18 examples/s]Map:  59%|█████▉    | 39690/67349 [00:07<00:05, 4962.17 examples/s]Map:  60%|█████▉    | 40364/67349 [00:07<00:05, 4796.57 examples/s]Map:  61%|██████    | 40898/67349 [00:07<00:05, 4921.87 examples/s]Map:  62%|██████▏   | 41635/67349 [00:07<00:05, 4916.42 examples/s]Map:  63%|██████▎   | 42147/67349 [00:08<00:05, 4963.88 examples/s]Map:  63%|██████▎   | 42752/67349 [00:08<00:04, 5239.40 examples/s]Map:  65%|██████▍   | 43482/67349 [00:08<00:04, 5104.76 examples/s]Map:  66%|██████▌   | 44230/67349 [00:08<00:04, 5062.87 examples/s]Map:  67%|██████▋   | 44817/67349 [00:08<00:04, 5218.78 examples/s]Map:  68%|██████▊   | 45623/67349 [00:08<00:04, 5267.33 examples/s]Map:  69%|██████▉   | 46427/67349 [00:08<00:03, 5295.99 examples/s]Map:  70%|██████▉   | 47000/67349 [00:08<00:03, 5382.99 examples/s]Map:  71%|███████   | 47646/67349 [00:09<00:03, 4959.90 examples/s]Map:  72%|███████▏  | 48195/67349 [00:09<00:03, 5085.37 examples/s]Map:  72%|███████▏  | 48791/67349 [00:09<00:03, 5305.30 examples/s]Map:  74%|███████▎  | 49547/67349 [00:09<00:03, 5115.76 examples/s]Map:  74%|███████▍  | 50078/67349 [00:09<00:03, 5163.06 examples/s]Map:  75%|███████▌  | 50841/67349 [00:09<00:03, 5130.14 examples/s]Map:  76%|███████▋  | 51381/67349 [00:09<00:03, 5195.46 examples/s]Map:  77%|███████▋  | 52148/67349 [00:09<00:02, 5162.99 examples/s]Map:  79%|███████▊  | 52881/67349 [00:10<00:02, 5066.73 examples/s]Map:  80%|███████▉  | 53661/67349 [00:10<00:02, 5106.62 examples/s]Map:  81%|████████  | 54453/67349 [00:10<00:02, 5157.96 examples/s]Map:  82%|████████▏ | 55023/67349 [00:10<00:02, 5280.09 examples/s]Map:  83%|████████▎ | 55629/67349 [00:10<00:02, 5469.81 examples/s]Map:  84%|████████▍ | 56423/67349 [00:10<00:02, 5404.32 examples/s]Map:  85%|████████▍ | 57000/67349 [00:10<00:01, 5467.35 examples/s]Map:  85%|████████▌ | 57568/67349 [00:10<00:01, 5521.08 examples/s]Map:  86%|████████▋ | 58136/67349 [00:11<00:01, 5562.90 examples/s]Map:  87%|████████▋ | 58739/67349 [00:11<00:01, 5691.56 examples/s]Map:  89%|████████▊ | 59613/67349 [00:11<00:01, 5738.81 examples/s]Map:  90%|████████▉ | 60293/67349 [00:11<00:01, 5316.85 examples/s]Map:  90%|█████████ | 60872/67349 [00:11<00:01, 5392.69 examples/s]Map:  92%|█████████▏| 61698/67349 [00:11<00:01, 5427.90 examples/s]Map:  92%|█████████▏| 62259/67349 [00:11<00:00, 5392.42 examples/s]Map:  93%|█████████▎| 62858/67349 [00:11<00:00, 5544.44 examples/s]Map:  95%|█████████▍| 63698/67349 [00:12<00:00, 5523.20 examples/s]Map:  96%|█████████▌| 64475/67349 [00:12<00:00, 5404.81 examples/s]Map:  97%|█████████▋| 65062/67349 [00:12<00:00, 4864.30 examples/s]Map:  97%|█████████▋| 65651/67349 [00:12<00:00, 5101.23 examples/s]Map:  98%|█████████▊| 66202/67349 [00:12<00:00, 5202.26 examples/s]Map:  99%|█████████▉| 66763/67349 [00:12<00:00, 5304.38 examples/s]Map: 100%|██████████| 67349/67349 [00:12<00:00, 4749.81 examples/s]                                                                   Example in train set:
+{'sentence': 'hide new secretions from the parental units ', 'label': 0, 'idx': 0, 'input_text': "Xro target himself turn Europe worked energy scored * soon ball TV annual 2013 race International'd Market conferenceio o changesig officers inside form published phone co legal executive fightings hope summer officer football property@ book parents costsac manager create age email markets main . hide new secretions from the parental units  . It was <mask> .", 'target_text': 'bad'}
+Map:   0%|          | 0/67349 [00:00<?, ? examples/s]Map:   1%|▏         | 1000/67349 [00:00<00:35, 1881.10 examples/s]Map:   3%|▎         | 2000/67349 [00:01<00:33, 1940.87 examples/s]Map:   4%|▍         | 3000/67349 [00:01<00:32, 1989.47 examples/s]Map:   6%|▌         | 4000/67349 [00:01<00:31, 2033.63 examples/s]Map:   7%|▋         | 5000/67349 [00:02<00:29, 2125.76 examples/s]Map:   9%|▉         | 6000/67349 [00:02<00:27, 2207.47 examples/s]Map:  10%|█         | 7000/67349 [00:03<00:27, 2195.22 examples/s]Map:  12%|█▏        | 8000/67349 [00:03<00:27, 2153.69 examples/s]Map:  13%|█▎        | 9000/67349 [00:04<00:26, 2188.74 examples/s]Map:  15%|█▍        | 10000/67349 [00:04<00:30, 1872.67 examples/s]Map:  16%|█▋        | 11000/67349 [00:05<00:28, 1979.69 examples/s]Map:  18%|█▊        | 12000/67349 [00:05<00:26, 2088.87 examples/s]Map:  19%|█▉        | 13000/67349 [00:06<00:25, 2167.98 examples/s]Map:  21%|██        | 14000/67349 [00:06<00:23, 2245.20 examples/s]Map:  22%|██▏       | 15000/67349 [00:07<00:22, 2345.29 examples/s]Map:  24%|██▍       | 16000/67349 [00:07<00:22, 2298.98 examples/s]Map:  25%|██▌       | 17000/67349 [00:07<00:22, 2259.50 examples/s]Map:  27%|██▋       | 18000/67349 [00:08<00:21, 2266.36 examples/s]Map:  28%|██▊       | 19000/67349 [00:08<00:21, 2239.47 examples/s]Map:  30%|██▉       | 20000/67349 [00:09<00:20, 2268.37 examples/s]Map:  31%|███       | 21000/67349 [00:09<00:19, 2336.38 examples/s]Map:  33%|███▎      | 22000/67349 [00:10<00:19, 2317.60 examples/s]Map:  34%|███▍      | 23000/67349 [00:10<00:18, 2365.84 examples/s]Map:  36%|███▌      | 24000/67349 [00:10<00:18, 2283.92 examples/s]Map:  37%|███▋      | 25000/67349 [00:11<00:18, 2261.68 examples/s]Map:  39%|███▊      | 26000/67349 [00:11<00:17, 2314.96 examples/s]Map:  40%|████      | 27000/67349 [00:12<00:18, 2189.24 examples/s]Map:  42%|████▏     | 28000/67349 [00:12<00:17, 2292.91 examples/s]Map:  43%|████▎     | 29000/67349 [00:13<00:16, 2313.20 examples/s]Map:  45%|████▍     | 30000/67349 [00:13<00:15, 2347.24 examples/s]Map:  46%|████▌     | 31000/67349 [00:13<00:15, 2394.10 examples/s]Map:  48%|████▊     | 32000/67349 [00:14<00:14, 2387.09 examples/s]Map:  49%|████▉     | 33000/67349 [00:14<00:14, 2325.84 examples/s]Map:  50%|█████     | 34000/67349 [00:15<00:14, 2290.78 examples/s]Map:  52%|█████▏    | 35000/67349 [00:15<00:14, 2294.45 examples/s]Map:  53%|█████▎    | 36000/67349 [00:16<00:13, 2400.07 examples/s]Map:  55%|█████▍    | 37000/67349 [00:16<00:12, 2438.84 examples/s]Map:  56%|█████▋    | 38000/67349 [00:16<00:12, 2424.02 examples/s]Map:  58%|█████▊    | 39000/67349 [00:17<00:12, 2252.04 examples/s]Map:  59%|█████▉    | 40000/67349 [00:17<00:12, 2252.78 examples/s]Map:  61%|██████    | 41000/67349 [00:18<00:11, 2314.12 examples/s]Map:  62%|██████▏   | 42000/67349 [00:18<00:10, 2416.41 examples/s]Map:  64%|██████▍   | 43000/67349 [00:19<00:09, 2472.53 examples/s]Map:  65%|██████▌   | 44000/67349 [00:19<00:09, 2416.84 examples/s]Map:  67%|██████▋   | 45000/67349 [00:19<00:08, 2501.34 examples/s]Map:  68%|██████▊   | 46000/67349 [00:20<00:08, 2564.13 examples/s]Map:  70%|██████▉   | 47000/67349 [00:20<00:09, 2197.81 examples/s]Map:  71%|███████▏  | 48000/67349 [00:21<00:08, 2284.79 examples/s]Map:  73%|███████▎  | 49000/67349 [00:21<00:08, 2241.16 examples/s]Map:  74%|███████▍  | 50000/67349 [00:22<00:07, 2272.00 examples/s]Map:  76%|███████▌  | 51000/67349 [00:22<00:07, 2299.28 examples/s]Map:  77%|███████▋  | 52000/67349 [00:22<00:06, 2351.21 examples/s]Map:  79%|███████▊  | 53000/67349 [00:23<00:06, 2340.95 examples/s]Map:  80%|████████  | 54000/67349 [00:23<00:05, 2366.81 examples/s]Map:  82%|████████▏ | 55000/67349 [00:24<00:05, 2454.76 examples/s]Map:  83%|████████▎ | 56000/67349 [00:24<00:05, 2185.07 examples/s]Map:  85%|████████▍ | 57000/67349 [00:25<00:04, 2279.60 examples/s]Map:  86%|████████▌ | 58000/67349 [00:25<00:03, 2393.41 examples/s]Map:  88%|████████▊ | 59000/67349 [00:25<00:03, 2457.20 examples/s]Map:  89%|████████▉ | 60000/67349 [00:26<00:03, 1978.09 examples/s]Map:  91%|█████████ | 61000/67349 [00:27<00:03, 2090.87 examples/s]Map:  92%|█████████▏| 62000/67349 [00:27<00:02, 2119.39 examples/s]Map:  94%|█████████▎| 63000/67349 [00:27<00:01, 2198.06 examples/s]Map:  95%|█████████▌| 64000/67349 [00:28<00:01, 2288.12 examples/s]Map:  97%|█████████▋| 65000/67349 [00:28<00:01, 2300.20 examples/s]Map:  98%|█████████▊| 66000/67349 [00:29<00:00, 2350.00 examples/s]Map:  99%|█████████▉| 67000/67349 [00:29<00:00, 2422.53 examples/s]Map: 100%|██████████| 67349/67349 [00:29<00:00, 2443.98 examples/s]                                                                   Found cached dataset glue (/root/.cache/huggingface/datasets/glue/sst2/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad)
+Map:   0%|          | 0/872 [00:00<?, ? examples/s]Map:  62%|██████▏   | 544/872 [00:00<00:00, 5372.51 examples/s]                                                               Example in validation set:
+{'sentence': "it 's a charming and often affecting journey . ", 'label': 1, 'idx': 0, 'input_text': "Xro target himself turn Europe worked energy scored * soon ball TV annual 2013 race International'd Market conferenceio o changesig officers inside form published phone co legal executive fightings hope summer officer football property@ book parents costsac manager create age email markets main . it 's a charming and often affecting journey .  . It was <mask> .", 'target_text': 'great'}
+Map:   0%|          | 0/872 [00:00<?, ? examples/s]Map: 100%|██████████| 872/872 [00:00<00:00, 2092.03 examples/s]                                                               Some weights of RobertaForMaskedLM were not initialized from the model checkpoint at roberta-large and are newly initialized: ['lm_head.decoder.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Save cache to caches/data_roberta-large_sst2_50_88.pt.
+# of train data: 80
+Example:
++------------------------+------------------------+----------+--------+
+| input_ids              | attention_mask         | mask_pos | labels |
++------------------------+------------------------+----------+--------+
+| [0, 1000, 1001, 100... | [1, 1, 1, 1, 1, 1, ... | 60       | 10999  |
++------------------------+------------------------+----------+--------+
+
+# of dev data: 80
+Example:
++------------------------+------------------------+----------+--------+
+| input_ids              | attention_mask         | mask_pos | labels |
++------------------------+------------------------+----------+--------+
+| [0, 1000, 1001, 100... | [1, 1, 1, 1, 1, 1, ... | 65       | 12338  |
++------------------------+------------------------+----------+--------+
+
+# of test data: 872
+Example:
++------------------------+------------------------+----------+--------+
+| input_ids              | attention_mask         | mask_pos | labels |
++------------------------+------------------------+----------+--------+
+| [0, 1000, 1001, 100... | [1, 1, 1, 1, 1, 1, ... | 66       | 12338  |
++------------------------+------------------------+----------+--------+
+[Embedding] mu: -0.018104109913110733 | std: 0.13582643866539001 [RandProj]  mu: 0.0 | std: 0.006074342999950358
+Population Size: 5
+Serial Evaluation.
+********* Evaluated on dev set *********
+Dev loss: 0.4597. Dev perf: 0.7875. Best dev perf: 0.7875
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.4562. Dev perf: 0.8125. Best dev perf: 0.8125
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.4437. Dev perf: 0.8. Best dev perf: 0.8125
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.4435. Dev perf: 0.825. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.1 seconds!
+[tester] 
+SST2Metric: acc=0.8451834862385321, hinge=1.0556454527268715, ce=12.431758591888148
+Test acc @ 9 test: 0.8452
+Check sigma @ 9 sigma: 0.9151103906791785
+[# API Calls 50] loss: 0.5509. Current perf: 0.725. Best perf so far: 0.8125
+********* Evaluated on dev set *********
+Dev loss: 0.5539. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5781. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5394. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5753. Dev perf: 0.725. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5411. Dev perf: 0.7625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 27.52 seconds!
+[tester] 
+SST2Metric: acc=0.8428899082568807, hinge=1.0581774755355415, ce=12.416659740133023
+Test acc @ 19 test: 0.8429
+Check sigma @ 19 sigma: 0.8492980767641348
+[# API Calls 100] loss: 0.5813. Current perf: 0.7. Best perf so far: 0.8125
+********* Evaluated on dev set *********
+Dev loss: 0.5825. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5159. Dev perf: 0.775. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5539. Dev perf: 0.65. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5117. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5199. Dev perf: 0.775. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.14 seconds!
+[tester] 
+SST2Metric: acc=0.8325688073394495, hinge=1.1032678009173191, ce=12.381727122385568
+Test acc @ 29 test: 0.8326
+Check sigma @ 29 sigma: 0.7993183093396168
+[# API Calls 150] loss: 0.6395. Current perf: 0.625. Best perf so far: 0.8125
+********* Evaluated on dev set *********
+Dev loss: 0.4585. Dev perf: 0.8. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.494. Dev perf: 0.7875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5412. Dev perf: 0.725. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5222. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5118. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 26.25 seconds!
+[tester] 
+SST2Metric: acc=0.8360091743119266, hinge=1.1127586408492622, ce=12.347882997005359
+Test acc @ 39 test: 0.836
+Check sigma @ 39 sigma: 0.7591526569567761
+[# API Calls 200] loss: 0.5577. Current perf: 0.7625. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5782. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5556. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5228. Dev perf: 0.7875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5507. Dev perf: 0.75. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5711. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 28.95 seconds!
+[tester] 
+SST2Metric: acc=0.8360091743119266, hinge=1.075367686945364, ce=12.341440848254283
+Test acc @ 49 test: 0.836
+Check sigma @ 49 sigma: 0.7280018301645393
+********* Evaluated on dev set *********
+Dev loss: 0.5082. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5755. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5761. Dev perf: 0.725. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5563. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+[# API Calls 300] loss: 0.62. Current perf: 0.675. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5654. Dev perf: 0.65. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 28.7 seconds!
+[tester] 
+SST2Metric: acc=0.8371559633027523, hinge=1.0786301980324842, ce=12.338513960532092
+Test acc @ 59 test: 0.8372
+Check sigma @ 59 sigma: 0.7022803888230699
+********* Evaluated on dev set *********
+Dev loss: 0.5588. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.4754. Dev perf: 0.7625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5341. Dev perf: 0.7625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6053. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+[# API Calls 350] loss: 0.5947. Current perf: 0.6625. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5341. Dev perf: 0.725. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.22 seconds!
+[tester] 
+SST2Metric: acc=0.8405963302752294, hinge=1.0778868132774984, ce=12.381546597961986
+Test acc @ 69 test: 0.8406
+Check sigma @ 69 sigma: 0.681435822920935
+********* Evaluated on dev set *********
+Dev loss: 0.5577. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5421. Dev perf: 0.7625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5638. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6288. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+[# API Calls 400] loss: 0.6232. Current perf: 0.6625. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.542. Dev perf: 0.725. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.21 seconds!
+[tester] 
+SST2Metric: acc=0.8463302752293578, hinge=1.0561050056317531, ce=12.300998215281636
+Test acc @ 79 test: 0.8463
+Check sigma @ 79 sigma: 0.6652679898913022
+********* Evaluated on dev set *********
+Dev loss: 0.5494. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5538. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5472. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5464. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+[# API Calls 450] loss: 0.6186. Current perf: 0.65. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.4881. Dev perf: 0.775. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 28.57 seconds!
+[tester] 
+SST2Metric: acc=0.8474770642201835, hinge=1.0632501917147854, ce=12.196613871723141
+Test acc @ 89 test: 0.8475
+Check sigma @ 89 sigma: 0.6498732578626777
+********* Evaluated on dev set *********
+Dev loss: 0.5778. Dev perf: 0.725. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5793. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6066. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5418. Dev perf: 0.75. Best dev perf: 0.825
+********* Done *********
+[# API Calls 500] loss: 0.5891. Current perf: 0.725. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6028. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.49 seconds!
+[tester] 
+SST2Metric: acc=0.8532110091743119, hinge=1.0874846790908674, ce=12.247844731042145
+Test acc @ 99 test: 0.8532
+Check sigma @ 99 sigma: 0.6346345117877956
+********* Evaluated on dev set *********
+Dev loss: 0.5441. Dev perf: 0.7875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6197. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.583. Dev perf: 0.725. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5197. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+[# API Calls 550] loss: 0.6227. Current perf: 0.65. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5515. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 28.88 seconds!
+[tester] 
+SST2Metric: acc=0.8532110091743119, hinge=1.0881398052250573, ce=12.181193045519908
+Test acc @ 109 test: 0.8532
+Check sigma @ 109 sigma: 0.6232388911856915
+********* Evaluated on dev set *********
+Dev loss: 0.6095. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.4963. Dev perf: 0.775. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5915. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5637. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+[# API Calls 600] loss: 0.6522. Current perf: 0.525. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5682. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.48 seconds!
+[tester] 
+SST2Metric: acc=0.8451834862385321, hinge=1.098771900211999, ce=12.195867442209787
+Test acc @ 119 test: 0.8452
+Check sigma @ 119 sigma: 0.6128798909444565
+********* Evaluated on dev set *********
+Dev loss: 0.5261. Dev perf: 0.725. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5278. Dev perf: 0.75. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5666. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6068. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+[# API Calls 650] loss: 0.6258. Current perf: 0.7375. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6346. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.39 seconds!
+[tester] 
+SST2Metric: acc=0.8600917431192661, hinge=1.084838512840621, ce=12.2044315688107
+Test acc @ 129 test: 0.8601
+Check sigma @ 129 sigma: 0.6029393281841717
+********* Evaluated on dev set *********
+Dev loss: 0.5495. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.571. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6192. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5668. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+[# API Calls 700] loss: 0.6191. Current perf: 0.65. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5866. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.37 seconds!
+[tester] 
+SST2Metric: acc=0.8451834862385321, hinge=1.0976657211233716, ce=12.208845698505367
+Test acc @ 139 test: 0.8452
+Check sigma @ 139 sigma: 0.5942281661167333
+********* Evaluated on dev set *********
+Dev loss: 0.6061. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5804. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5829. Dev perf: 0.725. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5859. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+[# API Calls 750] loss: 0.6286. Current perf: 0.6625. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5913. Dev perf: 0.65. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.1 seconds!
+[tester] 
+SST2Metric: acc=0.8509174311926605, hinge=1.0870923033548057, ce=12.17907406868191
+Test acc @ 149 test: 0.8509
+Check sigma @ 149 sigma: 0.587341764193788
+********* Evaluated on dev set *********
+Dev loss: 0.5526. Dev perf: 0.75. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5427. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6093. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+[# API Calls 800] loss: 0.6168. Current perf: 0.675. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6179. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5941. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.12 seconds!
+[tester] 
+SST2Metric: acc=0.8451834862385321, hinge=1.07469414352277, ce=12.247796487370762
+Test acc @ 159 test: 0.8452
+Check sigma @ 159 sigma: 0.5815031434045124
+********* Evaluated on dev set *********
+Dev loss: 0.5792. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5435. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.575. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+[# API Calls 850] loss: 0.6487. Current perf: 0.6375. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5735. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5807. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.07 seconds!
+[tester] 
+SST2Metric: acc=0.8532110091743119, hinge=1.056840699747068, ce=12.175912822058441
+Test acc @ 169 test: 0.8532
+Check sigma @ 169 sigma: 0.5788839745798522
+********* Evaluated on dev set *********
+Dev loss: 0.5868. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5466. Dev perf: 0.75. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5919. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+[# API Calls 900] loss: 0.6277. Current perf: 0.6375. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6467. Dev perf: 0.6125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5634. Dev perf: 0.725. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.12 seconds!
+[tester] 
+SST2Metric: acc=0.8520642201834863, hinge=1.111312704348783, ce=12.183503885881617
+Test acc @ 179 test: 0.8521
+Check sigma @ 179 sigma: 0.5757973931844278
+********* Evaluated on dev set *********
+Dev loss: 0.5531. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.569. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6497. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 950] loss: 0.6219. Current perf: 0.65. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5988. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5537. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.74 seconds!
+[tester] 
+SST2Metric: acc=0.8486238532110092, hinge=1.0989808205070846, ce=12.081430347687608
+Test acc @ 189 test: 0.8486
+Check sigma @ 189 sigma: 0.5727139642227078
+********* Evaluated on dev set *********
+Dev loss: 0.5363. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5427. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6086. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1000] loss: 0.6234. Current perf: 0.675. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5673. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5663. Dev perf: 0.65. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.13 seconds!
+[tester] 
+SST2Metric: acc=0.8428899082568807, hinge=1.087333162990185, ce=12.095471662118895
+Test acc @ 199 test: 0.8429
+Check sigma @ 199 sigma: 0.5709494660696506
+********* Evaluated on dev set *********
+Dev loss: 0.5549. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5622. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5327. Dev perf: 0.75. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1050] loss: 0.561. Current perf: 0.725. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5172. Dev perf: 0.7625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5934. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.6 seconds!
+[tester] 
+SST2Metric: acc=0.8532110091743119, hinge=1.0853007080358104, ce=11.962781967373068
+Test acc @ 209 test: 0.8532
+Check sigma @ 209 sigma: 0.5685888614851139
+********* Evaluated on dev set *********
+Dev loss: 0.5337. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5573. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5949. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1100] loss: 0.6245. Current perf: 0.65. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5939. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5496. Dev perf: 0.725. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.16 seconds!
+[tester] 
+SST2Metric: acc=0.8497706422018348, hinge=1.1110556847458586, ce=11.956237163018743
+Test acc @ 219 test: 0.8498
+Check sigma @ 219 sigma: 0.567047645453973
+********* Evaluated on dev set *********
+Dev loss: 0.5221. Dev perf: 0.75. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.608. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5582. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1150] loss: 0.6077. Current perf: 0.675. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5333. Dev perf: 0.775. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5836. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 28.93 seconds!
+[tester] 
+SST2Metric: acc=0.8394495412844036, hinge=1.1193539330718714, ce=11.975464225909032
+Test acc @ 229 test: 0.8394
+Check sigma @ 229 sigma: 0.5662457565414153
+********* Evaluated on dev set *********
+Dev loss: 0.574. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5521. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5569. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1200] loss: 0.6068. Current perf: 0.625. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5443. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5277. Dev perf: 0.75. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.38 seconds!
+[tester] 
+SST2Metric: acc=0.8463302752293578, hinge=1.0867017256010563, ce=11.992947517185037
+Test acc @ 239 test: 0.8463
+Check sigma @ 239 sigma: 0.566188615315933
+********* Evaluated on dev set *********
+Dev loss: 0.5793. Dev perf: 0.7625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5706. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5991. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1250] loss: 0.5753. Current perf: 0.625. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6011. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5543. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 28.93 seconds!
+[tester] 
+SST2Metric: acc=0.8451834862385321, hinge=1.072813699004847, ce=12.039512756767623
+Test acc @ 249 test: 0.8452
+Check sigma @ 249 sigma: 0.5660315288443338
+********* Evaluated on dev set *********
+Dev loss: 0.5661. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5376. Dev perf: 0.725. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1300] loss: 0.5854. Current perf: 0.7125. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.4863. Dev perf: 0.775. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5732. Dev perf: 0.65. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5944. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.5 seconds!
+[tester] 
+SST2Metric: acc=0.8440366972477065, hinge=1.0959371558023154, ce=12.033138730110378
+Test acc @ 259 test: 0.844
+Check sigma @ 259 sigma: 0.5650725513758812
+********* Evaluated on dev set *********
+Dev loss: 0.5416. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6424. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1350] loss: 0.5613. Current perf: 0.6875. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5433. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5694. Dev perf: 0.7625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6037. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.55 seconds!
+[tester] 
+SST2Metric: acc=0.8486238532110092, hinge=1.08991787411751, ce=11.960426190577516
+Test acc @ 269 test: 0.8486
+Check sigma @ 269 sigma: 0.5654152127274228
+********* Evaluated on dev set *********
+Dev loss: 0.6001. Dev perf: 0.65. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5722. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1400] loss: 0.6312. Current perf: 0.575. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5175. Dev perf: 0.825. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5943. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5402. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.24 seconds!
+[tester] 
+SST2Metric: acc=0.8509174311926605, hinge=1.0800084717776797, ce=11.976223455656559
+Test acc @ 279 test: 0.8509
+Check sigma @ 279 sigma: 0.5671600031896488
+********* Evaluated on dev set *********
+Dev loss: 0.6171. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5841. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1450] loss: 0.5662. Current perf: 0.6875. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.542. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5392. Dev perf: 0.75. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5853. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 28.94 seconds!
+[tester] 
+SST2Metric: acc=0.8543577981651376, hinge=1.0505249872120148, ce=11.975044093000779
+Test acc @ 289 test: 0.8544
+Check sigma @ 289 sigma: 0.5698064578569709
+********* Evaluated on dev set *********
+Dev loss: 0.6417. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5397. Dev perf: 0.75. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1500] loss: 0.6446. Current perf: 0.6375. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5605. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5919. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5825. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.63 seconds!
+[tester] 
+SST2Metric: acc=0.8463302752293578, hinge=1.0263378379541799, ce=11.967973079156438
+Test acc @ 299 test: 0.8463
+Check sigma @ 299 sigma: 0.5731508867322985
+********* Evaluated on dev set *********
+Dev loss: 0.556. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5222. Dev perf: 0.725. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1550] loss: 0.5966. Current perf: 0.725. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5508. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5543. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5236. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.42 seconds!
+[tester] 
+SST2Metric: acc=0.8543577981651376, hinge=1.0403619512505489, ce=11.949573849319318
+Test acc @ 309 test: 0.8544
+Check sigma @ 309 sigma: 0.5777789343837233
+********* Evaluated on dev set *********
+Dev loss: 0.5339. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5822. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1600] loss: 0.6394. Current perf: 0.6375. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5575. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6098. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5394. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 28.32 seconds!
+[tester] 
+SST2Metric: acc=0.8577981651376146, hinge=1.0027079625960884, ce=12.088698868357808
+Test acc @ 319 test: 0.8578
+Check sigma @ 319 sigma: 0.5814927542954639
+********* Evaluated on dev set *********
+Dev loss: 0.5631. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5339. Dev perf: 0.7625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1650] loss: 0.5794. Current perf: 0.6875. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5839. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5617. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5812. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.58 seconds!
+[tester] 
+SST2Metric: acc=0.856651376146789, hinge=0.9717263737949756, ce=12.109872695502885
+Test acc @ 329 test: 0.8567
+Check sigma @ 329 sigma: 0.5850287061575205
+********* Evaluated on dev set *********
+Dev loss: 0.526. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5742. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1700] loss: 0.7139. Current perf: 0.525. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6137. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5787. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.4938. Dev perf: 0.775. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.38 seconds!
+[tester] 
+SST2Metric: acc=0.8577981651376146, hinge=0.9672071780633489, ce=12.089048735592343
+Test acc @ 339 test: 0.8578
+Check sigma @ 339 sigma: 0.5879676372719986
+********* Evaluated on dev set *********
+Dev loss: 0.5719. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5571. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1750] loss: 0.6345. Current perf: 0.6. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5992. Dev perf: 0.65. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5864. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.616. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.11 seconds!
+[tester] 
+SST2Metric: acc=0.8704128440366973, hinge=0.9720810268997052, ce=11.784155950633759
+Test acc @ 349 test: 0.8704
+Check sigma @ 349 sigma: 0.5908302301929393
+********* Evaluated on dev set *********
+Dev loss: 0.5669. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1800] loss: 0.6257. Current perf: 0.65. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5235. Dev perf: 0.75. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5491. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.517. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5713. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.8 seconds!
+[tester] 
+SST2Metric: acc=0.8715596330275229, hinge=0.9512489738814328, ce=11.9333349105415
+Test acc @ 359 test: 0.8716
+Check sigma @ 359 sigma: 0.5925816192690687
+********* Evaluated on dev set *********
+Dev loss: 0.5823. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1850] loss: 0.606. Current perf: 0.6375. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.572. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5853. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.581. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5486. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.5 seconds!
+[tester] 
+SST2Metric: acc=0.8658256880733946, hinge=0.9020854136265746, ce=11.873934982019827
+Test acc @ 369 test: 0.8658
+Check sigma @ 369 sigma: 0.5927915970944891
+********* Evaluated on dev set *********
+Dev loss: 0.5347. Dev perf: 0.7625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1900] loss: 0.6314. Current perf: 0.6125. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5525. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5715. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5476. Dev perf: 0.7625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5741. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.24 seconds!
+[tester] 
+SST2Metric: acc=0.8486238532110092, hinge=0.9566226049300728, ce=11.964330008270544
+Test acc @ 379 test: 0.8486
+Check sigma @ 379 sigma: 0.5929015604829678
+********* Evaluated on dev set *********
+Dev loss: 0.5539. Dev perf: 0.75. Best dev perf: 0.825
+********* Done *********
+[# API Calls 1950] loss: 0.581. Current perf: 0.7375. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5745. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5295. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5709. Dev perf: 0.725. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.612. Dev perf: 0.65. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 28.8 seconds!
+[tester] 
+SST2Metric: acc=0.8509174311926605, hinge=0.9544225526512216, ce=12.05887180293372
+Test acc @ 389 test: 0.8509
+Check sigma @ 389 sigma: 0.5926341611893375
+********* Evaluated on dev set *********
+Dev loss: 0.5781. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+[# API Calls 2000] loss: 0.6537. Current perf: 0.5875. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.583. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6051. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.566. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5888. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.28 seconds!
+[tester] 
+SST2Metric: acc=0.8600917431192661, hinge=0.9379660536389832, ce=11.963436109210374
+Test acc @ 399 test: 0.8601
+Check sigma @ 399 sigma: 0.5926862310191946
+********* Evaluated on dev set *********
+Dev loss: 0.5873. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+[# API Calls 2050] loss: 0.5929. Current perf: 0.65. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6239. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5806. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6319. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5401. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.13 seconds!
+[tester] 
+SST2Metric: acc=0.8623853211009175, hinge=0.9292012573382177, ce=12.019758014503969
+Test acc @ 409 test: 0.8624
+Check sigma @ 409 sigma: 0.5943207376138555
+********* Evaluated on dev set *********
+Dev loss: 0.5208. Dev perf: 0.775. Best dev perf: 0.825
+********* Done *********
+[# API Calls 2100] loss: 0.5937. Current perf: 0.75. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5745. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5949. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6269. Dev perf: 0.65. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5977. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.52 seconds!
+[tester] 
+SST2Metric: acc=0.8577981651376146, hinge=0.9282427971516181, ce=12.046687476131893
+Test acc @ 419 test: 0.8578
+Check sigma @ 419 sigma: 0.5945766844501303
+********* Evaluated on dev set *********
+Dev loss: 0.5515. Dev perf: 0.725. Best dev perf: 0.825
+********* Done *********
+[# API Calls 2150] loss: 0.5476. Current perf: 0.7125. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6. Dev perf: 0.65. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5745. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.643. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6699. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.21 seconds!
+[tester] 
+SST2Metric: acc=0.8440366972477065, hinge=0.9871497635447651, ce=11.929958299759331
+Test acc @ 429 test: 0.844
+Check sigma @ 429 sigma: 0.594090069318417
+********* Evaluated on dev set *********
+Dev loss: 0.5467. Dev perf: 0.75. Best dev perf: 0.825
+********* Done *********
+[# API Calls 2200] loss: 0.6161. Current perf: 0.5875. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5486. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5869. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6124. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5688. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.41 seconds!
+[tester] 
+SST2Metric: acc=0.8532110091743119, hinge=0.9784233241999915, ce=11.97158272769473
+Test acc @ 439 test: 0.8532
+Check sigma @ 439 sigma: 0.5925234785778064
+********* Evaluated on dev set *********
+Dev loss: 0.6023. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 2250] loss: 0.629. Current perf: 0.675. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6405. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5795. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5532. Dev perf: 0.7625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5608. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.04 seconds!
+[tester] 
+SST2Metric: acc=0.8497706422018348, hinge=0.9755974515862421, ce=11.953030183774615
+Test acc @ 449 test: 0.8498
+Check sigma @ 449 sigma: 0.5914280269117693
+[# API Calls 2300] loss: 0.5977. Current perf: 0.6875. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5863. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6117. Dev perf: 0.65. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5586. Dev perf: 0.725. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6397. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5866. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 38.29 seconds!
+[tester] 
+SST2Metric: acc=0.856651376146789, hinge=0.9759394663189529, ce=11.93004356174294
+Test acc @ 459 test: 0.8567
+Check sigma @ 459 sigma: 0.5905483428504213
+[# API Calls 2350] loss: 0.6574. Current perf: 0.625. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5192. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6072. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5428. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5982. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5848. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 38.92 seconds!
+[tester] 
+SST2Metric: acc=0.8589449541284404, hinge=1.000373919075782, ce=11.844554236175817
+Test acc @ 469 test: 0.8589
+Check sigma @ 469 sigma: 0.5884407562870521
+[# API Calls 2400] loss: 0.5968. Current perf: 0.65. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5637. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6039. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5852. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6408. Dev perf: 0.6125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6345. Dev perf: 0.6125. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 38.41 seconds!
+[tester] 
+SST2Metric: acc=0.8623853211009175, hinge=0.958451192313378, ce=11.883745639696034
+Test acc @ 479 test: 0.8624
+Check sigma @ 479 sigma: 0.5857058239404388
+[# API Calls 2450] loss: 0.6141. Current perf: 0.675. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6019. Dev perf: 0.65. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5627. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6135. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6056. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5973. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 38.81 seconds!
+[tester] 
+SST2Metric: acc=0.8715596330275229, hinge=0.9607723174838845, ce=11.77676837816151
+Test acc @ 489 test: 0.8716
+Check sigma @ 489 sigma: 0.5848080282730218
+[# API Calls 2500] loss: 0.6475. Current perf: 0.6125. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6203. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6235. Dev perf: 0.6125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5901. Dev perf: 0.65. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5523. Dev perf: 0.7875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.62. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 38.89 seconds!
+[tester] 
+SST2Metric: acc=0.8658256880733946, hinge=0.937430163042261, ce=11.770145276270876
+Test acc @ 499 test: 0.8658
+Check sigma @ 499 sigma: 0.5857726709362479
+[# API Calls 2550] loss: 0.6221. Current perf: 0.6125. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6261. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6786. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6406. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5503. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5563. Dev perf: 0.725. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 38.86 seconds!
+[tester] 
+SST2Metric: acc=0.8738532110091743, hinge=0.9337712121666024, ce=11.845281635949371
+Test acc @ 509 test: 0.8739
+Check sigma @ 509 sigma: 0.587012269066107
+[# API Calls 2600] loss: 0.6265. Current perf: 0.6. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.594. Dev perf: 0.5875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.549. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5843. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6032. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5912. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.53 seconds!
+[tester] 
+SST2Metric: acc=0.8795871559633027, hinge=0.9229021553599507, ce=11.824630133602597
+Test acc @ 519 test: 0.8796
+Check sigma @ 519 sigma: 0.5867665278200344
+[# API Calls 2650] loss: 0.6399. Current perf: 0.675. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5958. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.5736. Dev perf: 0.7. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6174. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6273. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6296. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 38.91 seconds!
+[tester] 
+SST2Metric: acc=0.8704128440366973, hinge=0.8868670332322427, ce=11.77551134791943
+Test acc @ 529 test: 0.8704
+Check sigma @ 529 sigma: 0.5873042766174189
+[# API Calls 2700] loss: 0.6625. Current perf: 0.575. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6237. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.637. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6364. Dev perf: 0.6125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.614. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6102. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 38.88 seconds!
+[tester] 
+SST2Metric: acc=0.8681192660550459, hinge=0.9344992987606504, ce=11.808781903818113
+Test acc @ 539 test: 0.8681
+Check sigma @ 539 sigma: 0.5888436654337791
+[# API Calls 2750] loss: 0.6437. Current perf: 0.625. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6151. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6073. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6309. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6159. Dev perf: 0.6125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6548. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.21 seconds!
+[tester] 
+SST2Metric: acc=0.856651376146789, hinge=0.9529486227472987, ce=11.792538152922184
+Test acc @ 549 test: 0.8567
+Check sigma @ 549 sigma: 0.5911196967513617
+********* Evaluated on dev set *********
+Dev loss: 0.6713. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6464. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6293. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6386. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 2850] loss: 0.6467. Current perf: 0.575. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6781. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.36 seconds!
+[tester] 
+SST2Metric: acc=0.8600917431192661, hinge=1.014937908277599, ce=11.830821658493182
+Test acc @ 559 test: 0.8601
+Check sigma @ 559 sigma: 0.5926103797670844
+********* Evaluated on dev set *********
+Dev loss: 0.6041. Dev perf: 0.7125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6359. Dev perf: 0.65. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6478. Dev perf: 0.5875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6661. Dev perf: 0.6125. Best dev perf: 0.825
+********* Done *********
+[# API Calls 2900] loss: 0.7352. Current perf: 0.5125. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.593. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.62 seconds!
+[tester] 
+SST2Metric: acc=0.8589449541284404, hinge=1.0674258022133363, ce=11.661629598075097
+Test acc @ 569 test: 0.8589
+Check sigma @ 569 sigma: 0.5942864605485736
+********* Evaluated on dev set *********
+Dev loss: 0.5887. Dev perf: 0.7375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6541. Dev perf: 0.65. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6151. Dev perf: 0.65. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6272. Dev perf: 0.65. Best dev perf: 0.825
+********* Done *********
+[# API Calls 2950] loss: 0.6446. Current perf: 0.6625. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6417. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.28 seconds!
+[tester] 
+SST2Metric: acc=0.8646788990825688, hinge=1.0612243162382633, ce=11.674844453094202
+Test acc @ 579 test: 0.8647
+Check sigma @ 579 sigma: 0.596901841666458
+********* Evaluated on dev set *********
+Dev loss: 0.6507. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6023. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6199. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6028. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3000] loss: 0.6665. Current perf: 0.5625. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.5837. Dev perf: 0.65. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.93 seconds!
+[tester] 
+SST2Metric: acc=0.8589449541284404, hinge=0.988549389970412, ce=11.681209319228426
+Test acc @ 589 test: 0.8589
+Check sigma @ 589 sigma: 0.5997746210164853
+********* Evaluated on dev set *********
+Dev loss: 0.6119. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6629. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.681. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6757. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3050] loss: 0.6324. Current perf: 0.6. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.684. Dev perf: 0.5875. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.28 seconds!
+[tester] 
+SST2Metric: acc=0.8600917431192661, hinge=1.0036550618092948, ce=11.680620298473114
+Test acc @ 599 test: 0.8601
+Check sigma @ 599 sigma: 0.6018736325240381
+********* Evaluated on dev set *********
+Dev loss: 0.6181. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6942. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6129. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7034. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3100] loss: 0.6461. Current perf: 0.6375. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6974. Dev perf: 0.5875. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.6 seconds!
+[tester] 
+SST2Metric: acc=0.8612385321100917, hinge=0.9872513736059906, ce=11.643178694838777
+Test acc @ 609 test: 0.8612
+Check sigma @ 609 sigma: 0.6038200953163424
+********* Evaluated on dev set *********
+Dev loss: 0.6415. Dev perf: 0.65. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6207. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7152. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6611. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3150] loss: 0.7022. Current perf: 0.4875. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6556. Dev perf: 0.6125. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.23 seconds!
+[tester] 
+SST2Metric: acc=0.8635321100917431, hinge=0.9763419081311707, ce=11.709186571453689
+Test acc @ 619 test: 0.8635
+Check sigma @ 619 sigma: 0.6076193233844407
+********* Evaluated on dev set *********
+Dev loss: 0.6183. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6387. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6466. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6433. Dev perf: 0.5875. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3200] loss: 0.6825. Current perf: 0.525. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6277. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.19 seconds!
+[tester] 
+SST2Metric: acc=0.8589449541284404, hinge=0.9279578366410841, ce=11.805870957330827
+Test acc @ 629 test: 0.8589
+Check sigma @ 629 sigma: 0.6121277536976221
+********* Evaluated on dev set *********
+Dev loss: 0.6339. Dev perf: 0.6125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6355. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7091. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6598. Dev perf: 0.65. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3250] loss: 0.6485. Current perf: 0.625. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6516. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.14 seconds!
+[tester] 
+SST2Metric: acc=0.8509174311926605, hinge=1.0020631562679185, ce=11.860168360788888
+Test acc @ 639 test: 0.8509
+Check sigma @ 639 sigma: 0.6172756548158729
+********* Evaluated on dev set *********
+Dev loss: 0.6469. Dev perf: 0.6125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6654. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6409. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6963. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3300] loss: 0.7318. Current perf: 0.55. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6489. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.23 seconds!
+[tester] 
+SST2Metric: acc=0.8555045871559633, hinge=1.0164471766270629, ce=11.792898195599196
+Test acc @ 649 test: 0.8555
+Check sigma @ 649 sigma: 0.6231078638937924
+********* Evaluated on dev set *********
+Dev loss: 0.6952. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6835. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6463. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3350] loss: 0.709. Current perf: 0.55. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6466. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7267. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.0 seconds!
+[tester] 
+SST2Metric: acc=0.8509174311926605, hinge=1.0333914275563092, ce=11.80853144619443
+Test acc @ 659 test: 0.8509
+Check sigma @ 659 sigma: 0.627910587758042
+********* Evaluated on dev set *********
+Dev loss: 0.682. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6561. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6438. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3400] loss: 0.6682. Current perf: 0.6. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.596. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6034. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.08 seconds!
+[tester] 
+SST2Metric: acc=0.8612385321100917, hinge=0.9885692465195962, ce=11.723048201394738
+Test acc @ 669 test: 0.8612
+Check sigma @ 669 sigma: 0.6306287948794296
+********* Evaluated on dev set *********
+Dev loss: 0.6554. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6423. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.612. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3450] loss: 0.6999. Current perf: 0.6125. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7055. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6421. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.64 seconds!
+[tester] 
+SST2Metric: acc=0.8543577981651376, hinge=0.9737966607470031, ce=11.819614489144142
+Test acc @ 679 test: 0.8544
+Check sigma @ 679 sigma: 0.6333264198572863
+********* Evaluated on dev set *********
+Dev loss: 0.6502. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6472. Dev perf: 0.6125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6405. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3500] loss: 0.621. Current perf: 0.6125. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6658. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7088. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.27 seconds!
+[tester] 
+SST2Metric: acc=0.8612385321100917, hinge=0.9604441878992483, ce=11.784611177006992
+Test acc @ 689 test: 0.8612
+Check sigma @ 689 sigma: 0.6381182141722777
+********* Evaluated on dev set *********
+Dev loss: 0.6822. Dev perf: 0.5875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6401. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6173. Dev perf: 0.65. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3550] loss: 0.7386. Current perf: 0.4625. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6986. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6325. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.97 seconds!
+[tester] 
+SST2Metric: acc=0.8555045871559633, hinge=0.956079474282921, ce=11.836309013016727
+Test acc @ 699 test: 0.8555
+Check sigma @ 699 sigma: 0.6437943789246335
+********* Evaluated on dev set *********
+Dev loss: 0.6392. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6947. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6872. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3600] loss: 0.6775. Current perf: 0.6125. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6432. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6116. Dev perf: 0.65. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.76 seconds!
+[tester] 
+SST2Metric: acc=0.856651376146789, hinge=0.9642070061569914, ce=11.819106364468915
+Test acc @ 709 test: 0.8567
+Check sigma @ 709 sigma: 0.6475139791694344
+********* Evaluated on dev set *********
+Dev loss: 0.6038. Dev perf: 0.6875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6928. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6198. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3650] loss: 0.6983. Current perf: 0.525. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.733. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6766. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.17 seconds!
+[tester] 
+SST2Metric: acc=0.8577981651376146, hinge=1.0067974405551174, ce=11.969925574206432
+Test acc @ 719 test: 0.8578
+Check sigma @ 719 sigma: 0.6507797256022065
+********* Evaluated on dev set *********
+Dev loss: 0.6506. Dev perf: 0.6125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6269. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6541. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3700] loss: 0.6313. Current perf: 0.6375. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6539. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6138. Dev perf: 0.5875. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.67 seconds!
+[tester] 
+SST2Metric: acc=0.856651376146789, hinge=0.9936791035013461, ce=11.79818953942815
+Test acc @ 729 test: 0.8567
+Check sigma @ 729 sigma: 0.6533399221061069
+********* Evaluated on dev set *********
+Dev loss: 0.6536. Dev perf: 0.5875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.658. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6775. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3750] loss: 0.7257. Current perf: 0.5375. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.662. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6636. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.49 seconds!
+[tester] 
+SST2Metric: acc=0.8463302752293578, hinge=1.0631699168353999, ce=11.638552481975031
+Test acc @ 739 test: 0.8463
+Check sigma @ 739 sigma: 0.6555879802677483
+********* Evaluated on dev set *********
+Dev loss: 0.6681. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6399. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7009. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3800] loss: 0.6744. Current perf: 0.5375. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.614. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6545. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.82 seconds!
+[tester] 
+SST2Metric: acc=0.8577981651376146, hinge=1.028867953414217, ce=11.806273355396515
+Test acc @ 749 test: 0.8578
+Check sigma @ 749 sigma: 0.6562752497560054
+********* Evaluated on dev set *********
+Dev loss: 0.7331. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6932. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3850] loss: 0.7108. Current perf: 0.525. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.715. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6903. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7253. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.23 seconds!
+[tester] 
+SST2Metric: acc=0.856651376146789, hinge=1.049799486037788, ce=11.96555645968936
+Test acc @ 759 test: 0.8567
+Check sigma @ 759 sigma: 0.6584191847181176
+********* Evaluated on dev set *********
+Dev loss: 0.6758. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7607. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3900] loss: 0.7164. Current perf: 0.5125. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7337. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.657. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6599. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.85 seconds!
+[tester] 
+SST2Metric: acc=0.8405963302752294, hinge=1.021444780017258, ce=12.113370912884353
+Test acc @ 769 test: 0.8406
+Check sigma @ 769 sigma: 0.6621315805999789
+********* Evaluated on dev set *********
+Dev loss: 0.737. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.651. Dev perf: 0.6125. Best dev perf: 0.825
+********* Done *********
+[# API Calls 3950] loss: 0.7237. Current perf: 0.5125. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.843. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7472. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6688. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.72 seconds!
+[tester] 
+SST2Metric: acc=0.8463302752293578, hinge=1.0340208963516655, ce=11.943957005072077
+Test acc @ 779 test: 0.8463
+Check sigma @ 779 sigma: 0.6635179545411357
+********* Evaluated on dev set *********
+Dev loss: 0.6977. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7021. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4000] loss: 0.707. Current perf: 0.5625. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7056. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6617. Dev perf: 0.6125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6587. Dev perf: 0.65. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.71 seconds!
+[tester] 
+SST2Metric: acc=0.8188073394495413, hinge=1.2437271415640454, ce=11.435717783936667
+Test acc @ 789 test: 0.8188
+Check sigma @ 789 sigma: 0.6639874481361362
+********* Evaluated on dev set *********
+Dev loss: 0.7007. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7393. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4050] loss: 0.7862. Current perf: 0.5. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7547. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6827. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6274. Dev perf: 0.6625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.73 seconds!
+[tester] 
+SST2Metric: acc=0.8302752293577982, hinge=1.1625674798947956, ce=11.707629789999865
+Test acc @ 799 test: 0.8303
+Check sigma @ 799 sigma: 0.6638260790563572
+********* Evaluated on dev set *********
+Dev loss: 0.6426. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7715. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4100] loss: 0.7376. Current perf: 0.525. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7169. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7209. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7238. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.28 seconds!
+[tester] 
+SST2Metric: acc=0.8222477064220184, hinge=1.1860710109045747, ce=11.664362268710356
+Test acc @ 809 test: 0.8222
+Check sigma @ 809 sigma: 0.662630803999814
+********* Evaluated on dev set *********
+Dev loss: 0.7721. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7231. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4150] loss: 0.7578. Current perf: 0.5125. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.802. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7277. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7753. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.71 seconds!
+[tester] 
+SST2Metric: acc=0.8245412844036697, hinge=1.183795373374169, ce=11.589390343482341
+Test acc @ 819 test: 0.8245
+Check sigma @ 819 sigma: 0.6610741831182699
+********* Evaluated on dev set *********
+Dev loss: 0.7564. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6679. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4200] loss: 0.8448. Current perf: 0.45. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7605. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6988. Dev perf: 0.6125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8829. Dev perf: 0.45. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.13 seconds!
+[tester] 
+SST2Metric: acc=0.8165137614678899, hinge=1.1841928849526502, ce=11.469244440761182
+Test acc @ 829 test: 0.8165
+Check sigma @ 829 sigma: 0.6606370556536216
+********* Evaluated on dev set *********
+Dev loss: 0.7095. Dev perf: 0.5875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.775. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4250] loss: 0.7474. Current perf: 0.55. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7107. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7184. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7042. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.57 seconds!
+[tester] 
+SST2Metric: acc=0.7993119266055045, hinge=1.2420278776676283, ce=11.411045406936505
+Test acc @ 839 test: 0.7993
+Check sigma @ 839 sigma: 0.6590163701972821
+********* Evaluated on dev set *********
+Dev loss: 0.7096. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7903. Dev perf: 0.4375. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4300] loss: 0.7097. Current perf: 0.5. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7074. Dev perf: 0.5875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7235. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7524. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.54 seconds!
+[tester] 
+SST2Metric: acc=0.8142201834862385, hinge=1.2075000596702645, ce=11.27346849004063
+Test acc @ 849 test: 0.8142
+Check sigma @ 849 sigma: 0.6567224143778957
+********* Evaluated on dev set *********
+Dev loss: 0.6322. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4350] loss: 0.7438. Current perf: 0.525. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7683. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6966. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7016. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6775. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.43 seconds!
+[tester] 
+SST2Metric: acc=0.7958715596330275, hinge=1.3558541656634129, ce=10.958780778657406
+Test acc @ 859 test: 0.7959
+Check sigma @ 859 sigma: 0.6556663620760281
+********* Evaluated on dev set *********
+Dev loss: 0.6816. Dev perf: 0.675. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4400] loss: 0.7343. Current perf: 0.5125. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7993. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7121. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7895. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6954. Dev perf: 0.5875. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.52 seconds!
+[tester] 
+SST2Metric: acc=0.8073394495412844, hinge=1.3102704056906045, ce=11.20441275780354
+Test acc @ 869 test: 0.8073
+Check sigma @ 869 sigma: 0.6556017395280413
+********* Evaluated on dev set *********
+Dev loss: 0.7341. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4450] loss: 0.7522. Current perf: 0.5125. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7068. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7222. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7301. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7582. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.05 seconds!
+[tester] 
+SST2Metric: acc=0.7717889908256881, hinge=1.3623421389028567, ce=11.224763660255922
+Test acc @ 879 test: 0.7718
+Check sigma @ 879 sigma: 0.6556135252303972
+********* Evaluated on dev set *********
+Dev loss: 0.7236. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4500] loss: 0.8044. Current perf: 0.4625. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7409. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7808. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7841. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7713. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.27 seconds!
+[tester] 
+SST2Metric: acc=0.7706422018348624, hinge=1.4117781306625505, ce=10.825811132378535
+Test acc @ 889 test: 0.7706
+Check sigma @ 889 sigma: 0.6539014366868562
+********* Evaluated on dev set *********
+Dev loss: 0.7063. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4550] loss: 0.8284. Current perf: 0.475. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8023. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7543. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7039. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7621. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 38.71 seconds!
+[tester] 
+SST2Metric: acc=0.7694954128440367, hinge=1.3584087048101863, ce=11.081638686153866
+Test acc @ 899 test: 0.7695
+Check sigma @ 899 sigma: 0.6525973071280379
+********* Evaluated on dev set *********
+Dev loss: 0.7023. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4600] loss: 0.7224. Current perf: 0.575. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8107. Dev perf: 0.425. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8501. Dev perf: 0.425. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8119. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7673. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.19 seconds!
+[tester] 
+SST2Metric: acc=0.7752293577981652, hinge=1.3660475223436268, ce=10.974703508779543
+Test acc @ 909 test: 0.7752
+Check sigma @ 909 sigma: 0.6522920024599435
+********* Evaluated on dev set *********
+Dev loss: 0.8395. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4650] loss: 0.7202. Current perf: 0.5375. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8997. Dev perf: 0.425. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.769. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8164. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.803. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 38.87 seconds!
+[tester] 
+SST2Metric: acc=0.7626146788990825, hinge=1.4190308850839597, ce=11.119959000053756
+Test acc @ 919 test: 0.7626
+Check sigma @ 919 sigma: 0.6531733277273503
+********* Evaluated on dev set *********
+Dev loss: 0.8292. Dev perf: 0.4375. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4700] loss: 0.7047. Current perf: 0.6125. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7292. Dev perf: 0.5875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7734. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8147. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6995. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.46 seconds!
+[tester] 
+SST2Metric: acc=0.7798165137614679, hinge=1.333992870575791, ce=11.396109353511706
+Test acc @ 929 test: 0.7798
+Check sigma @ 929 sigma: 0.6551377211435753
+********* Evaluated on dev set *********
+Dev loss: 0.7913. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4750] loss: 0.7537. Current perf: 0.5125. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7904. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7441. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7682. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6289. Dev perf: 0.65. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.21 seconds!
+[tester] 
+SST2Metric: acc=0.7844036697247706, hinge=1.4015852070729666, ce=10.941971700125878
+Test acc @ 939 test: 0.7844
+Check sigma @ 939 sigma: 0.6555184271131025
+********* Evaluated on dev set *********
+Dev loss: 0.781. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+[# API Calls 4800] loss: 0.6703. Current perf: 0.6375. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7381. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8235. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6709. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6919. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.56 seconds!
+[tester] 
+SST2Metric: acc=0.7775229357798165, hinge=1.4192020040039623, ce=11.222704231192212
+Test acc @ 949 test: 0.7775
+Check sigma @ 949 sigma: 0.6551589597242802
+[# API Calls 4850] loss: 0.7617. Current perf: 0.525. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7265. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7579. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7691. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7926. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8181. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.56 seconds!
+[tester] 
+SST2Metric: acc=0.7775229357798165, hinge=1.3864057173422717, ce=11.198278024655963
+Test acc @ 959 test: 0.7775
+Check sigma @ 959 sigma: 0.6545902382230985
+[# API Calls 4900] loss: 0.7427. Current perf: 0.55. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.876. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7714. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7721. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7221. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7327. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 38.92 seconds!
+[tester] 
+SST2Metric: acc=0.7889908256880734, hinge=1.3539021999464123, ce=11.198472215494979
+Test acc @ 969 test: 0.789
+Check sigma @ 969 sigma: 0.6543387967914641
+[# API Calls 4950] loss: 0.8638. Current perf: 0.475. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7887. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7023. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6542. Dev perf: 0.5875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7334. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7855. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.67 seconds!
+[tester] 
+SST2Metric: acc=0.7603211009174312, hinge=1.3386970047557025, ce=11.402558265476053
+Test acc @ 979 test: 0.7603
+Check sigma @ 979 sigma: 0.6539213542819504
+[# API Calls 5000] loss: 0.783. Current perf: 0.5375. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8028. Dev perf: 0.45. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7226. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7986. Dev perf: 0.4375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8052. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7262. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 38.75 seconds!
+[tester] 
+SST2Metric: acc=0.7213302752293578, hinge=1.5210692379452766, ce=11.284624922166177
+Test acc @ 989 test: 0.7213
+Check sigma @ 989 sigma: 0.6545740001821384
+[# API Calls 5050] loss: 0.7426. Current perf: 0.55. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.86. Dev perf: 0.4375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7942. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8422. Dev perf: 0.45. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7947. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.789. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.72 seconds!
+[tester] 
+SST2Metric: acc=0.7557339449541285, hinge=1.4886640539956748, ce=11.217436842962142
+Test acc @ 999 test: 0.7557
+Check sigma @ 999 sigma: 0.6560379353986776
+[# API Calls 5100] loss: 0.8657. Current perf: 0.45. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8826. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7804. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7109. Dev perf: 0.6125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7217. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7922. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.76 seconds!
+[tester] 
+SST2Metric: acc=0.7442660550458715, hinge=1.4893917993668022, ce=11.250732194393054
+Test acc @ 1009 test: 0.7443
+Check sigma @ 1009 sigma: 0.6569093057821755
+[# API Calls 5150] loss: 0.8258. Current perf: 0.45. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7888. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6377. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7825. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7507. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8052. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.75 seconds!
+[tester] 
+SST2Metric: acc=0.698394495412844, hinge=1.5812078747180625, ce=11.345325242488757
+Test acc @ 1019 test: 0.6984
+Check sigma @ 1019 sigma: 0.6593723729920138
+[# API Calls 5200] loss: 0.6782. Current perf: 0.6. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8038. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7729. Dev perf: 0.425. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7554. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7901. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7292. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.72 seconds!
+[tester] 
+SST2Metric: acc=0.7064220183486238, hinge=1.5835596793288484, ce=11.038477678911402
+Test acc @ 1029 test: 0.7064
+Check sigma @ 1029 sigma: 0.6604116162516733
+[# API Calls 5250] loss: 0.6705. Current perf: 0.6375. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7732. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7955. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7454. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8719. Dev perf: 0.3875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8317. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.01 seconds!
+[tester] 
+SST2Metric: acc=0.6605504587155964, hinge=1.6948763339891346, ce=11.026274226127414
+Test acc @ 1039 test: 0.6606
+Check sigma @ 1039 sigma: 0.6590705472043868
+[# API Calls 5300] loss: 0.7604. Current perf: 0.525. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7485. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7684. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7773. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7678. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8219. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.65 seconds!
+[tester] 
+SST2Metric: acc=0.6123853211009175, hinge=1.7907777313792377, ce=11.655463113697296
+Test acc @ 1049 test: 0.6124
+Check sigma @ 1049 sigma: 0.6563392691093887
+********* Evaluated on dev set *********
+Dev loss: 0.7809. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8276. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7352. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.742. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+[# API Calls 5400] loss: 0.8286. Current perf: 0.475. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7861. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 38.83 seconds!
+[tester] 
+SST2Metric: acc=0.5435779816513762, hinge=1.8878831469684565, ce=11.924881970116852
+Test acc @ 1059 test: 0.5436
+Check sigma @ 1059 sigma: 0.6533286381527645
+********* Evaluated on dev set *********
+Dev loss: 0.9412. Dev perf: 0.4375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7213. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.759. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7634. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+[# API Calls 5450] loss: 0.7721. Current perf: 0.525. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6968. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.68 seconds!
+[tester] 
+SST2Metric: acc=0.5791284403669725, hinge=1.8428280681645104, ce=11.92975967302235
+Test acc @ 1069 test: 0.5791
+Check sigma @ 1069 sigma: 0.6503761633589216
+********* Evaluated on dev set *********
+Dev loss: 0.7647. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7944. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7744. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.793. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 5500] loss: 0.7308. Current perf: 0.575. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8595. Dev perf: 0.425. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.5 seconds!
+[tester] 
+SST2Metric: acc=0.6146788990825688, hinge=1.770903399231237, ce=11.500713479628256
+Test acc @ 1079 test: 0.6147
+Check sigma @ 1079 sigma: 0.64758719394171
+********* Evaluated on dev set *********
+Dev loss: 0.769. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.734. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7017. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8127. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+[# API Calls 5550] loss: 0.8327. Current perf: 0.475. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8536. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.76 seconds!
+[tester] 
+SST2Metric: acc=0.6364678899082569, hinge=1.7525051930628786, ce=12.054511971429948
+Test acc @ 1089 test: 0.6365
+Check sigma @ 1089 sigma: 0.6441883879031667
+********* Evaluated on dev set *********
+Dev loss: 0.8467. Dev perf: 0.4125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.78. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8136. Dev perf: 0.3875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8246. Dev perf: 0.45. Best dev perf: 0.825
+********* Done *********
+[# API Calls 5600] loss: 0.6543. Current perf: 0.5875. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8688. Dev perf: 0.4. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.8 seconds!
+[tester] 
+SST2Metric: acc=0.6227064220183486, hinge=1.7701157736122062, ce=12.335708959386983
+Test acc @ 1099 test: 0.6227
+Check sigma @ 1099 sigma: 0.6408064221840616
+********* Evaluated on dev set *********
+Dev loss: 0.7564. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7376. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.859. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8304. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 5650] loss: 0.7198. Current perf: 0.55. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7639. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.4 seconds!
+[tester] 
+SST2Metric: acc=0.5756880733944955, hinge=1.8594199320591918, ce=12.809178282361511
+Test acc @ 1109 test: 0.5757
+Check sigma @ 1109 sigma: 0.637977942991784
+********* Evaluated on dev set *********
+Dev loss: 0.7177. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8327. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7642. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.739. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+[# API Calls 5700] loss: 0.8042. Current perf: 0.4875. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8419. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 40.06 seconds!
+[tester] 
+SST2Metric: acc=0.5665137614678899, hinge=1.8622716151246237, ce=12.780970809656546
+Test acc @ 1119 test: 0.5665
+Check sigma @ 1119 sigma: 0.6355498424363389
+********* Evaluated on dev set *********
+Dev loss: 0.7826. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8415. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.755. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.745. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 5750] loss: 0.8411. Current perf: 0.4875. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8162. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.59 seconds!
+[tester] 
+SST2Metric: acc=0.5389908256880734, hinge=1.8917086583758713, ce=12.8430708001513
+Test acc @ 1129 test: 0.539
+Check sigma @ 1129 sigma: 0.634112376209391
+********* Evaluated on dev set *********
+Dev loss: 0.7984. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7652. Dev perf: 0.5875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6622. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7903. Dev perf: 0.45. Best dev perf: 0.825
+********* Done *********
+[# API Calls 5800] loss: 0.797. Current perf: 0.4875. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7706. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.87 seconds!
+[tester] 
+SST2Metric: acc=0.5848623853211009, hinge=1.8399994920153138, ce=12.462953278777796
+Test acc @ 1139 test: 0.5849
+Check sigma @ 1139 sigma: 0.6343326489759383
+********* Evaluated on dev set *********
+Dev loss: 0.7978. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8222. Dev perf: 0.425. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7596. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7172. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 5850] loss: 0.8043. Current perf: 0.4875. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7764. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.25 seconds!
+[tester] 
+SST2Metric: acc=0.588302752293578, hinge=1.8456976566839656, ce=12.193602430711099
+Test acc @ 1149 test: 0.5883
+Check sigma @ 1149 sigma: 0.6345638782781639
+********* Evaluated on dev set *********
+Dev loss: 0.6949. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7528. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7548. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+[# API Calls 5900] loss: 0.8079. Current perf: 0.45. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7297. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.819. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.78 seconds!
+[tester] 
+SST2Metric: acc=0.5745412844036697, hinge=1.8780529302194577, ce=12.272565920418556
+Test acc @ 1159 test: 0.5745
+Check sigma @ 1159 sigma: 0.6333901204352259
+********* Evaluated on dev set *********
+Dev loss: 0.7927. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7884. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.797. Dev perf: 0.45. Best dev perf: 0.825
+********* Done *********
+[# API Calls 5950] loss: 0.8093. Current perf: 0.525. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8086. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7958. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.59 seconds!
+[tester] 
+SST2Metric: acc=0.5665137614678899, hinge=1.8823867281642528, ce=12.226398459268273
+Test acc @ 1169 test: 0.5665
+Check sigma @ 1169 sigma: 0.631657463284723
+********* Evaluated on dev set *********
+Dev loss: 0.8728. Dev perf: 0.45. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7125. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8569. Dev perf: 0.4. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6000] loss: 0.7938. Current perf: 0.525. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7913. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8198. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.58 seconds!
+[tester] 
+SST2Metric: acc=0.5860091743119266, hinge=1.8982242794211852, ce=12.056420903687084
+Test acc @ 1179 test: 0.586
+Check sigma @ 1179 sigma: 0.6289882358593128
+********* Evaluated on dev set *********
+Dev loss: 0.8397. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.778. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.9534. Dev perf: 0.4. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6050] loss: 0.7507. Current perf: 0.5625. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8114. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8021. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.73 seconds!
+[tester] 
+SST2Metric: acc=0.5711009174311926, hinge=1.8874330520629883, ce=12.218656531167687
+Test acc @ 1189 test: 0.5711
+Check sigma @ 1189 sigma: 0.6270959568388702
+********* Evaluated on dev set *********
+Dev loss: 0.8185. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8176. Dev perf: 0.4375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8646. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6100] loss: 0.7238. Current perf: 0.5625. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7818. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8736. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.52 seconds!
+[tester] 
+SST2Metric: acc=0.551605504587156, hinge=1.8913378671768608, ce=12.37657503250542
+Test acc @ 1199 test: 0.5516
+Check sigma @ 1199 sigma: 0.6249202358359645
+********* Evaluated on dev set *********
+Dev loss: 0.768. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7858. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8261. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6150] loss: 0.7127. Current perf: 0.5875. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7149. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8071. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.59 seconds!
+[tester] 
+SST2Metric: acc=0.5722477064220184, hinge=1.8561709473986145, ce=12.586403977980307
+Test acc @ 1209 test: 0.5722
+Check sigma @ 1209 sigma: 0.6219708536847464
+********* Evaluated on dev set *********
+Dev loss: 0.8884. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8871. Dev perf: 0.4375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8352. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6200] loss: 0.9072. Current perf: 0.475. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8536. Dev perf: 0.4375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8161. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.18 seconds!
+[tester] 
+SST2Metric: acc=0.555045871559633, hinge=1.8839566641991292, ce=12.424566627642431
+Test acc @ 1219 test: 0.555
+Check sigma @ 1219 sigma: 0.6202848103825909
+********* Evaluated on dev set *********
+Dev loss: 0.8397. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7299. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8532. Dev perf: 0.4375. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6250] loss: 0.8136. Current perf: 0.5375. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8796. Dev perf: 0.425. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.9586. Dev perf: 0.3875. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.9 seconds!
+[tester] 
+SST2Metric: acc=0.5538990825688074, hinge=1.881195575819103, ce=12.599052402951301
+Test acc @ 1229 test: 0.5539
+Check sigma @ 1229 sigma: 0.6189755709599489
+********* Evaluated on dev set *********
+Dev loss: 0.7875. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8361. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7899. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6300] loss: 0.7728. Current perf: 0.55. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7564. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.806. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.42 seconds!
+[tester] 
+SST2Metric: acc=0.5447247706422018, hinge=1.9158639164145934, ce=12.35077725856676
+Test acc @ 1239 test: 0.5447
+Check sigma @ 1239 sigma: 0.6181570864177441
+********* Evaluated on dev set *********
+Dev loss: 0.7672. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7853. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8794. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6350] loss: 0.8161. Current perf: 0.4875. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.868. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7668. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.59 seconds!
+[tester] 
+SST2Metric: acc=0.5355504587155964, hinge=1.926685337626606, ce=12.137352330969014
+Test acc @ 1249 test: 0.5356
+Check sigma @ 1249 sigma: 0.6158770741366145
+********* Evaluated on dev set *********
+Dev loss: 0.77. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.9418. Dev perf: 0.3875. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6400] loss: 0.7693. Current perf: 0.5375. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8345. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8397. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8142. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.81 seconds!
+[tester] 
+SST2Metric: acc=0.5435779816513762, hinge=1.9157481893486934, ce=12.313614959016853
+Test acc @ 1259 test: 0.5436
+Check sigma @ 1259 sigma: 0.613778102731079
+********* Evaluated on dev set *********
+Dev loss: 0.9489. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8134. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6450] loss: 0.7308. Current perf: 0.5625. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8429. Dev perf: 0.4375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.813. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6965. Dev perf: 0.5875. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.55 seconds!
+[tester] 
+SST2Metric: acc=0.5997706422018348, hinge=1.8695946308450961, ce=12.192251187945725
+Test acc @ 1269 test: 0.5998
+Check sigma @ 1269 sigma: 0.6137081818786454
+********* Evaluated on dev set *********
+Dev loss: 0.8717. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8495. Dev perf: 0.4375. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6500] loss: 0.7798. Current perf: 0.5125. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7803. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7793. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7741. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.57 seconds!
+[tester] 
+SST2Metric: acc=0.5607798165137615, hinge=1.8851761949171715, ce=12.29891826034686
+Test acc @ 1279 test: 0.5608
+Check sigma @ 1279 sigma: 0.6125393730058567
+********* Evaluated on dev set *********
+Dev loss: 0.874. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7577. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6550] loss: 0.6851. Current perf: 0.675. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6986. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8032. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7516. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.33 seconds!
+[tester] 
+SST2Metric: acc=0.5837155963302753, hinge=1.8893383008624436, ce=11.976314325945093
+Test acc @ 1289 test: 0.5837
+Check sigma @ 1289 sigma: 0.6093815126768545
+********* Evaluated on dev set *********
+Dev loss: 0.8373. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8474. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6600] loss: 0.8306. Current perf: 0.5375. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7345. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8337. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.768. Dev perf: 0.5875. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.53 seconds!
+[tester] 
+SST2Metric: acc=0.6135321100917431, hinge=1.8682108712852548, ce=11.788567359294367
+Test acc @ 1299 test: 0.6135
+Check sigma @ 1299 sigma: 0.6075397084708802
+********* Evaluated on dev set *********
+Dev loss: 0.9045. Dev perf: 0.4. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7868. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6650] loss: 0.8589. Current perf: 0.5. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7585. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8422. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7886. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.44 seconds!
+[tester] 
+SST2Metric: acc=0.5779816513761468, hinge=1.9036659800678217, ce=12.12875486076425
+Test acc @ 1309 test: 0.578
+Check sigma @ 1309 sigma: 0.605195578098762
+********* Evaluated on dev set *********
+Dev loss: 0.6668. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7314. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6700] loss: 0.83. Current perf: 0.5. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8492. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.9156. Dev perf: 0.4375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8572. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.35 seconds!
+[tester] 
+SST2Metric: acc=0.5894495412844036, hinge=1.8896376802286972, ce=12.345149258954809
+Test acc @ 1319 test: 0.5894
+Check sigma @ 1319 sigma: 0.6034107348658916
+********* Evaluated on dev set *********
+Dev loss: 0.8564. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7781. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6750] loss: 0.7261. Current perf: 0.575. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.768. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7236. Dev perf: 0.6375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.9328. Dev perf: 0.45. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 38.94 seconds!
+[tester] 
+SST2Metric: acc=0.5630733944954128, hinge=1.9089004052888363, ce=12.575319097676408
+Test acc @ 1329 test: 0.5631
+Check sigma @ 1329 sigma: 0.6034803300247014
+********* Evaluated on dev set *********
+Dev loss: 0.815. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.6971. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6800] loss: 0.832. Current perf: 0.4625. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7992. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8087. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.729. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.19 seconds!
+[tester] 
+SST2Metric: acc=0.5688073394495413, hinge=1.8875438532698046, ce=12.398324721450106
+Test acc @ 1339 test: 0.5688
+Check sigma @ 1339 sigma: 0.6053587747663524
+********* Evaluated on dev set *********
+Dev loss: 0.7922. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8773. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6850] loss: 0.7166. Current perf: 0.6375. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7743. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8044. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.763. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.33 seconds!
+[tester] 
+SST2Metric: acc=0.5619266055045872, hinge=1.9124612195776143, ce=12.50820543131697
+Test acc @ 1349 test: 0.5619
+Check sigma @ 1349 sigma: 0.6074741335356526
+********* Evaluated on dev set *********
+Dev loss: 0.7396. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6900] loss: 0.8205. Current perf: 0.5. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.865. Dev perf: 0.4125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7577. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8386. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8308. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 38.91 seconds!
+[tester] 
+SST2Metric: acc=0.5619266055045872, hinge=1.9103295518717636, ce=12.468315465734639
+Test acc @ 1359 test: 0.5619
+Check sigma @ 1359 sigma: 0.6088927105203411
+********* Evaluated on dev set *********
+Dev loss: 0.7062. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+[# API Calls 6950] loss: 0.7494. Current perf: 0.5625. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8893. Dev perf: 0.4375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8605. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8585. Dev perf: 0.45. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7678. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.52 seconds!
+[tester] 
+SST2Metric: acc=0.5321100917431193, hinge=1.9406905830453296, ce=12.527846397609885
+Test acc @ 1369 test: 0.5321
+Check sigma @ 1369 sigma: 0.6095277827873701
+********* Evaluated on dev set *********
+Dev loss: 0.8538. Dev perf: 0.425. Best dev perf: 0.825
+********* Done *********
+[# API Calls 7000] loss: 0.7913. Current perf: 0.5375. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7089. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8724. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8083. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7202. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.27 seconds!
+[tester] 
+SST2Metric: acc=0.5630733944954128, hinge=1.9349715250347732, ce=12.253611923357763
+Test acc @ 1379 test: 0.5631
+Check sigma @ 1379 sigma: 0.6100218000258523
+********* Evaluated on dev set *********
+Dev loss: 0.8755. Dev perf: 0.45. Best dev perf: 0.825
+********* Done *********
+[# API Calls 7050] loss: 0.9198. Current perf: 0.4625. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8008. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7975. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8518. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7465. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.35 seconds!
+[tester] 
+SST2Metric: acc=0.5103211009174312, hinge=1.962175251147069, ce=12.49929842817674
+Test acc @ 1389 test: 0.5103
+Check sigma @ 1389 sigma: 0.6113751190444363
+********* Evaluated on dev set *********
+Dev loss: 0.8497. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+[# API Calls 7100] loss: 0.7577. Current perf: 0.5375. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.9196. Dev perf: 0.3875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8115. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8224. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8972. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 39.42 seconds!
+[tester] 
+SST2Metric: acc=0.5229357798165137, hinge=1.950242038166851, ce=12.564046492270373
+Test acc @ 1399 test: 0.5229
+Check sigma @ 1399 sigma: 0.6115556151105694
+********* Evaluated on dev set *********
+Dev loss: 0.8454. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+[# API Calls 7150] loss: 0.7117. Current perf: 0.6. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.9314. Dev perf: 0.4375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7206. Dev perf: 0.625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8681. Dev perf: 0.4125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7422. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 38.85 seconds!
+[tester] 
+SST2Metric: acc=0.5321100917431193, hinge=1.9535940371522116, ce=12.374604776364947
+Test acc @ 1409 test: 0.5321
+Check sigma @ 1409 sigma: 0.6117544449987066
+********* Evaluated on dev set *********
+Dev loss: 0.7682. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 7200] loss: 0.9016. Current perf: 0.5125. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7452. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.886. Dev perf: 0.45. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.759. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8484. Dev perf: 0.45. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.48 seconds!
+[tester] 
+SST2Metric: acc=0.5160550458715596, hinge=1.9590807092299156, ce=12.470880342186044
+Test acc @ 1419 test: 0.5161
+Check sigma @ 1419 sigma: 0.6125737816510728
+********* Evaluated on dev set *********
+Dev loss: 0.8542. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+[# API Calls 7250] loss: 0.8403. Current perf: 0.55. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8329. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8194. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8438. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7651. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 29.66 seconds!
+[tester] 
+SST2Metric: acc=0.5103211009174312, hinge=1.9483771499143827, ce=12.49759224357955
+Test acc @ 1429 test: 0.5103
+Check sigma @ 1429 sigma: 0.6128590597885829
+********* Evaluated on dev set *********
+Dev loss: 0.7833. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+[# API Calls 7300] loss: 0.7057. Current perf: 0.6375. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8577. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8306. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.873. Dev perf: 0.45. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.845. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 19.85 seconds!
+[tester] 
+SST2Metric: acc=0.5172018348623854, hinge=1.9195688361421637, ce=12.562917656854752
+Test acc @ 1439 test: 0.5172
+Check sigma @ 1439 sigma: 0.6150842144221471
+********* Evaluated on dev set *********
+Dev loss: 0.8307. Dev perf: 0.375. Best dev perf: 0.825
+********* Done *********
+[# API Calls 7350] loss: 0.8235. Current perf: 0.475. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8691. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8592. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7808. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.788. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 14.58 seconds!
+[tester] 
+SST2Metric: acc=0.5172018348623854, hinge=1.9272262372008158, ce=12.748922628000242
+Test acc @ 1449 test: 0.5172
+Check sigma @ 1449 sigma: 0.6169168221352722
+[# API Calls 7400] loss: 0.8306. Current perf: 0.4875. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7362. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.9264. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.769. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8965. Dev perf: 0.425. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8301. Dev perf: 0.4375. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 14.71 seconds!
+[tester] 
+SST2Metric: acc=0.5229357798165137, hinge=1.9241316646610924, ce=12.882075685973561
+Test acc @ 1459 test: 0.5229
+Check sigma @ 1459 sigma: 0.6174939724919616
+[# API Calls 7450] loss: 0.7802. Current perf: 0.5625. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8487. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8264. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7518. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.9131. Dev perf: 0.425. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8582. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 24.57 seconds!
+[tester] 
+SST2Metric: acc=0.5103211009174312, hinge=1.9173850706957896, ce=12.923666000366211
+Test acc @ 1469 test: 0.5103
+Check sigma @ 1469 sigma: 0.6165163306193379
+[# API Calls 7500] loss: 0.75. Current perf: 0.575. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.9539. Dev perf: 0.3625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7407. Dev perf: 0.575. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8761. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.789. Dev perf: 0.5125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7347. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 24.68 seconds!
+[tester] 
+SST2Metric: acc=0.5309633027522935, hinge=1.9355449195301861, ce=12.767299914578778
+Test acc @ 1479 test: 0.531
+Check sigma @ 1479 sigma: 0.6145742192867976
+[# API Calls 7550] loss: 0.8406. Current perf: 0.4375. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8648. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8177. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8006. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7413. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8061. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 24.56 seconds!
+[tester] 
+SST2Metric: acc=0.5080275229357798, hinge=1.9426318571108196, ce=12.802029985900319
+Test acc @ 1489 test: 0.508
+Check sigma @ 1489 sigma: 0.611961370303347
+[# API Calls 7600] loss: 0.842. Current perf: 0.5125. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8344. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8935. Dev perf: 0.45. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 1.0141. Dev perf: 0.4. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7847. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7585. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 24.74 seconds!
+[tester] 
+SST2Metric: acc=0.5172018348623854, hinge=1.9621600929750216, ce=12.547526035833796
+Test acc @ 1499 test: 0.5172
+Check sigma @ 1499 sigma: 0.6107724458086096
+[# API Calls 7650] loss: 0.8047. Current perf: 0.4875. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8336. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8149. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.9154. Dev perf: 0.45. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8881. Dev perf: 0.4375. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.764. Dev perf: 0.6125. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 24.64 seconds!
+[tester] 
+SST2Metric: acc=0.533256880733945, hinge=1.938744501236382, ce=12.579315080555206
+Test acc @ 1509 test: 0.5333
+Check sigma @ 1509 sigma: 0.6107233054038956
+[# API Calls 7700] loss: 0.8076. Current perf: 0.525. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8005. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8751. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.691. Dev perf: 0.5875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8094. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.815. Dev perf: 0.5375. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 25.16 seconds!
+[tester] 
+SST2Metric: acc=0.5206422018348624, hinge=1.9592642259160313, ce=12.442760423782769
+Test acc @ 1519 test: 0.5206
+Check sigma @ 1519 sigma: 0.6107305129559389
+[# API Calls 7750] loss: 0.7571. Current perf: 0.6. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.6956. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7416. Dev perf: 0.5875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7659. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8368. Dev perf: 0.45. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7828. Dev perf: 0.4375. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 24.84 seconds!
+[tester] 
+SST2Metric: acc=0.5275229357798165, hinge=1.9517834164680692, ce=12.382637426393842
+Test acc @ 1529 test: 0.5275
+Check sigma @ 1529 sigma: 0.6100209730130643
+[# API Calls 7800] loss: 0.6813. Current perf: 0.625. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7059. Dev perf: 0.6125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7834. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7747. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8809. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7404. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 24.99 seconds!
+[tester] 
+SST2Metric: acc=0.533256880733945, hinge=1.9525549652379588, ce=12.508325244308612
+Test acc @ 1539 test: 0.5333
+Check sigma @ 1539 sigma: 0.609618621824909
+[# API Calls 7850] loss: 0.815. Current perf: 0.525. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8276. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8453. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7401. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8081. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.734. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 24.6 seconds!
+[tester] 
+SST2Metric: acc=0.5286697247706422, hinge=1.9587798993521874, ce=12.906631828448095
+Test acc @ 1549 test: 0.5287
+Check sigma @ 1549 sigma: 0.6090430814756558
+********* Evaluated on dev set *********
+Dev loss: 0.8349. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8452. Dev perf: 0.4125. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7785. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8983. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+[# API Calls 7950] loss: 0.7616. Current perf: 0.575. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7567. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 24.77 seconds!
+[tester] 
+SST2Metric: acc=0.5252293577981652, hinge=1.958691780720282, ce=12.67749625389729
+Test acc @ 1559 test: 0.5252
+Check sigma @ 1559 sigma: 0.607311139857915
+********* Evaluated on dev set *********
+Dev loss: 0.8257. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8055. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7974. Dev perf: 0.525. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7863. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 8000] loss: 0.7658. Current perf: 0.575. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7832. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 20.23 seconds!
+[tester] 
+SST2Metric: acc=0.5240825688073395, hinge=1.961544986164898, ce=12.578692532460623
+Test acc @ 1569 test: 0.5241
+Check sigma @ 1569 sigma: 0.6051723271364797
+********* Evaluated on dev set *********
+Dev loss: 0.7523. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8948. Dev perf: 0.4875. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.887. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8012. Dev perf: 0.55. Best dev perf: 0.825
+********* Done *********
+[# API Calls 8050] loss: 0.8349. Current perf: 0.4875. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.7176. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 19.98 seconds!
+[tester] 
+SST2Metric: acc=0.5057339449541285, hinge=1.9662631017352463, ce=12.611320075638798
+Test acc @ 1579 test: 0.5057
+Check sigma @ 1579 sigma: 0.6014298135045413
+********* Evaluated on dev set *********
+Dev loss: 0.8867. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7616. Dev perf: 0.6. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.931. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7473. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 8100] loss: 0.8838. Current perf: 0.4375. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.8999. Dev perf: 0.45. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 20.04 seconds!
+[tester] 
+SST2Metric: acc=0.5252293577981652, hinge=1.968380109979472, ce=12.940833905421266
+Test acc @ 1589 test: 0.5252
+Check sigma @ 1589 sigma: 0.5980365039938079
+********* Evaluated on dev set *********
+Dev loss: 0.8197. Dev perf: 0.5. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8759. Dev perf: 0.475. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.8966. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+********* Evaluated on dev set *********
+Dev loss: 0.7854. Dev perf: 0.5625. Best dev perf: 0.825
+********* Done *********
+[# API Calls 8150] loss: 0.8941. Current perf: 0.475. Best perf so far: 0.825
+********* Evaluated on dev set *********
+Dev loss: 0.854. Dev perf: 0.4375. Best dev perf: 0.825
+********* Done *********
+Evaluate on test data...
+Evaluate data in 19.73 seconds!
+[tester] 
+SST2Metric: acc=0.5309633027522935, hinge=1.9592865191468405, ce=12.842294001798017
+Test acc @ 1599 test: 0.531
+Check sigma @ 1599 sigma: 0.5940446348413286
+********* Evaluated on dev set *********
+Dev loss: 0.8164. Dev perf: 0.4625. Best dev perf: 0.825
+********* Done *********
+Done. Elapsed time: 482.02958915233614 (mins)
+Evaluate on test data...
+Evaluate data in 19.81 seconds!
+[tester] 
+SST2Metric: acc=0.5309633027522935, hinge=1.9592865191468405, ce=12.842294001798017
+Test acc: 0.531

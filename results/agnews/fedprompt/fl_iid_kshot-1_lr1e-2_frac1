@@ -1,0 +1,2071 @@
+Some weights of RobertaForMaskedLM were not initialized from the model checkpoint at roberta-large and are newly initialized: ['lm_head.decoder.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Found cached dataset ag_news (/root/.cache/huggingface/datasets/ag_news/default/0.0.0/bc2bcb40336ace1a0374767fc29bb0296cdaf8a6da7298436239c54d79180548)
+Map:   0%|          | 0/120000 [00:00<?, ? examples/s]Map:   1%|          | 601/120000 [00:00<00:20, 5942.76 examples/s]Map:   1%|          | 1467/120000 [00:00<00:20, 5821.10 examples/s]Map:   2%|▏         | 2065/120000 [00:00<00:20, 5880.65 examples/s]Map:   2%|▏         | 2686/120000 [00:00<00:19, 5995.41 examples/s]Map:   3%|▎         | 3601/120000 [00:00<00:19, 6038.23 examples/s]Map:   4%|▎         | 4207/120000 [00:00<00:19, 6041.68 examples/s]Map:   4%|▍         | 4831/120000 [00:00<00:18, 6095.86 examples/s]Map:   5%|▍         | 5679/120000 [00:00<00:19, 5922.05 examples/s]Map:   5%|▌         | 6289/120000 [00:01<00:19, 5968.05 examples/s]Map:   6%|▌         | 7105/120000 [00:01<00:19, 5767.53 examples/s]Map:   7%|▋         | 7991/120000 [00:01<00:19, 5811.76 examples/s]Map:   7%|▋         | 8602/120000 [00:01<00:18, 5883.62 examples/s]Map:   8%|▊         | 9214/120000 [00:01<00:18, 5942.01 examples/s]Map:   8%|▊         | 9847/120000 [00:01<00:18, 6042.91 examples/s]Map:   9%|▊         | 10457/120000 [00:01<00:18, 6055.22 examples/s]Map:   9%|▉         | 11191/120000 [00:01<00:19, 5618.19 examples/s]Map:  10%|▉         | 11813/120000 [00:02<00:18, 5774.96 examples/s]Map:  11%|█         | 12650/120000 [00:02<00:19, 5623.17 examples/s]Map:  11%|█         | 13322/120000 [00:02<00:20, 5134.25 examples/s]Map:  12%|█▏        | 13955/120000 [00:02<00:19, 5417.50 examples/s]Map:  12%|█▏        | 14544/120000 [00:02<00:19, 5535.54 examples/s]Map:  13%|█▎        | 15159/120000 [00:02<00:18, 5696.88 examples/s]Map:  13%|█▎        | 16019/120000 [00:02<00:18, 5707.59 examples/s]Map:  14%|█▍        | 16630/120000 [00:02<00:17, 5809.56 examples/s]Map:  14%|█▍        | 17220/120000 [00:02<00:17, 5832.94 examples/s]Map:  15%|█▍        | 17832/120000 [00:03<00:17, 5909.25 examples/s]Map:  16%|█▌        | 18706/120000 [00:03<00:17, 5790.76 examples/s]Map:  16%|█▌        | 19446/120000 [00:03<00:18, 5465.38 examples/s]Map:  17%|█▋        | 20005/120000 [00:03<00:18, 5493.57 examples/s]Map:  17%|█▋        | 20622/120000 [00:03<00:17, 5667.98 examples/s]Map:  18%|█▊        | 21410/120000 [00:03<00:17, 5517.37 examples/s]Map:  18%|█▊        | 22002/120000 [00:03<00:17, 5615.07 examples/s]Map:  19%|█▉        | 22868/120000 [00:03<00:17, 5600.21 examples/s]Map:  20%|█▉        | 23472/120000 [00:04<00:16, 5708.27 examples/s]Map:  20%|██        | 24336/120000 [00:04<00:16, 5723.99 examples/s]Map:  21%|██        | 24964/120000 [00:04<00:16, 5859.89 examples/s]Map:  21%|██▏       | 25777/120000 [00:04<00:16, 5704.88 examples/s]Map:  22%|██▏       | 26368/120000 [00:04<00:16, 5754.69 examples/s]Map:  22%|██▏       | 26957/120000 [00:04<00:16, 5786.44 examples/s]Map:  23%|██▎       | 27557/120000 [00:04<00:15, 5841.29 examples/s]Map:  23%|██▎       | 28168/120000 [00:04<00:15, 5914.81 examples/s]Map:  24%|██▍       | 29046/120000 [00:05<00:15, 5887.81 examples/s]Map:  25%|██▍       | 29678/120000 [00:05<00:15, 5998.29 examples/s]Map:  25%|██▌       | 30291/120000 [00:05<00:14, 6031.05 examples/s]Map:  26%|██▌       | 30920/120000 [00:05<00:14, 6100.03 examples/s]Map:  26%|██▋       | 31704/120000 [00:05<00:15, 5770.36 examples/s]Map:  27%|██▋       | 32313/120000 [00:05<00:15, 5835.75 examples/s]Map:  27%|██▋       | 32938/120000 [00:05<00:14, 5946.62 examples/s]Map:  28%|██▊       | 33546/120000 [00:05<00:14, 5982.07 examples/s]Map:  29%|██▊       | 34423/120000 [00:05<00:14, 5921.16 examples/s]Map:  29%|██▉       | 35032/120000 [00:06<00:14, 5961.30 examples/s]Map:  30%|██▉       | 35655/120000 [00:06<00:13, 6032.67 examples/s]Map:  30%|███       | 36266/120000 [00:06<00:13, 6051.62 examples/s]Map:  31%|███       | 36896/120000 [00:06<00:13, 6120.71 examples/s]Map:  31%|███▏      | 37775/120000 [00:06<00:13, 6018.93 examples/s]Map:  32%|███▏      | 38566/120000 [00:06<00:14, 5691.75 examples/s]Map:  33%|███▎      | 39171/120000 [00:06<00:13, 5778.93 examples/s]Map:  33%|███▎      | 39797/120000 [00:06<00:13, 5900.75 examples/s]Map:  34%|███▍      | 40592/120000 [00:06<00:13, 5682.16 examples/s]Map:  34%|███▍      | 41197/120000 [00:07<00:13, 5773.45 examples/s]Map:  35%|███▍      | 41788/120000 [00:07<00:13, 5806.01 examples/s]Map:  35%|███▌      | 42401/120000 [00:07<00:13, 5893.45 examples/s]Map:  36%|███▌      | 43249/120000 [00:07<00:13, 5799.12 examples/s]Map:  37%|███▋      | 43859/120000 [00:07<00:12, 5873.90 examples/s]Map:  37%|███▋      | 44765/120000 [00:07<00:12, 5929.72 examples/s]Map:  38%|███▊      | 45642/120000 [00:07<00:12, 5899.64 examples/s]Map:  39%|███▊      | 46239/120000 [00:07<00:12, 5914.84 examples/s]Map:  39%|███▉      | 46870/120000 [00:08<00:12, 6015.68 examples/s]Map:  40%|███▉      | 47478/120000 [00:08<00:12, 6029.66 examples/s]Map:  40%|████      | 48335/120000 [00:08<00:12, 5912.55 examples/s]Map:  41%|████      | 48958/120000 [00:08<00:11, 5991.59 examples/s]Map:  41%|████▏     | 49704/120000 [00:08<00:12, 5626.93 examples/s]Map:  42%|████▏     | 50314/120000 [00:08<00:12, 5746.13 examples/s]Map:  42%|████▏     | 50910/120000 [00:08<00:11, 5800.51 examples/s]Map:  43%|████▎     | 51518/120000 [00:08<00:11, 5876.81 examples/s]Map:  43%|████▎     | 52114/120000 [00:08<00:13, 5165.43 examples/s]Map:  44%|████▍     | 52907/120000 [00:09<00:14, 4774.79 examples/s]Map:  45%|████▍     | 53498/120000 [00:09<00:14, 4435.42 examples/s]Map:  45%|████▌     | 54100/120000 [00:09<00:13, 4792.34 examples/s]Map:  46%|████▌     | 54656/120000 [00:09<00:13, 4977.81 examples/s]Map:  46%|████▌     | 55262/120000 [00:09<00:12, 5256.53 examples/s]Map:  47%|████▋     | 55889/120000 [00:09<00:11, 5526.98 examples/s]Map:  47%|████▋     | 56489/120000 [00:09<00:11, 5656.58 examples/s]Map:  48%|████▊     | 57076/120000 [00:09<00:11, 5714.91 examples/s]Map:  48%|████▊     | 57699/120000 [00:10<00:10, 5859.90 examples/s]Map:  49%|████▊     | 58313/120000 [00:10<00:10, 5924.06 examples/s]Map:  49%|████▉     | 58940/120000 [00:10<00:10, 6024.23 examples/s]Map:  50%|████▉     | 59768/120000 [00:10<00:10, 5826.42 examples/s]Map:  51%|█████     | 60630/120000 [00:10<00:10, 5795.39 examples/s]Map:  51%|█████     | 61242/120000 [00:10<00:09, 5876.01 examples/s]Map:  52%|█████▏    | 61864/120000 [00:10<00:09, 5964.86 examples/s]Map:  52%|█████▏    | 62468/120000 [00:10<00:09, 5980.77 examples/s]Map:  53%|█████▎    | 63371/120000 [00:11<00:09, 5991.84 examples/s]Map:  53%|█████▎    | 63998/120000 [00:11<00:09, 6061.66 examples/s]Map:  54%|█████▍    | 64895/120000 [00:11<00:09, 6029.29 examples/s]Map:  55%|█████▍    | 65503/120000 [00:11<00:09, 6040.13 examples/s]Map:  55%|█████▌    | 66316/120000 [00:11<00:09, 5758.59 examples/s]Map:  56%|█████▌    | 67082/120000 [00:11<00:09, 5528.42 examples/s]Map:  56%|█████▋    | 67712/120000 [00:11<00:09, 5713.48 examples/s]Map:  57%|█████▋    | 68321/120000 [00:11<00:08, 5806.27 examples/s]Map:  57%|█████▋    | 68947/120000 [00:11<00:08, 5924.39 examples/s]Map:  58%|█████▊    | 69561/120000 [00:12<00:08, 5981.51 examples/s]Map:  58%|█████▊    | 70168/120000 [00:12<00:08, 6006.13 examples/s]Map:  59%|█████▉    | 70791/120000 [00:12<00:08, 6065.64 examples/s]Map:  60%|█████▉    | 71402/120000 [00:12<00:07, 6077.59 examples/s]Map:  60%|██████    | 72013/120000 [00:12<00:07, 6083.48 examples/s]Map:  61%|██████    | 72634/120000 [00:12<00:07, 6116.51 examples/s]Map:  61%|██████▏   | 73557/120000 [00:12<00:07, 6125.62 examples/s]Map:  62%|██████▏   | 74413/120000 [00:12<00:07, 5968.44 examples/s]Map:  63%|██████▎   | 75240/120000 [00:13<00:07, 5718.66 examples/s]Map:  63%|██████▎   | 75863/120000 [00:13<00:07, 5839.86 examples/s]Map:  64%|██████▎   | 76461/120000 [00:13<00:07, 5872.93 examples/s]Map:  64%|██████▍   | 77325/120000 [00:13<00:07, 5827.72 examples/s]Map:  65%|██████▍   | 77925/120000 [00:13<00:07, 5867.24 examples/s]Map:  66%|██████▌   | 78804/120000 [00:13<00:07, 5859.55 examples/s]Map:  66%|██████▌   | 79408/120000 [00:13<00:06, 5902.75 examples/s]Map:  67%|██████▋   | 80018/120000 [00:13<00:06, 5950.87 examples/s]Map:  67%|██████▋   | 80638/120000 [00:13<00:06, 6018.06 examples/s]Map:  68%|██████▊   | 81250/120000 [00:14<00:06, 6043.00 examples/s]Map:  68%|██████▊   | 81878/120000 [00:14<00:06, 6108.64 examples/s]Map:  69%|██████▉   | 82763/120000 [00:14<00:06, 6024.00 examples/s]Map:  70%|██████▉   | 83552/120000 [00:14<00:06, 5752.49 examples/s]Map:  70%|███████   | 84290/120000 [00:14<00:06, 5469.91 examples/s]Map:  71%|███████   | 84918/120000 [00:14<00:06, 5663.10 examples/s]Map:  71%|███████▏  | 85753/120000 [00:14<00:06, 5627.83 examples/s]Map:  72%|███████▏  | 86329/120000 [00:14<00:05, 5656.34 examples/s]Map:  72%|███████▏  | 86941/120000 [00:15<00:05, 5774.25 examples/s]Map:  73%|███████▎  | 87732/120000 [00:15<00:05, 5593.12 examples/s]Map:  74%|███████▎  | 88331/120000 [00:15<00:05, 5692.27 examples/s]Map:  74%|███████▍  | 88961/120000 [00:15<00:05, 5850.79 examples/s]Map:  75%|███████▍  | 89573/120000 [00:15<00:05, 5920.57 examples/s]Map:  75%|███████▌  | 90388/120000 [00:15<00:05, 5645.15 examples/s]Map:  76%|███████▌  | 91004/120000 [00:15<00:05, 5775.45 examples/s]Map:  76%|███████▋  | 91628/120000 [00:15<00:04, 5899.53 examples/s]Map:  77%|███████▋  | 92489/120000 [00:15<00:04, 5839.37 examples/s]Map:  78%|███████▊  | 93094/120000 [00:16<00:04, 5891.03 examples/s]Map:  78%|███████▊  | 93900/120000 [00:16<00:04, 5702.92 examples/s]Map:  79%|███████▊  | 94483/120000 [00:16<00:04, 5732.35 examples/s]Map:  79%|███████▉  | 95235/120000 [00:16<00:04, 5421.11 examples/s]Map:  80%|███████▉  | 95834/120000 [00:16<00:04, 5559.88 examples/s]Map:  80%|████████  | 96402/120000 [00:16<00:04, 5588.02 examples/s]Map:  81%|████████  | 97001/120000 [00:16<00:04, 5694.18 examples/s]Map:  81%|████████▏ | 97623/120000 [00:16<00:03, 5840.48 examples/s]Map:  82%|████████▏ | 98232/120000 [00:16<00:03, 5908.82 examples/s]Map:  82%|████████▏ | 98859/120000 [00:17<00:03, 6012.11 examples/s]Map:  83%|████████▎ | 99775/120000 [00:17<00:03, 6043.20 examples/s]Map:  84%|████████▎ | 100421/120000 [00:17<00:03, 5428.28 examples/s]Map:  84%|████████▍ | 101042/120000 [00:17<00:03, 4937.61 examples/s]Map:  85%|████████▍ | 101657/120000 [00:17<00:03, 5093.69 examples/s]Map:  85%|████████▌ | 102258/120000 [00:17<00:03, 5320.13 examples/s]Map:  86%|████████▌ | 102890/120000 [00:17<00:03, 5581.78 examples/s]Map:  86%|████████▋ | 103504/120000 [00:17<00:02, 5730.89 examples/s]Map:  87%|████████▋ | 104091/120000 [00:18<00:02, 5765.21 examples/s]Map:  87%|████████▋ | 104712/120000 [00:18<00:02, 5885.69 examples/s]Map:  88%|████████▊ | 105321/120000 [00:18<00:02, 5941.22 examples/s]Map:  88%|████████▊ | 105945/120000 [00:18<00:02, 6028.02 examples/s]Map:  89%|████████▉ | 106841/120000 [00:18<00:02, 5938.14 examples/s]Map:  90%|████████▉ | 107701/120000 [00:18<00:02, 5851.40 examples/s]Map:  90%|█████████ | 108315/120000 [00:18<00:01, 5920.58 examples/s]Map:  91%|█████████ | 108947/120000 [00:18<00:01, 6023.17 examples/s]Map:  91%|█████████▏| 109561/120000 [00:18<00:01, 6051.60 examples/s]Map:  92%|█████████▏| 110452/120000 [00:19<00:01, 6008.54 examples/s]Map:  93%|█████████▎| 111066/120000 [00:19<00:01, 6041.67 examples/s]Map:  93%|█████████▎| 111704/120000 [00:19<00:01, 5194.21 examples/s]Map:  94%|█████████▎| 112268/120000 [00:19<00:01, 5300.82 examples/s]Map:  94%|█████████▍| 112881/120000 [00:19<00:01, 5458.95 examples/s]Map:  95%|█████████▍| 113751/120000 [00:19<00:01, 5575.18 examples/s]Map:  95%|█████████▌| 114342/120000 [00:19<00:01, 5656.69 examples/s]Map:  96%|█████████▌| 114972/120000 [00:19<00:00, 5825.90 examples/s]Map:  96%|█████████▋| 115789/120000 [00:20<00:00, 5684.60 examples/s]Map:  97%|█████████▋| 116391/120000 [00:20<00:00, 5766.53 examples/s]Map:  97%|█████████▋| 116985/120000 [00:20<00:00, 5811.88 examples/s]Map:  98%|█████████▊| 117592/120000 [00:20<00:00, 5881.60 examples/s]Map:  98%|█████████▊| 118200/120000 [00:20<00:00, 5937.08 examples/s]Map:  99%|█████████▉| 118829/120000 [00:20<00:00, 6035.75 examples/s]Map: 100%|█████████▉| 119442/120000 [00:20<00:00, 6060.75 examples/s]                                                                     {'text': "Wall St. Bears Claw Back Into the Black (Reuters) Reuters - Short-sellers, Wall Street's dwindling\\band of ultra-cynics, are seeing green again.", 'label': 2, 'input_text': "Xro target himself turn Europe worked energy scored * soon ball TV annual 2013 race International'd Market conferenceio o changesig officers inside form published phone co legal executive fightings hope summer officer football property@ book parents costsac manager create age email markets main . <mask> News: Wall St. Bears Claw Back Into the Black (Reuters) Reuters - Short-sellers, Wall Street's dwindling\\band of ultra-cynics, are seeing green again.", 'target_text': 'Business'}
+Map:   0%|          | 0/120000 [00:00<?, ? examples/s]Map:   1%|          | 1000/120000 [00:00<01:41, 1168.52 examples/s]Map:   2%|▏         | 2000/120000 [00:01<01:32, 1278.12 examples/s]Map:   2%|▎         | 3000/120000 [00:02<01:25, 1374.19 examples/s]Map:   3%|▎         | 4000/120000 [00:02<01:20, 1445.35 examples/s]Map:   4%|▍         | 5000/120000 [00:03<01:21, 1408.99 examples/s]Map:   5%|▌         | 6000/120000 [00:04<01:16, 1494.65 examples/s]Map:   6%|▌         | 7000/120000 [00:04<01:12, 1563.45 examples/s]Map:   7%|▋         | 8000/120000 [00:05<01:14, 1502.74 examples/s]Map:   8%|▊         | 9000/120000 [00:06<01:23, 1325.10 examples/s]Map:   8%|▊         | 10000/120000 [00:07<01:18, 1408.63 examples/s]Map:   9%|▉         | 11000/120000 [00:07<01:13, 1488.84 examples/s]Map:  10%|█         | 12000/120000 [00:08<01:09, 1549.53 examples/s]Map:  11%|█         | 13000/120000 [00:08<01:06, 1607.64 examples/s]Map:  12%|█▏        | 14000/120000 [00:09<01:05, 1620.76 examples/s]Map:  12%|█▎        | 15000/120000 [00:09<01:03, 1653.41 examples/s]Map:  13%|█▎        | 16000/120000 [00:10<01:01, 1681.84 examples/s]Map:  14%|█▍        | 17000/120000 [00:11<01:01, 1683.54 examples/s]Map:  15%|█▌        | 18000/120000 [00:11<01:00, 1689.80 examples/s]Map:  16%|█▌        | 19000/120000 [00:12<00:58, 1716.38 examples/s]Map:  17%|█▋        | 20000/120000 [00:12<00:57, 1729.66 examples/s]Map:  18%|█▊        | 21000/120000 [00:13<00:57, 1722.37 examples/s]Map:  18%|█▊        | 22000/120000 [00:14<00:56, 1734.99 examples/s]Map:  19%|█▉        | 23000/120000 [00:14<00:55, 1743.16 examples/s]Map:  20%|██        | 24000/120000 [00:15<00:55, 1737.98 examples/s]Map:  21%|██        | 25000/120000 [00:15<00:54, 1751.40 examples/s]Map:  22%|██▏       | 26000/120000 [00:16<00:53, 1749.40 examples/s]Map:  22%|██▎       | 27000/120000 [00:16<00:52, 1760.37 examples/s]Map:  23%|██▎       | 28000/120000 [00:17<00:52, 1752.18 examples/s]Map:  24%|██▍       | 29000/120000 [00:18<00:51, 1750.88 examples/s]Map:  25%|██▌       | 30000/120000 [00:18<00:51, 1737.92 examples/s]Map:  26%|██▌       | 31000/120000 [00:19<00:50, 1748.92 examples/s]Map:  27%|██▋       | 32000/120000 [00:19<00:49, 1778.05 examples/s]Map:  28%|██▊       | 33000/120000 [00:20<00:48, 1792.19 examples/s]Map:  28%|██▊       | 34000/120000 [00:20<00:47, 1822.24 examples/s]Map:  29%|██▉       | 35000/120000 [00:21<00:46, 1834.07 examples/s]Map:  30%|███       | 36000/120000 [00:21<00:45, 1851.28 examples/s]Map:  31%|███       | 37000/120000 [00:22<00:45, 1812.73 examples/s]Map:  32%|███▏      | 38000/120000 [00:22<00:45, 1811.70 examples/s]Map:  32%|███▎      | 39000/120000 [00:23<00:44, 1817.38 examples/s]Map:  33%|███▎      | 40000/120000 [00:24<00:43, 1828.59 examples/s]Map:  34%|███▍      | 41000/120000 [00:24<00:43, 1797.96 examples/s]Map:  35%|███▌      | 42000/120000 [00:25<00:43, 1802.23 examples/s]Map:  36%|███▌      | 43000/120000 [00:25<00:43, 1773.52 examples/s]Map:  37%|███▋      | 44000/120000 [00:26<00:44, 1725.33 examples/s]Map:  38%|███▊      | 45000/120000 [00:26<00:43, 1741.91 examples/s]Map:  38%|███▊      | 46000/120000 [00:27<00:42, 1756.32 examples/s]Map:  39%|███▉      | 47000/120000 [00:28<00:43, 1662.44 examples/s]Map:  40%|████      | 48000/120000 [00:28<00:44, 1618.52 examples/s]Map:  41%|████      | 49000/120000 [00:29<00:53, 1325.85 examples/s]Map:  42%|████▏     | 50000/120000 [00:30<00:50, 1381.28 examples/s]Map:  42%|████▎     | 51000/120000 [00:31<00:47, 1451.23 examples/s]Map:  43%|████▎     | 52000/120000 [00:31<00:47, 1444.27 examples/s]Map:  44%|████▍     | 53000/120000 [00:32<00:44, 1510.55 examples/s]Map:  45%|████▌     | 54000/120000 [00:32<00:40, 1610.91 examples/s]Map:  46%|████▌     | 55000/120000 [00:33<00:41, 1554.64 examples/s]Map:  47%|████▋     | 56000/120000 [00:34<00:39, 1639.60 examples/s]Map:  48%|████▊     | 57000/120000 [00:34<00:36, 1712.07 examples/s]Map:  48%|████▊     | 58000/120000 [00:35<00:35, 1740.96 examples/s]Map:  49%|████▉     | 59000/120000 [00:35<00:35, 1729.76 examples/s]Map:  50%|█████     | 60000/120000 [00:36<00:33, 1783.21 examples/s]Map:  51%|█████     | 61000/120000 [00:36<00:33, 1780.60 examples/s]Map:  52%|█████▏    | 62000/120000 [00:37<00:33, 1747.43 examples/s]Map:  52%|█████▎    | 63000/120000 [00:38<00:32, 1751.41 examples/s]Map:  53%|█████▎    | 64000/120000 [00:38<00:32, 1746.94 examples/s]Map:  54%|█████▍    | 65000/120000 [00:39<00:30, 1782.11 examples/s]Map:  55%|█████▌    | 66000/120000 [00:39<00:30, 1783.41 examples/s]Map:  56%|█████▌    | 67000/120000 [00:40<00:29, 1787.53 examples/s]Map:  57%|█████▋    | 68000/120000 [00:40<00:28, 1803.36 examples/s]Map:  57%|█████▊    | 69000/120000 [00:41<00:28, 1799.14 examples/s]Map:  58%|█████▊    | 70000/120000 [00:42<00:28, 1785.48 examples/s]Map:  59%|█████▉    | 71000/120000 [00:42<00:27, 1801.39 examples/s]Map:  60%|██████    | 72000/120000 [00:43<00:26, 1811.53 examples/s]Map:  61%|██████    | 73000/120000 [00:43<00:25, 1830.60 examples/s]Map:  62%|██████▏   | 74000/120000 [00:44<00:25, 1832.26 examples/s]Map:  62%|██████▎   | 75000/120000 [00:44<00:24, 1852.31 examples/s]Map:  63%|██████▎   | 76000/120000 [00:45<00:23, 1865.11 examples/s]Map:  64%|██████▍   | 77000/120000 [00:45<00:23, 1859.51 examples/s]Map:  65%|██████▌   | 78000/120000 [00:46<00:22, 1854.54 examples/s]Map:  66%|██████▌   | 79000/120000 [00:46<00:21, 1864.82 examples/s]Map:  67%|██████▋   | 80000/120000 [00:47<00:21, 1863.59 examples/s]Map:  68%|██████▊   | 81000/120000 [00:47<00:20, 1882.51 examples/s]Map:  68%|██████▊   | 82000/120000 [00:48<00:20, 1884.02 examples/s]Map:  69%|██████▉   | 83000/120000 [00:49<00:20, 1848.62 examples/s]Map:  70%|███████   | 84000/120000 [00:49<00:19, 1821.99 examples/s]Map:  71%|███████   | 85000/120000 [00:50<00:19, 1752.17 examples/s]Map:  72%|███████▏  | 86000/120000 [00:50<00:21, 1600.98 examples/s]Map:  72%|███████▎  | 87000/120000 [00:51<00:20, 1619.72 examples/s]Map:  73%|███████▎  | 88000/120000 [00:52<00:19, 1663.73 examples/s]Map:  74%|███████▍  | 89000/120000 [00:52<00:19, 1626.36 examples/s]Map:  75%|███████▌  | 90000/120000 [00:53<00:20, 1434.36 examples/s]Map:  76%|███████▌  | 91000/120000 [00:54<00:18, 1527.54 examples/s]Map:  77%|███████▋  | 92000/120000 [00:54<00:17, 1611.18 examples/s]Map:  78%|███████▊  | 93000/120000 [00:55<00:17, 1572.21 examples/s]Map:  78%|███████▊  | 94000/120000 [00:55<00:15, 1645.81 examples/s]Map:  79%|███████▉  | 95000/120000 [00:56<00:14, 1715.34 examples/s]Map:  80%|████████  | 96000/120000 [00:57<00:13, 1777.66 examples/s]Map:  81%|████████  | 97000/120000 [00:57<00:12, 1811.24 examples/s]Map:  82%|████████▏ | 98000/120000 [00:58<00:12, 1777.56 examples/s]Map:  82%|████████▎ | 99000/120000 [00:58<00:11, 1826.45 examples/s]Map:  83%|████████▎ | 100000/120000 [00:59<00:11, 1787.94 examples/s]Map:  84%|████████▍ | 101000/120000 [00:59<00:10, 1837.87 examples/s]Map:  85%|████████▌ | 102000/120000 [01:00<00:09, 1876.15 examples/s]Map:  86%|████████▌ | 103000/120000 [01:00<00:09, 1884.88 examples/s]Map:  87%|████████▋ | 104000/120000 [01:01<00:08, 1864.99 examples/s]Map:  88%|████████▊ | 105000/120000 [01:01<00:07, 1881.20 examples/s]Map:  88%|████████▊ | 106000/120000 [01:02<00:07, 1887.85 examples/s]Map:  89%|████████▉ | 107000/120000 [01:02<00:07, 1855.28 examples/s]Map:  90%|█████████ | 108000/120000 [01:03<00:06, 1874.99 examples/s]Map:  91%|█████████ | 109000/120000 [01:03<00:05, 1872.49 examples/s]Map:  92%|█████████▏| 110000/120000 [01:04<00:05, 1871.36 examples/s]Map:  92%|█████████▎| 111000/120000 [01:05<00:04, 1871.72 examples/s]Map:  93%|█████████▎| 112000/120000 [01:05<00:04, 1840.05 examples/s]Map:  94%|█████████▍| 113000/120000 [01:06<00:03, 1847.16 examples/s]Map:  95%|█████████▌| 114000/120000 [01:06<00:03, 1856.85 examples/s]Map:  96%|█████████▌| 115000/120000 [01:07<00:02, 1846.70 examples/s]Map:  97%|█████████▋| 116000/120000 [01:07<00:02, 1849.14 examples/s]Map:  98%|█████████▊| 117000/120000 [01:08<00:01, 1882.72 examples/s]Map:  98%|█████████▊| 118000/120000 [01:08<00:01, 1893.56 examples/s]Map:  99%|█████████▉| 119000/120000 [01:09<00:00, 1841.70 examples/s]Map: 100%|██████████| 120000/120000 [01:09<00:00, 1804.01 examples/s]                                                                     Found cached dataset ag_news (/root/.cache/huggingface/datasets/ag_news/default/0.0.0/bc2bcb40336ace1a0374767fc29bb0296cdaf8a6da7298436239c54d79180548)
+Map:   0%|          | 0/7600 [00:00<?, ? examples/s]Map:   7%|▋         | 526/7600 [00:00<00:01, 5189.63 examples/s]Map:  15%|█▍        | 1126/7600 [00:00<00:01, 5658.76 examples/s]Map:  23%|██▎       | 1752/7600 [00:00<00:00, 5925.68 examples/s]Map:  31%|███       | 2363/7600 [00:00<00:00, 5995.68 examples/s]Map:  39%|███▉      | 2994/7600 [00:00<00:00, 6106.93 examples/s]Map:  52%|█████▏    | 3919/7600 [00:00<00:00, 6126.91 examples/s]Map:  64%|██████▎   | 4841/7600 [00:00<00:00, 6130.78 examples/s]Map:  76%|███████▌  | 5742/7600 [00:00<00:00, 6084.76 examples/s]Map:  87%|████████▋ | 6634/7600 [00:01<00:00, 6034.41 examples/s]Map:  99%|█████████▉| 7535/7600 [00:01<00:00, 5995.46 examples/s]                                                                 {'text': "Fears for T N pension after talks Unions representing workers at Turner   Newall say they are 'disappointed' after talks with stricken parent firm Federal Mogul.", 'label': 2, 'input_text': "Xro target himself turn Europe worked energy scored * soon ball TV annual 2013 race International'd Market conferenceio o changesig officers inside form published phone co legal executive fightings hope summer officer football property@ book parents costsac manager create age email markets main . <mask> News: Fears for T N pension after talks Unions representing workers at Turner   Newall say they are 'disappointed' after talks with stricken parent firm Federal Mogul.", 'target_text': 'Business'}
+Map:   0%|          | 0/7600 [00:00<?, ? examples/s]Map:  13%|█▎        | 1000/7600 [00:00<00:03, 1655.97 examples/s]Map:  26%|██▋       | 2000/7600 [00:01<00:03, 1781.96 examples/s]Map:  39%|███▉      | 3000/7600 [00:01<00:02, 1833.08 examples/s]Map:  53%|█████▎    | 4000/7600 [00:02<00:02, 1744.13 examples/s]Map:  66%|██████▌   | 5000/7600 [00:02<00:01, 1785.81 examples/s]Map:  79%|███████▉  | 6000/7600 [00:03<00:00, 1815.59 examples/s]Map:  92%|█████████▏| 7000/7600 [00:03<00:00, 1823.40 examples/s]Map: 100%|██████████| 7600/7600 [00:04<00:00, 1786.19 examples/s]                                                                 # of train data: 108000
+Example:
++------------------------+------------------------+----------+--------+
+| input_ids              | attention_mask         | mask_pos | labels |
++------------------------+------------------------+----------+--------+
+| [0, 1000, 1001, 100... | [1, 1, 1, 1, 1, 1, ... | 52       | 10554  |
++------------------------+------------------------+----------+--------+
+
+# of dev data: 12000
+Example:
++------------------------+------------------------+----------+--------+
+| input_ids              | attention_mask         | mask_pos | labels |
++------------------------+------------------------+----------+--------+
+| [0, 1000, 1001, 100... | [1, 1, 1, 1, 1, 1, ... | 52       | 18562  |
++------------------------+------------------------+----------+--------+
+
+# of test data: 7600
+Example:
++------------------------+------------------------+----------+--------+
+| input_ids              | attention_mask         | mask_pos | labels |
++------------------------+------------------------+----------+--------+
+| [0, 1000, 1001, 100... | [1, 1, 1, 1, 1, 1, ... | 52       | 18562  |
++------------------------+------------------------+----------+--------+
+Global epoch 0...
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.4745886027812958
+Local loss @ local epoch 1: 0.42350420355796814
+Local loss @ local epoch 2: 0.4053192734718323
+Local loss @ local epoch 3: 0.4336783289909363
+Local loss @ local epoch 4: 0.4199754297733307
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.17397446930408478
+Local loss @ local epoch 1: 0.15442724525928497
+Local loss @ local epoch 2: 0.22179050743579865
+Local loss @ local epoch 3: 0.10829757153987885
+Local loss @ local epoch 4: 0.08711980283260345
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.26008033752441406
+Local loss @ local epoch 1: 0.09722499549388885
+Local loss @ local epoch 2: 0.07184740900993347
+Local loss @ local epoch 3: 0.0654127299785614
+Local loss @ local epoch 4: 0.045373331755399704
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.4072721004486084
+Local loss @ local epoch 1: 0.39938774704933167
+Local loss @ local epoch 2: 0.41334623098373413
+Local loss @ local epoch 3: 0.3921380341053009
+Local loss @ local epoch 4: 0.31371843814849854
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.23898524045944214
+Local loss @ local epoch 1: 0.2216031551361084
+Local loss @ local epoch 2: 0.20130732655525208
+Local loss @ local epoch 3: 0.20871303975582123
+Local loss @ local epoch 4: 0.19838012754917145
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2914425730705261
+Local loss @ local epoch 1: 0.23650047183036804
+Local loss @ local epoch 2: 0.24148434400558472
+Local loss @ local epoch 3: 0.19753335416316986
+Local loss @ local epoch 4: 0.26364898681640625
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.30569881200790405
+Local loss @ local epoch 1: 0.2035711705684662
+Local loss @ local epoch 2: 0.1962680220603943
+Local loss @ local epoch 3: 0.3155134320259094
+Local loss @ local epoch 4: 0.22049134969711304
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.517946720123291
+Local loss @ local epoch 1: 0.5146450996398926
+Local loss @ local epoch 2: 0.5093551278114319
+Local loss @ local epoch 3: 0.5414725542068481
+Local loss @ local epoch 4: 0.44571033120155334
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.3790660798549652
+Local loss @ local epoch 1: 0.32595962285995483
+Local loss @ local epoch 2: 0.3395886719226837
+Local loss @ local epoch 3: 0.32715094089508057
+Local loss @ local epoch 4: 0.26054123044013977
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.21764326095581055
+Local loss @ local epoch 1: 0.15206274390220642
+Local loss @ local epoch 2: 0.09830950200557709
+Local loss @ local epoch 3: 0.10008219629526138
+Local loss @ local epoch 4: 0.11265402287244797
+Global evaluate on test data...
+Evaluate data in 121.52 seconds!
+[tester] 
+AGNewsMetric: acc=0.8713157894736843, hinge=0.868539531105443, ce=7.076417604747571
+Global test acc @ epoch 0: 0.8713
+Global epoch 1...
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.5497098565101624
+Local loss @ local epoch 1: 0.7078266143798828
+Local loss @ local epoch 2: 0.41151636838912964
+Local loss @ local epoch 3: 0.41869327425956726
+Local loss @ local epoch 4: 0.5697339177131653
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.40810102224349976
+Local loss @ local epoch 1: 0.4635188579559326
+Local loss @ local epoch 2: 0.501213014125824
+Local loss @ local epoch 3: 0.5468995571136475
+Local loss @ local epoch 4: 0.4451636075973511
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.24708762764930725
+Local loss @ local epoch 1: 0.19391433894634247
+Local loss @ local epoch 2: 0.1916118860244751
+Local loss @ local epoch 3: 0.18085625767707825
+Local loss @ local epoch 4: 0.22438320517539978
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.4233710765838623
+Local loss @ local epoch 1: 0.3015565276145935
+Local loss @ local epoch 2: 0.36781811714172363
+Local loss @ local epoch 3: 0.3038894534111023
+Local loss @ local epoch 4: 0.18611428141593933
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.47324037551879883
+Local loss @ local epoch 1: 0.4274366796016693
+Local loss @ local epoch 2: 0.4212085008621216
+Local loss @ local epoch 3: 0.37025052309036255
+Local loss @ local epoch 4: 0.35264796018600464
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.11235196143388748
+Local loss @ local epoch 1: 0.16084393858909607
+Local loss @ local epoch 2: 0.06266403198242188
+Local loss @ local epoch 3: 0.05294852331280708
+Local loss @ local epoch 4: 0.04615787789225578
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.24798233807086945
+Local loss @ local epoch 1: 0.23543916642665863
+Local loss @ local epoch 2: 0.2603915333747864
+Local loss @ local epoch 3: 0.15906406939029694
+Local loss @ local epoch 4: 0.29927858710289
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.22337989509105682
+Local loss @ local epoch 1: 0.23963063955307007
+Local loss @ local epoch 2: 0.11774400621652603
+Local loss @ local epoch 3: 0.14562509953975677
+Local loss @ local epoch 4: 0.13819463551044464
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.51683109998703
+Local loss @ local epoch 1: 0.3783365786075592
+Local loss @ local epoch 2: 0.37912580370903015
+Local loss @ local epoch 3: 0.3295876383781433
+Local loss @ local epoch 4: 0.533007025718689
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.4002212584018707
+Local loss @ local epoch 1: 0.3278432786464691
+Local loss @ local epoch 2: 0.18691319227218628
+Local loss @ local epoch 3: 0.22501830756664276
+Local loss @ local epoch 4: 0.31503522396087646
+Global evaluate on test data...
+Evaluate data in 121.07 seconds!
+[tester] 
+AGNewsMetric: acc=0.8982894736842105, hinge=0.6457087652306808, ce=7.28297164113898
+Global test acc @ epoch 1: 0.8983
+Global epoch 2...
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.18902555108070374
+Local loss @ local epoch 1: 0.16801491379737854
+Local loss @ local epoch 2: 0.15697887539863586
+Local loss @ local epoch 3: 0.174485981464386
+Local loss @ local epoch 4: 0.13700607419013977
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2553408443927765
+Local loss @ local epoch 1: 0.17449264228343964
+Local loss @ local epoch 2: 0.26700878143310547
+Local loss @ local epoch 3: 0.24759627878665924
+Local loss @ local epoch 4: 0.18720901012420654
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.07020247727632523
+Local loss @ local epoch 1: 0.02666243351995945
+Local loss @ local epoch 2: 0.04965067654848099
+Local loss @ local epoch 3: 0.05252077057957649
+Local loss @ local epoch 4: 0.07631262391805649
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.21051302552223206
+Local loss @ local epoch 1: 0.25924479961395264
+Local loss @ local epoch 2: 0.32062679529190063
+Local loss @ local epoch 3: 0.22694002091884613
+Local loss @ local epoch 4: 0.18335354328155518
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.3397246301174164
+Local loss @ local epoch 1: 0.41337138414382935
+Local loss @ local epoch 2: 0.3635425269603729
+Local loss @ local epoch 3: 0.4690348505973816
+Local loss @ local epoch 4: 0.313204288482666
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.4114307463169098
+Local loss @ local epoch 1: 0.40131130814552307
+Local loss @ local epoch 2: 0.35958409309387207
+Local loss @ local epoch 3: 0.4131563901901245
+Local loss @ local epoch 4: 0.3658209443092346
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.3580247163772583
+Local loss @ local epoch 1: 0.34582799673080444
+Local loss @ local epoch 2: 0.23492971062660217
+Local loss @ local epoch 3: 0.3331516683101654
+Local loss @ local epoch 4: 0.38803553581237793
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.31969189643859863
+Local loss @ local epoch 1: 0.33311983942985535
+Local loss @ local epoch 2: 0.3180767595767975
+Local loss @ local epoch 3: 0.36099210381507874
+Local loss @ local epoch 4: 0.30833783745765686
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.5244117975234985
+Local loss @ local epoch 1: 0.5321450233459473
+Local loss @ local epoch 2: 0.6184391975402832
+Local loss @ local epoch 3: 0.5593454837799072
+Local loss @ local epoch 4: 0.4723863899707794
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.3685268759727478
+Local loss @ local epoch 1: 0.5643244385719299
+Local loss @ local epoch 2: 0.3250274956226349
+Local loss @ local epoch 3: 0.27414050698280334
+Local loss @ local epoch 4: 0.3481605052947998
+Global evaluate on test data...
+Evaluate data in 121.43 seconds!
+[tester] 
+AGNewsMetric: acc=0.9028947368421053, hinge=0.6167930070977462, ce=5.459434180008738
+Global test acc @ epoch 2: 0.9029
+Global epoch 3...
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.19039635360240936
+Local loss @ local epoch 1: 0.20655593276023865
+Local loss @ local epoch 2: 0.2025412917137146
+Local loss @ local epoch 3: 0.2905997931957245
+Local loss @ local epoch 4: 0.2019890993833542
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.1241266280412674
+Local loss @ local epoch 1: 0.22127360105514526
+Local loss @ local epoch 2: 0.07358080893754959
+Local loss @ local epoch 3: 0.15108270943164825
+Local loss @ local epoch 4: 0.09874927997589111
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.4093577563762665
+Local loss @ local epoch 1: 0.2903587818145752
+Local loss @ local epoch 2: 0.2822588086128235
+Local loss @ local epoch 3: 0.48856478929519653
+Local loss @ local epoch 4: 0.5302467346191406
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.1078086867928505
+Local loss @ local epoch 1: 0.14682793617248535
+Local loss @ local epoch 2: 0.1582632064819336
+Local loss @ local epoch 3: 0.1958417445421219
+Local loss @ local epoch 4: 0.20772624015808105
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2799258828163147
+Local loss @ local epoch 1: 0.3261955976486206
+Local loss @ local epoch 2: 0.43100041151046753
+Local loss @ local epoch 3: 0.4134671688079834
+Local loss @ local epoch 4: 0.3581351041793823
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.5922373533248901
+Local loss @ local epoch 1: 0.7104216814041138
+Local loss @ local epoch 2: 0.5466276407241821
+Local loss @ local epoch 3: 0.4567301869392395
+Local loss @ local epoch 4: 0.48487547039985657
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.24673515558242798
+Local loss @ local epoch 1: 0.12699741125106812
+Local loss @ local epoch 2: 0.1406150758266449
+Local loss @ local epoch 3: 0.404013454914093
+Local loss @ local epoch 4: 0.1541644036769867
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.0501512736082077
+Local loss @ local epoch 1: 0.0340103879570961
+Local loss @ local epoch 2: 0.069876529276371
+Local loss @ local epoch 3: 0.07835475355386734
+Local loss @ local epoch 4: 0.043606486171483994
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.3871954083442688
+Local loss @ local epoch 1: 0.3713974058628082
+Local loss @ local epoch 2: 0.4761437773704529
+Local loss @ local epoch 3: 0.3802008330821991
+Local loss @ local epoch 4: 0.3642854690551758
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2990592122077942
+Local loss @ local epoch 1: 0.18899600207805634
+Local loss @ local epoch 2: 0.20236888527870178
+Local loss @ local epoch 3: 0.19411911070346832
+Local loss @ local epoch 4: 0.32803016901016235
+Global evaluate on test data...
+Evaluate data in 121.98 seconds!
+[tester] 
+AGNewsMetric: acc=0.9084210526315789, hinge=0.5714949136031301, ce=4.840046967958149
+Global test acc @ epoch 3: 0.9084
+Global epoch 4...
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.022746991366147995
+Local loss @ local epoch 1: 0.042840201407670975
+Local loss @ local epoch 2: 0.04786869138479233
+Local loss @ local epoch 3: 0.03057965449988842
+Local loss @ local epoch 4: 0.0741157978773117
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.13421350717544556
+Local loss @ local epoch 1: 0.19852685928344727
+Local loss @ local epoch 2: 0.1610787957906723
+Local loss @ local epoch 3: 0.225301593542099
+Local loss @ local epoch 4: 0.19716361165046692
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.32397928833961487
+Local loss @ local epoch 1: 0.23846781253814697
+Local loss @ local epoch 2: 0.3563491702079773
+Local loss @ local epoch 3: 0.4914380609989166
+Local loss @ local epoch 4: 0.614495038986206
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.11125421524047852
+Local loss @ local epoch 1: 0.07962612062692642
+Local loss @ local epoch 2: 0.13454343378543854
+Local loss @ local epoch 3: 0.11888179928064346
+Local loss @ local epoch 4: 0.1088649332523346
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2843879759311676
+Local loss @ local epoch 1: 0.29593154788017273
+Local loss @ local epoch 2: 0.3285280466079712
+Local loss @ local epoch 3: 0.31218212842941284
+Local loss @ local epoch 4: 0.27296826243400574
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.4847680628299713
+Local loss @ local epoch 1: 0.4761177599430084
+Local loss @ local epoch 2: 0.4522709548473358
+Local loss @ local epoch 3: 0.4159669876098633
+Local loss @ local epoch 4: 0.620380699634552
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2707083523273468
+Local loss @ local epoch 1: 0.2766408324241638
+Local loss @ local epoch 2: 0.30004873871803284
+Local loss @ local epoch 3: 0.3085698187351227
+Local loss @ local epoch 4: 0.4352993667125702
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.3288350999355316
+Local loss @ local epoch 1: 0.3890399634838104
+Local loss @ local epoch 2: 0.42402905225753784
+Local loss @ local epoch 3: 0.27750781178474426
+Local loss @ local epoch 4: 0.3334537744522095
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2905115485191345
+Local loss @ local epoch 1: 0.2745181620121002
+Local loss @ local epoch 2: 0.2935241162776947
+Local loss @ local epoch 3: 0.13515768945217133
+Local loss @ local epoch 4: 0.27598726749420166
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.13576234877109528
+Local loss @ local epoch 1: 0.1985747069120407
+Local loss @ local epoch 2: 0.1263485550880432
+Local loss @ local epoch 3: 0.13235029578208923
+Local loss @ local epoch 4: 0.20586813986301422
+Global evaluate on test data...
+Evaluate data in 121.66 seconds!
+[tester] 
+AGNewsMetric: acc=0.9101315789473684, hinge=0.5473889104943527, ce=4.215557696693822
+Global test acc @ epoch 4: 0.9101
+Global epoch 5...
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.041619863361120224
+Local loss @ local epoch 1: 0.03462729975581169
+Local loss @ local epoch 2: 0.22539585828781128
+Local loss @ local epoch 3: 0.052967000752687454
+Local loss @ local epoch 4: 0.0580640472471714
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2131124883890152
+Local loss @ local epoch 1: 0.12040525674819946
+Local loss @ local epoch 2: 0.11027930676937103
+Local loss @ local epoch 3: 0.148195281624794
+Local loss @ local epoch 4: 0.1378655880689621
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.12508520483970642
+Local loss @ local epoch 1: 0.16836512088775635
+Local loss @ local epoch 2: 0.1145230084657669
+Local loss @ local epoch 3: 0.10958963632583618
+Local loss @ local epoch 4: 0.14247339963912964
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.3814122974872589
+Local loss @ local epoch 1: 0.430859237909317
+Local loss @ local epoch 2: 0.378031849861145
+Local loss @ local epoch 3: 0.34809789061546326
+Local loss @ local epoch 4: 0.41911712288856506
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.26869386434555054
+Local loss @ local epoch 1: 0.12860779464244843
+Local loss @ local epoch 2: 0.16373969614505768
+Local loss @ local epoch 3: 0.19910728931427002
+Local loss @ local epoch 4: 0.18446680903434753
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.4200584292411804
+Local loss @ local epoch 1: 0.5709959268569946
+Local loss @ local epoch 2: 0.31895580887794495
+Local loss @ local epoch 3: 0.5380449295043945
+Local loss @ local epoch 4: 0.4161092936992645
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.3095782697200775
+Local loss @ local epoch 1: 0.19843228161334991
+Local loss @ local epoch 2: 0.2572779655456543
+Local loss @ local epoch 3: 0.2889033257961273
+Local loss @ local epoch 4: 0.13358862698078156
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.31203922629356384
+Local loss @ local epoch 1: 0.41581398248672485
+Local loss @ local epoch 2: 0.2505238354206085
+Local loss @ local epoch 3: 0.25392553210258484
+Local loss @ local epoch 4: 0.37251806259155273
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.3717373013496399
+Local loss @ local epoch 1: 0.2744831442832947
+Local loss @ local epoch 2: 0.375002384185791
+Local loss @ local epoch 3: 0.3162132203578949
+Local loss @ local epoch 4: 0.34892991185188293
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.15831111371517181
+Local loss @ local epoch 1: 0.2675488293170929
+Local loss @ local epoch 2: 0.31898385286331177
+Local loss @ local epoch 3: 0.1447048783302307
+Local loss @ local epoch 4: 0.24424180388450623
+Global evaluate on test data...
+Evaluate data in 121.45 seconds!
+[tester] 
+AGNewsMetric: acc=0.9147368421052632, hinge=0.53578915294848, ce=4.155909895645944
+Global test acc @ epoch 5: 0.9147
+Global epoch 6...
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.4626171886920929
+Local loss @ local epoch 1: 0.24446973204612732
+Local loss @ local epoch 2: 0.19459004700183868
+Local loss @ local epoch 3: 0.2990470826625824
+Local loss @ local epoch 4: 0.18573841452598572
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.3358334004878998
+Local loss @ local epoch 1: 0.25001227855682373
+Local loss @ local epoch 2: 0.36921340227127075
+Local loss @ local epoch 3: 0.2660885751247406
+Local loss @ local epoch 4: 0.42670875787734985
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.3777959644794464
+Local loss @ local epoch 1: 0.37663352489471436
+Local loss @ local epoch 2: 0.3534814715385437
+Local loss @ local epoch 3: 0.34159407019615173
+Local loss @ local epoch 4: 0.3002413213253021
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.39523279666900635
+Local loss @ local epoch 1: 0.4510897397994995
+Local loss @ local epoch 2: 0.44748610258102417
+Local loss @ local epoch 3: 0.5501226186752319
+Local loss @ local epoch 4: 0.6354345083236694
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.11034917086362839
+Local loss @ local epoch 1: 0.11870501935482025
+Local loss @ local epoch 2: 0.10892604291439056
+Local loss @ local epoch 3: 0.08957096189260483
+Local loss @ local epoch 4: 0.11652929335832596
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.16445736587047577
+Local loss @ local epoch 1: 0.20340117812156677
+Local loss @ local epoch 2: 0.19811929762363434
+Local loss @ local epoch 3: 0.17658014595508575
+Local loss @ local epoch 4: 0.18855039775371552
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.048961102962493896
+Local loss @ local epoch 1: 0.08927712589502335
+Local loss @ local epoch 2: 0.0439576655626297
+Local loss @ local epoch 3: 0.07324738055467606
+Local loss @ local epoch 4: 0.07380979508161545
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.10236261785030365
+Local loss @ local epoch 1: 0.12211114913225174
+Local loss @ local epoch 2: 0.1939118653535843
+Local loss @ local epoch 3: 0.12490810453891754
+Local loss @ local epoch 4: 0.09287270158529282
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.3954692482948303
+Local loss @ local epoch 1: 0.09995462000370026
+Local loss @ local epoch 2: 0.11803628504276276
+Local loss @ local epoch 3: 0.08441105484962463
+Local loss @ local epoch 4: 0.10429659485816956
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.48422279953956604
+Local loss @ local epoch 1: 0.3823557198047638
+Local loss @ local epoch 2: 0.24549026787281036
+Local loss @ local epoch 3: 0.303072452545166
+Local loss @ local epoch 4: 0.25846773386001587
+Global evaluate on test data...
+Evaluate data in 121.69 seconds!
+[tester] 
+AGNewsMetric: acc=0.9164473684210527, hinge=0.5119481914921811, ce=3.997214587362189
+Global test acc @ epoch 6: 0.9164
+Global epoch 7...
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.07470990717411041
+Local loss @ local epoch 1: 0.21488173305988312
+Local loss @ local epoch 2: 0.0999077558517456
+Local loss @ local epoch 3: 0.12383879721164703
+Local loss @ local epoch 4: 0.29781001806259155
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2363334596157074
+Local loss @ local epoch 1: 0.16726958751678467
+Local loss @ local epoch 2: 0.13172359764575958
+Local loss @ local epoch 3: 0.16919393837451935
+Local loss @ local epoch 4: 0.18123848736286163
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.0782485231757164
+Local loss @ local epoch 1: 0.08916540443897247
+Local loss @ local epoch 2: 0.09001639485359192
+Local loss @ local epoch 3: 0.22604221105575562
+Local loss @ local epoch 4: 0.06190436705946922
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2530284523963928
+Local loss @ local epoch 1: 0.2088952213525772
+Local loss @ local epoch 2: 0.2588872015476227
+Local loss @ local epoch 3: 0.18210051953792572
+Local loss @ local epoch 4: 0.2105138599872589
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.5443441867828369
+Local loss @ local epoch 1: 0.3704492747783661
+Local loss @ local epoch 2: 0.5109384059906006
+Local loss @ local epoch 3: 0.3267013728618622
+Local loss @ local epoch 4: 0.29690638184547424
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.26591789722442627
+Local loss @ local epoch 1: 0.40420496463775635
+Local loss @ local epoch 2: 0.4102444350719452
+Local loss @ local epoch 3: 2.1404693126678467
+Local loss @ local epoch 4: 1.8124454021453857
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.23527726531028748
+Local loss @ local epoch 1: 0.21608583629131317
+Local loss @ local epoch 2: 0.0979735478758812
+Local loss @ local epoch 3: 0.13669085502624512
+Local loss @ local epoch 4: 0.16346032917499542
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.20485910773277283
+Local loss @ local epoch 1: 0.20559045672416687
+Local loss @ local epoch 2: 0.189671128988266
+Local loss @ local epoch 3: 0.12609480321407318
+Local loss @ local epoch 4: 0.20257985591888428
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.0463792085647583
+Local loss @ local epoch 1: 0.028153546154499054
+Local loss @ local epoch 2: 0.08246505260467529
+Local loss @ local epoch 3: 0.03936895728111267
+Local loss @ local epoch 4: 0.023780789226293564
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2993103861808777
+Local loss @ local epoch 1: 0.3025957942008972
+Local loss @ local epoch 2: 0.3631545305252075
+Local loss @ local epoch 3: 0.2264067679643631
+Local loss @ local epoch 4: 0.29526785016059875
+Global evaluate on test data...
+Evaluate data in 120.71 seconds!
+[tester] 
+AGNewsMetric: acc=0.9185526315789474, hinge=0.5130911269940828, ce=3.5704220726615503
+Global test acc @ epoch 7: 0.9186
+Global epoch 8...
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.16309073567390442
+Local loss @ local epoch 1: 0.11704500764608383
+Local loss @ local epoch 2: 0.11364848911762238
+Local loss @ local epoch 3: 0.1593179851770401
+Local loss @ local epoch 4: 0.1276368945837021
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.14848071336746216
+Local loss @ local epoch 1: 0.09063488245010376
+Local loss @ local epoch 2: 0.6007767915725708
+Local loss @ local epoch 3: 0.2007092833518982
+Local loss @ local epoch 4: 0.3365122675895691
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.13138003647327423
+Local loss @ local epoch 1: 0.33442357182502747
+Local loss @ local epoch 2: 0.2043423354625702
+Local loss @ local epoch 3: 0.2972257137298584
+Local loss @ local epoch 4: 0.3152921497821808
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.23338255286216736
+Local loss @ local epoch 1: 0.23778623342514038
+Local loss @ local epoch 2: 0.18884117901325226
+Local loss @ local epoch 3: 0.16479696333408356
+Local loss @ local epoch 4: 0.26903674006462097
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.45070919394493103
+Local loss @ local epoch 1: 0.3141588866710663
+Local loss @ local epoch 2: 0.5157564878463745
+Local loss @ local epoch 3: 0.46908047795295715
+Local loss @ local epoch 4: 0.6570049524307251
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.3222346305847168
+Local loss @ local epoch 1: 0.3284943103790283
+Local loss @ local epoch 2: 0.29510581493377686
+Local loss @ local epoch 3: 0.2453136444091797
+Local loss @ local epoch 4: 0.1942741870880127
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.44342267513275146
+Local loss @ local epoch 1: 0.2732488512992859
+Local loss @ local epoch 2: 0.30514290928840637
+Local loss @ local epoch 3: 0.4311314523220062
+Local loss @ local epoch 4: 0.29777461290359497
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.426094651222229
+Local loss @ local epoch 1: 0.3014448583126068
+Local loss @ local epoch 2: 0.2606990337371826
+Local loss @ local epoch 3: 0.23466549813747406
+Local loss @ local epoch 4: 0.3099915683269501
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.028519392013549805
+Local loss @ local epoch 1: 0.032612383365631104
+Local loss @ local epoch 2: 0.06860572099685669
+Local loss @ local epoch 3: 0.03054725006222725
+Local loss @ local epoch 4: 0.03468113765120506
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.07289839535951614
+Local loss @ local epoch 1: 0.12748795747756958
+Local loss @ local epoch 2: 0.06820252537727356
+Local loss @ local epoch 3: 0.06955048441886902
+Local loss @ local epoch 4: 0.05722903087735176
+Global evaluate on test data...
+Evaluate data in 122.28 seconds!
+[tester] 
+AGNewsMetric: acc=0.9190789473684211, hinge=0.49675840678967925, ce=3.7534223927949606
+Global test acc @ epoch 8: 0.9191
+Global epoch 9...
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.0948728546500206
+Local loss @ local epoch 1: 0.10852651298046112
+Local loss @ local epoch 2: 0.060878314077854156
+Local loss @ local epoch 3: 0.11371511220932007
+Local loss @ local epoch 4: 0.0578916035592556
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2604168951511383
+Local loss @ local epoch 1: 0.2173011153936386
+Local loss @ local epoch 2: 0.18177184462547302
+Local loss @ local epoch 3: 0.1578449010848999
+Local loss @ local epoch 4: 0.18564912676811218
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.31912025809288025
+Local loss @ local epoch 1: 0.221871018409729
+Local loss @ local epoch 2: 0.25644832849502563
+Local loss @ local epoch 3: 0.24095110595226288
+Local loss @ local epoch 4: 0.2881086468696594
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2389555275440216
+Local loss @ local epoch 1: 0.49018120765686035
+Local loss @ local epoch 2: 0.47181418538093567
+Local loss @ local epoch 3: 0.3499886393547058
+Local loss @ local epoch 4: 0.37828952074050903
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2770800292491913
+Local loss @ local epoch 1: 0.22128450870513916
+Local loss @ local epoch 2: 0.16595083475112915
+Local loss @ local epoch 3: 0.28854095935821533
+Local loss @ local epoch 4: 0.42998477816581726
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.5557214617729187
+Local loss @ local epoch 1: 0.5294743180274963
+Local loss @ local epoch 2: 0.36952337622642517
+Local loss @ local epoch 3: 0.38247963786125183
+Local loss @ local epoch 4: 0.3758021295070648
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.05358629301190376
+Local loss @ local epoch 1: 0.03154373541474342
+Local loss @ local epoch 2: 0.07358650118112564
+Local loss @ local epoch 3: 0.041040871292352676
+Local loss @ local epoch 4: 0.034529995173215866
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.28064197301864624
+Local loss @ local epoch 1: 0.1363106220960617
+Local loss @ local epoch 2: 0.17404668033123016
+Local loss @ local epoch 3: 0.08212491124868393
+Local loss @ local epoch 4: 0.10405611991882324
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.20479469001293182
+Local loss @ local epoch 1: 0.29749995470046997
+Local loss @ local epoch 2: 0.19970056414604187
+Local loss @ local epoch 3: 0.1418771594762802
+Local loss @ local epoch 4: 0.20911045372486115
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.09117443859577179
+Local loss @ local epoch 1: 0.07643209397792816
+Local loss @ local epoch 2: 0.22776676714420319
+Local loss @ local epoch 3: 0.17823968827724457
+Local loss @ local epoch 4: 0.3199843466281891
+Global evaluate on test data...
+Evaluate data in 122.14 seconds!
+[tester] 
+AGNewsMetric: acc=0.9181578947368421, hinge=0.49931594748246044, ce=3.7266267756411904
+Global test acc @ epoch 9: 0.9182
+Global epoch 10...
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.14347420632839203
+Local loss @ local epoch 1: 0.11395113170146942
+Local loss @ local epoch 2: 0.1472058743238449
+Local loss @ local epoch 3: 0.07036592811346054
+Local loss @ local epoch 4: 0.07424906641244888
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.4079550504684448
+Local loss @ local epoch 1: 0.277750164270401
+Local loss @ local epoch 2: 0.3487228453159332
+Local loss @ local epoch 3: 0.3273310661315918
+Local loss @ local epoch 4: 0.39198142290115356
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.3595026135444641
+Local loss @ local epoch 1: 0.34528228640556335
+Local loss @ local epoch 2: 0.3800137937068939
+Local loss @ local epoch 3: 0.4489389657974243
+Local loss @ local epoch 4: 0.2481602430343628
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.1332748681306839
+Local loss @ local epoch 1: 0.16923817992210388
+Local loss @ local epoch 2: 0.14839258790016174
+Local loss @ local epoch 3: 0.24793969094753265
+Local loss @ local epoch 4: 0.13840410113334656
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.19729776680469513
+Local loss @ local epoch 1: 0.16772031784057617
+Local loss @ local epoch 2: 0.17248715460300446
+Local loss @ local epoch 3: 0.1850508600473404
+Local loss @ local epoch 4: 0.24342839419841766
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.060312334448099136
+Local loss @ local epoch 1: 0.02493857592344284
+Local loss @ local epoch 2: 0.03390912711620331
+Local loss @ local epoch 3: 0.04380247741937637
+Local loss @ local epoch 4: 0.07513870298862457
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.38188228011131287
+Local loss @ local epoch 1: 0.29382556676864624
+Local loss @ local epoch 2: 0.5562271475791931
+Local loss @ local epoch 3: 0.4374167323112488
+Local loss @ local epoch 4: 0.48948386311531067
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.30108553171157837
+Local loss @ local epoch 1: 0.21005241572856903
+Local loss @ local epoch 2: 0.11681696772575378
+Local loss @ local epoch 3: 0.48034772276878357
+Local loss @ local epoch 4: 0.5350511074066162
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.22288918495178223
+Local loss @ local epoch 1: 0.16922156512737274
+Local loss @ local epoch 2: 0.2494986355304718
+Local loss @ local epoch 3: 0.33068108558654785
+Local loss @ local epoch 4: 0.17271874845027924
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.09457957744598389
+Local loss @ local epoch 1: 0.08120753616094589
+Local loss @ local epoch 2: 0.08020588010549545
+Local loss @ local epoch 3: 0.06770643591880798
+Local loss @ local epoch 4: 0.08340968191623688
+Global evaluate on test data...
+Evaluate data in 121.06 seconds!
+[tester] 
+AGNewsMetric: acc=0.9219736842105263, hinge=0.4797970766770212, ce=3.5974316868029144
+Global test acc @ epoch 10: 0.922
+Global epoch 11...
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.12702086567878723
+Local loss @ local epoch 1: 0.22987866401672363
+Local loss @ local epoch 2: 0.25657984614372253
+Local loss @ local epoch 3: 0.2708802819252014
+Local loss @ local epoch 4: 0.29237133264541626
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.08795174956321716
+Local loss @ local epoch 1: 0.08142822980880737
+Local loss @ local epoch 2: 0.08210963755846024
+Local loss @ local epoch 3: 0.05522654950618744
+Local loss @ local epoch 4: 0.05868835374712944
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.44187918305397034
+Local loss @ local epoch 1: 0.26475635170936584
+Local loss @ local epoch 2: 0.3592068552970886
+Local loss @ local epoch 3: 0.3389325439929962
+Local loss @ local epoch 4: 0.37243911623954773
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.03621453046798706
+Local loss @ local epoch 1: 0.07069174200296402
+Local loss @ local epoch 2: 0.169066920876503
+Local loss @ local epoch 3: 0.2088586539030075
+Local loss @ local epoch 4: 0.10571158677339554
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2069128155708313
+Local loss @ local epoch 1: 0.272840291261673
+Local loss @ local epoch 2: 0.13881471753120422
+Local loss @ local epoch 3: 0.2967039942741394
+Local loss @ local epoch 4: 0.16937147080898285
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.12814505398273468
+Local loss @ local epoch 1: 0.08593043684959412
+Local loss @ local epoch 2: 0.06969628483057022
+Local loss @ local epoch 3: 0.15931297838687897
+Local loss @ local epoch 4: 0.08531874418258667
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.05829660966992378
+Local loss @ local epoch 1: 0.03215540945529938
+Local loss @ local epoch 2: 0.09359563142061234
+Local loss @ local epoch 3: 0.03234409540891647
+Local loss @ local epoch 4: 0.07130931317806244
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.3561529517173767
+Local loss @ local epoch 1: 0.2547250986099243
+Local loss @ local epoch 2: 0.2963569462299347
+Local loss @ local epoch 3: 0.26167577505111694
+Local loss @ local epoch 4: 0.42557406425476074
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.22276011109352112
+Local loss @ local epoch 1: 0.22241351008415222
+Local loss @ local epoch 2: 0.18796397745609283
+Local loss @ local epoch 3: 0.2877117097377777
+Local loss @ local epoch 4: 0.19218602776527405
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.09260757267475128
+Local loss @ local epoch 1: 0.09652519971132278
+Local loss @ local epoch 2: 0.05372723564505577
+Local loss @ local epoch 3: 0.32437577843666077
+Local loss @ local epoch 4: 0.23385243117809296
+Global evaluate on test data...
+Evaluate data in 121.67 seconds!
+[tester] 
+AGNewsMetric: acc=0.9226315789473685, hinge=0.46978671475460654, ce=3.615702927238063
+Global test acc @ epoch 11: 0.9226
+Global epoch 12...
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2002202868461609
+Local loss @ local epoch 1: 0.10814410448074341
+Local loss @ local epoch 2: 0.12137758731842041
+Local loss @ local epoch 3: 0.10492302477359772
+Local loss @ local epoch 4: 0.11328180134296417
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.19456759095191956
+Local loss @ local epoch 1: 0.18641315400600433
+Local loss @ local epoch 2: 0.045243002474308014
+Local loss @ local epoch 3: 0.1819557547569275
+Local loss @ local epoch 4: 0.17190687358379364
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.061653174459934235
+Local loss @ local epoch 1: 0.1605137437582016
+Local loss @ local epoch 2: 0.07328476011753082
+Local loss @ local epoch 3: 0.049278415739536285
+Local loss @ local epoch 4: 0.05951320379972458
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.13867640495300293
+Local loss @ local epoch 1: 0.2193177044391632
+Local loss @ local epoch 2: 0.35091808438301086
+Local loss @ local epoch 3: 0.20693863928318024
+Local loss @ local epoch 4: 0.29619044065475464
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.08529380708932877
+Local loss @ local epoch 1: 0.28615134954452515
+Local loss @ local epoch 2: 0.14173875749111176
+Local loss @ local epoch 3: 0.07295787334442139
+Local loss @ local epoch 4: 0.14651067554950714
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.3234623372554779
+Local loss @ local epoch 1: 0.3009122610092163
+Local loss @ local epoch 2: 0.3575378656387329
+Local loss @ local epoch 3: 0.2943556606769562
+Local loss @ local epoch 4: 0.17677482962608337
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.1909160017967224
+Local loss @ local epoch 1: 0.1605420857667923
+Local loss @ local epoch 2: 0.2781439423561096
+Local loss @ local epoch 3: 0.14667409658432007
+Local loss @ local epoch 4: 0.13239334523677826
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.19477622210979462
+Local loss @ local epoch 1: 0.37359172105789185
+Local loss @ local epoch 2: 0.3966151177883148
+Local loss @ local epoch 3: 0.3336558938026428
+Local loss @ local epoch 4: 0.2386702597141266
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.021405674517154694
+Local loss @ local epoch 1: 0.0548953153192997
+Local loss @ local epoch 2: 0.017452798783779144
+Local loss @ local epoch 3: 0.0673048347234726
+Local loss @ local epoch 4: 0.016752175986766815
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.31706714630126953
+Local loss @ local epoch 1: 0.2595676779747009
+Local loss @ local epoch 2: 0.33989089727401733
+Local loss @ local epoch 3: 0.36621949076652527
+Local loss @ local epoch 4: 0.3101775050163269
+Global evaluate on test data...
+Evaluate data in 121.78 seconds!
+[tester] 
+AGNewsMetric: acc=0.9232894736842105, hinge=0.46117035614816765, ce=3.402291764209145
+Global test acc @ epoch 12: 0.9233
+Global epoch 13...
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.020742325112223625
+Local loss @ local epoch 1: 0.030527599155902863
+Local loss @ local epoch 2: 0.035357117652893066
+Local loss @ local epoch 3: 0.058816663920879364
+Local loss @ local epoch 4: 0.07849404215812683
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.1265125870704651
+Local loss @ local epoch 1: 0.20471908152103424
+Local loss @ local epoch 2: 0.20008151233196259
+Local loss @ local epoch 3: 0.11577118188142776
+Local loss @ local epoch 4: 0.19906853139400482
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.15108110010623932
+Local loss @ local epoch 1: 0.11567631363868713
+Local loss @ local epoch 2: 0.17696170508861542
+Local loss @ local epoch 3: 0.06875328719615936
+Local loss @ local epoch 4: 0.04781705141067505
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.32484161853790283
+Local loss @ local epoch 1: 0.32641735672950745
+Local loss @ local epoch 2: 0.4167426526546478
+Local loss @ local epoch 3: 0.33775582909584045
+Local loss @ local epoch 4: 0.30066531896591187
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.15749585628509521
+Local loss @ local epoch 1: 0.08387741446495056
+Local loss @ local epoch 2: 0.10864824801683426
+Local loss @ local epoch 3: 0.13447004556655884
+Local loss @ local epoch 4: 0.08228487521409988
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.21558354794979095
+Local loss @ local epoch 1: 0.23892110586166382
+Local loss @ local epoch 2: 0.2971906363964081
+Local loss @ local epoch 3: 0.33856579661369324
+Local loss @ local epoch 4: 0.21769306063652039
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.3760889172554016
+Local loss @ local epoch 1: 0.4800759553909302
+Local loss @ local epoch 2: 0.23401208221912384
+Local loss @ local epoch 3: 0.12612779438495636
+Local loss @ local epoch 4: 0.29038530588150024
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.16218164563179016
+Local loss @ local epoch 1: 0.06100493669509888
+Local loss @ local epoch 2: 0.25413456559181213
+Local loss @ local epoch 3: 0.06494317948818207
+Local loss @ local epoch 4: 0.19148243963718414
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.13025711476802826
+Local loss @ local epoch 1: 0.057843632996082306
+Local loss @ local epoch 2: 0.05711880698800087
+Local loss @ local epoch 3: 0.05086298659443855
+Local loss @ local epoch 4: 0.029846057295799255
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.1887664645910263
+Local loss @ local epoch 1: 0.4994708299636841
+Local loss @ local epoch 2: 0.2872178554534912
+Local loss @ local epoch 3: 0.6528885364532471
+Local loss @ local epoch 4: 0.23029157519340515
+Global evaluate on test data...
+Evaluate data in 121.62 seconds!
+[tester] 
+AGNewsMetric: acc=0.9269736842105263, hinge=0.4518125062239797, ce=3.2977276074258906
+Global test acc @ epoch 13: 0.927
+Global epoch 14...
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.44661760330200195
+Local loss @ local epoch 1: 0.2724669277667999
+Local loss @ local epoch 2: 0.41123276948928833
+Local loss @ local epoch 3: 0.38335761427879333
+Local loss @ local epoch 4: 0.38996198773384094
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.14229656755924225
+Local loss @ local epoch 1: 0.07250182330608368
+Local loss @ local epoch 2: 0.0614919476211071
+Local loss @ local epoch 3: 0.25127944350242615
+Local loss @ local epoch 4: 0.2005259096622467
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.12318366765975952
+Local loss @ local epoch 1: 0.11677149683237076
+Local loss @ local epoch 2: 0.13242651522159576
+Local loss @ local epoch 3: 0.21464648842811584
+Local loss @ local epoch 4: 0.08472689986228943
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.029302537441253662
+Local loss @ local epoch 1: 0.018500473350286484
+Local loss @ local epoch 2: 0.11624394357204437
+Local loss @ local epoch 3: 0.054568447172641754
+Local loss @ local epoch 4: 0.03485943377017975
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.24465087056159973
+Local loss @ local epoch 1: 0.26173847913742065
+Local loss @ local epoch 2: 0.21392539143562317
+Local loss @ local epoch 3: 0.4668026566505432
+Local loss @ local epoch 4: 0.29268938302993774
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.1349363774061203
+Local loss @ local epoch 1: 0.3415605127811432
+Local loss @ local epoch 2: 0.26615744829177856
+Local loss @ local epoch 3: 0.3231525421142578
+Local loss @ local epoch 4: 0.12482168525457382
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.28407803177833557
+Local loss @ local epoch 1: 0.24899987876415253
+Local loss @ local epoch 2: 0.15634870529174805
+Local loss @ local epoch 3: 0.20756985247135162
+Local loss @ local epoch 4: 0.09444430470466614
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.053402334451675415
+Local loss @ local epoch 1: 0.05931929126381874
+Local loss @ local epoch 2: 0.16238930821418762
+Local loss @ local epoch 3: 0.18124781548976898
+Local loss @ local epoch 4: 0.10444647818803787
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2554558515548706
+Local loss @ local epoch 1: 0.30665749311447144
+Local loss @ local epoch 2: 0.2978372871875763
+Local loss @ local epoch 3: 0.2188880294561386
+Local loss @ local epoch 4: 0.275248646736145
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.07739118486642838
+Local loss @ local epoch 1: 0.06217401847243309
+Local loss @ local epoch 2: 0.12152424454689026
+Local loss @ local epoch 3: 0.057122260332107544
+Local loss @ local epoch 4: 0.06213494390249252
+Global evaluate on test data...
+Evaluate data in 121.7 seconds!
+[tester] 
+AGNewsMetric: acc=0.9282894736842106, hinge=0.4418129885824103, ce=3.101814879367226
+Global test acc @ epoch 14: 0.9283
+Global epoch 15...
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.23910528421401978
+Local loss @ local epoch 1: 0.20189963281154633
+Local loss @ local epoch 2: 0.17539867758750916
+Local loss @ local epoch 3: 0.12670385837554932
+Local loss @ local epoch 4: 0.16237151622772217
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.11285284906625748
+Local loss @ local epoch 1: 0.05962531268596649
+Local loss @ local epoch 2: 0.08040127903223038
+Local loss @ local epoch 3: 0.05511987954378128
+Local loss @ local epoch 4: 0.06630822271108627
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.18427877128124237
+Local loss @ local epoch 1: 0.16173654794692993
+Local loss @ local epoch 2: 0.15306781232357025
+Local loss @ local epoch 3: 0.1732063591480255
+Local loss @ local epoch 4: 0.13360819220542908
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.07825566083192825
+Local loss @ local epoch 1: 0.09423685073852539
+Local loss @ local epoch 2: 0.14060375094413757
+Local loss @ local epoch 3: 0.06560509651899338
+Local loss @ local epoch 4: 0.12578991055488586
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.18272054195404053
+Local loss @ local epoch 1: 0.18824654817581177
+Local loss @ local epoch 2: 0.14365604519844055
+Local loss @ local epoch 3: 0.25228387117385864
+Local loss @ local epoch 4: 0.1564919650554657
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2219131588935852
+Local loss @ local epoch 1: 0.2310243844985962
+Local loss @ local epoch 2: 0.19919849932193756
+Local loss @ local epoch 3: 0.18043561279773712
+Local loss @ local epoch 4: 0.25748077034950256
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.35655859112739563
+Local loss @ local epoch 1: 0.40142276883125305
+Local loss @ local epoch 2: 0.2949187159538269
+Local loss @ local epoch 3: 0.4858405292034149
+Local loss @ local epoch 4: 0.20487834513187408
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.032660312950611115
+Local loss @ local epoch 1: 0.050644855946302414
+Local loss @ local epoch 2: 0.05141559988260269
+Local loss @ local epoch 3: 0.03165164962410927
+Local loss @ local epoch 4: 0.05334269627928734
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.15832124650478363
+Local loss @ local epoch 1: 0.3128310441970825
+Local loss @ local epoch 2: 0.16847574710845947
+Local loss @ local epoch 3: 0.15763795375823975
+Local loss @ local epoch 4: 0.0774194523692131
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.20612666010856628
+Local loss @ local epoch 1: 0.042207419872283936
+Local loss @ local epoch 2: 0.0873124822974205
+Local loss @ local epoch 3: 0.10337033122777939
+Local loss @ local epoch 4: 0.37092146277427673
+Global evaluate on test data...
+Evaluate data in 121.69 seconds!
+[tester] 
+AGNewsMetric: acc=0.9288157894736843, hinge=0.4390609972100509, ce=3.3888108865838302
+Global test acc @ epoch 15: 0.9288
+Global epoch 16...
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.07707301527261734
+Local loss @ local epoch 1: 0.13272862136363983
+Local loss @ local epoch 2: 0.07594441622495651
+Local loss @ local epoch 3: 0.08681118488311768
+Local loss @ local epoch 4: 0.08806754648685455
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.1433989256620407
+Local loss @ local epoch 1: 0.10703958570957184
+Local loss @ local epoch 2: 0.11869465559720993
+Local loss @ local epoch 3: 0.12283112853765488
+Local loss @ local epoch 4: 0.09115704894065857
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.11377237737178802
+Local loss @ local epoch 1: 0.08621308952569962
+Local loss @ local epoch 2: 0.4689650535583496
+Local loss @ local epoch 3: 0.24250099062919617
+Local loss @ local epoch 4: 0.26007339358329773
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.17778538167476654
+Local loss @ local epoch 1: 0.4200182557106018
+Local loss @ local epoch 2: 0.20421482622623444
+Local loss @ local epoch 3: 0.279262512922287
+Local loss @ local epoch 4: 0.4066469371318817
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.07157386094331741
+Local loss @ local epoch 1: 0.08795032650232315
+Local loss @ local epoch 2: 0.08719591796398163
+Local loss @ local epoch 3: 0.11695249378681183
+Local loss @ local epoch 4: 0.03717312216758728
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.029666706919670105
+Local loss @ local epoch 1: 0.04497117921710014
+Local loss @ local epoch 2: 0.04430234059691429
+Local loss @ local epoch 3: 0.007496887817978859
+Local loss @ local epoch 4: 0.014205025508999825
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.11484410613775253
+Local loss @ local epoch 1: 0.241496279835701
+Local loss @ local epoch 2: 0.13548439741134644
+Local loss @ local epoch 3: 0.1434190720319748
+Local loss @ local epoch 4: 0.2284204512834549
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.1507815271615982
+Local loss @ local epoch 1: 0.16971494257450104
+Local loss @ local epoch 2: 0.080918088555336
+Local loss @ local epoch 3: 0.23807965219020844
+Local loss @ local epoch 4: 0.24452954530715942
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2925851047039032
+Local loss @ local epoch 1: 0.4487738013267517
+Local loss @ local epoch 2: 0.35007354617118835
+Local loss @ local epoch 3: 0.281009316444397
+Local loss @ local epoch 4: 0.4391336739063263
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.24166566133499146
+Local loss @ local epoch 1: 0.2505717873573303
+Local loss @ local epoch 2: 0.21590737998485565
+Local loss @ local epoch 3: 0.09101211279630661
+Local loss @ local epoch 4: 0.13537871837615967
+Global evaluate on test data...
+Evaluate data in 122.16 seconds!
+[tester] 
+AGNewsMetric: acc=0.9307894736842105, hinge=0.43259383151405734, ce=3.246792711960642
+Global test acc @ epoch 16: 0.9308
+Global epoch 17...
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.15710410475730896
+Local loss @ local epoch 1: 0.22836513817310333
+Local loss @ local epoch 2: 0.1817459911108017
+Local loss @ local epoch 3: 0.14942550659179688
+Local loss @ local epoch 4: 0.22609414160251617
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.06551662087440491
+Local loss @ local epoch 1: 0.10382407158613205
+Local loss @ local epoch 2: 0.06976902484893799
+Local loss @ local epoch 3: 0.1400073617696762
+Local loss @ local epoch 4: 0.10916314274072647
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.31487664580345154
+Local loss @ local epoch 1: 0.28699856996536255
+Local loss @ local epoch 2: 0.2263546586036682
+Local loss @ local epoch 3: 0.3392539322376251
+Local loss @ local epoch 4: 0.20967133343219757
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.1715581715106964
+Local loss @ local epoch 1: 0.2562299072742462
+Local loss @ local epoch 2: 0.10765755921602249
+Local loss @ local epoch 3: 0.13977345824241638
+Local loss @ local epoch 4: 0.14726372063159943
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.07930238544940948
+Local loss @ local epoch 1: 0.08886909484863281
+Local loss @ local epoch 2: 0.046026699244976044
+Local loss @ local epoch 3: 0.04762950912117958
+Local loss @ local epoch 4: 0.0981893315911293
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2688274383544922
+Local loss @ local epoch 1: 0.13537925481796265
+Local loss @ local epoch 2: 0.11995059251785278
+Local loss @ local epoch 3: 0.07722541689872742
+Local loss @ local epoch 4: 0.08558019995689392
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.03624726086854935
+Local loss @ local epoch 1: 0.10429370403289795
+Local loss @ local epoch 2: 0.061480939388275146
+Local loss @ local epoch 3: 0.04611218348145485
+Local loss @ local epoch 4: 0.054267194122076035
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.04993511363863945
+Local loss @ local epoch 1: 0.034710146486759186
+Local loss @ local epoch 2: 0.030181432142853737
+Local loss @ local epoch 3: 0.016893703490495682
+Local loss @ local epoch 4: 0.038102887570858
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.42445942759513855
+Local loss @ local epoch 1: 0.47841137647628784
+Local loss @ local epoch 2: 0.5466552376747131
+Local loss @ local epoch 3: 0.18351204693317413
+Local loss @ local epoch 4: 0.517591118812561
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.19307664036750793
+Local loss @ local epoch 1: 0.21397113800048828
+Local loss @ local epoch 2: 0.1228598803281784
+Local loss @ local epoch 3: 0.29605236649513245
+Local loss @ local epoch 4: 0.2937220633029938
+Global evaluate on test data...
+Evaluate data in 122.01 seconds!
+[tester] 
+AGNewsMetric: acc=0.9315789473684211, hinge=0.4241567541423597, ce=3.334672746156391
+Global test acc @ epoch 17: 0.9316
+Global epoch 18...
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.17078986763954163
+Local loss @ local epoch 1: 0.2880716323852539
+Local loss @ local epoch 2: 0.26144176721572876
+Local loss @ local epoch 3: 0.15714077651500702
+Local loss @ local epoch 4: 0.16910840570926666
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.20350852608680725
+Local loss @ local epoch 1: 0.0696893110871315
+Local loss @ local epoch 2: 0.13190819323062897
+Local loss @ local epoch 3: 0.0663938969373703
+Local loss @ local epoch 4: 0.22588889300823212
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.36379244923591614
+Local loss @ local epoch 1: 0.06414350867271423
+Local loss @ local epoch 2: 0.11975158751010895
+Local loss @ local epoch 3: 0.06877580285072327
+Local loss @ local epoch 4: 0.06051967665553093
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.043759752064943314
+Local loss @ local epoch 1: 0.04320404678583145
+Local loss @ local epoch 2: 0.056398019194602966
+Local loss @ local epoch 3: 0.03840811178088188
+Local loss @ local epoch 4: 0.04083742946386337
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.17787867784500122
+Local loss @ local epoch 1: 0.17519471049308777
+Local loss @ local epoch 2: 0.23474617302417755
+Local loss @ local epoch 3: 0.24067538976669312
+Local loss @ local epoch 4: 0.15139004588127136
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.04639865458011627
+Local loss @ local epoch 1: 0.0543539859354496
+Local loss @ local epoch 2: 0.027850117534399033
+Local loss @ local epoch 3: 0.04199984669685364
+Local loss @ local epoch 4: 0.02591709792613983
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.11916310340166092
+Local loss @ local epoch 1: 0.12018567323684692
+Local loss @ local epoch 2: 0.06762909144163132
+Local loss @ local epoch 3: 0.2388242483139038
+Local loss @ local epoch 4: 0.12126066535711288
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.23837034404277802
+Local loss @ local epoch 1: 0.32212600111961365
+Local loss @ local epoch 2: 0.17655044794082642
+Local loss @ local epoch 3: 0.16042333841323853
+Local loss @ local epoch 4: 0.16767485439777374
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.4659227728843689
+Local loss @ local epoch 1: 0.44147446751594543
+Local loss @ local epoch 2: 0.5246017575263977
+Local loss @ local epoch 3: 0.47438761591911316
+Local loss @ local epoch 4: 0.3430347144603729
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.13620522618293762
+Local loss @ local epoch 1: 0.26439374685287476
+Local loss @ local epoch 2: 0.1405213177204132
+Local loss @ local epoch 3: 0.14749681949615479
+Local loss @ local epoch 4: 0.25572606921195984
+Global evaluate on test data...
+Evaluate data in 121.42 seconds!
+[tester] 
+AGNewsMetric: acc=0.9297368421052632, hinge=0.42946481403551606, ce=3.229596764915868
+Global test acc @ epoch 18: 0.9297
+Global epoch 19...
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.26551583409309387
+Local loss @ local epoch 1: 0.10757520794868469
+Local loss @ local epoch 2: 0.16041836142539978
+Local loss @ local epoch 3: 0.23636673390865326
+Local loss @ local epoch 4: 0.2340521216392517
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2198362946510315
+Local loss @ local epoch 1: 0.07905811816453934
+Local loss @ local epoch 2: 0.14348983764648438
+Local loss @ local epoch 3: 0.0679197609424591
+Local loss @ local epoch 4: 0.18207480013370514
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.4428756833076477
+Local loss @ local epoch 1: 0.39430058002471924
+Local loss @ local epoch 2: 0.30500659346580505
+Local loss @ local epoch 3: 0.3622845709323883
+Local loss @ local epoch 4: 0.4244458079338074
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.0746200680732727
+Local loss @ local epoch 1: 0.2953312397003174
+Local loss @ local epoch 2: 0.14341947436332703
+Local loss @ local epoch 3: 0.07121045142412186
+Local loss @ local epoch 4: 0.3952522575855255
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.05816751345992088
+Local loss @ local epoch 1: 0.04439841955900192
+Local loss @ local epoch 2: 0.04798873886466026
+Local loss @ local epoch 3: 0.05267050117254257
+Local loss @ local epoch 4: 0.03287089988589287
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2615711987018585
+Local loss @ local epoch 1: 0.17444726824760437
+Local loss @ local epoch 2: 0.21613356471061707
+Local loss @ local epoch 3: 0.26071447134017944
+Local loss @ local epoch 4: 0.2099371999502182
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.03864766284823418
+Local loss @ local epoch 1: 0.0810212567448616
+Local loss @ local epoch 2: 0.022878598421812057
+Local loss @ local epoch 3: 0.017969559878110886
+Local loss @ local epoch 4: 0.02362600527703762
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.22157599031925201
+Local loss @ local epoch 1: 0.26514941453933716
+Local loss @ local epoch 2: 0.336911678314209
+Local loss @ local epoch 3: 0.25173822045326233
+Local loss @ local epoch 4: 0.19481749832630157
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.04219502583146095
+Local loss @ local epoch 1: 0.11387678235769272
+Local loss @ local epoch 2: 0.06438355892896652
+Local loss @ local epoch 3: 0.07752171903848648
+Local loss @ local epoch 4: 0.0493568480014801
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.05967731028795242
+Local loss @ local epoch 1: 0.09107713401317596
+Local loss @ local epoch 2: 0.11007600277662277
+Local loss @ local epoch 3: 0.15687969326972961
+Local loss @ local epoch 4: 0.07645218074321747
+Global evaluate on test data...
+Evaluate data in 121.27 seconds!
+[tester] 
+AGNewsMetric: acc=0.9319736842105263, hinge=0.4170004382886385, ce=3.1456597599230314
+Global test acc @ epoch 19: 0.932
+Global epoch 20...
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.039741791784763336
+Local loss @ local epoch 1: 0.049189697951078415
+Local loss @ local epoch 2: 0.039723221212625504
+Local loss @ local epoch 3: 0.024826765060424805
+Local loss @ local epoch 4: 0.026629388332366943
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2432246208190918
+Local loss @ local epoch 1: 0.1204775795340538
+Local loss @ local epoch 2: 0.14044275879859924
+Local loss @ local epoch 3: 0.22565950453281403
+Local loss @ local epoch 4: 0.17754331231117249
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.23075750470161438
+Local loss @ local epoch 1: 0.31771352887153625
+Local loss @ local epoch 2: 0.3390628397464752
+Local loss @ local epoch 3: 0.2835867404937744
+Local loss @ local epoch 4: 0.21718624234199524
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.25646597146987915
+Local loss @ local epoch 1: 0.09535276144742966
+Local loss @ local epoch 2: 0.13767315447330475
+Local loss @ local epoch 3: 0.2310446798801422
+Local loss @ local epoch 4: 0.48707395792007446
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.21391066908836365
+Local loss @ local epoch 1: 0.20276406407356262
+Local loss @ local epoch 2: 0.25252318382263184
+Local loss @ local epoch 3: 0.12124653905630112
+Local loss @ local epoch 4: 0.18822507560253143
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2552500069141388
+Local loss @ local epoch 1: 0.11483985185623169
+Local loss @ local epoch 2: 0.08135812729597092
+Local loss @ local epoch 3: 0.0912831649184227
+Local loss @ local epoch 4: 0.08295334875583649
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.38158971071243286
+Local loss @ local epoch 1: 0.4016444683074951
+Local loss @ local epoch 2: 0.37798503041267395
+Local loss @ local epoch 3: 0.5320914387702942
+Local loss @ local epoch 4: 0.3453123867511749
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.14623615145683289
+Local loss @ local epoch 1: 0.2313365340232849
+Local loss @ local epoch 2: 0.11576023697853088
+Local loss @ local epoch 3: 0.1269797682762146
+Local loss @ local epoch 4: 0.09311462193727493
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.07821813225746155
+Local loss @ local epoch 1: 0.1040084958076477
+Local loss @ local epoch 2: 0.15188628435134888
+Local loss @ local epoch 3: 0.2088404893875122
+Local loss @ local epoch 4: 0.13962534070014954
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.057229697704315186
+Local loss @ local epoch 1: 0.03666815161705017
+Local loss @ local epoch 2: 0.04200712591409683
+Local loss @ local epoch 3: 0.02865205518901348
+Local loss @ local epoch 4: 0.03639896959066391
+Global evaluate on test data...
+Evaluate data in 122.17 seconds!
+[tester] 
+AGNewsMetric: acc=0.9306578947368421, hinge=0.43239592953732137, ce=3.0636098399915195
+Global test acc @ epoch 20: 0.9307
+Global epoch 21...
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2825492024421692
+Local loss @ local epoch 1: 0.196342334151268
+Local loss @ local epoch 2: 0.15194261074066162
+Local loss @ local epoch 3: 0.4440685510635376
+Local loss @ local epoch 4: 0.2195693999528885
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.37253084778785706
+Local loss @ local epoch 1: 0.49757927656173706
+Local loss @ local epoch 2: 0.24214088916778564
+Local loss @ local epoch 3: 0.5107816457748413
+Local loss @ local epoch 4: 0.40964049100875854
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.28097251057624817
+Local loss @ local epoch 1: 0.1570456624031067
+Local loss @ local epoch 2: 0.1499357521533966
+Local loss @ local epoch 3: 0.3125784397125244
+Local loss @ local epoch 4: 0.601054310798645
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.19060495495796204
+Local loss @ local epoch 1: 0.2263229638338089
+Local loss @ local epoch 2: 0.07350233197212219
+Local loss @ local epoch 3: 0.0865190401673317
+Local loss @ local epoch 4: 0.18215610086917877
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.21984250843524933
+Local loss @ local epoch 1: 0.17443883419036865
+Local loss @ local epoch 2: 0.28708770871162415
+Local loss @ local epoch 3: 0.26692962646484375
+Local loss @ local epoch 4: 0.19861163198947906
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.051039014011621475
+Local loss @ local epoch 1: 0.034370653331279755
+Local loss @ local epoch 2: 0.02853761427104473
+Local loss @ local epoch 3: 0.042906906455755234
+Local loss @ local epoch 4: 0.038809794932603836
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.047681454569101334
+Local loss @ local epoch 1: 0.05930308997631073
+Local loss @ local epoch 2: 0.04066872224211693
+Local loss @ local epoch 3: 0.019355548545718193
+Local loss @ local epoch 4: 0.021000133827328682
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.23111608624458313
+Local loss @ local epoch 1: 0.114932581782341
+Local loss @ local epoch 2: 0.03394079953432083
+Local loss @ local epoch 3: 0.13176345825195312
+Local loss @ local epoch 4: 0.023631533607840538
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.11927192658185959
+Local loss @ local epoch 1: 0.10057652741670609
+Local loss @ local epoch 2: 0.049388326704502106
+Local loss @ local epoch 3: 0.04160264506936073
+Local loss @ local epoch 4: 0.10312754660844803
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.11805408447980881
+Local loss @ local epoch 1: 0.07557608932256699
+Local loss @ local epoch 2: 0.14062468707561493
+Local loss @ local epoch 3: 0.09726442396640778
+Local loss @ local epoch 4: 0.07666876912117004
+Global evaluate on test data...
+Evaluate data in 121.61 seconds!
+[tester] 
+AGNewsMetric: acc=0.9334210526315789, hinge=0.42147720838847913, ce=3.213854308379324
+Global test acc @ epoch 21: 0.9334
+Global epoch 22...
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.11451753228902817
+Local loss @ local epoch 1: 0.23264460265636444
+Local loss @ local epoch 2: 0.10048317164182663
+Local loss @ local epoch 3: 0.03228306770324707
+Local loss @ local epoch 4: 0.07594159990549088
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.0294644832611084
+Local loss @ local epoch 1: 0.1813647449016571
+Local loss @ local epoch 2: 0.38816913962364197
+Local loss @ local epoch 3: 0.15759514272212982
+Local loss @ local epoch 4: 0.11051085591316223
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.1657176911830902
+Local loss @ local epoch 1: 0.19961506128311157
+Local loss @ local epoch 2: 0.20877927541732788
+Local loss @ local epoch 3: 0.2923485338687897
+Local loss @ local epoch 4: 0.2720547616481781
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.160863995552063
+Local loss @ local epoch 1: 0.09824718534946442
+Local loss @ local epoch 2: 0.3794049918651581
+Local loss @ local epoch 3: 0.10825341194868088
+Local loss @ local epoch 4: 0.1540491282939911
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.17724734544754028
+Local loss @ local epoch 1: 0.18567144870758057
+Local loss @ local epoch 2: 0.11529435217380524
+Local loss @ local epoch 3: 0.2235315591096878
+Local loss @ local epoch 4: 0.22790782153606415
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.05444181710481644
+Local loss @ local epoch 1: 0.01746770739555359
+Local loss @ local epoch 2: 0.028192713856697083
+Local loss @ local epoch 3: 0.058744560927152634
+Local loss @ local epoch 4: 0.04654187336564064
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.43912261724472046
+Local loss @ local epoch 1: 0.24614880979061127
+Local loss @ local epoch 2: 0.26387855410575867
+Local loss @ local epoch 3: 0.3147980868816376
+Local loss @ local epoch 4: 0.22090856730937958
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.03622135519981384
+Local loss @ local epoch 1: 0.03732670098543167
+Local loss @ local epoch 2: 0.03656667098402977
+Local loss @ local epoch 3: 0.049363646656274796
+Local loss @ local epoch 4: 0.06366357207298279
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.18590371310710907
+Local loss @ local epoch 1: 0.26312828063964844
+Local loss @ local epoch 2: 0.19493764638900757
+Local loss @ local epoch 3: 0.09209994971752167
+Local loss @ local epoch 4: 0.20921142399311066
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.17390066385269165
+Local loss @ local epoch 1: 0.12019389867782593
+Local loss @ local epoch 2: 0.1073291152715683
+Local loss @ local epoch 3: 0.21065756678581238
+Local loss @ local epoch 4: 0.07812774926424026
+Global evaluate on test data...
+Evaluate data in 121.41 seconds!
+[tester] 
+AGNewsMetric: acc=0.9330263157894737, hinge=0.42283269932395534, ce=3.2087990991692794
+Global test acc @ epoch 22: 0.933
+Global epoch 23...
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.37031370401382446
+Local loss @ local epoch 1: 0.3680333197116852
+Local loss @ local epoch 2: 0.36566299200057983
+Local loss @ local epoch 3: 0.04776744171977043
+Local loss @ local epoch 4: 0.4152211546897888
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.023136761039495468
+Local loss @ local epoch 1: 0.0412384532392025
+Local loss @ local epoch 2: 0.02607767842710018
+Local loss @ local epoch 3: 0.04881249740719795
+Local loss @ local epoch 4: 0.05272800475358963
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.11341787129640579
+Local loss @ local epoch 1: 0.19231845438480377
+Local loss @ local epoch 2: 0.1020190417766571
+Local loss @ local epoch 3: 0.07521703839302063
+Local loss @ local epoch 4: 0.12950575351715088
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.07067229598760605
+Local loss @ local epoch 1: 0.0650787279009819
+Local loss @ local epoch 2: 0.10210183262825012
+Local loss @ local epoch 3: 0.15927475690841675
+Local loss @ local epoch 4: 0.0427507683634758
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.0759715586900711
+Local loss @ local epoch 1: 0.12404932826757431
+Local loss @ local epoch 2: 0.2259925752878189
+Local loss @ local epoch 3: 0.10459849238395691
+Local loss @ local epoch 4: 0.14887024462223053
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.24885989725589752
+Local loss @ local epoch 1: 0.2250984162092209
+Local loss @ local epoch 2: 0.1821405291557312
+Local loss @ local epoch 3: 0.30195167660713196
+Local loss @ local epoch 4: 0.17650911211967468
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.3140019178390503
+Local loss @ local epoch 1: 0.3781313896179199
+Local loss @ local epoch 2: 0.3447020649909973
+Local loss @ local epoch 3: 0.2623530924320221
+Local loss @ local epoch 4: 0.1514434814453125
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2186593860387802
+Local loss @ local epoch 1: 0.07828114181756973
+Local loss @ local epoch 2: 0.11415348947048187
+Local loss @ local epoch 3: 0.13954833149909973
+Local loss @ local epoch 4: 0.18663406372070312
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.06364426761865616
+Local loss @ local epoch 1: 0.04726428911089897
+Local loss @ local epoch 2: 0.11459393054246902
+Local loss @ local epoch 3: 0.09095418453216553
+Local loss @ local epoch 4: 0.1200198084115982
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.06152419000864029
+Local loss @ local epoch 1: 0.056591328233480453
+Local loss @ local epoch 2: 0.031432464718818665
+Local loss @ local epoch 3: 0.016136232763528824
+Local loss @ local epoch 4: 0.037042055279016495
+Global evaluate on test data...
+Evaluate data in 121.31 seconds!
+[tester] 
+AGNewsMetric: acc=0.9342105263157895, hinge=0.4190228246387682, ce=3.325539581399215
+Global test acc @ epoch 23: 0.9342
+Global epoch 24...
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.09956767410039902
+Local loss @ local epoch 1: 0.41590407490730286
+Local loss @ local epoch 2: 0.031110182404518127
+Local loss @ local epoch 3: 0.12133020162582397
+Local loss @ local epoch 4: 0.059449657797813416
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.28920871019363403
+Local loss @ local epoch 1: 0.4830687940120697
+Local loss @ local epoch 2: 0.3607935309410095
+Local loss @ local epoch 3: 0.3946635127067566
+Local loss @ local epoch 4: 0.2589160203933716
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.22668035328388214
+Local loss @ local epoch 1: 0.12250296771526337
+Local loss @ local epoch 2: 0.15926022827625275
+Local loss @ local epoch 3: 0.20748068392276764
+Local loss @ local epoch 4: 0.10916309803724289
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.13512668013572693
+Local loss @ local epoch 1: 0.287733256816864
+Local loss @ local epoch 2: 0.15751726925373077
+Local loss @ local epoch 3: 0.1925380975008011
+Local loss @ local epoch 4: 0.12414692342281342
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.15007302165031433
+Local loss @ local epoch 1: 0.06006129831075668
+Local loss @ local epoch 2: 0.20326495170593262
+Local loss @ local epoch 3: 0.06004658341407776
+Local loss @ local epoch 4: 0.04044723883271217
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.17852461338043213
+Local loss @ local epoch 1: 0.07596023380756378
+Local loss @ local epoch 2: 0.0863225981593132
+Local loss @ local epoch 3: 0.04619672894477844
+Local loss @ local epoch 4: 0.1541416496038437
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.040699634701013565
+Local loss @ local epoch 1: 0.032838232815265656
+Local loss @ local epoch 2: 0.02086319960653782
+Local loss @ local epoch 3: 0.042141128331422806
+Local loss @ local epoch 4: 0.023660894483327866
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.19726771116256714
+Local loss @ local epoch 1: 0.25157853960990906
+Local loss @ local epoch 2: 0.11666978895664215
+Local loss @ local epoch 3: 0.11482614278793335
+Local loss @ local epoch 4: 0.18156032264232635
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.10974272340536118
+Local loss @ local epoch 1: 0.17364564538002014
+Local loss @ local epoch 2: 0.039233893156051636
+Local loss @ local epoch 3: 0.047831904143095016
+Local loss @ local epoch 4: 0.09883585572242737
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.039998605847358704
+Local loss @ local epoch 1: 0.0628911554813385
+Local loss @ local epoch 2: 0.048549357801675797
+Local loss @ local epoch 3: 0.06375344842672348
+Local loss @ local epoch 4: 0.029362855479121208
+Global evaluate on test data...
+Evaluate data in 121.46 seconds!
+[tester] 
+AGNewsMetric: acc=0.9352631578947368, hinge=0.41122096714220546, ce=3.2923097640589662
+Global test acc @ epoch 24: 0.9353
+Global epoch 25...
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.06737324595451355
+Local loss @ local epoch 1: 0.025334367528557777
+Local loss @ local epoch 2: 0.02006579004228115
+Local loss @ local epoch 3: 0.036211129277944565
+Local loss @ local epoch 4: 0.06638026982545853
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.20637531578540802
+Local loss @ local epoch 1: 0.04378516972064972
+Local loss @ local epoch 2: 0.2772752344608307
+Local loss @ local epoch 3: 0.21401391923427582
+Local loss @ local epoch 4: 0.1315430998802185
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.046818807721138
+Local loss @ local epoch 1: 0.02766288071870804
+Local loss @ local epoch 2: 0.03688111901283264
+Local loss @ local epoch 3: 0.040471166372299194
+Local loss @ local epoch 4: 0.07708746194839478
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.19045966863632202
+Local loss @ local epoch 1: 0.18559853732585907
+Local loss @ local epoch 2: 0.2319248616695404
+Local loss @ local epoch 3: 0.12341160327196121
+Local loss @ local epoch 4: 0.07343631982803345
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.21925640106201172
+Local loss @ local epoch 1: 0.15000209212303162
+Local loss @ local epoch 2: 0.1483253836631775
+Local loss @ local epoch 3: 0.17882908880710602
+Local loss @ local epoch 4: 0.1803252398967743
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.37361228466033936
+Local loss @ local epoch 1: 0.48609456419944763
+Local loss @ local epoch 2: 0.28963208198547363
+Local loss @ local epoch 3: 0.27844366431236267
+Local loss @ local epoch 4: 0.43935486674308777
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.09014557301998138
+Local loss @ local epoch 1: 0.06606678664684296
+Local loss @ local epoch 2: 0.056192509829998016
+Local loss @ local epoch 3: 0.07228532433509827
+Local loss @ local epoch 4: 0.05981386452913284
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.10689687728881836
+Local loss @ local epoch 1: 0.09873729944229126
+Local loss @ local epoch 2: 0.046296343207359314
+Local loss @ local epoch 3: 0.18979373574256897
+Local loss @ local epoch 4: 0.30501776933670044
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.08150453120470047
+Local loss @ local epoch 1: 0.1609954833984375
+Local loss @ local epoch 2: 0.1534278243780136
+Local loss @ local epoch 3: 0.08817696571350098
+Local loss @ local epoch 4: 0.15966087579727173
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.2385523021221161
+Local loss @ local epoch 1: 0.13151635229587555
+Local loss @ local epoch 2: 0.39790111780166626
+Local loss @ local epoch 3: 0.35016050934791565
+Local loss @ local epoch 4: 0.14411410689353943
+Global evaluate on test data...
+Evaluate data in 121.87 seconds!
+[tester] 
+AGNewsMetric: acc=0.9343421052631579, hinge=0.41000287608096475, ce=3.3143304132160387
+Global test acc @ epoch 25: 0.9343
+Global epoch 26...
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.49748215079307556
+Local loss @ local epoch 1: 0.5332146883010864
+Local loss @ local epoch 2: 0.3730524778366089
+Local loss @ local epoch 3: 0.40323328971862793
+Local loss @ local epoch 4: 0.352439820766449
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.017697950825095177
+Local loss @ local epoch 1: 0.02355217933654785
+Local loss @ local epoch 2: 0.04290691763162613
+Local loss @ local epoch 3: 0.039377909153699875
+Local loss @ local epoch 4: 0.02813239023089409
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.19785676896572113
+Local loss @ local epoch 1: 0.22412286698818207
+Local loss @ local epoch 2: 0.2360256016254425
+Local loss @ local epoch 3: 0.20903092622756958
+Local loss @ local epoch 4: 0.28013110160827637
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.20551568269729614
+Local loss @ local epoch 1: 0.22872698307037354
+Local loss @ local epoch 2: 0.3508283793926239
+Local loss @ local epoch 3: 0.1778140664100647
+Local loss @ local epoch 4: 0.21412749588489532
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.23627007007598877
+Local loss @ local epoch 1: 0.11808955669403076
+Local loss @ local epoch 2: 0.2518489360809326
+Local loss @ local epoch 3: 0.13719849288463593
+Local loss @ local epoch 4: 0.1455068588256836
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.17668984830379486
+Local loss @ local epoch 1: 0.07631900161504745
+Local loss @ local epoch 2: 0.25782468914985657
+Local loss @ local epoch 3: 0.07496487349271774
+Local loss @ local epoch 4: 0.265031099319458
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.07577293366193771
+Local loss @ local epoch 1: 0.03425264358520508
+Local loss @ local epoch 2: 0.36890336871147156
+Local loss @ local epoch 3: 0.06917215138673782
+Local loss @ local epoch 4: 0.12456842511892319
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.17926913499832153
+Local loss @ local epoch 1: 0.1672835797071457
+Local loss @ local epoch 2: 0.10657358169555664
+Local loss @ local epoch 3: 0.07602880150079727
+Local loss @ local epoch 4: 0.15304431319236755
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.054598744958639145
+Local loss @ local epoch 1: 0.03643907606601715
+Local loss @ local epoch 2: 0.037156809121370316
+Local loss @ local epoch 3: 0.10792310535907745
+Local loss @ local epoch 4: 0.029020627960562706
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.1637004017829895
+Local loss @ local epoch 1: 0.15717914700508118
+Local loss @ local epoch 2: 0.1534205675125122
+Local loss @ local epoch 3: 0.17050671577453613
+Local loss @ local epoch 4: 0.07371982932090759
+Global evaluate on test data...
+Evaluate data in 121.05 seconds!
+[tester] 
+AGNewsMetric: acc=0.9367105263157894, hinge=0.40415153051677505, ce=3.4484914829856472
+Global test acc @ epoch 26: 0.9367
+Global epoch 27...
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.1562490612268448
+Local loss @ local epoch 1: 0.09243211895227432
+Local loss @ local epoch 2: 0.0434844009578228
+Local loss @ local epoch 3: 0.04656810313463211
+Local loss @ local epoch 4: 0.07989154011011124
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.13452015817165375
+Local loss @ local epoch 1: 0.09883355349302292
+Local loss @ local epoch 2: 0.19888585805892944
+Local loss @ local epoch 3: 0.23148226737976074
+Local loss @ local epoch 4: 0.04325456544756889
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.36240154504776
+Local loss @ local epoch 1: 0.09909924864768982
+Local loss @ local epoch 2: 0.04395877569913864
+Local loss @ local epoch 3: 0.04900071769952774
+Local loss @ local epoch 4: 0.040522102266550064
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.11624860763549805
+Local loss @ local epoch 1: 0.05602118372917175
+Local loss @ local epoch 2: 0.09891076385974884
+Local loss @ local epoch 3: 0.15231426060199738
+Local loss @ local epoch 4: 0.10305656492710114
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.027746692299842834
+Local loss @ local epoch 1: 0.03877007216215134
+Local loss @ local epoch 2: 0.031222006306052208
+Local loss @ local epoch 3: 0.07987774163484573
+Local loss @ local epoch 4: 0.016198044642806053
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.3565625250339508
+Local loss @ local epoch 1: 0.40155118703842163
+Local loss @ local epoch 2: 0.300270140171051
+Local loss @ local epoch 3: 0.3584597110748291
+Local loss @ local epoch 4: 0.345715194940567
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.203936368227005
+Local loss @ local epoch 1: 0.23957376182079315
+Local loss @ local epoch 2: 0.15891581773757935
+Local loss @ local epoch 3: 0.3350362479686737
+Local loss @ local epoch 4: 0.23795607686042786
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.05080067366361618
+Local loss @ local epoch 1: 0.03641212731599808
+Local loss @ local epoch 2: 0.05355167016386986
+Local loss @ local epoch 3: 0.05828601494431496
+Local loss @ local epoch 4: 0.0449395552277565
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.06692638248205185
+Local loss @ local epoch 1: 0.23821914196014404
+Local loss @ local epoch 2: 0.10457251220941544
+Local loss @ local epoch 3: 0.07137640565633774
+Local loss @ local epoch 4: 0.11107638478279114
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.20921874046325684
+Local loss @ local epoch 1: 0.214882031083107
+Local loss @ local epoch 2: 0.1563739776611328
+Local loss @ local epoch 3: 0.10042344033718109
+Local loss @ local epoch 4: 0.11552201956510544
+Global evaluate on test data...
+Evaluate data in 121.11 seconds!
+[tester] 
+AGNewsMetric: acc=0.9371052631578948, hinge=0.40552572877783527, ce=3.370318126678467
+Global test acc @ epoch 27: 0.9371
+Global epoch 28...
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.03970121592283249
+Local loss @ local epoch 1: 0.054593171924352646
+Local loss @ local epoch 2: 0.04438178986310959
+Local loss @ local epoch 3: 0.0596882626414299
+Local loss @ local epoch 4: 0.0353347510099411
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.07498899847269058
+Local loss @ local epoch 1: 0.1458928883075714
+Local loss @ local epoch 2: 0.07563245296478271
+Local loss @ local epoch 3: 0.061531100422143936
+Local loss @ local epoch 4: 0.18337197601795197
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.20023517310619354
+Local loss @ local epoch 1: 0.3019946217536926
+Local loss @ local epoch 2: 0.19567477703094482
+Local loss @ local epoch 3: 0.3062513470649719
+Local loss @ local epoch 4: 0.2687161862850189
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.09660864621400833
+Local loss @ local epoch 1: 0.06276116520166397
+Local loss @ local epoch 2: 0.01238608080893755
+Local loss @ local epoch 3: 0.042725976556539536
+Local loss @ local epoch 4: 0.05099521577358246
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.375920832157135
+Local loss @ local epoch 1: 0.48085811734199524
+Local loss @ local epoch 2: 0.3634902238845825
+Local loss @ local epoch 3: 0.3245712220668793
+Local loss @ local epoch 4: 0.20275339484214783
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.12465957552194595
+Local loss @ local epoch 1: 0.21413029730319977
+Local loss @ local epoch 2: 0.11225669831037521
+Local loss @ local epoch 3: 0.19687756896018982
+Local loss @ local epoch 4: 0.14602535963058472
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.30350857973098755
+Local loss @ local epoch 1: 0.1562306433916092
+Local loss @ local epoch 2: 0.16320198774337769
+Local loss @ local epoch 3: 0.05802560970187187
+Local loss @ local epoch 4: 0.033899933099746704
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.10369595140218735
+Local loss @ local epoch 1: 0.11637257784605026
+Local loss @ local epoch 2: 0.12774142622947693
+Local loss @ local epoch 3: 0.22109103202819824
+Local loss @ local epoch 4: 0.08386769890785217
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.26459309458732605
+Local loss @ local epoch 1: 0.2173861265182495
+Local loss @ local epoch 2: 0.09631258994340897
+Local loss @ local epoch 3: 0.0683150514960289
+Local loss @ local epoch 4: 0.05708480253815651
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.17287981510162354
+Local loss @ local epoch 1: 0.22546207904815674
+Local loss @ local epoch 2: 0.14159485697746277
+Local loss @ local epoch 3: 0.15449555218219757
+Local loss @ local epoch 4: 0.15319064259529114
+Global evaluate on test data...
+Evaluate data in 121.32 seconds!
+[tester] 
+AGNewsMetric: acc=0.9361842105263158, hinge=0.40702250279878316, ce=3.2342225657011334
+Global test acc @ epoch 28: 0.9362
+Global epoch 29...
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.037820372730493546
+Local loss @ local epoch 1: 0.2195684313774109
+Local loss @ local epoch 2: 0.09736649692058563
+Local loss @ local epoch 3: 0.07376477867364883
+Local loss @ local epoch 4: 0.110157310962677
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.28703877329826355
+Local loss @ local epoch 1: 0.24855244159698486
+Local loss @ local epoch 2: 0.23698796331882477
+Local loss @ local epoch 3: 0.1197839304804802
+Local loss @ local epoch 4: 0.19356009364128113
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.02945905737578869
+Local loss @ local epoch 1: 0.03728611767292023
+Local loss @ local epoch 2: 0.03588685020804405
+Local loss @ local epoch 3: 0.04545450583100319
+Local loss @ local epoch 4: 0.044723398983478546
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.21381282806396484
+Local loss @ local epoch 1: 0.2053857296705246
+Local loss @ local epoch 2: 0.2158111035823822
+Local loss @ local epoch 3: 0.2216617465019226
+Local loss @ local epoch 4: 0.17343543469905853
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.11662645637989044
+Local loss @ local epoch 1: 0.13896848261356354
+Local loss @ local epoch 2: 0.07297356426715851
+Local loss @ local epoch 3: 0.13282527029514313
+Local loss @ local epoch 4: 0.09443838894367218
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.1561860889196396
+Local loss @ local epoch 1: 0.10187847912311554
+Local loss @ local epoch 2: 0.11450435221195221
+Local loss @ local epoch 3: 0.1785299926996231
+Local loss @ local epoch 4: 0.08574248105287552
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.3780812919139862
+Local loss @ local epoch 1: 0.25181660056114197
+Local loss @ local epoch 2: 0.34165045619010925
+Local loss @ local epoch 3: 0.3198651075363159
+Local loss @ local epoch 4: 0.4427768290042877
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.15090681612491608
+Local loss @ local epoch 1: 0.0685563012957573
+Local loss @ local epoch 2: 0.08263622224330902
+Local loss @ local epoch 3: 0.08910331130027771
+Local loss @ local epoch 4: 0.07310660183429718
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.07564717531204224
+Local loss @ local epoch 1: 0.0370795913040638
+Local loss @ local epoch 2: 0.031195644289255142
+Local loss @ local epoch 3: 0.04802146181464195
+Local loss @ local epoch 4: 0.02958373911678791
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.07444197684526443
+Local loss @ local epoch 1: 0.2360522747039795
+Local loss @ local epoch 2: 0.03483511507511139
+Local loss @ local epoch 3: 0.06851037591695786
+Local loss @ local epoch 4: 0.017009301111102104
+Global evaluate on test data...
+Evaluate data in 121.37 seconds!
+[tester] 
+AGNewsMetric: acc=0.9378947368421052, hinge=0.40761295117829976, ce=3.289998765242727
+Global test acc @ epoch 29: 0.9379
+Global epoch 30...
+Client 5 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.38129550218582153
+Local loss @ local epoch 1: 0.39532560110092163
+Local loss @ local epoch 2: 0.3406355679035187
+Local loss @ local epoch 3: 0.28572186827659607
+Local loss @ local epoch 4: 0.40234094858169556
+Client 4 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.054843008518218994
+Local loss @ local epoch 1: 0.03832945227622986
+Local loss @ local epoch 2: 0.02407616563141346
+Local loss @ local epoch 3: 0.04380783066153526
+Local loss @ local epoch 4: 0.037385884672403336
+Client 9 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.10327411442995071
+Local loss @ local epoch 1: 0.0967983528971672
+Local loss @ local epoch 2: 0.11858765780925751
+Local loss @ local epoch 3: 0.1725434958934784
+Local loss @ local epoch 4: 0.128499373793602
+Client 3 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.31152039766311646
+Local loss @ local epoch 1: 0.24228115379810333
+Local loss @ local epoch 2: 0.3269740641117096
+Local loss @ local epoch 3: 0.21879459917545319
+Local loss @ local epoch 4: 0.329790323972702
+Client 0 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.02046775631606579
+Local loss @ local epoch 1: 0.049813803285360336
+Local loss @ local epoch 2: 0.04025577753782272
+Local loss @ local epoch 3: 0.1471475511789322
+Local loss @ local epoch 4: 0.012797885574400425
+Client 7 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.15911278128623962
+Local loss @ local epoch 1: 0.11758708953857422
+Local loss @ local epoch 2: 0.10007262229919434
+Local loss @ local epoch 3: 0.1976623386144638
+Local loss @ local epoch 4: 0.14265669882297516
+Client 8 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.10563572496175766
+Local loss @ local epoch 1: 0.09076131880283356
+Local loss @ local epoch 2: 0.0802556574344635
+Local loss @ local epoch 3: 0.1069115549325943
+Local loss @ local epoch 4: 0.031749043613672256
+Client 1 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.1858503371477127
+Local loss @ local epoch 1: 0.04076669365167618
+Local loss @ local epoch 2: 0.03812040761113167
+Local loss @ local epoch 3: 0.1608208566904068
+Local loss @ local epoch 4: 0.09028518944978714
+Client 2 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.04373379424214363
+Local loss @ local epoch 1: 0.02924503944814205
+Local loss @ local epoch 2: 0.04111659526824951
+Local loss @ local epoch 3: 0.0316668264567852
+Local loss @ local epoch 4: 0.06241452321410179
+Client 6 execute local training on 10800 samples...
+Local loss @ local epoch 0: 0.23478026688098907
+Local loss @ local epoch 1: 0.2898765206336975
+Local loss @ local epoch 2: 0.2209630012512207
+Local loss @ local epoch 3: 0.23648306727409363
+Local loss @ local epoch 4: 0.1439736783504486
+Global evaluate on test data...

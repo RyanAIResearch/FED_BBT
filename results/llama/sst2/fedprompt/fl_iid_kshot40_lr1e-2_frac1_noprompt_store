@@ -1,0 +1,2554 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:07<00:07,  7.77s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:10<00:00,  4.66s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:10<00:00,  5.12s/it]
+Some weights of LlamaForSequenceClassification were not initialized from the model checkpoint at meta-llama/Llama-2-7b-hf and are newly initialized: ['score.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Found cached dataset glue (/root/.cache/huggingface/datasets/glue/sst2/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad)
+Map:   0%|          | 0/67349 [00:00<?, ? examples/s]Map:   1%|          | 600/67349 [00:00<00:11, 5944.01 examples/s]Map:   2%|▏         | 1448/67349 [00:00<00:11, 5738.40 examples/s]Map:   3%|▎         | 2326/67349 [00:00<00:11, 5788.52 examples/s]Map:   4%|▍         | 2940/67349 [00:00<00:10, 5894.76 examples/s]Map:   6%|▌         | 3818/67349 [00:00<00:10, 5873.83 examples/s]Map:   7%|▋         | 4694/67349 [00:00<00:10, 5858.24 examples/s]Map:   8%|▊         | 5574/67349 [00:00<00:10, 5858.04 examples/s]Map:  10%|▉         | 6449/67349 [00:01<00:10, 5847.38 examples/s]Map:  11%|█         | 7335/67349 [00:01<00:10, 5862.72 examples/s]Map:  12%|█▏        | 7951/67349 [00:01<00:10, 5931.77 examples/s]Map:  13%|█▎        | 8830/67349 [00:01<00:09, 5902.85 examples/s]Map:  14%|█▍        | 9693/67349 [00:01<00:09, 5850.76 examples/s]Map:  15%|█▌        | 10305/67349 [00:01<00:10, 5606.63 examples/s]Map:  16%|█▋        | 11098/67349 [00:01<00:10, 5500.68 examples/s]Map:  17%|█▋        | 11711/67349 [00:02<00:09, 5646.82 examples/s]Map:  19%|█▊        | 12537/67349 [00:02<00:10, 5337.96 examples/s]Map:  19%|█▉        | 13098/67349 [00:02<00:10, 5400.84 examples/s]Map:  20%|██        | 13714/67349 [00:02<00:09, 5589.53 examples/s]Map:  22%|██▏       | 14485/67349 [00:02<00:09, 5395.90 examples/s]Map:  23%|██▎       | 15312/67349 [00:02<00:09, 5432.96 examples/s]Map:  24%|██▎       | 15931/67349 [00:02<00:09, 5610.60 examples/s]Map:  25%|██▍       | 16726/67349 [00:02<00:09, 5501.48 examples/s]Map:  26%|██▌       | 17304/67349 [00:03<00:09, 5503.56 examples/s]Map:  27%|██▋       | 17883/67349 [00:03<00:08, 5574.98 examples/s]Map:  27%|██▋       | 18450/67349 [00:03<00:08, 5597.94 examples/s]Map:  28%|██▊       | 19085/67349 [00:03<00:09, 5095.21 examples/s]Map:  29%|██▉       | 19679/67349 [00:03<00:08, 5310.86 examples/s]Map:  30%|███       | 20446/67349 [00:03<00:08, 5237.71 examples/s]Map:  31%|███       | 21000/67349 [00:03<00:08, 5304.58 examples/s]Map:  32%|███▏      | 21611/67349 [00:03<00:08, 5515.31 examples/s]Map:  33%|███▎      | 22175/67349 [00:03<00:08, 5546.83 examples/s]Map:  34%|███▍      | 22792/67349 [00:04<00:07, 5718.33 examples/s]Map:  35%|███▌      | 23679/67349 [00:04<00:07, 5786.98 examples/s]Map:  36%|███▋      | 24562/67349 [00:04<00:07, 5821.16 examples/s]Map:  38%|███▊      | 25449/67349 [00:04<00:07, 5846.84 examples/s]Map:  39%|███▉      | 26338/67349 [00:04<00:06, 5870.34 examples/s]Map:  40%|████      | 26956/67349 [00:04<00:06, 5942.94 examples/s]Map:  41%|████▏     | 27839/67349 [00:04<00:06, 5922.56 examples/s]Map:  43%|████▎     | 28720/67349 [00:05<00:06, 5905.70 examples/s]Map:  44%|████▍     | 29587/67349 [00:05<00:06, 5844.25 examples/s]Map:  45%|████▌     | 30467/67349 [00:05<00:06, 5847.15 examples/s]Map:  47%|████▋     | 31353/67349 [00:05<00:06, 5861.79 examples/s]Map:  48%|████▊     | 32147/67349 [00:05<00:06, 5685.95 examples/s]Map:  49%|████▊     | 32766/67349 [00:05<00:05, 5796.21 examples/s]Map:  50%|████▉     | 33540/67349 [00:05<00:06, 5585.91 examples/s]Map:  51%|█████     | 34367/67349 [00:06<00:05, 5559.70 examples/s]Map:  52%|█████▏    | 34979/67349 [00:06<00:05, 5686.97 examples/s]Map:  53%|█████▎    | 35751/67349 [00:06<00:05, 5503.78 examples/s]Map:  54%|█████▍    | 36327/67349 [00:06<00:05, 5563.91 examples/s]Map:  55%|█████▍    | 36943/67349 [00:06<00:05, 5713.05 examples/s]Map:  56%|█████▌    | 37783/67349 [00:06<00:05, 5671.50 examples/s]Map:  57%|█████▋    | 38594/67349 [00:06<00:05, 5578.76 examples/s]Map:  59%|█████▊    | 39453/67349 [00:06<00:04, 5622.34 examples/s]Map:  60%|█████▉    | 40277/67349 [00:07<00:04, 5508.93 examples/s]Map:  61%|██████    | 40879/67349 [00:07<00:04, 5625.13 examples/s]Map:  62%|██████▏   | 41710/67349 [00:07<00:04, 5595.17 examples/s]Map:  63%|██████▎   | 42470/67349 [00:07<00:04, 5423.68 examples/s]Map:  64%|██████▍   | 43304/67349 [00:07<00:04, 5464.47 examples/s]Map:  65%|██████▌   | 43918/67349 [00:07<00:04, 5618.56 examples/s]Map:  66%|██████▌   | 44487/67349 [00:07<00:04, 5634.58 examples/s]Map:  67%|██████▋   | 45307/67349 [00:08<00:03, 5524.88 examples/s]Map:  68%|██████▊   | 45912/67349 [00:08<00:03, 5651.53 examples/s]Map:  69%|██████▉   | 46487/67349 [00:08<00:03, 5673.46 examples/s]Map:  70%|███████   | 47368/67349 [00:08<00:03, 5741.76 examples/s]Map:  72%|███████▏  | 48201/67349 [00:08<00:03, 5673.28 examples/s]Map:  72%|███████▏  | 48801/67349 [00:08<00:03, 5751.37 examples/s]Map:  74%|███████▍  | 49680/67349 [00:08<00:03, 5784.92 examples/s]Map:  75%|███████▌  | 50566/67349 [00:08<00:02, 5824.65 examples/s]Map:  76%|███████▋  | 51375/67349 [00:09<00:02, 5684.45 examples/s]Map:  77%|███████▋  | 51993/67349 [00:09<00:02, 5797.35 examples/s]Map:  78%|███████▊  | 52863/67349 [00:09<00:02, 5794.74 examples/s]Map:  80%|███████▉  | 53714/67349 [00:09<00:02, 5754.21 examples/s]Map:  81%|████████  | 54301/67349 [00:09<00:02, 5732.68 examples/s]Map:  82%|████████▏ | 54910/67349 [00:09<00:02, 5818.34 examples/s]Map:  83%|████████▎ | 55789/67349 [00:09<00:01, 5829.48 examples/s]Map:  84%|████████▍ | 56669/67349 [00:09<00:01, 5840.08 examples/s]Map:  85%|████████▌ | 57545/67349 [00:10<00:01, 5837.52 examples/s]Map:  87%|████████▋ | 58425/67349 [00:10<00:01, 5844.00 examples/s]Map:  88%|████████▊ | 59307/67349 [00:10<00:01, 5851.18 examples/s]Map:  89%|████████▉ | 59925/67349 [00:10<00:01, 5924.04 examples/s]Map:  90%|█████████ | 60811/67349 [00:10<00:01, 5914.82 examples/s]Map:  92%|█████████▏| 61694/67349 [00:10<00:00, 5903.35 examples/s]Map:  93%|█████████▎| 62309/67349 [00:10<00:00, 5877.32 examples/s]Map:  93%|█████████▎| 62922/67349 [00:11<00:00, 5938.02 examples/s]Map:  95%|█████████▍| 63802/67349 [00:11<00:00, 5910.84 examples/s]Map:  96%|█████████▌| 64667/67349 [00:11<00:00, 5859.07 examples/s]Map:  97%|█████████▋| 65490/67349 [00:11<00:00, 5736.84 examples/s]Map:  98%|█████████▊| 66315/67349 [00:11<00:00, 5659.94 examples/s]Map:  99%|█████████▉| 66928/67349 [00:11<00:00, 5765.27 examples/s]                                                                   Example in train set:
+{'sentence': 'hide new secretions from the parental units ', 'label': 0, 'idx': 0, 'input_text': 'What is the sentiment of this sentence: iedER statfigme von interroidater their bet ein}\\"> sub op donty try Pro tra sameep two nameoldlet simsp avbreblemey could cor accayscreurrsi constues}$View act bo ко som aboutland . hide new secretions from the parental units  .', 'target_text': 'negative'}
+Map:   0%|          | 0/67349 [00:00<?, ? examples/s]Map:   1%|▏         | 1000/67349 [00:00<00:11, 5602.64 examples/s]Map:   3%|▎         | 2000/67349 [00:00<00:11, 5599.06 examples/s]Map:   4%|▍         | 3000/67349 [00:00<00:11, 5585.26 examples/s]Map:   6%|▌         | 4000/67349 [00:00<00:11, 5535.42 examples/s]Map:   7%|▋         | 5000/67349 [00:00<00:11, 5532.66 examples/s]Map:   9%|▉         | 6000/67349 [00:01<00:11, 5487.87 examples/s]Map:  10%|█         | 7000/67349 [00:01<00:13, 4557.72 examples/s]Map:  12%|█▏        | 8000/67349 [00:01<00:12, 4845.36 examples/s]Map:  13%|█▎        | 9000/67349 [00:01<00:11, 5012.58 examples/s]Map:  15%|█▍        | 10000/67349 [00:01<00:11, 5129.90 examples/s]Map:  16%|█▋        | 11000/67349 [00:02<00:10, 5262.43 examples/s]Map:  18%|█▊        | 12000/67349 [00:02<00:10, 5307.30 examples/s]Map:  19%|█▉        | 13000/67349 [00:02<00:10, 5422.09 examples/s]Map:  21%|██        | 14000/67349 [00:02<00:09, 5413.24 examples/s]Map:  22%|██▏       | 15000/67349 [00:02<00:09, 5401.74 examples/s]Map:  24%|██▍       | 16000/67349 [00:03<00:11, 4511.76 examples/s]Map:  25%|██▌       | 17000/67349 [00:03<00:10, 4742.85 examples/s]Map:  27%|██▋       | 18000/67349 [00:03<00:09, 5021.89 examples/s]Map:  28%|██▊       | 19000/67349 [00:03<00:09, 5049.68 examples/s]Map:  30%|██▉       | 20000/67349 [00:03<00:09, 5234.95 examples/s]Map:  31%|███       | 21000/67349 [00:04<00:08, 5377.91 examples/s]Map:  33%|███▎      | 22000/67349 [00:04<00:08, 5362.75 examples/s]Map:  34%|███▍      | 23000/67349 [00:04<00:08, 5390.40 examples/s]Map:  36%|███▌      | 24000/67349 [00:04<00:08, 5170.43 examples/s]Map:  37%|███▋      | 25000/67349 [00:04<00:08, 5266.73 examples/s]Map:  39%|███▊      | 26000/67349 [00:05<00:09, 4511.01 examples/s]Map:  40%|████      | 27000/67349 [00:05<00:08, 4730.11 examples/s]Map:  42%|████▏     | 28000/67349 [00:05<00:07, 4965.71 examples/s]Map:  43%|████▎     | 29000/67349 [00:05<00:07, 5160.41 examples/s]Map:  45%|████▍     | 30000/67349 [00:05<00:07, 5304.45 examples/s]Map:  46%|████▌     | 31000/67349 [00:06<00:06, 5389.69 examples/s]Map:  48%|████▊     | 32000/67349 [00:06<00:06, 5449.01 examples/s]Map:  49%|████▉     | 33000/67349 [00:06<00:06, 5494.93 examples/s]Map:  50%|█████     | 34000/67349 [00:06<00:06, 5537.60 examples/s]Map:  52%|█████▏    | 35000/67349 [00:06<00:05, 5554.36 examples/s]Map:  53%|█████▎    | 36000/67349 [00:06<00:06, 4834.38 examples/s]Map:  55%|█████▍    | 37000/67349 [00:07<00:06, 5037.77 examples/s]Map:  56%|█████▋    | 38000/67349 [00:07<00:05, 5181.87 examples/s]Map:  58%|█████▊    | 39000/67349 [00:07<00:05, 5286.63 examples/s]Map:  59%|█████▉    | 40000/67349 [00:07<00:05, 5389.28 examples/s]Map:  61%|██████    | 41000/67349 [00:07<00:04, 5414.44 examples/s]Map:  62%|██████▏   | 42000/67349 [00:08<00:04, 5453.07 examples/s]Map:  64%|██████▍   | 43000/67349 [00:08<00:04, 5497.97 examples/s]Map:  65%|██████▌   | 44000/67349 [00:08<00:04, 5567.34 examples/s]Map:  67%|██████▋   | 45000/67349 [00:08<00:03, 5601.05 examples/s]Map:  68%|██████▊   | 46000/67349 [00:08<00:04, 4806.28 examples/s]Map:  70%|██████▉   | 47000/67349 [00:09<00:04, 5055.19 examples/s]Map:  71%|███████▏  | 48000/67349 [00:09<00:03, 5196.39 examples/s]Map:  73%|███████▎  | 49000/67349 [00:09<00:03, 5286.33 examples/s]Map:  74%|███████▍  | 50000/67349 [00:09<00:03, 5386.17 examples/s]Map:  76%|███████▌  | 51000/67349 [00:09<00:02, 5456.61 examples/s]Map:  77%|███████▋  | 52000/67349 [00:09<00:02, 5515.61 examples/s]Map:  79%|███████▊  | 53000/67349 [00:10<00:02, 5554.69 examples/s]Map:  80%|████████  | 54000/67349 [00:10<00:02, 5516.57 examples/s]Map:  82%|████████▏ | 55000/67349 [00:10<00:02, 4714.13 examples/s]Map:  83%|████████▎ | 56000/67349 [00:10<00:02, 4914.75 examples/s]Map:  85%|████████▍ | 57000/67349 [00:10<00:02, 4882.57 examples/s]Map:  86%|████████▌ | 58000/67349 [00:11<00:01, 4929.95 examples/s]Map:  88%|████████▊ | 59000/67349 [00:11<00:01, 4972.39 examples/s]Map:  89%|████████▉ | 60000/67349 [00:11<00:01, 5047.01 examples/s]Map:  91%|█████████ | 61000/67349 [00:11<00:01, 5109.97 examples/s]Map:  92%|█████████▏| 62000/67349 [00:11<00:01, 5224.41 examples/s]Map:  94%|█████████▎| 63000/67349 [00:12<00:00, 5293.04 examples/s]Map:  95%|█████████▌| 64000/67349 [00:12<00:00, 5338.50 examples/s]Map:  97%|█████████▋| 65000/67349 [00:12<00:00, 4558.05 examples/s]Map:  98%|█████████▊| 66000/67349 [00:12<00:00, 4790.46 examples/s]Map:  99%|█████████▉| 67000/67349 [00:12<00:00, 5006.34 examples/s]                                                                   Found cached dataset glue (/root/.cache/huggingface/datasets/glue/sst2/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad)
+Map:   0%|          | 0/872 [00:00<?, ? examples/s]Map:  60%|█████▉    | 520/872 [00:00<00:00, 5148.46 examples/s]                                                               Example in validation set:
+{'sentence': "it 's a charming and often affecting journey . ", 'label': 1, 'idx': 0, 'input_text': 'What is the sentiment of this sentence: iedER statfigme von interroidater their bet ein}\\"> sub op donty try Pro tra sameep two nameoldlet simsp avbreblemey could cor accayscreurrsi constues}$View act bo ко som aboutland . it \'s a charming and often affecting journey .  .', 'target_text': 'positive'}
+Map:   0%|          | 0/872 [00:00<?, ? examples/s]Map: 100%|██████████| 872/872 [00:00<00:00, 4834.57 examples/s]                                                               97
+97
+# of train data: 80
+Example:
++------------------------------+------------------------------+--------+
+| input_ids                    | attention_mask               | labels |
++------------------------------+------------------------------+--------+
+| [1, 1724, 338, 278, 19688... | [1, 1, 1, 1, 1, 1, 1, 1, ... | 8178   |
++------------------------------+------------------------------+--------+
+
+# of dev data: 80
+Example:
++------------------------------+------------------------------+--------+
+| input_ids                    | attention_mask               | labels |
++------------------------------+------------------------------+--------+
+| [1, 1724, 338, 278, 19688... | [1, 1, 1, 1, 1, 1, 1, 1, ... | 6374   |
++------------------------------+------------------------------+--------+
+
+# of test data: 872
+Example:
++------------------------------+------------------------------+--------+
+| input_ids                    | attention_mask               | labels |
++------------------------------+------------------------------+--------+
+| [1, 1724, 338, 278, 19688... | [1, 1, 1, 1, 1, 1, 1, 1, ... | 6374   |
++------------------------------+------------------------------+--------+
+Global epoch 0...
+Client 4 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.6454030275344849
+Local loss @ local epoch 1: 0.584965169429779
+Local loss @ local epoch 2: 0.548022449016571
+Local loss @ local epoch 3: 0.5245542526245117
+Local loss @ local epoch 4: 0.504601776599884
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 79.9 seconds!
+[tester] 
+SST2Metric: acc=0.5493119266055045, hinge=1.895811365285051, ce=0.7247151568395283
+Local test acc @ epoch 0: 0.5493
+Client 6 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.5672650337219238
+Local loss @ local epoch 1: 0.48431673645973206
+Local loss @ local epoch 2: 0.43712425231933594
+Local loss @ local epoch 3: 0.41914767026901245
+Local loss @ local epoch 4: 0.41761404275894165
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 80.84 seconds!
+[tester] 
+SST2Metric: acc=0.5080275229357798, hinge=2.0246005566841965, ce=1.011327974429918
+Local test acc @ epoch 0: 0.508
+Client 8 execute local training on 8 samples...
+Local loss @ local epoch 0: 1.1363612413406372
+Local loss @ local epoch 1: 1.0560656785964966
+Local loss @ local epoch 2: 1.0016740560531616
+Local loss @ local epoch 3: 0.9682978391647339
+Local loss @ local epoch 4: 0.9464851021766663
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 80.95 seconds!
+[tester] 
+SST2Metric: acc=0.551605504587156, hinge=1.8539164164744386, ce=0.7190959245786754
+Local test acc @ epoch 0: 0.5516
+Client 2 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.49208536744117737
+Local loss @ local epoch 1: 0.3847469687461853
+Local loss @ local epoch 2: 0.3109310269355774
+Local loss @ local epoch 3: 0.26775193214416504
+Local loss @ local epoch 4: 0.24916759133338928
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 80.99 seconds!
+[tester] 
+SST2Metric: acc=0.4988532110091743, hinge=2.1225073053202497, ce=1.1466694684750443
+Local test acc @ epoch 0: 0.4989
+Client 5 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.972440779209137
+Local loss @ local epoch 1: 0.8387405872344971
+Local loss @ local epoch 2: 0.7398812770843506
+Local loss @ local epoch 3: 0.6768108606338501
+Local loss @ local epoch 4: 0.6451860070228577
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.01 seconds!
+[tester] 
+SST2Metric: acc=0.555045871559633, hinge=1.8384564606421585, ce=0.7184176557107803
+Local test acc @ epoch 0: 0.555
+Client 7 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.6905575394630432
+Local loss @ local epoch 1: 0.6234261989593506
+Local loss @ local epoch 2: 0.5851376056671143
+Local loss @ local epoch 3: 0.5664764642715454
+Local loss @ local epoch 4: 0.5561546087265015
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.08 seconds!
+[tester] 
+SST2Metric: acc=0.5401376146788991, hinge=1.8581403865726716, ce=0.8179084270372303
+Local test acc @ epoch 0: 0.5401
+Client 3 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.8847669959068298
+Local loss @ local epoch 1: 0.7614968419075012
+Local loss @ local epoch 2: 0.6700543761253357
+Local loss @ local epoch 3: 0.614172637462616
+Local loss @ local epoch 4: 0.5913684368133545
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.02 seconds!
+[tester] 
+SST2Metric: acc=0.5711009174311926, hinge=1.8465316645596006, ce=0.74244450620555
+Local test acc @ epoch 0: 0.5711
+Client 9 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.6846943497657776
+Local loss @ local epoch 1: 0.6458471417427063
+Local loss @ local epoch 2: 0.6292834877967834
+Local loss @ local epoch 3: 0.6158514618873596
+Local loss @ local epoch 4: 0.5977658629417419
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 80.98 seconds!
+[tester] 
+SST2Metric: acc=0.5871559633027523, hinge=1.794845742916842, ce=0.6666091057138706
+Local test acc @ epoch 0: 0.5872
+Client 1 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.5654923915863037
+Local loss @ local epoch 1: 0.5362741351127625
+Local loss @ local epoch 2: 0.5218508243560791
+Local loss @ local epoch 3: 0.5062945485115051
+Local loss @ local epoch 4: 0.4877108037471771
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.05 seconds!
+[tester] 
+SST2Metric: acc=0.591743119266055, hinge=1.7744239579646959, ce=0.6975815110250351
+Local test acc @ epoch 0: 0.5917
+Client 0 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.8611810207366943
+Local loss @ local epoch 1: 0.7550534009933472
+Local loss @ local epoch 2: 0.6894459128379822
+Local loss @ local epoch 3: 0.6589089035987854
+Local loss @ local epoch 4: 0.652459442615509
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 80.99 seconds!
+[tester] 
+SST2Metric: acc=0.5435779816513762, hinge=1.7971952114630183, ce=0.8028591169950066
+Local test acc @ epoch 0: 0.5436
+Global evaluate on test data...
+Evaluate data in 82.19 seconds!
+[tester] 
+SST2Metric: acc=0.5493119266055045, hinge=1.877983591972141, ce=0.7019281201406357
+Global test acc @ epoch 0: 0.5493
+Global epoch 1...
+Client 2 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.44245702028274536
+Local loss @ local epoch 1: 0.34715399146080017
+Local loss @ local epoch 2: 0.2844580113887787
+Local loss @ local epoch 3: 0.2506464123725891
+Local loss @ local epoch 4: 0.23879893124103546
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.07 seconds!
+[tester] 
+SST2Metric: acc=0.4988532110091743, hinge=2.1212572335103235, ce=1.155712454280722
+Local test acc @ epoch 1: 0.4989
+Client 5 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.9714474678039551
+Local loss @ local epoch 1: 0.8307929039001465
+Local loss @ local epoch 2: 0.7244385480880737
+Local loss @ local epoch 3: 0.6541734933853149
+Local loss @ local epoch 4: 0.616845428943634
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.1 seconds!
+[tester] 
+SST2Metric: acc=0.5688073394495413, hinge=1.814465947654269, ce=0.7033518410603935
+Local test acc @ epoch 1: 0.5688
+Client 9 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.6600064635276794
+Local loss @ local epoch 1: 0.6321356892585754
+Local loss @ local epoch 2: 0.6098031401634216
+Local loss @ local epoch 3: 0.5870943665504456
+Local loss @ local epoch 4: 0.564906895160675
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.04 seconds!
+[tester] 
+SST2Metric: acc=0.591743119266055, hinge=1.774828933794564, ce=0.6683346558054652
+Local test acc @ epoch 1: 0.5917
+Client 7 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.635759711265564
+Local loss @ local epoch 1: 0.5679031610488892
+Local loss @ local epoch 2: 0.5323827862739563
+Local loss @ local epoch 3: 0.518776535987854
+Local loss @ local epoch 4: 0.5141792297363281
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.02 seconds!
+[tester] 
+SST2Metric: acc=0.5481651376146789, hinge=1.8050615924214004, ce=0.8125302477167287
+Local test acc @ epoch 1: 0.5482
+Client 8 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.9955461025238037
+Local loss @ local epoch 1: 0.8924433588981628
+Local loss @ local epoch 2: 0.8197279572486877
+Local loss @ local epoch 3: 0.7773276567459106
+Local loss @ local epoch 4: 0.7587815523147583
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 80.98 seconds!
+[tester] 
+SST2Metric: acc=0.6100917431192661, hinge=1.7631774692360414, ce=0.6616099982633503
+Local test acc @ epoch 1: 0.6101
+Client 3 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.5907569527626038
+Local loss @ local epoch 1: 0.5653226971626282
+Local loss @ local epoch 2: 0.5417236089706421
+Local loss @ local epoch 3: 0.5195558667182922
+Local loss @ local epoch 4: 0.4988592565059662
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.03 seconds!
+[tester] 
+SST2Metric: acc=0.6215596330275229, hinge=1.7415679540109197, ce=0.6438877880573273
+Local test acc @ epoch 1: 0.6216
+Client 1 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.5093924403190613
+Local loss @ local epoch 1: 0.4880901575088501
+Local loss @ local epoch 2: 0.4698670506477356
+Local loss @ local epoch 3: 0.45048534870147705
+Local loss @ local epoch 4: 0.4316434860229492
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 80.98 seconds!
+[tester] 
+SST2Metric: acc=0.6169724770642202, hinge=1.7038512514271866, ce=0.6498620403469155
+Local test acc @ epoch 1: 0.617
+Client 6 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.3902202844619751
+Local loss @ local epoch 1: 0.36000293493270874
+Local loss @ local epoch 2: 0.3507467806339264
+Local loss @ local epoch 3: 0.3434903025627136
+Local loss @ local epoch 4: 0.33191078901290894
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.1 seconds!
+[tester] 
+SST2Metric: acc=0.573394495412844, hinge=1.7740906394949747, ce=0.7898956191375714
+Local test acc @ epoch 1: 0.5734
+Client 4 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.4769171476364136
+Local loss @ local epoch 1: 0.41100335121154785
+Local loss @ local epoch 2: 0.3724420964717865
+Local loss @ local epoch 3: 0.35663479566574097
+Local loss @ local epoch 4: 0.35264259576797485
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.02 seconds!
+[tester] 
+SST2Metric: acc=0.6330275229357798, hinge=1.6587620104124787, ce=0.6568949312791912
+Local test acc @ epoch 1: 0.633
+Client 0 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.6783075332641602
+Local loss @ local epoch 1: 0.6514073610305786
+Local loss @ local epoch 2: 0.6433390974998474
+Local loss @ local epoch 3: 0.6373346447944641
+Local loss @ local epoch 4: 0.6272478103637695
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.02 seconds!
+[tester] 
+SST2Metric: acc=0.5963302752293578, hinge=1.6954378171251454, ce=0.7280864671829643
+Local test acc @ epoch 1: 0.5963
+Global evaluate on test data...
+Evaluate data in 82.21 seconds!
+[tester] 
+SST2Metric: acc=0.6123853211009175, hinge=1.817991938066045, ce=0.6568800921833843
+Global test acc @ epoch 1: 0.6124
+Global epoch 2...
+Client 2 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.41167357563972473
+Local loss @ local epoch 1: 0.3206039071083069
+Local loss @ local epoch 2: 0.2604057490825653
+Local loss @ local epoch 3: 0.22755132615566254
+Local loss @ local epoch 4: 0.2156558632850647
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 80.96 seconds!
+[tester] 
+SST2Metric: acc=0.5068807339449541, hinge=2.0252916785555146, ce=1.07414576493272
+Local test acc @ epoch 2: 0.5069
+Client 5 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.8859969973564148
+Local loss @ local epoch 1: 0.7534631490707397
+Local loss @ local epoch 2: 0.6553758382797241
+Local loss @ local epoch 3: 0.5925320982933044
+Local loss @ local epoch 4: 0.5608310103416443
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.09 seconds!
+[tester] 
+SST2Metric: acc=0.6077981651376146, hinge=1.722273366166911, ce=0.658008521849956
+Local test acc @ epoch 2: 0.6078
+Client 1 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.45166438817977905
+Local loss @ local epoch 1: 0.4341796636581421
+Local loss @ local epoch 2: 0.4183434545993805
+Local loss @ local epoch 3: 0.4014073610305786
+Local loss @ local epoch 4: 0.38532376289367676
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.08 seconds!
+[tester] 
+SST2Metric: acc=0.6169724770642202, hinge=1.68779188558596, ce=0.6645258763514528
+Local test acc @ epoch 2: 0.617
+Client 9 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.5863417983055115
+Local loss @ local epoch 1: 0.5497287511825562
+Local loss @ local epoch 2: 0.5298627614974976
+Local loss @ local epoch 3: 0.512616753578186
+Local loss @ local epoch 4: 0.49300500750541687
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.11 seconds!
+[tester] 
+SST2Metric: acc=0.6444954128440367, hinge=1.6447982367025602, ce=0.6347541059922734
+Local test acc @ epoch 2: 0.6445
+Client 0 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.6968954205513
+Local loss @ local epoch 1: 0.6579165458679199
+Local loss @ local epoch 2: 0.6463071703910828
+Local loss @ local epoch 3: 0.643804669380188
+Local loss @ local epoch 4: 0.6385424137115479
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.06 seconds!
+[tester] 
+SST2Metric: acc=0.5745412844036697, hinge=1.7046818126232253, ce=0.7614452560013587
+Local test acc @ epoch 2: 0.5745
+Client 4 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.5741491913795471
+Local loss @ local epoch 1: 0.4791509509086609
+Local loss @ local epoch 2: 0.41790667176246643
+Local loss @ local epoch 3: 0.38761085271835327
+Local loss @ local epoch 4: 0.37890973687171936
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.02 seconds!
+[tester] 
+SST2Metric: acc=0.6215596330275229, hinge=1.661432061720332, ce=0.6627154399495606
+Local test acc @ epoch 2: 0.6216
+Client 8 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.7980071902275085
+Local loss @ local epoch 1: 0.7656638026237488
+Local loss @ local epoch 2: 0.7364397048950195
+Local loss @ local epoch 3: 0.7079652547836304
+Local loss @ local epoch 4: 0.6806211471557617
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.09 seconds!
+[tester] 
+SST2Metric: acc=0.643348623853211, hinge=1.6075728601271952, ce=0.6256416584920446
+Local test acc @ epoch 2: 0.6433
+Client 3 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.48429128527641296
+Local loss @ local epoch 1: 0.46577438712120056
+Local loss @ local epoch 2: 0.44813820719718933
+Local loss @ local epoch 3: 0.431086003780365
+Local loss @ local epoch 4: 0.41503268480300903
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.1 seconds!
+[tester] 
+SST2Metric: acc=0.6628440366972477, hinge=1.589684258907213, ce=0.6100594929052056
+Local test acc @ epoch 2: 0.6628
+Client 7 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.6031101942062378
+Local loss @ local epoch 1: 0.5448041558265686
+Local loss @ local epoch 2: 0.5157110095024109
+Local loss @ local epoch 3: 0.5045663714408875
+Local loss @ local epoch 4: 0.49888288974761963
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.09 seconds!
+[tester] 
+SST2Metric: acc=0.5756880733944955, hinge=1.6764692686019687, ce=0.7697216398125395
+Local test acc @ epoch 2: 0.5757
+Client 6 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.7006392478942871
+Local loss @ local epoch 1: 0.5625157952308655
+Local loss @ local epoch 2: 0.45806437730789185
+Local loss @ local epoch 3: 0.38824063539505005
+Local loss @ local epoch 4: 0.35018324851989746
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.09 seconds!
+[tester] 
+SST2Metric: acc=0.6513761467889908, hinge=1.6168938437733082, ce=0.6406463644373308
+Local test acc @ epoch 2: 0.6514
+Global evaluate on test data...
+Evaluate data in 82.23 seconds!
+[tester] 
+SST2Metric: acc=0.6662844036697247, hinge=1.7596790320282683, ce=0.6286235356002773
+Global test acc @ epoch 2: 0.6663
+Global epoch 3...
+Client 5 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.5320349931716919
+Local loss @ local epoch 1: 0.5094326734542847
+Local loss @ local epoch 2: 0.490662157535553
+Local loss @ local epoch 3: 0.47086405754089355
+Local loss @ local epoch 4: 0.4511154890060425
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.08 seconds!
+[tester] 
+SST2Metric: acc=0.6456422018348624, hinge=1.646109422959319, ce=0.6299400258501735
+Local test acc @ epoch 3: 0.6456
+Client 7 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.638157308101654
+Local loss @ local epoch 1: 0.5684681534767151
+Local loss @ local epoch 2: 0.5295169353485107
+Local loss @ local epoch 3: 0.512565016746521
+Local loss @ local epoch 4: 0.5058161616325378
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.04 seconds!
+[tester] 
+SST2Metric: acc=0.5779816513761468, hinge=1.6700528895636217, ce=0.7301488957547266
+Local test acc @ epoch 3: 0.578
+Client 3 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.574636697769165
+Local loss @ local epoch 1: 0.4897046685218811
+Local loss @ local epoch 2: 0.43885427713394165
+Local loss @ local epoch 3: 0.4196436107158661
+Local loss @ local epoch 4: 0.42090949416160583
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.12 seconds!
+[tester] 
+SST2Metric: acc=0.658256880733945, hinge=1.6423059412098806, ce=0.6238973621928364
+Local test acc @ epoch 3: 0.6583
+Client 0 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.758693277835846
+Local loss @ local epoch 1: 0.6661660671234131
+Local loss @ local epoch 2: 0.6138730049133301
+Local loss @ local epoch 3: 0.5940629243850708
+Local loss @ local epoch 4: 0.5936322808265686
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.07 seconds!
+[tester] 
+SST2Metric: acc=0.5768348623853211, hinge=1.672915227369431, ce=0.743534658480128
+Local test acc @ epoch 3: 0.5768
+Client 2 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.8725525736808777
+Local loss @ local epoch 1: 0.6931387782096863
+Local loss @ local epoch 2: 0.5416646003723145
+Local loss @ local epoch 3: 0.419866681098938
+Local loss @ local epoch 4: 0.32782089710235596
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.06 seconds!
+[tester] 
+SST2Metric: acc=0.6215596330275229, hinge=1.6622566241736805, ce=0.6694571783236407
+Local test acc @ epoch 3: 0.6216
+Client 8 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.7940589785575867
+Local loss @ local epoch 1: 0.737281858921051
+Local loss @ local epoch 2: 0.706893801689148
+Local loss @ local epoch 3: 0.6908523440361023
+Local loss @ local epoch 4: 0.676531195640564
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.09 seconds!
+[tester] 
+SST2Metric: acc=0.6697247706422018, hinge=1.5830908483321513, ce=0.5994939079525274
+Local test acc @ epoch 3: 0.6697
+Client 6 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.44881340861320496
+Local loss @ local epoch 1: 0.3833281993865967
+Local loss @ local epoch 2: 0.35099661350250244
+Local loss @ local epoch 3: 0.3422021269798279
+Local loss @ local epoch 4: 0.34227055311203003
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.08 seconds!
+[tester] 
+SST2Metric: acc=0.5825688073394495, hinge=1.6859900090125723, ce=0.7394622822693728
+Local test acc @ epoch 3: 0.5826
+Client 4 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.5153374075889587
+Local loss @ local epoch 1: 0.44094645977020264
+Local loss @ local epoch 2: 0.39537152647972107
+Local loss @ local epoch 3: 0.3745095729827881
+Local loss @ local epoch 4: 0.3678034245967865
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.12 seconds!
+[tester] 
+SST2Metric: acc=0.6811926605504587, hinge=1.5594906790540852, ce=0.603490242717463
+Local test acc @ epoch 3: 0.6812
+Client 1 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.37308502197265625
+Local loss @ local epoch 1: 0.34287554025650024
+Local loss @ local epoch 2: 0.33575665950775146
+Local loss @ local epoch 3: 0.3309904932975769
+Local loss @ local epoch 4: 0.32121530175209045
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.15 seconds!
+[tester] 
+SST2Metric: acc=0.661697247706422, hinge=1.56935219808456, ce=0.6267839335246917
+Local test acc @ epoch 3: 0.6617
+Client 9 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.5301927924156189
+Local loss @ local epoch 1: 0.48072323203086853
+Local loss @ local epoch 2: 0.4565325379371643
+Local loss @ local epoch 3: 0.44550859928131104
+Local loss @ local epoch 4: 0.43463385105133057
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.1 seconds!
+[tester] 
+SST2Metric: acc=0.6628440366972477, hinge=1.522170338608803, ce=0.6079632218824614
+Local test acc @ epoch 3: 0.6628
+Global evaluate on test data...
+Evaluate data in 82.25 seconds!
+[tester] 
+SST2Metric: acc=0.6857798165137615, hinge=1.7287982221043439, ce=0.611044584884556
+Global test acc @ epoch 3: 0.6858
+Global epoch 4...
+Client 6 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.3843509256839752
+Local loss @ local epoch 1: 0.3358011245727539
+Local loss @ local epoch 2: 0.31689155101776123
+Local loss @ local epoch 3: 0.313832551240921
+Local loss @ local epoch 4: 0.3117772340774536
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.14 seconds!
+[tester] 
+SST2Metric: acc=0.588302752293578, hinge=1.7128342915018764, ce=0.7728045830212602
+Local test acc @ epoch 4: 0.5883
+Client 7 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.8712520003318787
+Local loss @ local epoch 1: 0.7315044403076172
+Local loss @ local epoch 2: 0.6263772249221802
+Local loss @ local epoch 3: 0.5551785826683044
+Local loss @ local epoch 4: 0.5139039754867554
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.1 seconds!
+[tester] 
+SST2Metric: acc=0.6353211009174312, hinge=1.5765477101737206, ce=0.6299754748924062
+Local test acc @ epoch 4: 0.6353
+Client 3 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.4487977921962738
+Local loss @ local epoch 1: 0.4096730947494507
+Local loss @ local epoch 2: 0.3978780508041382
+Local loss @ local epoch 3: 0.39573994278907776
+Local loss @ local epoch 4: 0.38951438665390015
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.2 seconds!
+[tester] 
+SST2Metric: acc=0.6823394495412844, hinge=1.5731701008770445, ce=0.5933817499274507
+Local test acc @ epoch 4: 0.6823
+Client 5 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.40319979190826416
+Local loss @ local epoch 1: 0.3846370577812195
+Local loss @ local epoch 2: 0.36701279878616333
+Local loss @ local epoch 3: 0.3499802350997925
+Local loss @ local epoch 4: 0.3338140845298767
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.13 seconds!
+[tester] 
+SST2Metric: acc=0.6903669724770642, hinge=1.57074190826591, ce=0.592036103710122
+Local test acc @ epoch 4: 0.6904
+Client 8 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.747118353843689
+Local loss @ local epoch 1: 0.7160137891769409
+Local loss @ local epoch 2: 0.6875624060630798
+Local loss @ local epoch 3: 0.6598994135856628
+Local loss @ local epoch 4: 0.6334021091461182
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.11 seconds!
+[tester] 
+SST2Metric: acc=0.7144495412844036, hinge=1.518877091757748, ce=0.5661618619336994
+Local test acc @ epoch 4: 0.7144
+Client 0 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.6140672564506531
+Local loss @ local epoch 1: 0.563637375831604
+Local loss @ local epoch 2: 0.5462085604667664
+Local loss @ local epoch 3: 0.5453671216964722
+Local loss @ local epoch 4: 0.5456711053848267
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.12 seconds!
+[tester] 
+SST2Metric: acc=0.5974770642201835, hinge=1.577471179973095, ce=0.6949106848567997
+Local test acc @ epoch 4: 0.5975
+Client 9 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.5323926210403442
+Local loss @ local epoch 1: 0.4463824927806854
+Local loss @ local epoch 2: 0.39986157417297363
+Local loss @ local epoch 3: 0.3855190873146057
+Local loss @ local epoch 4: 0.3881370723247528
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.12 seconds!
+[tester] 
+SST2Metric: acc=0.7052752293577982, hinge=1.5276349033784429, ce=0.5811388645697078
+Local test acc @ epoch 4: 0.7053
+Client 4 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.41490107774734497
+Local loss @ local epoch 1: 0.3869880139827728
+Local loss @ local epoch 2: 0.36857056617736816
+Local loss @ local epoch 3: 0.35068532824516296
+Local loss @ local epoch 4: 0.3323753774166107
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.12 seconds!
+[tester] 
+SST2Metric: acc=0.698394495412844, hinge=1.4917183436384989, ce=0.5738438906472757
+Local test acc @ epoch 4: 0.6984
+Client 2 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.4102238118648529
+Local loss @ local epoch 1: 0.31374210119247437
+Local loss @ local epoch 2: 0.24476280808448792
+Local loss @ local epoch 3: 0.20101335644721985
+Local loss @ local epoch 4: 0.1784065067768097
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.11 seconds!
+[tester] 
+SST2Metric: acc=0.5263761467889908, hinge=1.847317288638255, ce=0.9433674834873698
+Local test acc @ epoch 4: 0.5264
+Client 1 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.5592962503433228
+Local loss @ local epoch 1: 0.46012353897094727
+Local loss @ local epoch 2: 0.38202714920043945
+Local loss @ local epoch 3: 0.3286815881729126
+Local loss @ local epoch 4: 0.3011568486690521
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.08 seconds!
+[tester] 
+SST2Metric: acc=0.6926605504587156, hinge=1.4807746574419354, ce=0.5739586003329775
+Local test acc @ epoch 4: 0.6927
+Global evaluate on test data...
+Evaluate data in 82.21 seconds!
+[tester] 
+SST2Metric: acc=0.6995412844036697, hinge=1.6952333876846033, ce=0.598710661360977
+Global test acc @ epoch 4: 0.6995
+Global epoch 5...
+Client 7 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.5530253052711487
+Local loss @ local epoch 1: 0.495890349149704
+Local loss @ local epoch 2: 0.467296838760376
+Local loss @ local epoch 3: 0.4563938081264496
+Local loss @ local epoch 4: 0.45093294978141785
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.12 seconds!
+[tester] 
+SST2Metric: acc=0.6043577981651376, hinge=1.5674134676062732, ce=0.6780476508610839
+Local test acc @ epoch 5: 0.6044
+Client 2 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.7467325925827026
+Local loss @ local epoch 1: 0.5876458883285522
+Local loss @ local epoch 2: 0.4565848410129547
+Local loss @ local epoch 3: 0.3543509840965271
+Local loss @ local epoch 4: 0.28001371026039124
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.08 seconds!
+[tester] 
+SST2Metric: acc=0.6307339449541285, hinge=1.5882387079230142, ce=0.6510062604595762
+Local test acc @ epoch 5: 0.6307
+Client 6 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.31959831714630127
+Local loss @ local epoch 1: 0.30221670866012573
+Local loss @ local epoch 2: 0.29187652468681335
+Local loss @ local epoch 3: 0.2796291410923004
+Local loss @ local epoch 4: 0.2665124237537384
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.16 seconds!
+[tester] 
+SST2Metric: acc=0.6513761467889908, hinge=1.5675360284267215, ce=0.646567196200747
+Local test acc @ epoch 5: 0.6514
+Client 4 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.36749231815338135
+Local loss @ local epoch 1: 0.327292799949646
+Local loss @ local epoch 2: 0.3100872337818146
+Local loss @ local epoch 3: 0.3035142719745636
+Local loss @ local epoch 4: 0.296373575925827
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.16 seconds!
+[tester] 
+SST2Metric: acc=0.6972477064220184, hinge=1.4827540702776079, ce=0.5835126144896954
+Local test acc @ epoch 5: 0.6972
+Client 0 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.5709822773933411
+Local loss @ local epoch 1: 0.5472694039344788
+Local loss @ local epoch 2: 0.5398820638656616
+Local loss @ local epoch 3: 0.5332693457603455
+Local loss @ local epoch 4: 0.5228565335273743
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.13 seconds!
+[tester] 
+SST2Metric: acc=0.6513761467889908, hinge=1.5069245644118807, ce=0.6251292399583607
+Local test acc @ epoch 5: 0.6514
+Client 8 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.7949728965759277
+Local loss @ local epoch 1: 0.7036349773406982
+Local loss @ local epoch 2: 0.6436026096343994
+Local loss @ local epoch 3: 0.6126662492752075
+Local loss @ local epoch 4: 0.6014786958694458
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.09 seconds!
+[tester] 
+SST2Metric: acc=0.6823394495412844, hinge=1.523814930008092, ce=0.614216203946586
+Local test acc @ epoch 5: 0.6823
+Client 9 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.4938924014568329
+Local loss @ local epoch 1: 0.43421250581741333
+Local loss @ local epoch 2: 0.40382272005081177
+Local loss @ local epoch 3: 0.395672082901001
+Local loss @ local epoch 4: 0.3941461443901062
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.17 seconds!
+[tester] 
+SST2Metric: acc=0.6869266055045872, hinge=1.453735781918972, ce=0.5769074620730287
+Local test acc @ epoch 5: 0.6869
+Client 3 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.36974313855171204
+Local loss @ local epoch 1: 0.3503064215183258
+Local loss @ local epoch 2: 0.34398236870765686
+Local loss @ local epoch 3: 0.3346881568431854
+Local loss @ local epoch 4: 0.32240697741508484
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.18 seconds!
+[tester] 
+SST2Metric: acc=0.7259174311926605, hinge=1.4410308025298861, ce=0.5514661263708674
+Local test acc @ epoch 5: 0.7259
+Client 1 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.33872735500335693
+Local loss @ local epoch 1: 0.3180634379386902
+Local loss @ local epoch 2: 0.3102899491786957
+Local loss @ local epoch 3: 0.2999701201915741
+Local loss @ local epoch 4: 0.2869749665260315
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.09 seconds!
+[tester] 
+SST2Metric: acc=0.7178899082568807, hinge=1.4373042911564538, ce=0.5553726866978024
+Local test acc @ epoch 5: 0.7179
+Client 5 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.32318514585494995
+Local loss @ local epoch 1: 0.30644845962524414
+Local loss @ local epoch 2: 0.29279619455337524
+Local loss @ local epoch 3: 0.27856016159057617
+Local loss @ local epoch 4: 0.2647586762905121
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.18 seconds!
+[tester] 
+SST2Metric: acc=0.716743119266055, hinge=1.447610440057352, ce=0.5578140539860507
+Local test acc @ epoch 5: 0.7167
+Global evaluate on test data...
+Evaluate data in 82.45 seconds!
+[tester] 
+SST2Metric: acc=0.7144495412844036, hinge=1.6588737997440024, ce=0.5888388055727023
+Global test acc @ epoch 5: 0.7144
+Global epoch 6...
+Client 7 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.48440468311309814
+Local loss @ local epoch 1: 0.4473887085914612
+Local loss @ local epoch 2: 0.4312818646430969
+Local loss @ local epoch 3: 0.42198655009269714
+Local loss @ local epoch 4: 0.41135650873184204
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.18 seconds!
+[tester] 
+SST2Metric: acc=0.6204128440366973, hinge=1.4983688130838062, ce=0.6299201237772583
+Local test acc @ epoch 6: 0.6204
+Client 2 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.6509767174720764
+Local loss @ local epoch 1: 0.5078603029251099
+Local loss @ local epoch 2: 0.39284905791282654
+Local loss @ local epoch 3: 0.3059309422969818
+Local loss @ local epoch 4: 0.2453659325838089
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.14 seconds!
+[tester] 
+SST2Metric: acc=0.6295871559633027, hinge=1.5592964215016147, ce=0.6550182223046591
+Local test acc @ epoch 6: 0.6296
+Client 4 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.4537290036678314
+Local loss @ local epoch 1: 0.3909309208393097
+Local loss @ local epoch 2: 0.3560720384120941
+Local loss @ local epoch 3: 0.34177491068840027
+Local loss @ local epoch 4: 0.3357546329498291
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.12 seconds!
+[tester] 
+SST2Metric: acc=0.7259174311926605, hinge=1.4438364215947073, ce=0.5555032975629929
+Local test acc @ epoch 6: 0.7259
+Client 3 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.3556264340877533
+Local loss @ local epoch 1: 0.3417072296142578
+Local loss @ local epoch 2: 0.32845884561538696
+Local loss @ local epoch 3: 0.3156004250049591
+Local loss @ local epoch 4: 0.3037431240081787
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.14 seconds!
+[tester] 
+SST2Metric: acc=0.7178899082568807, hinge=1.4378108622830943, ce=0.5571577577689372
+Local test acc @ epoch 6: 0.7179
+Client 6 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.3492828905582428
+Local loss @ local epoch 1: 0.2947833240032196
+Local loss @ local epoch 2: 0.2697495222091675
+Local loss @ local epoch 3: 0.2641529142856598
+Local loss @ local epoch 4: 0.2645750641822815
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.06 seconds!
+[tester] 
+SST2Metric: acc=0.6341743119266054, hinge=1.5495166531123152, ce=0.6602833104242972
+Local test acc @ epoch 6: 0.6342
+Client 1 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.37410101294517517
+Local loss @ local epoch 1: 0.31923872232437134
+Local loss @ local epoch 2: 0.29135411977767944
+Local loss @ local epoch 3: 0.28525832295417786
+Local loss @ local epoch 4: 0.2874734103679657
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.08 seconds!
+[tester] 
+SST2Metric: acc=0.7213302752293578, hinge=1.418318197267865, ce=0.5584499751209119
+Local test acc @ epoch 6: 0.7213
+Client 9 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.39665496349334717
+Local loss @ local epoch 1: 0.3741894066333771
+Local loss @ local epoch 2: 0.35386112332344055
+Local loss @ local epoch 3: 0.3356011211872101
+Local loss @ local epoch 4: 0.31930777430534363
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.15 seconds!
+[tester] 
+SST2Metric: acc=0.7442660550458715, hinge=1.3873662926735135, ce=0.5354404398880968
+Local test acc @ epoch 6: 0.7443
+Client 5 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.3209221661090851
+Local loss @ local epoch 1: 0.300457239151001
+Local loss @ local epoch 2: 0.290461927652359
+Local loss @ local epoch 3: 0.2798483967781067
+Local loss @ local epoch 4: 0.267055869102478
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.21 seconds!
+[tester] 
+SST2Metric: acc=0.7327981651376146, hinge=1.410638145350535, ce=0.5381092985562228
+Local test acc @ epoch 6: 0.7328
+Client 8 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.5866174101829529
+Local loss @ local epoch 1: 0.5527521967887878
+Local loss @ local epoch 2: 0.5357845425605774
+Local loss @ local epoch 3: 0.521460771560669
+Local loss @ local epoch 4: 0.5043624639511108
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.12 seconds!
+[tester] 
+SST2Metric: acc=0.7224770642201835, hinge=1.3612581890657407, ce=0.5394426625256145
+Local test acc @ epoch 6: 0.7225
+Client 0 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.5090987086296082
+Local loss @ local epoch 1: 0.4919079840183258
+Local loss @ local epoch 2: 0.48602768778800964
+Local loss @ local epoch 3: 0.47688382863998413
+Local loss @ local epoch 4: 0.465020090341568
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.09 seconds!
+[tester] 
+SST2Metric: acc=0.6788990825688074, hinge=1.3841560266980337, ce=0.575075018296548
+Local test acc @ epoch 6: 0.6789
+Global evaluate on test data...
+Evaluate data in 82.19 seconds!
+[tester] 
+SST2Metric: acc=0.7110091743119266, hinge=1.6186086912767603, ce=0.5782868739114989
+Global test acc @ epoch 6: 0.711
+Global epoch 7...
+Client 7 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.42924627661705017
+Local loss @ local epoch 1: 0.39735403656959534
+Local loss @ local epoch 2: 0.3859192430973053
+Local loss @ local epoch 3: 0.3797290325164795
+Local loss @ local epoch 4: 0.371021032333374
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.22 seconds!
+[tester] 
+SST2Metric: acc=0.6295871559633027, hinge=1.4562234747300453, ce=0.6214110449366613
+Local test acc @ epoch 7: 0.6296
+Client 1 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.44039225578308105
+Local loss @ local epoch 1: 0.36554843187332153
+Local loss @ local epoch 2: 0.3252404034137726
+Local loss @ local epoch 3: 0.3124687075614929
+Local loss @ local epoch 4: 0.3138061463832855
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.19 seconds!
+[tester] 
+SST2Metric: acc=0.7247706422018348, hinge=1.4394836447654513, ce=0.5583057247717446
+Local test acc @ epoch 7: 0.7248
+Client 5 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.30130016803741455
+Local loss @ local epoch 1: 0.2843948006629944
+Local loss @ local epoch 2: 0.2746884226799011
+Local loss @ local epoch 3: 0.2632933259010315
+Local loss @ local epoch 4: 0.2507886290550232
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.15 seconds!
+[tester] 
+SST2Metric: acc=0.7442660550458715, hinge=1.407367234929986, ce=0.5313678968937026
+Local test acc @ epoch 7: 0.7443
+Client 3 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.322061687707901
+Local loss @ local epoch 1: 0.29218196868896484
+Local loss @ local epoch 2: 0.2854481339454651
+Local loss @ local epoch 3: 0.28439605236053467
+Local loss @ local epoch 4: 0.2785339057445526
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.05 seconds!
+[tester] 
+SST2Metric: acc=0.6834862385321101, hinge=1.4052179297175975, ce=0.5748273764454991
+Local test acc @ epoch 7: 0.6835
+Client 2 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.5652324557304382
+Local loss @ local epoch 1: 0.4404338598251343
+Local loss @ local epoch 2: 0.3418371379375458
+Local loss @ local epoch 3: 0.2686425745487213
+Local loss @ local epoch 4: 0.2187633514404297
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.09 seconds!
+[tester] 
+SST2Metric: acc=0.6169724770642202, hinge=1.542788420385177, ce=0.6709653956627627
+Local test acc @ epoch 7: 0.617
+Client 4 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.4725905656814575
+Local loss @ local epoch 1: 0.399162232875824
+Local loss @ local epoch 2: 0.3541682958602905
+Local loss @ local epoch 3: 0.3333489000797272
+Local loss @ local epoch 4: 0.3266836702823639
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.09 seconds!
+[tester] 
+SST2Metric: acc=0.7408256880733946, hinge=1.3718099069157872, ce=0.5301846800320739
+Local test acc @ epoch 7: 0.7408
+Client 9 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.34653449058532715
+Local loss @ local epoch 1: 0.3279508352279663
+Local loss @ local epoch 2: 0.3113382160663605
+Local loss @ local epoch 3: 0.2965349555015564
+Local loss @ local epoch 4: 0.2833840250968933
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.11 seconds!
+[tester] 
+SST2Metric: acc=0.7580275229357798, hinge=1.347918807913404, ce=0.5145780255488299
+Local test acc @ epoch 7: 0.758
+Client 0 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.5313609838485718
+Local loss @ local epoch 1: 0.4922177493572235
+Local loss @ local epoch 2: 0.4822245240211487
+Local loss @ local epoch 3: 0.4820021688938141
+Local loss @ local epoch 4: 0.4786694645881653
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.08 seconds!
+[tester] 
+SST2Metric: acc=0.6399082568807339, hinge=1.4144396505771426, ce=0.6175529675199352
+Local test acc @ epoch 7: 0.6399
+Client 8 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.5682389736175537
+Local loss @ local epoch 1: 0.5162407755851746
+Local loss @ local epoch 2: 0.49071556329727173
+Local loss @ local epoch 3: 0.48110678791999817
+Local loss @ local epoch 4: 0.47436028718948364
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.07 seconds!
+[tester] 
+SST2Metric: acc=0.7740825688073395, hinge=1.3321931411366943, ce=0.5057264405106185
+Local test acc @ epoch 7: 0.7741
+Client 6 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.293274462223053
+Local loss @ local epoch 1: 0.27814388275146484
+Local loss @ local epoch 2: 0.2653957009315491
+Local loss @ local epoch 3: 0.2517470717430115
+Local loss @ local epoch 4: 0.23869039118289948
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.12 seconds!
+[tester] 
+SST2Metric: acc=0.75, hinge=1.3571203504133662, ce=0.5318711659777056
+Local test acc @ epoch 7: 0.75
+Global evaluate on test data...
+Evaluate data in 82.19 seconds!
+[tester] 
+SST2Metric: acc=0.7213302752293578, hinge=1.585166657736542, ce=0.5681851388664421
+Global test acc @ epoch 7: 0.7213
+Global epoch 8...
+Client 7 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.3882264196872711
+Local loss @ local epoch 1: 0.3573143184185028
+Local loss @ local epoch 2: 0.34737396240234375
+Local loss @ local epoch 3: 0.3431797921657562
+Local loss @ local epoch 4: 0.3363495171070099
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.11 seconds!
+[tester] 
+SST2Metric: acc=0.6387614678899083, hinge=1.4124005893501668, ce=0.6036377702284297
+Local test acc @ epoch 8: 0.6388
+Client 9 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.3922708034515381
+Local loss @ local epoch 1: 0.328796923160553
+Local loss @ local epoch 2: 0.30045291781425476
+Local loss @ local epoch 3: 0.2972462773323059
+Local loss @ local epoch 4: 0.3026353418827057
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.08 seconds!
+[tester] 
+SST2Metric: acc=0.7477064220183486, hinge=1.3851292909832176, ce=0.5277521473552109
+Local test acc @ epoch 8: 0.7477
+Client 1 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.3267180323600769
+Local loss @ local epoch 1: 0.30362969636917114
+Local loss @ local epoch 2: 0.29404371976852417
+Local loss @ local epoch 3: 0.2840785086154938
+Local loss @ local epoch 4: 0.2713230848312378
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.12 seconds!
+[tester] 
+SST2Metric: acc=0.7672018348623854, hinge=1.3317850866448988, ce=0.5115050182703438
+Local test acc @ epoch 8: 0.7672
+Client 0 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.5090323090553284
+Local loss @ local epoch 1: 0.47371193766593933
+Local loss @ local epoch 2: 0.4653701186180115
+Local loss @ local epoch 3: 0.46512264013290405
+Local loss @ local epoch 4: 0.4611377418041229
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.1 seconds!
+[tester] 
+SST2Metric: acc=0.6525229357798165, hinge=1.3918986211129285, ce=0.5994517939900039
+Local test acc @ epoch 8: 0.6525
+Client 5 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.32458001375198364
+Local loss @ local epoch 1: 0.26791512966156006
+Local loss @ local epoch 2: 0.23213163018226624
+Local loss @ local epoch 3: 0.21587061882019043
+Local loss @ local epoch 4: 0.21358902752399445
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.06 seconds!
+[tester] 
+SST2Metric: acc=0.7247706422018348, hinge=1.3985872751255648, ce=0.5521201725126407
+Local test acc @ epoch 8: 0.7248
+Client 6 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.25019219517707825
+Local loss @ local epoch 1: 0.23761682212352753
+Local loss @ local epoch 2: 0.22661787271499634
+Local loss @ local epoch 3: 0.21519535779953003
+Local loss @ local epoch 4: 0.2046082615852356
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.14 seconds!
+[tester] 
+SST2Metric: acc=0.6961009174311926, hinge=1.4187175155779637, ce=0.5874187677688555
+Local test acc @ epoch 8: 0.6961
+Client 8 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.5765846967697144
+Local loss @ local epoch 1: 0.5372802019119263
+Local loss @ local epoch 2: 0.5182434320449829
+Local loss @ local epoch 3: 0.504616916179657
+Local loss @ local epoch 4: 0.48851388692855835
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.15 seconds!
+[tester] 
+SST2Metric: acc=0.7603211009174312, hinge=1.298078974999419, ce=0.50888467354512
+Local test acc @ epoch 8: 0.7603
+Client 4 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.2834034264087677
+Local loss @ local epoch 1: 0.26705464720726013
+Local loss @ local epoch 2: 0.25427502393722534
+Local loss @ local epoch 3: 0.2408510148525238
+Local loss @ local epoch 4: 0.22793668508529663
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.13 seconds!
+[tester] 
+SST2Metric: acc=0.7385321100917431, hinge=1.3157665078793097, ce=0.5312182803493027
+Local test acc @ epoch 8: 0.7385
+Client 3 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.3427967429161072
+Local loss @ local epoch 1: 0.3163454830646515
+Local loss @ local epoch 2: 0.30525481700897217
+Local loss @ local epoch 3: 0.2966541647911072
+Local loss @ local epoch 4: 0.2855326533317566
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.06 seconds!
+[tester] 
+SST2Metric: acc=0.7155963302752294, hinge=1.309101966542935, ce=0.5462548151748989
+Local test acc @ epoch 8: 0.7156
+Client 2 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.5477352142333984
+Local loss @ local epoch 1: 0.42364197969436646
+Local loss @ local epoch 2: 0.3246654272079468
+Local loss @ local epoch 3: 0.2501683831214905
+Local loss @ local epoch 4: 0.19821105897426605
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.02 seconds!
+[tester] 
+SST2Metric: acc=0.643348623853211, hinge=1.492855277766875, ce=0.6706216834964008
+Local test acc @ epoch 8: 0.6433
+Global evaluate on test data...
+Evaluate data in 82.26 seconds!
+[tester] 
+SST2Metric: acc=0.7385321100917431, hinge=1.5587362586905102, ce=0.5573203197313011
+Global test acc @ epoch 8: 0.7385
+Global epoch 9...
+Client 8 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.4917225241661072
+Local loss @ local epoch 1: 0.46981245279312134
+Local loss @ local epoch 2: 0.44921737909317017
+Local loss @ local epoch 3: 0.42974746227264404
+Local loss @ local epoch 4: 0.41142165660858154
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.03 seconds!
+[tester] 
+SST2Metric: acc=0.7786697247706422, hinge=1.283624462304859, ce=0.4975658824684423
+Local test acc @ epoch 9: 0.7787
+Client 5 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.24091611802577972
+Local loss @ local epoch 1: 0.22589033842086792
+Local loss @ local epoch 2: 0.21798095107078552
+Local loss @ local epoch 3: 0.20863910019397736
+Local loss @ local epoch 4: 0.1981775462627411
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.07 seconds!
+[tester] 
+SST2Metric: acc=0.7775229357798165, hinge=1.3055240019745784, ce=0.5043535320037001
+Local test acc @ epoch 9: 0.7775
+Client 1 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.2653038799762726
+Local loss @ local epoch 1: 0.2503165602684021
+Local loss @ local epoch 2: 0.24178895354270935
+Local loss @ local epoch 3: 0.23121196031570435
+Local loss @ local epoch 4: 0.22013337910175323
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.09 seconds!
+[tester] 
+SST2Metric: acc=0.7637614678899083, hinge=1.275182993587004, ce=0.5033335159404562
+Local test acc @ epoch 9: 0.7638
+Client 4 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.26890262961387634
+Local loss @ local epoch 1: 0.25315380096435547
+Local loss @ local epoch 2: 0.2393924742937088
+Local loss @ local epoch 3: 0.2259913682937622
+Local loss @ local epoch 4: 0.21360841393470764
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.15 seconds!
+[tester] 
+SST2Metric: acc=0.7511467889908257, hinge=1.289481411833282, ce=0.5259206418050538
+Local test acc @ epoch 9: 0.7511
+Client 0 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.5004311800003052
+Local loss @ local epoch 1: 0.46430617570877075
+Local loss @ local epoch 2: 0.44973820447921753
+Local loss @ local epoch 3: 0.4452057480812073
+Local loss @ local epoch 4: 0.4406878352165222
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.16 seconds!
+[tester] 
+SST2Metric: acc=0.6903669724770642, hinge=1.3257011002903685, ce=0.5737770788986748
+Local test acc @ epoch 9: 0.6904
+Client 7 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.39454954862594604
+Local loss @ local epoch 1: 0.36607322096824646
+Local loss @ local epoch 2: 0.3488515317440033
+Local loss @ local epoch 3: 0.33591902256011963
+Local loss @ local epoch 4: 0.322750449180603
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.16 seconds!
+[tester] 
+SST2Metric: acc=0.7763761467889908, hinge=1.2507083629249434, ce=0.49536366624022843
+Local test acc @ epoch 9: 0.7764
+Client 9 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.300574392080307
+Local loss @ local epoch 1: 0.28384310007095337
+Local loss @ local epoch 2: 0.26894858479499817
+Local loss @ local epoch 3: 0.2557421326637268
+Local loss @ local epoch 4: 0.24406158924102783
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.11 seconds!
+[tester] 
+SST2Metric: acc=0.7809633027522935, hinge=1.2291142951457872, ce=0.48085440654273426
+Local test acc @ epoch 9: 0.781
+Client 2 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.3374781012535095
+Local loss @ local epoch 1: 0.26638856530189514
+Local loss @ local epoch 2: 0.21717509627342224
+Local loss @ local epoch 3: 0.18761783838272095
+Local loss @ local epoch 4: 0.17389610409736633
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.12 seconds!
+[tester] 
+SST2Metric: acc=0.588302752293578, hinge=1.5812179880951522, ce=0.7517571374773979
+Local test acc @ epoch 9: 0.5883
+Client 6 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.36822041869163513
+Local loss @ local epoch 1: 0.303422749042511
+Local loss @ local epoch 2: 0.25787490606307983
+Local loss @ local epoch 3: 0.2320251166820526
+Local loss @ local epoch 4: 0.22309261560440063
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.05 seconds!
+[tester] 
+SST2Metric: acc=0.7844036697247706, hinge=1.236980682119317, ce=0.4854706492992716
+Local test acc @ epoch 9: 0.7844
+Client 3 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.2936352789402008
+Local loss @ local epoch 1: 0.25954028964042664
+Local loss @ local epoch 2: 0.2486591339111328
+Local loss @ local epoch 3: 0.2481698989868164
+Local loss @ local epoch 4: 0.2457822859287262
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.12 seconds!
+[tester] 
+SST2Metric: acc=0.6880733944954128, hinge=1.298933989957932, ce=0.5667863756144812
+Local test acc @ epoch 9: 0.6881
+Global evaluate on test data...
+Evaluate data in 82.21 seconds!
+[tester] 
+SST2Metric: acc=0.7568807339449541, hinge=1.505393460256244, ce=0.5417685585284452
+Global test acc @ epoch 9: 0.7569
+Global epoch 10...
+Client 5 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.19042955338954926
+Local loss @ local epoch 1: 0.17785879969596863
+Local loss @ local epoch 2: 0.17201337218284607
+Local loss @ local epoch 3: 0.16476155817508698
+Local loss @ local epoch 4: 0.15641745924949646
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.05 seconds!
+[tester] 
+SST2Metric: acc=0.7694954128440367, hinge=1.2834223593593737, ce=0.5042553602828892
+Local test acc @ epoch 10: 0.7695
+Client 6 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.22282567620277405
+Local loss @ local epoch 1: 0.21171501278877258
+Local loss @ local epoch 2: 0.20296309888362885
+Local loss @ local epoch 3: 0.19285018742084503
+Local loss @ local epoch 4: 0.18314659595489502
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.07 seconds!
+[tester] 
+SST2Metric: acc=0.716743119266055, hinge=1.3421134749136934, ce=0.5587188062181166
+Local test acc @ epoch 10: 0.7167
+Client 9 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.39735570549964905
+Local loss @ local epoch 1: 0.33608224987983704
+Local loss @ local epoch 2: 0.3004125952720642
+Local loss @ local epoch 3: 0.28676673769950867
+Local loss @ local epoch 4: 0.284982830286026
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.09 seconds!
+[tester] 
+SST2Metric: acc=0.7282110091743119, hinge=1.255845753698174, ce=0.5277953823225214
+Local test acc @ epoch 10: 0.7282
+Client 2 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.5574331283569336
+Local loss @ local epoch 1: 0.43469786643981934
+Local loss @ local epoch 2: 0.33602893352508545
+Local loss @ local epoch 3: 0.26086267828941345
+Local loss @ local epoch 4: 0.20752939581871033
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.06 seconds!
+[tester] 
+SST2Metric: acc=0.661697247706422, hinge=1.447344975323852, ce=0.6441860728717725
+Local test acc @ epoch 10: 0.6617
+Client 8 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.5161677598953247
+Local loss @ local epoch 1: 0.4470965564250946
+Local loss @ local epoch 2: 0.40739330649375916
+Local loss @ local epoch 3: 0.3917621970176697
+Local loss @ local epoch 4: 0.3892318606376648
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.07 seconds!
+[tester] 
+SST2Metric: acc=0.7752293577981652, hinge=1.2157812837613833, ce=0.48955907952894856
+Local test acc @ epoch 10: 0.7752
+Client 4 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.2768092751502991
+Local loss @ local epoch 1: 0.2553071677684784
+Local loss @ local epoch 2: 0.2451668381690979
+Local loss @ local epoch 3: 0.23475956916809082
+Local loss @ local epoch 4: 0.22254279255867004
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 80.98 seconds!
+[tester] 
+SST2Metric: acc=0.7740825688073395, hinge=1.251052938470053, ce=0.5106266371974157
+Local test acc @ epoch 10: 0.7741
+Client 1 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.19244664907455444
+Local loss @ local epoch 1: 0.1817643940448761
+Local loss @ local epoch 2: 0.17771297693252563
+Local loss @ local epoch 3: 0.1709282249212265
+Local loss @ local epoch 4: 0.1632784605026245
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.04 seconds!
+[tester] 
+SST2Metric: acc=0.7545871559633027, hinge=1.2249952888270037, ce=0.509302468338144
+Local test acc @ epoch 10: 0.7546
+Client 7 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.4135751724243164
+Local loss @ local epoch 1: 0.3848690986633301
+Local loss @ local epoch 2: 0.3666951656341553
+Local loss @ local epoch 3: 0.35105815529823303
+Local loss @ local epoch 4: 0.3350520431995392
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.02 seconds!
+[tester] 
+SST2Metric: acc=0.7477064220183486, hinge=1.2208316319305963, ce=0.514771743378508
+Local test acc @ epoch 10: 0.7477
+Client 0 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.41442161798477173
+Local loss @ local epoch 1: 0.4014238119125366
+Local loss @ local epoch 2: 0.3891032338142395
+Local loss @ local epoch 3: 0.3771887421607971
+Local loss @ local epoch 4: 0.3658654987812042
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.08 seconds!
+[tester] 
+SST2Metric: acc=0.7568807339449541, hinge=1.205612981811576, ce=0.49931531324299105
+Local test acc @ epoch 10: 0.7569
+Client 3 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.25330886244773865
+Local loss @ local epoch 1: 0.24065880477428436
+Local loss @ local epoch 2: 0.22894331812858582
+Local loss @ local epoch 3: 0.21807491779327393
+Local loss @ local epoch 4: 0.2080000638961792
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 80.99 seconds!
+[tester] 
+SST2Metric: acc=0.7293577981651376, hinge=1.2264166425127503, ce=0.5213339609017066
+Local test acc @ epoch 10: 0.7294
+Global evaluate on test data...
+Evaluate data in 82.29 seconds!
+[tester] 
+SST2Metric: acc=0.731651376146789, hinge=1.483663838937742, ce=0.5459955063981747
+Global test acc @ epoch 10: 0.7317
+Global epoch 11...
+Client 5 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.15800219774246216
+Local loss @ local epoch 1: 0.14457274973392487
+Local loss @ local epoch 2: 0.14036700129508972
+Local loss @ local epoch 3: 0.13606251776218414
+Local loss @ local epoch 4: 0.12972240149974823
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.1 seconds!
+[tester] 
+SST2Metric: acc=0.7591743119266054, hinge=1.2728606560908327, ce=0.513495342993955
+Local test acc @ epoch 11: 0.7592
+Client 3 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.3262189030647278
+Local loss @ local epoch 1: 0.2744351625442505
+Local loss @ local epoch 2: 0.24763649702072144
+Local loss @ local epoch 3: 0.239882230758667
+Local loss @ local epoch 4: 0.24089907109737396
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.07 seconds!
+[tester] 
+SST2Metric: acc=0.6846330275229358, hinge=1.2996915242540727, ce=0.5757558230960041
+Local test acc @ epoch 11: 0.6846
+Client 4 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.3875899314880371
+Local loss @ local epoch 1: 0.31610703468322754
+Local loss @ local epoch 2: 0.2706056237220764
+Local loss @ local epoch 3: 0.24855470657348633
+Local loss @ local epoch 4: 0.24297823011875153
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.03 seconds!
+[tester] 
+SST2Metric: acc=0.7477064220183486, hinge=1.2913038254877842, ce=0.5290326933385036
+Local test acc @ epoch 11: 0.7477
+Client 0 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.4942897856235504
+Local loss @ local epoch 1: 0.4280366003513336
+Local loss @ local epoch 2: 0.39383646845817566
+Local loss @ local epoch 3: 0.3838213384151459
+Local loss @ local epoch 4: 0.3863069713115692
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 80.94 seconds!
+[tester] 
+SST2Metric: acc=0.7018348623853211, hinge=1.2754033473106698, ce=0.5565171753047803
+Local test acc @ epoch 11: 0.7018
+Client 9 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.3038976490497589
+Local loss @ local epoch 1: 0.2672305703163147
+Local loss @ local epoch 2: 0.25409135222435
+Local loss @ local epoch 3: 0.25064438581466675
+Local loss @ local epoch 4: 0.24581344425678253
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.05 seconds!
+[tester] 
+SST2Metric: acc=0.783256880733945, hinge=1.216533626438281, ce=0.48387874444143486
+Local test acc @ epoch 11: 0.7833
+Client 6 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.20852592587471008
+Local loss @ local epoch 1: 0.1959599405527115
+Local loss @ local epoch 2: 0.1893520951271057
+Local loss @ local epoch 3: 0.1808333545923233
+Local loss @ local epoch 4: 0.1714654266834259
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.03 seconds!
+[tester] 
+SST2Metric: acc=0.7431192660550459, hinge=1.2903389177464564, ce=0.5366970873480543
+Local test acc @ epoch 11: 0.7431
+Client 2 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.25239962339401245
+Local loss @ local epoch 1: 0.19672438502311707
+Local loss @ local epoch 2: 0.16122403740882874
+Local loss @ local epoch 3: 0.1431322693824768
+Local loss @ local epoch 4: 0.1379299908876419
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.05 seconds!
+[tester] 
+SST2Metric: acc=0.5344036697247706, hinge=1.8738607933761877, ce=0.9980840056861212
+Local test acc @ epoch 11: 0.5344
+Client 7 execute local training on 8 samples...
+Local loss @ local epoch 0: 1.0141457319259644
+Local loss @ local epoch 1: 0.8293426632881165
+Local loss @ local epoch 2: 0.6723848581314087
+Local loss @ local epoch 3: 0.5451849102973938
+Local loss @ local epoch 4: 0.44835782051086426
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.02 seconds!
+[tester] 
+SST2Metric: acc=0.7717889908256881, hinge=1.2437385822381448, ce=0.5069279941396976
+Local test acc @ epoch 11: 0.7718
+Client 8 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.39774662256240845
+Local loss @ local epoch 1: 0.37950438261032104
+Local loss @ local epoch 2: 0.3651053309440613
+Local loss @ local epoch 3: 0.3497539460659027
+Local loss @ local epoch 4: 0.3347831964492798
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.04 seconds!
+[tester] 
+SST2Metric: acc=0.7889908256880734, hinge=1.183302117050241, ce=0.4767509286009937
+Local test acc @ epoch 11: 0.789
+Client 1 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.19789955019950867
+Local loss @ local epoch 1: 0.187117338180542
+Local loss @ local epoch 2: 0.17990995943546295
+Local loss @ local epoch 3: 0.17119769752025604
+Local loss @ local epoch 4: 0.1628003567457199
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.02 seconds!
+[tester] 
+SST2Metric: acc=0.7878440366972477, hinge=1.173913865324554, ce=0.4845069734328384
+Local test acc @ epoch 11: 0.7878
+Global evaluate on test data...
+Evaluate data in 82.09 seconds!
+[tester] 
+SST2Metric: acc=0.7637614678899083, hinge=1.4658833550750663, ce=0.5312076457049868
+Global test acc @ epoch 11: 0.7638
+Global epoch 12...
+Client 5 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.12153763324022293
+Local loss @ local epoch 1: 0.11486310511827469
+Local loss @ local epoch 2: 0.10862390697002411
+Local loss @ local epoch 3: 0.10290807485580444
+Local loss @ local epoch 4: 0.09768064320087433
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.09 seconds!
+[tester] 
+SST2Metric: acc=0.7752293577981652, hinge=1.2277595583998828, ce=0.4952789944246275
+Local test acc @ epoch 12: 0.7752
+Client 8 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.40442636609077454
+Local loss @ local epoch 1: 0.38506507873535156
+Local loss @ local epoch 2: 0.3668532073497772
+Local loss @ local epoch 3: 0.34972572326660156
+Local loss @ local epoch 4: 0.33364933729171753
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.04 seconds!
+[tester] 
+SST2Metric: acc=0.7924311926605505, hinge=1.1808291167841045, ce=0.47378005647878035
+Local test acc @ epoch 12: 0.7924
+Client 2 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.3174059987068176
+Local loss @ local epoch 1: 0.24779218435287476
+Local loss @ local epoch 2: 0.1989215612411499
+Local loss @ local epoch 3: 0.16886460781097412
+Local loss @ local epoch 4: 0.15432508289813995
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 80.99 seconds!
+[tester] 
+SST2Metric: acc=0.5802752293577982, hinge=1.6356036046502787, ce=0.8080602753394788
+Local test acc @ epoch 12: 0.5803
+Client 0 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.9406512379646301
+Local loss @ local epoch 1: 0.7562906742095947
+Local loss @ local epoch 2: 0.6065744757652283
+Local loss @ local epoch 3: 0.4934690594673157
+Local loss @ local epoch 4: 0.41603583097457886
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.05 seconds!
+[tester] 
+SST2Metric: acc=0.7912844036697247, hinge=1.1697035121534942, ce=0.47039145162893
+Local test acc @ epoch 12: 0.7913
+Client 1 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.1990794837474823
+Local loss @ local epoch 1: 0.18777336180210114
+Local loss @ local epoch 2: 0.17741669714450836
+Local loss @ local epoch 3: 0.16783437132835388
+Local loss @ local epoch 4: 0.15901242196559906
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.03 seconds!
+[tester] 
+SST2Metric: acc=0.7889908256880734, hinge=1.167909104889686, ce=0.4818045982253661
+Local test acc @ epoch 12: 0.789
+Client 3 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.2711944878101349
+Local loss @ local epoch 1: 0.24558977782726288
+Local loss @ local epoch 2: 0.23639382421970367
+Local loss @ local epoch 3: 0.23121008276939392
+Local loss @ local epoch 4: 0.22361241281032562
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.06 seconds!
+[tester] 
+SST2Metric: acc=0.716743119266055, hinge=1.2285452918448578, ce=0.545445929016542
+Local test acc @ epoch 12: 0.7167
+Client 6 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.306769460439682
+Local loss @ local epoch 1: 0.23664695024490356
+Local loss @ local epoch 2: 0.19355426728725433
+Local loss @ local epoch 3: 0.1726478636264801
+Local loss @ local epoch 4: 0.16710609197616577
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.02 seconds!
+[tester] 
+SST2Metric: acc=0.7396788990825688, hinge=1.2683454801183227, ce=0.5397275479151569
+Local test acc @ epoch 12: 0.7397
+Client 9 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.3357051908969879
+Local loss @ local epoch 1: 0.27254942059516907
+Local loss @ local epoch 2: 0.2337418645620346
+Local loss @ local epoch 3: 0.21760408580303192
+Local loss @ local epoch 4: 0.21707206964492798
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.07 seconds!
+[tester] 
+SST2Metric: acc=0.7454128440366973, hinge=1.1860396387653613, ce=0.5140843109800182
+Local test acc @ epoch 12: 0.7454
+Client 7 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.3009364902973175
+Local loss @ local epoch 1: 0.2881292700767517
+Local loss @ local epoch 2: 0.27864140272140503
+Local loss @ local epoch 3: 0.26818162202835083
+Local loss @ local epoch 4: 0.25804758071899414
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.09 seconds!
+[tester] 
+SST2Metric: acc=0.7522935779816514, hinge=1.1594311537545756, ce=0.49206561027863704
+Local test acc @ epoch 12: 0.7523
+Client 4 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.3274928629398346
+Local loss @ local epoch 1: 0.2861405313014984
+Local loss @ local epoch 2: 0.26665613055229187
+Local loss @ local epoch 3: 0.25840383768081665
+Local loss @ local epoch 4: 0.2509017586708069
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.04 seconds!
+[tester] 
+SST2Metric: acc=0.7821100917431193, hinge=1.188305236057404, ce=0.4890954397413709
+Local test acc @ epoch 12: 0.7821
+Global evaluate on test data...
+Evaluate data in 82.38 seconds!
+[tester] 
+SST2Metric: acc=0.7488532110091743, hinge=1.4277745944644333, ce=0.5269953936611841
+Global test acc @ epoch 12: 0.7489
+Global epoch 13...
+Client 6 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.18744860589504242
+Local loss @ local epoch 1: 0.17572373151779175
+Local loss @ local epoch 2: 0.16989025473594666
+Local loss @ local epoch 3: 0.16226589679718018
+Local loss @ local epoch 4: 0.15374940633773804
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.0 seconds!
+[tester] 
+SST2Metric: acc=0.7557339449541285, hinge=1.2513113325342127, ce=0.5297592500344329
+Local test acc @ epoch 13: 0.7557
+Client 0 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.47414684295654297
+Local loss @ local epoch 1: 0.4092162847518921
+Local loss @ local epoch 2: 0.3738514184951782
+Local loss @ local epoch 3: 0.36136865615844727
+Local loss @ local epoch 4: 0.36177858710289
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.03 seconds!
+[tester] 
+SST2Metric: acc=0.7270642201834863, hinge=1.215428501367569, ce=0.5351811406809256
+Local test acc @ epoch 13: 0.7271
+Client 9 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.2670042812824249
+Local loss @ local epoch 1: 0.24028624594211578
+Local loss @ local epoch 2: 0.23093225061893463
+Local loss @ local epoch 3: 0.2252543866634369
+Local loss @ local epoch 4: 0.21705184876918793
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.0 seconds!
+[tester] 
+SST2Metric: acc=0.7889908256880734, hinge=1.1478406908588672, ce=0.47020073317059685
+Local test acc @ epoch 13: 0.789
+Client 5 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.09799543023109436
+Local loss @ local epoch 1: 0.09168972074985504
+Local loss @ local epoch 2: 0.0889822244644165
+Local loss @ local epoch 3: 0.08499898761510849
+Local loss @ local epoch 4: 0.08060089498758316
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.02 seconds!
+[tester] 
+SST2Metric: acc=0.7821100917431193, hinge=1.1700162415930984, ce=0.4796686054916557
+Local test acc @ epoch 13: 0.7821
+Client 8 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.3322657346725464
+Local loss @ local epoch 1: 0.3172256350517273
+Local loss @ local epoch 2: 0.3033958971500397
+Local loss @ local epoch 3: 0.2898377478122711
+Local loss @ local epoch 4: 0.27730217576026917
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.0 seconds!
+[tester] 
+SST2Metric: acc=0.7912844036697247, hinge=1.1291393745656406, ce=0.4626545165110072
+Local test acc @ epoch 13: 0.7913
+Client 3 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.24691317975521088
+Local loss @ local epoch 1: 0.20977257192134857
+Local loss @ local epoch 2: 0.1949784755706787
+Local loss @ local epoch 3: 0.1940259486436844
+Local loss @ local epoch 4: 0.1954841911792755
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.01 seconds!
+[tester] 
+SST2Metric: acc=0.6892201834862385, hinge=1.276323241651605, ce=0.5910965814639669
+Local test acc @ epoch 13: 0.6892
+Client 1 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.28703179955482483
+Local loss @ local epoch 1: 0.22940784692764282
+Local loss @ local epoch 2: 0.19683349132537842
+Local loss @ local epoch 3: 0.18428608775138855
+Local loss @ local epoch 4: 0.18342815339565277
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.01 seconds!
+[tester] 
+SST2Metric: acc=0.7958715596330275, hinge=1.1494129025334612, ce=0.47350670328927696
+Local test acc @ epoch 13: 0.7959
+Client 4 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.25729796290397644
+Local loss @ local epoch 1: 0.23968355357646942
+Local loss @ local epoch 2: 0.22628210484981537
+Local loss @ local epoch 3: 0.21282945573329926
+Local loss @ local epoch 4: 0.1997697502374649
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.04 seconds!
+[tester] 
+SST2Metric: acc=0.7844036697247706, hinge=1.1450936996608698, ce=0.4793183262878602
+Local test acc @ epoch 13: 0.7844
+Client 2 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.3170534670352936
+Local loss @ local epoch 1: 0.2423914074897766
+Local loss @ local epoch 2: 0.18816381692886353
+Local loss @ local epoch 3: 0.15262742340564728
+Local loss @ local epoch 4: 0.13299071788787842
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.1 seconds!
+[tester] 
+SST2Metric: acc=0.6043577981651376, hinge=1.6351644489743293, ce=0.8235582387365332
+Local test acc @ epoch 13: 0.6044
+Client 7 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.7856001853942871
+Local loss @ local epoch 1: 0.6354154348373413
+Local loss @ local epoch 2: 0.5133866667747498
+Local loss @ local epoch 3: 0.42016029357910156
+Local loss @ local epoch 4: 0.3548356294631958
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.0 seconds!
+[tester] 
+SST2Metric: acc=0.7912844036697247, hinge=1.129800790903765, ce=0.47066574181438586
+Local test acc @ epoch 13: 0.7913
+Global evaluate on test data...
+Evaluate data in 82.1 seconds!
+[tester] 
+SST2Metric: acc=0.7522935779816514, hinge=1.4036789044327693, ce=0.5251022301135807
+Global test acc @ epoch 13: 0.7523
+Global epoch 14...
+Client 9 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.2216455489397049
+Local loss @ local epoch 1: 0.20202399790287018
+Local loss @ local epoch 2: 0.19776242971420288
+Local loss @ local epoch 3: 0.1938525289297104
+Local loss @ local epoch 4: 0.18650268018245697
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.02 seconds!
+[tester] 
+SST2Metric: acc=0.7763761467889908, hinge=1.1290858770729204, ce=0.47400324087624157
+Local test acc @ epoch 14: 0.7764
+Client 5 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.09342927485704422
+Local loss @ local epoch 1: 0.0827544704079628
+Local loss @ local epoch 2: 0.08051346987485886
+Local loss @ local epoch 3: 0.07965684682130814
+Local loss @ local epoch 4: 0.07691893726587296
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.09 seconds!
+[tester] 
+SST2Metric: acc=0.7935779816513762, hinge=1.1617298495332036, ce=0.4806619542180945
+Local test acc @ epoch 14: 0.7936
+Client 6 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.1749020367860794
+Local loss @ local epoch 1: 0.1648864448070526
+Local loss @ local epoch 2: 0.15565261244773865
+Local loss @ local epoch 3: 0.14680175483226776
+Local loss @ local epoch 4: 0.13865593075752258
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.14 seconds!
+[tester] 
+SST2Metric: acc=0.7694954128440367, hinge=1.2074599573645024, ce=0.5165142580319982
+Local test acc @ epoch 14: 0.7695
+Client 3 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.3259144127368927
+Local loss @ local epoch 1: 0.2622261941432953
+Local loss @ local epoch 2: 0.22227314114570618
+Local loss @ local epoch 3: 0.20290420949459076
+Local loss @ local epoch 4: 0.19797560572624207
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.04 seconds!
+[tester] 
+SST2Metric: acc=0.7087155963302753, hinge=1.2292630218584604, ce=0.5639471642741369
+Local test acc @ epoch 14: 0.7087
+Client 8 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.42660844326019287
+Local loss @ local epoch 1: 0.35984835028648376
+Local loss @ local epoch 2: 0.31668978929519653
+Local loss @ local epoch 3: 0.29533612728118896
+Local loss @ local epoch 4: 0.2900125980377197
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.03 seconds!
+[tester] 
+SST2Metric: acc=0.7935779816513762, hinge=1.1619910011324315, ce=0.4881755736306173
+Local test acc @ epoch 14: 0.7936
+Client 2 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.257546067237854
+Local loss @ local epoch 1: 0.20262515544891357
+Local loss @ local epoch 2: 0.16603687405586243
+Local loss @ local epoch 3: 0.1457071751356125
+Local loss @ local epoch 4: 0.13791921734809875
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.08 seconds!
+[tester] 
+SST2Metric: acc=0.5779816513761468, hinge=1.7036539187671942, ce=0.874836344682022
+Local test acc @ epoch 14: 0.578
+Client 1 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.470270037651062
+Local loss @ local epoch 1: 0.3699813485145569
+Local loss @ local epoch 2: 0.2876942753791809
+Local loss @ local epoch 3: 0.22503593564033508
+Local loss @ local epoch 4: 0.18203170597553253
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.01 seconds!
+[tester] 
+SST2Metric: acc=0.7912844036697247, hinge=1.1382308353524688, ce=0.4779602007581553
+Local test acc @ epoch 14: 0.7913
+Client 4 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.22007252275943756
+Local loss @ local epoch 1: 0.20601695775985718
+Local loss @ local epoch 2: 0.19407759606838226
+Local loss @ local epoch 3: 0.18234816193580627
+Local loss @ local epoch 4: 0.17144006490707397
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.07 seconds!
+[tester] 
+SST2Metric: acc=0.786697247706422, hinge=1.14933449713462, ce=0.49180538788301137
+Local test acc @ epoch 14: 0.7867
+Client 7 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.3776090443134308
+Local loss @ local epoch 1: 0.3433524966239929
+Local loss @ local epoch 2: 0.32637786865234375
+Local loss @ local epoch 3: 0.3162739872932434
+Local loss @ local epoch 4: 0.3060905635356903
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.06 seconds!
+[tester] 
+SST2Metric: acc=0.7545871559633027, hinge=1.144159659880017, ce=0.5023822112504496
+Local test acc @ epoch 14: 0.7546
+Client 0 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.348624587059021
+Local loss @ local epoch 1: 0.3351379930973053
+Local loss @ local epoch 2: 0.3271172046661377
+Local loss @ local epoch 3: 0.3174760341644287
+Local loss @ local epoch 4: 0.3071376383304596
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.08 seconds!
+[tester] 
+SST2Metric: acc=0.7786697247706422, hinge=1.1107029417239198, ce=0.47153850166349237
+Local test acc @ epoch 14: 0.7787
+Global evaluate on test data...
+Evaluate data in 82.34 seconds!
+[tester] 
+SST2Metric: acc=0.7442660550458715, hinge=1.385638388471866, ce=0.5275738165466064
+Global test acc @ epoch 14: 0.7443
+Global epoch 15...
+Client 2 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.3077619969844818
+Local loss @ local epoch 1: 0.23743006587028503
+Local loss @ local epoch 2: 0.18655504286289215
+Local loss @ local epoch 3: 0.15356627106666565
+Local loss @ local epoch 4: 0.1358185112476349
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.06 seconds!
+[tester] 
+SST2Metric: acc=0.6089449541284404, hinge=1.6145311933044995, ce=0.8071957146150803
+Local test acc @ epoch 15: 0.6089
+Client 7 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.7918903827667236
+Local loss @ local epoch 1: 0.6367133259773254
+Local loss @ local epoch 2: 0.5102018713951111
+Local loss @ local epoch 3: 0.4134117662906647
+Local loss @ local epoch 4: 0.34558558464050293
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.01 seconds!
+[tester] 
+SST2Metric: acc=0.7970183486238532, hinge=1.1168439136732609, ce=0.46519215445999706
+Local test acc @ epoch 15: 0.797
+Client 5 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.07466933876276016
+Local loss @ local epoch 1: 0.07069846987724304
+Local loss @ local epoch 2: 0.06777897477149963
+Local loss @ local epoch 3: 0.06422878801822662
+Local loss @ local epoch 4: 0.061011988669633865
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 80.98 seconds!
+[tester] 
+SST2Metric: acc=0.7924311926605505, hinge=1.1292142714929143, ce=0.4714412924346574
+Local test acc @ epoch 15: 0.7924
+Client 3 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.23878319561481476
+Local loss @ local epoch 1: 0.19999368488788605
+Local loss @ local epoch 2: 0.1819593906402588
+Local loss @ local epoch 3: 0.17795376479625702
+Local loss @ local epoch 4: 0.17868201434612274
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 80.96 seconds!
+[tester] 
+SST2Metric: acc=0.6869266055045872, hinge=1.2691227818300965, ce=0.5939934172351425
+Local test acc @ epoch 15: 0.6869
+Client 1 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.2676458954811096
+Local loss @ local epoch 1: 0.20811325311660767
+Local loss @ local epoch 2: 0.1727093756198883
+Local loss @ local epoch 3: 0.15732084214687347
+Local loss @ local epoch 4: 0.1553136706352234
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.01 seconds!
+[tester] 
+SST2Metric: acc=0.7901376146788991, hinge=1.1492976994689452, ce=0.48253105526123574
+Local test acc @ epoch 15: 0.7901
+Client 8 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.2982897162437439
+Local loss @ local epoch 1: 0.2833387553691864
+Local loss @ local epoch 2: 0.27344703674316406
+Local loss @ local epoch 3: 0.26220062375068665
+Local loss @ local epoch 4: 0.2506239414215088
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.03 seconds!
+[tester] 
+SST2Metric: acc=0.7947247706422018, hinge=1.0939879109826656, ce=0.45803646715956
+Local test acc @ epoch 15: 0.7947
+Client 0 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.3342437744140625
+Local loss @ local epoch 1: 0.31043606996536255
+Local loss @ local epoch 2: 0.30633053183555603
+Local loss @ local epoch 3: 0.3050748109817505
+Local loss @ local epoch 4: 0.299498051404953
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.09 seconds!
+[tester] 
+SST2Metric: acc=0.7488532110091743, hinge=1.1299792987491013, ce=0.4964128591872137
+Local test acc @ epoch 15: 0.7489
+Client 9 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.18533533811569214
+Local loss @ local epoch 1: 0.166202113032341
+Local loss @ local epoch 2: 0.16415902972221375
+Local loss @ local epoch 3: 0.16387471556663513
+Local loss @ local epoch 4: 0.15934032201766968
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.01 seconds!
+[tester] 
+SST2Metric: acc=0.7901376146788991, hinge=1.0862952655335085, ce=0.45436941552052806
+Local test acc @ epoch 15: 0.7901
+Client 6 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.1724257916212082
+Local loss @ local epoch 1: 0.16184669733047485
+Local loss @ local epoch 2: 0.1520715355873108
+Local loss @ local epoch 3: 0.14290043711662292
+Local loss @ local epoch 4: 0.13439978659152985
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.01 seconds!
+[tester] 
+SST2Metric: acc=0.7935779816513762, hinge=1.1193133611744697, ce=0.4766493754102549
+Local test acc @ epoch 15: 0.7936
+Client 4 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.21127882599830627
+Local loss @ local epoch 1: 0.19711771607398987
+Local loss @ local epoch 2: 0.18654511868953705
+Local loss @ local epoch 3: 0.17562741041183472
+Local loss @ local epoch 4: 0.16499628126621246
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.04 seconds!
+[tester] 
+SST2Metric: acc=0.7912844036697247, hinge=1.1180800215913616, ce=0.48279888210220073
+Local test acc @ epoch 15: 0.7913
+Global evaluate on test data...
+Evaluate data in 82.34 seconds!
+[tester] 
+SST2Metric: acc=0.7442660550458715, hinge=1.3696570910445047, ce=0.5256272911205204
+Global test acc @ epoch 15: 0.7443
+Global epoch 16...
+Client 6 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.14794307947158813
+Local loss @ local epoch 1: 0.1395694613456726
+Local loss @ local epoch 2: 0.1339772343635559
+Local loss @ local epoch 3: 0.12704585492610931
+Local loss @ local epoch 4: 0.12010493874549866
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.02 seconds!
+[tester] 
+SST2Metric: acc=0.7786697247706422, hinge=1.1753015736921117, ce=0.5076034693132847
+Local test acc @ epoch 16: 0.7787
+Client 3 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.31140169501304626
+Local loss @ local epoch 1: 0.2506270110607147
+Local loss @ local epoch 2: 0.21281175315380096
+Local loss @ local epoch 3: 0.19451314210891724
+Local loss @ local epoch 4: 0.18956772983074188
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.01 seconds!
+[tester] 
+SST2Metric: acc=0.7236238532110092, hinge=1.2108825810185266, ce=0.5595737984831181
+Local test acc @ epoch 16: 0.7236
+Client 7 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.3313528001308441
+Local loss @ local epoch 1: 0.2997998893260956
+Local loss @ local epoch 2: 0.284487783908844
+Local loss @ local epoch 3: 0.2786481976509094
+Local loss @ local epoch 4: 0.27347955107688904
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.02 seconds!
+[tester] 
+SST2Metric: acc=0.7844036697247706, hinge=1.0903032201966014, ce=0.45959892458871965
+Local test acc @ epoch 16: 0.7844
+Client 8 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.2608494460582733
+Local loss @ local epoch 1: 0.24848054349422455
+Local loss @ local epoch 2: 0.2401135265827179
+Local loss @ local epoch 3: 0.23029206693172455
+Local loss @ local epoch 4: 0.22041375935077667
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.02 seconds!
+[tester] 
+SST2Metric: acc=0.7981651376146789, hinge=1.070856860471428, ce=0.44968569675169956
+Local test acc @ epoch 16: 0.7982
+Client 4 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.2409369796514511
+Local loss @ local epoch 1: 0.2238062173128128
+Local loss @ local epoch 2: 0.20849929749965668
+Local loss @ local epoch 3: 0.19431491196155548
+Local loss @ local epoch 4: 0.18133272230625153
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.02 seconds!
+[tester] 
+SST2Metric: acc=0.7981651376146789, hinge=1.090903019276234, ce=0.4645745264827658
+Local test acc @ epoch 16: 0.7982
+Client 9 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.215839684009552
+Local loss @ local epoch 1: 0.19039499759674072
+Local loss @ local epoch 2: 0.18297016620635986
+Local loss @ local epoch 3: 0.18100878596305847
+Local loss @ local epoch 4: 0.17629221081733704
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.0 seconds!
+[tester] 
+SST2Metric: acc=0.7672018348623854, hinge=1.0957867788885711, ce=0.48160472170475427
+Local test acc @ epoch 16: 0.7672
+Client 2 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.4402626156806946
+Local loss @ local epoch 1: 0.34319382905960083
+Local loss @ local epoch 2: 0.26623135805130005
+Local loss @ local epoch 3: 0.2082880288362503
+Local loss @ local epoch 4: 0.16772842407226562
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.07 seconds!
+[tester] 
+SST2Metric: acc=0.7155963302752294, hinge=1.2967981112386109, ce=0.5913346788478554
+Local test acc @ epoch 16: 0.7156
+Client 1 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.266751766204834
+Local loss @ local epoch 1: 0.2072553187608719
+Local loss @ local epoch 2: 0.1670113503932953
+Local loss @ local epoch 3: 0.14464600384235382
+Local loss @ local epoch 4: 0.13673627376556396
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.04 seconds!
+[tester] 
+SST2Metric: acc=0.7821100917431193, hinge=1.0788636579426056, ce=0.4683524561584543
+Local test acc @ epoch 16: 0.7821
+Client 0 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.3152672350406647
+Local loss @ local epoch 1: 0.3035838007926941
+Local loss @ local epoch 2: 0.29278892278671265
+Local loss @ local epoch 3: 0.28252601623535156
+Local loss @ local epoch 4: 0.272977352142334
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.07 seconds!
+[tester] 
+SST2Metric: acc=0.7821100917431193, hinge=1.0714869879254507, ce=0.46168113527221416
+Local test acc @ epoch 16: 0.7821
+Client 5 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.07114775478839874
+Local loss @ local epoch 1: 0.06102418527007103
+Local loss @ local epoch 2: 0.058195892721414566
+Local loss @ local epoch 3: 0.05799657851457596
+Local loss @ local epoch 4: 0.05685143545269966
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.09 seconds!
+[tester] 
+SST2Metric: acc=0.805045871559633, hinge=1.1049794752936843, ce=0.46733395112763854
+Local test acc @ epoch 16: 0.805
+Global evaluate on test data...
+Evaluate data in 82.31 seconds!
+[tester] 
+SST2Metric: acc=0.7408256880733946, hinge=1.3539105216297536, ce=0.5264986687843952
+Global test acc @ epoch 16: 0.7408
+Global epoch 17...
+Client 8 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.23166048526763916
+Local loss @ local epoch 1: 0.22144746780395508
+Local loss @ local epoch 2: 0.213761106133461
+Local loss @ local epoch 3: 0.20479536056518555
+Local loss @ local epoch 4: 0.19621193408966064
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.03 seconds!
+[tester] 
+SST2Metric: acc=0.801605504587156, hinge=1.057931261598517, ce=0.44793348793589743
+Local test acc @ epoch 17: 0.8016
+Client 0 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.31277042627334595
+Local loss @ local epoch 1: 0.28832975029945374
+Local loss @ local epoch 2: 0.28391554951667786
+Local loss @ local epoch 3: 0.28328561782836914
+Local loss @ local epoch 4: 0.27854010462760925
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.01 seconds!
+[tester] 
+SST2Metric: acc=0.7511467889908257, hinge=1.1110730830135696, ce=0.4938283004891982
+Local test acc @ epoch 17: 0.7511
+Client 4 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.28536903858184814
+Local loss @ local epoch 1: 0.24318565428256989
+Local loss @ local epoch 2: 0.22204037010669708
+Local loss @ local epoch 3: 0.21413059532642365
+Local loss @ local epoch 4: 0.20946019887924194
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 80.96 seconds!
+[tester] 
+SST2Metric: acc=0.7993119266055045, hinge=1.1018061603701443, ce=0.4698480369711141
+Local test acc @ epoch 17: 0.7993
+Client 3 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.28231754899024963
+Local loss @ local epoch 1: 0.22569014132022858
+Local loss @ local epoch 2: 0.19199173152446747
+Local loss @ local epoch 3: 0.17752467095851898
+Local loss @ local epoch 4: 0.17569510638713837
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 80.99 seconds!
+[tester] 
+SST2Metric: acc=0.7121559633027523, hinge=1.2057405356146873, ce=0.562112214026648
+Local test acc @ epoch 17: 0.7122
+Client 2 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.5834232568740845
+Local loss @ local epoch 1: 0.46232765913009644
+Local loss @ local epoch 2: 0.3625892996788025
+Local loss @ local epoch 3: 0.2833544909954071
+Local loss @ local epoch 4: 0.22317585349082947
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 80.95 seconds!
+[tester] 
+SST2Metric: acc=0.7844036697247706, hinge=1.13765295929865, ce=0.48890443501669334
+Local test acc @ epoch 17: 0.7844
+Client 7 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.35697656869888306
+Local loss @ local epoch 1: 0.2914688289165497
+Local loss @ local epoch 2: 0.25213176012039185
+Local loss @ local epoch 3: 0.23463837802410126
+Local loss @ local epoch 4: 0.23167476058006287
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 80.98 seconds!
+[tester] 
+SST2Metric: acc=0.7396788990825688, hinge=1.13867819609992, ce=0.5150409039417538
+Local test acc @ epoch 17: 0.7397
+Client 6 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.22740226984024048
+Local loss @ local epoch 1: 0.17747163772583008
+Local loss @ local epoch 2: 0.14996960759162903
+Local loss @ local epoch 3: 0.1392114907503128
+Local loss @ local epoch 4: 0.1380823701620102
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 80.95 seconds!
+[tester] 
+SST2Metric: acc=0.7844036697247706, hinge=1.1316659875692578, ce=0.4863430329965889
+Local test acc @ epoch 17: 0.7844
+Client 1 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.1938801258802414
+Local loss @ local epoch 1: 0.1595105528831482
+Local loss @ local epoch 2: 0.14275005459785461
+Local loss @ local epoch 3: 0.13856320083141327
+Local loss @ local epoch 4: 0.13895739614963531
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.05 seconds!
+[tester] 
+SST2Metric: acc=0.7660550458715596, hinge=1.085028415016078, ce=0.4785389874233018
+Local test acc @ epoch 17: 0.7661
+Client 5 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.08879183232784271
+Local loss @ local epoch 1: 0.07061590999364853
+Local loss @ local epoch 2: 0.06150205433368683
+Local loss @ local epoch 3: 0.05894360691308975
+Local loss @ local epoch 4: 0.05936931446194649
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.11 seconds!
+[tester] 
+SST2Metric: acc=0.7775229357798165, hinge=1.142907411680309, ce=0.49538574073839625
+Local test acc @ epoch 17: 0.7775
+Client 9 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.25156816840171814
+Local loss @ local epoch 1: 0.20084017515182495
+Local loss @ local epoch 2: 0.17231306433677673
+Local loss @ local epoch 3: 0.1630726009607315
+Local loss @ local epoch 4: 0.1655631959438324
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 80.98 seconds!
+[tester] 
+SST2Metric: acc=0.7614678899082569, hinge=1.0989963983723876, ce=0.49071418541833894
+Local test acc @ epoch 17: 0.7615
+Global evaluate on test data...
+Evaluate data in 82.29 seconds!
+[tester] 
+SST2Metric: acc=0.7442660550458715, hinge=1.3355448891263488, ce=0.5198644746881013
+Global test acc @ epoch 17: 0.7443
+Global epoch 18...
+Client 2 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.31548261642456055
+Local loss @ local epoch 1: 0.2444465160369873
+Local loss @ local epoch 2: 0.19210690259933472
+Local loss @ local epoch 3: 0.1570291668176651
+Local loss @ local epoch 4: 0.1369200050830841
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.07 seconds!
+[tester] 
+SST2Metric: acc=0.6743119266055045, hinge=1.4140675603796582, ce=0.6742127993306436
+Local test acc @ epoch 18: 0.6743
+Client 6 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.21852326393127441
+Local loss @ local epoch 1: 0.17337432503700256
+Local loss @ local epoch 2: 0.14278604090213776
+Local loss @ local epoch 3: 0.1260494738817215
+Local loss @ local epoch 4: 0.12059853971004486
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.03 seconds!
+[tester] 
+SST2Metric: acc=0.8073394495412844, hinge=1.06281223606079, ce=0.4539577007430409
+Local test acc @ epoch 18: 0.8073
+Client 3 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.23653839528560638
+Local loss @ local epoch 1: 0.19943203032016754
+Local loss @ local epoch 2: 0.18226021528244019
+Local loss @ local epoch 3: 0.17800463736057281
+Local loss @ local epoch 4: 0.1777009516954422
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.0 seconds!
+[tester] 
+SST2Metric: acc=0.7098623853211009, hinge=1.210699959085622, ce=0.5676266218134023
+Local test acc @ epoch 18: 0.7099
+Client 0 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.31421613693237305
+Local loss @ local epoch 1: 0.28263965249061584
+Local loss @ local epoch 2: 0.2695997953414917
+Local loss @ local epoch 3: 0.26884913444519043
+Local loss @ local epoch 4: 0.26878368854522705
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.03 seconds!
+[tester] 
+SST2Metric: acc=0.8038990825688074, hinge=1.0477810611418628, ce=0.4448773230024434
+Local test acc @ epoch 18: 0.8039
+Client 1 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.1493852734565735
+Local loss @ local epoch 1: 0.14039751887321472
+Local loss @ local epoch 2: 0.13239091634750366
+Local loss @ local epoch 3: 0.12464183568954468
+Local loss @ local epoch 4: 0.11779964715242386
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.01 seconds!
+[tester] 
+SST2Metric: acc=0.7993119266055045, hinge=1.0573834435108604, ce=0.4562993395492571
+Local test acc @ epoch 18: 0.7993
+Client 8 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.2127637267112732
+Local loss @ local epoch 1: 0.19455015659332275
+Local loss @ local epoch 2: 0.18955552577972412
+Local loss @ local epoch 3: 0.18640942871570587
+Local loss @ local epoch 4: 0.18033923208713531
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.08 seconds!
+[tester] 
+SST2Metric: acc=0.8084862385321101, hinge=1.0754080416139113, ce=0.46358640703859677
+Local test acc @ epoch 18: 0.8085
+Client 4 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.19136349856853485
+Local loss @ local epoch 1: 0.17330923676490784
+Local loss @ local epoch 2: 0.16549275815486908
+Local loss @ local epoch 3: 0.15848548710346222
+Local loss @ local epoch 4: 0.14989696443080902
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.09 seconds!
+[tester] 
+SST2Metric: acc=0.8004587155963303, hinge=1.057251503161334, ce=0.4615402599677033
+Local test acc @ epoch 18: 0.8005
+Client 9 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.22549499571323395
+Local loss @ local epoch 1: 0.1980864554643631
+Local loss @ local epoch 2: 0.18780648708343506
+Local loss @ local epoch 3: 0.18376174569129944
+Local loss @ local epoch 4: 0.1781359165906906
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.01 seconds!
+[tester] 
+SST2Metric: acc=0.7580275229357798, hinge=1.1043697884049983, ce=0.5024528173951928
+Local test acc @ epoch 18: 0.758
+Client 7 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.2565470337867737
+Local loss @ local epoch 1: 0.24147121608257294
+Local loss @ local epoch 2: 0.23362997174263
+Local loss @ local epoch 3: 0.2255323827266693
+Local loss @ local epoch 4: 0.2164156287908554
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.01 seconds!
+[tester] 
+SST2Metric: acc=0.7786697247706422, hinge=1.0443185726437, ce=0.45732976154449884
+Local test acc @ epoch 18: 0.7787
+Client 5 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.07631554454565048
+Local loss @ local epoch 1: 0.06326895952224731
+Local loss @ local epoch 2: 0.05810421332716942
+Local loss @ local epoch 3: 0.05733484402298927
+Local loss @ local epoch 4: 0.05705026537179947
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 80.97 seconds!
+[tester] 
+SST2Metric: acc=0.801605504587156, hinge=1.0770331037427308, ce=0.46171203071097716
+Local test acc @ epoch 18: 0.8016
+Global evaluate on test data...
+Evaluate data in 82.05 seconds!
+[tester] 
+SST2Metric: acc=0.7706422018348624, hinge=1.3156733562093261, ce=0.5018791944608776
+Global test acc @ epoch 18: 0.7706
+Global epoch 19...
+Client 2 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.27022719383239746
+Local loss @ local epoch 1: 0.20759722590446472
+Local loss @ local epoch 2: 0.16317598521709442
+Local loss @ local epoch 3: 0.13519993424415588
+Local loss @ local epoch 4: 0.12092013657093048
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.07 seconds!
+[tester] 
+SST2Metric: acc=0.6662844036697247, hinge=1.4491607314402903, ce=0.705112180988723
+Local test acc @ epoch 19: 0.6663
+Client 5 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.13284140825271606
+Local loss @ local epoch 1: 0.09741418808698654
+Local loss @ local epoch 2: 0.07591372728347778
+Local loss @ local epoch 3: 0.0649159699678421
+Local loss @ local epoch 4: 0.0611109659075737
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.0 seconds!
+[tester] 
+SST2Metric: acc=0.8096330275229358, hinge=1.0464232762198928, ce=0.44887453023720225
+Local test acc @ epoch 19: 0.8096
+Client 7 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.26620975136756897
+Local loss @ local epoch 1: 0.24043326079845428
+Local loss @ local epoch 2: 0.23150570690631866
+Local loss @ local epoch 3: 0.22814252972602844
+Local loss @ local epoch 4: 0.22311805188655853
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.03 seconds!
+[tester] 
+SST2Metric: acc=0.7511467889908257, hinge=1.098909951541402, ce=0.49368407515757673
+Local test acc @ epoch 19: 0.7511
+Client 4 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.25009000301361084
+Local loss @ local epoch 1: 0.2078743875026703
+Local loss @ local epoch 2: 0.1863764077425003
+Local loss @ local epoch 3: 0.17924168705940247
+Local loss @ local epoch 4: 0.17716117203235626
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 80.97 seconds!
+[tester] 
+SST2Metric: acc=0.801605504587156, hinge=1.0832546289087435, ce=0.46639278872844275
+Local test acc @ epoch 19: 0.8016
+Client 3 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.2778984010219574
+Local loss @ local epoch 1: 0.22263312339782715
+Local loss @ local epoch 2: 0.18956641852855682
+Local loss @ local epoch 3: 0.17480072379112244
+Local loss @ local epoch 4: 0.17190703749656677
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 80.95 seconds!
+[tester] 
+SST2Metric: acc=0.7282110091743119, hinge=1.1737756194598084, ce=0.5461654332936356
+Local test acc @ epoch 19: 0.7282
+Client 0 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.2915436029434204
+Local loss @ local epoch 1: 0.26398324966430664
+Local loss @ local epoch 2: 0.2537379562854767
+Local loss @ local epoch 3: 0.253010094165802
+Local loss @ local epoch 4: 0.251079797744751
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 80.98 seconds!
+[tester] 
+SST2Metric: acc=0.801605504587156, hinge=1.0279975819204925, ce=0.43904039065498823
+Local test acc @ epoch 19: 0.8016
+Client 6 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.1405620574951172
+Local loss @ local epoch 1: 0.12813346087932587
+Local loss @ local epoch 2: 0.1242329329252243
+Local loss @ local epoch 3: 0.11990800499916077
+Local loss @ local epoch 4: 0.11384036391973495
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 80.99 seconds!
+[tester] 
+SST2Metric: acc=0.7970183486238532, hinge=1.1002634581896142, ce=0.476548158862722
+Local test acc @ epoch 19: 0.797
+Client 1 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.1540394276380539
+Local loss @ local epoch 1: 0.1272847205400467
+Local loss @ local epoch 2: 0.11625158786773682
+Local loss @ local epoch 3: 0.11508751660585403
+Local loss @ local epoch 4: 0.11586041003465652
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.01 seconds!
+[tester] 
+SST2Metric: acc=0.7740825688073395, hinge=1.0696044437108783, ce=0.4769036283870356
+Local test acc @ epoch 19: 0.7741
+Client 8 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.2479809671640396
+Local loss @ local epoch 1: 0.20622509717941284
+Local loss @ local epoch 2: 0.18324947357177734
+Local loss @ local epoch 3: 0.17584490776062012
+Local loss @ local epoch 4: 0.17698748409748077
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.01 seconds!
+[tester] 
+SST2Metric: acc=0.7844036697247706, hinge=1.1214467430606894, ce=0.4936242688686476
+Local test acc @ epoch 19: 0.7844
+Client 9 execute local training on 8 samples...
+Local loss @ local epoch 0: 0.2840278148651123
+Local loss @ local epoch 1: 0.2232983559370041
+Local loss @ local epoch 2: 0.18400409817695618
+Local loss @ local epoch 3: 0.16506868600845337
+Local loss @ local epoch 4: 0.16193370521068573
+/root/anaconda3/envs/bbt/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Evaluate data in 81.04 seconds!
+[tester] 
+SST2Metric: acc=0.7557339449541285, hinge=1.091406551522946, ce=0.4950363441208087
+Local test acc @ epoch 19: 0.7557
+Global evaluate on test data...
+Evaluate data in 82.05 seconds!
+[tester] 
+SST2Metric: acc=0.7729357798165137, hinge=1.3077375831407145, ce=0.4962679236580472
+Global test acc @ epoch 19: 0.7729
